@@ -17,5 +17,5 @@ class Role extends Model
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function user() { return $this->belongsTo(User::class, 'user', 'uid'); }
+    public function user() { return $this->belongsTo(User::class, 'Role', 'uid'); }
 }
