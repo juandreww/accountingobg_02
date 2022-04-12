@@ -11,4 +11,11 @@ class Role extends Model
     protected $table = 'role01';
     protected $primaryKey = 'uid';
     public $incrementing = false;
+
+    /**
+     * Get the user that owns the Role
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function user() { return $this->belongsTo(User::class, 'user', 'uid'); }
 }
