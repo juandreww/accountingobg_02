@@ -23,4 +23,9 @@ class MainController extends Controller
         $data->save();
         return $data;
     }
+
+    public function table(Request $request) {
+        $user = User::get();
+        return view('table', [ 'user' => $user ]);
+    }
 }
