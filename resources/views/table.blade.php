@@ -11,7 +11,17 @@
     </head>
     <body>
         <div class="container-fluid">
-            
+            <div class="table table-responsive w-100 d-block d-md-table">
+                <table class="table table-bordered" width="100%">
+                    <tr>
+                        <th>Logo</th>
+                        <th>Dashboard</th>
+                        <th>Tasks</th>
+                        <th></th>
+                        <th>Juan Andrew</th>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="container">
             <div class="card">
