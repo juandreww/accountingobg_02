@@ -11,13 +11,21 @@
         <style>
             .row {
                 font-family: sans-serif;
-                font-size:24px;
+                font-size:24px
+            }
+
+            body {
+                background-color: #F7FAFC;
+            }
+
+            .table {
+                background-color: white;
             }
         </style>
     </head>
     <body>
         <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-bottom: 1px pink; border-collapse: collapse; margin-bottom:0rem; height:50px; ">
-            <div class="row" style="height:75px">
+            <div class="row border-bottom" style="height:75px">
                 <div class="col-2"></div>
                 <div class="col-1"><img src="{{ URL::to('/assets/img/logo_black_64.png') }}"></div>
                 <div class="col-1 align-self-center">Dashboard</div>
@@ -28,21 +36,20 @@
             </div>
         </div>
         <div class="table table-responsive d-block d-md-table col-12" style="margin-bottom: 0rem;" >
-            <table class="table">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-1">My Tasks</div>
-                    <div class="col-9"></div>
-                </div>
-            </table>
+            <div class="row border-bottom" style="height:75px">
+                <div class="col-2"></div>
+                <div class="col-1 align-self-center"><strong>My Tasks</strong></div>
+                <div class="col-9"></div>
+            </div>
         </div>
+        <div class="space" style="height:20px"></div>
         <div class="container">
             <div class="card">
                 <div class="card-body">
                     <table class="table table-bordered">
                         <tr>
-                            <th>Name</td>
-                            <th>Email</td>
+                            <th>NAME</td>
+                            <th>EMAIL</td>
                         </tr>
                         <tr>
                             <td>{{'Bobotoh'}}</td>

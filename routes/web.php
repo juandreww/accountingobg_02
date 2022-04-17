@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\UsingMoneyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,6 @@ Route::get('/table_empty', [MainController::class, 'table_empty']);
 Route::get('/table', [MainController::class, 'table']);
 Route::get('/users', [MainController::class, 'users']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/usingmoney/list', [App\Http\Controllers\UsingMoneyController::class, 'list']);
