@@ -28,4 +28,8 @@ class MainController extends Controller
         $user = User::get();
         return view('table', [ 'user' => $user ]);
     }
+
+    public function table_empty(Request $request) {
+        return view('table_empty');
+    }
 }

@@ -18,9 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/table_empty', [MainController::class, 'table_empty']);
 Route::get('/table', [MainController::class, 'table']);
 Route::get('/users', [MainController::class, 'users']);
-
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
