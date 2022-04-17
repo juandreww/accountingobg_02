@@ -8,17 +8,32 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <title>My Tasks</title>
+        <style>
+            .row {
+                font-family: sans-serif;
+                font-size:24px;
+            }
+        </style>
     </head>
     <body>
-        <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-bottom: 1px black">
+        <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-bottom: 1px pink; border-collapse: collapse; margin-bottom:0rem; height:50px; ">
+            <div class="row" style="height:75px">
+                <div class="col-2"></div>
+                <div class="col-1"><img src="{{ URL::to('/assets/img/logo_black_64.png') }}"></div>
+                <div class="col-1 align-self-center">Dashboard</div>
+                <div class="col-1 align-self-center">Tasks</div>
+                <div class="col-3"></div>
+                <div class="col-2 align-self-center" style="text-align:right">Juan Andrew</div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <div class="table table-responsive d-block d-md-table col-12" style="margin-bottom: 0rem;" >
             <table class="table">
-                <tr>
-                    <th>Logo</th>
-                    <th>Dashboard</th>
-                    <th>Tasks</th>
-                    <th></th>
-                    <th>Juan Andrew</th>
-                </tr>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-1">My Tasks</div>
+                    <div class="col-9"></div>
+                </div>
             </table>
         </div>
         <div class="container">
