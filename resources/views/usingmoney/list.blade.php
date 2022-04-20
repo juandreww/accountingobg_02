@@ -33,8 +33,9 @@
                     <div class="card-body">
                         <table class="table table-bordered">
                             <tr>
-                                <th>NAME</td>
-                                <th>EMAIL</td>
+                                <th>DATE</td>
+                                <th>DESCRIPTION</td>
+                                <th>AMOUNT</td>
                             </tr>
                             {{-- @foreach($user as $u)
                                 <tr>

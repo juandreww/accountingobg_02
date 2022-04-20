@@ -12,4 +12,8 @@ class UsingMoneyController extends Controller
         $data = UsingMoney::get();
         return view('usingmoney.list');
     }
+
+    public function saveparent(Request $request) {
+
+    }
 }
