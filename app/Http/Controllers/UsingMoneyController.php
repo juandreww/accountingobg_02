@@ -14,6 +14,6 @@ class UsingMoneyController extends Controller
     }
 
     public function saveparent(Request $request) {
-
+        
     }
 }
