@@ -10,10 +10,10 @@ class UsingMoneyController extends Controller
 {
     public function list(Request $request) {
         $data = UsingMoney::get();
-        return view('usingmoney.list');
+        return view('usingmoney.usingmoney-list');
     }
 
     public function saveparent(Request $request) {
-        
+
     }
 }
