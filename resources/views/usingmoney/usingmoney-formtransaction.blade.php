@@ -36,27 +36,7 @@
             </div>
         </div>
         <div class="space" style="height:20px"></div>
-        <div class="list">
-            <div class="container">
-                <div class="card">
-                    <div class="card-body">
-                        <table class="table table-bordered">
-                            <tr>
-                                <th>DATE</td>
-                                <th>DESCRIPTION</td>
-                                <th>AMOUNT</td>
-                            </tr>
-                            {{-- @foreach($user as $u)
-                                <tr>
-                                    <td>{{$u->name}}</td>
-                                    <td>{{$u->email}}</td>
-                                </tr>
-                            @endforeach --}}
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
     </body>
 </html>
