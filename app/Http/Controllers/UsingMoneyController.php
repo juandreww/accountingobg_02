@@ -14,6 +14,12 @@ class UsingMoneyController extends Controller
         return view('usingmoney.usingmoney-list');
     }
 
+    public function formtransaction(Request $request) {
+        $data = UsingMoney::get();
+        // return view('usingmoney.usingmoney-listcopy');
+        return view('usingmoney.usingmoney-formtransaction');
+    }
+
     public function saveparent(Request $request) {
 
     }

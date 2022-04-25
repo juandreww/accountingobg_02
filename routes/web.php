@@ -26,3 +26,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/usingmoney/list', [App\Http\Controllers\UsingMoneyController::class, 'list']);
+Route::get('/usingmoney/formtransaction', [App\Http\Controllers\UsingMoneyController::class, 'formtransaction']);
