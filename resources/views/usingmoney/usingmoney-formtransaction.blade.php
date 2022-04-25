@@ -26,7 +26,11 @@
                     <div class="col-1 align-self-center"></div>
                     <div class="col-1 align-self-center"></div>
                     <div class="col-3"></div>
-                    <div class="col-2 align-self-center" style="text-align:right"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="background-color: #0d6efd; text-align:right; sr-only">Add Transaction</button></div>
+                    <div class="col-2 align-self-center" style="text-align:right">
+                        <form action="/usingmoney/savetransaction" method="GET" class="form-inline">
+                            <input class="btn btn-success ml-3" type="submit" value="Save">
+                        </form>
+                    </div>
                     <div class="col-2"></div>
                 </div>
             </div>
