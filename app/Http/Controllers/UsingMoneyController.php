@@ -21,6 +21,7 @@ class UsingMoneyController extends Controller
     }
 
     public function savetransaction(Request $request) {
-
+        dd('success');
+        return "success";
     }
 }

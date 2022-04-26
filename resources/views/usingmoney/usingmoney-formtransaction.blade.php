@@ -27,7 +27,7 @@
                     <div class="col-1 align-self-center"></div>
                     <div class="col-3"></div>
                     <div class="col-2 align-self-center" style="text-align:right">
-                        <form action="/usingmoney/savetransaction" method="GET" class="form-inline">
+                        <form action="/usingmoney/savetransaction" method="POST" class="form-inline">
                             <input class="btn btn-success ml-3" type="submit" value="Save">
                         </form>
                     </div>
@@ -36,7 +36,58 @@
             </div>
         </div>
         <div class="space" style="height:20px"></div>
-
-
+        <div class="form-transaction">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        @php
+                            $url = "/usingmoney/savetransaction";
+                        @endphp
+                        <form action= {{ $url }} method="post">
+                            {{ csrf_field() }}
+                            <table style="width: 100%">
+                            <div class="form-group" style="width: 100%">
+                                <label for="name">Name</label>
+                                <input class="form-control" type="text" name="name" value="{{ old('name') }}">
+                            </div>
+                            <div class="form-row">
+                                <div class="col-2" style="width: 20%">
+                                <label for="age">Age</label><br>
+                                <input class="form-control" type="text" name="age" value="{{ old('age') }}">
+                                </div>
+                                <div class="col-6" style="width: 40%">
+                                <label for="email">Email</label><br>
+                                <input class="form-control" type="text" name="email" value="{{ old('email') }}">
+                                </div>
+                                <div class="col" style="width: 40%">
+                                <label for="phonenumber">Contact No.</label><br>
+                                <input class="form-control" type="text" name="phonenumber" value="{{ old('phonenumber') }}">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row">
+                                <div class="col-6" style="width: 100%">
+                                <label for="address">Address</label><br>
+                                <textarea class="form-control" name="address" value="{{ old('address') }}" rows="3">
+                                </textarea>
+                                </div>
+                                <div class="col-6" style="width: 100%">
+                                <label for="purpose">Tujuan Berkunjung</label><br>
+                                <textarea class="form-control" name="purpose" value="{{ old('purpose') }}" rows="3">
+                                </textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="form-group">
+                                <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                            </div>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
