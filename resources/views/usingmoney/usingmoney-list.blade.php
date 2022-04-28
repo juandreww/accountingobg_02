@@ -43,12 +43,13 @@
                                 <th>DESCRIPTION</td>
                                 <th>AMOUNT</td>
                             </tr>
-                            {{-- @foreach($user as $u)
+                            @foreach($data as $d)
                                 <tr>
-                                    <td>{{$u->name}}</td>
-                                    <td>{{$u->email}}</td>
+                                    <td>{{$d->date}}</td>
+                                    <td>{{$d->note}}</td>
+                                    <td>{{$d->amount}}</td>
                                 </tr>
-                            @endforeach --}}
+                            @endforeach
                         </table>
                     </div>
                 </div>
