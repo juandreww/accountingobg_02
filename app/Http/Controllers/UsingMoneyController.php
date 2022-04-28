@@ -34,6 +34,9 @@ class UsingMoneyController extends Controller
         $data->amount = $request->amount;
         $data->note = $request->note;
         $data->save();
-        return $data;
+
+        $data = UsingMoney::where('date','>=',$now)->get();
+        // return view('usingmoney.usingmoney-listcopy');
+        return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
 }
