@@ -11,7 +11,7 @@
         <style>
             .row {
                 font-family: sans-serif;
-                font-size:24px
+                font-size:24px,
             }
 
             body {
