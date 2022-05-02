@@ -92,8 +92,9 @@
                                 </form>
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" name="save-details" onclick="save()" data-toggle="modal" data-target="#myModalList" data-dismiss="modal">Save</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                {{-- <button type="button" class="btn btn-primary" name="save-details" onclick="save()" data-toggle="modal" data-target="#myModalList" data-dismiss="modal">Save</button> --}}
+                                <button type="submit" class="btn btn-primary" type="submit" name="submit" value="Submit">Save</button>
                             </div>
                         </div>
                     </div>
