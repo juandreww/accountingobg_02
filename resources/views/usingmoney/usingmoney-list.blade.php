@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="_token" content="{{csrf_token()}}" />
         <title>UsingMoney</title>
         <style>
             .modal {
@@ -67,6 +68,7 @@
             <div class="container">
                 <!-- Modal -->
                 <div id="exampleModal" class="modal">
+
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -94,10 +96,11 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 {{-- <button type="button" class="btn btn-primary" name="save-details" onclick="save()" data-toggle="modal" data-target="#myModalList" data-dismiss="modal">Save</button> --}}
-                                <button type="submit" class="btn btn-primary" type="submit" name="submit" value="Submit">Save</button>
+                                <button type="submit" class="btn btn-primary" type="submit" name="submit" value="Submit" id="ajaxSubmit">Save</button>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 {{-- <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,5 +118,43 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script>
+            jQuery(document).ready(function(){
+               jQuery('#ajaxSubmit').click(function(e){
+                  e.preventDefault();
+                  $.ajaxSetup({
+                     headers: {
+                         'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                     }
+                 });
+                  jQuery.ajax({
+                     url: "{{ url('/usingmoney/savetransaction') }}",
+                     method: 'post',
+                     data: {
+                        date: jQuery('#dateinput').val(),
+                        amount: jQuery('#amount').val(),
+                        note: jQuery('#note').val(),
+                     },
+                     success: function(result){
+                         if(result.errors)
+                         {
+                             jQuery('.alert-danger').html('');
+
+                             jQuery.each(result.errors, function(key, value){
+                                 jQuery('.alert-danger').show();
+                                 jQuery('.alert-danger').append('<li>'+value+'</li>');
+                             });
+                         }
+                         else
+                         {
+                             jQuery('.alert-danger').hide();
+                             $('#minebutton').hide();
+                             $('#exampleModal').modal('hide');
+                         }
+                     }});
+                  });
+               });
+         </script>
+
     </body>
 </html>

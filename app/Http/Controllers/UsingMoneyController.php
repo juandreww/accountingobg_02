@@ -25,6 +25,7 @@ class UsingMoneyController extends Controller
     }
 
     public function savetransaction(Request $request) {
+        return "ok";
         $now = now()->addHours(7)->toDateTimeString();
         $uuid = Str::uuid()->toString();
         $data = new UsingMoney();
