@@ -31,9 +31,9 @@
                     <div class="col-1 align-self-center"></div>
                     <div class="col-3"></div>
                     <div class="col-2 align-self-center" style="text-align:right">
-                        <form action="/usingmoney/formtransaction" method="GET" class="form-inline">
-                            <input class="btn btn-primary ml-3" type="submit" value="Add Transaction">
-                        </form>
+                        <button type="button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:blue">
+                            Add Transaction
+                        </button>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -65,26 +65,35 @@
 
         <div class="button-tester">
             <div class="container">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id ="minebutton">
-                    Launch demo modal
-                </button>
-
                 <!-- Modal -->
                 <div id="exampleModal" class="modal">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Add Transaction</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             </div>
                             <div class="modal-body">
-                            ...
+                                <form>
+                                    <div class="form-group">
+                                        <label for="date" class="col-form-label">Date</label>
+                                        <input type="date" class="form-control" id="dateinput">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="amount" class="col-form-label">Amount</label>
+                                        <input type="text" class="form-control" id="amount">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="note" class="col-form-label">Note</label>
+                                        <input type="text" class="form-control" id="note">
+                                    </div>
+                                </form>
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary" name="save-details" onclick="save()" data-toggle="modal" data-target="#myModalList" data-dismiss="modal">Save</button>
                             </div>
                         </div>
                     </div>
