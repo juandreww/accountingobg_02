@@ -12,7 +12,8 @@ class UsingMoneyController extends Controller
 {
     public function list(Request $request) {
         $now = now()->addHours(7)->firstOfMonth()->toDateTimeString();
-        $data = UsingMoney::where('date','>=',$now)->get();
+        // $data = UsingMoney::where('date','>=',$now)->get();
+        $data = UsingMoney::get();
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
@@ -25,7 +26,6 @@ class UsingMoneyController extends Controller
     }
 
     public function savetransaction(Request $request) {
-        return "ok";
         $now = now()->addHours(7)->toDateTimeString();
         $uuid = Str::uuid()->toString();
         $data = new UsingMoney();
@@ -36,7 +36,7 @@ class UsingMoneyController extends Controller
         $data->note = $request->note;
         $data->save();
 
-        $data = UsingMoney::where('date','>=',$now)->get();
+        $data = UsingMoney::get();
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
