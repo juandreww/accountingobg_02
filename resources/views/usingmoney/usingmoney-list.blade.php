@@ -117,19 +117,8 @@
         </div>
 
         <script>
-            let email = 'juandreww@email.com';
-
-            let substr = email.lastIndexOf('e');
-            console.log(substr);
-
-            let substr2 = email.slice(2,5); // start dri index brp, end di index brp
-            console.log(substr2);
-
-            let susbstr3 = email.substr(4,10); // start dr index brp, panjangnya berapa
-            console.log(susbstr3);
-
-            let str4 = email.replace('a', 'o');
-            console.log(str4);
+            let age;
+            console.log(age, age + 4, `age type is ${age}`);
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
