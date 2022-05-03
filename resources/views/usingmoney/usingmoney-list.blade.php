@@ -117,8 +117,12 @@
         </div>
 
         <script>
+<<<<<<< HEAD
             let age;
             console.log(age, age + 4, `age type is ${age}`);
+=======
+
+>>>>>>> 125c195ef758e27489eae1736e709572d1484185
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

@@ -31,8 +31,7 @@ console.log(lcase);
 let index = fullName.indexOf("n");
 console.log(index);
 
-
-// script 2022-05-03
+// script 2022-05-02 night
 let email = 'juandreww@email.com';
 
 let substr = email.lastIndexOf('e');
@@ -46,6 +45,22 @@ console.log(susbstr3);
 
 let str4 = email.replace('a', 'o');
 console.log(str4);
+
+let str5 = 5 / 'hello';
+console.log(str5);
+
+let title = 'Marcus went to shop';
+let number = '10';
+let numsuffix = 'ago';
+
+str6 = 'I saw ' + title + ' ' + number + ' minutes ' + numsuffix;
+str7 = `I saw ${title} ${number} minutes ${numsuffix}`;
+
+console.log(str6);
+console.log(str7);
+
+
+// script 2022-05-03
 
 let arr1 = ['bro', 'ther', 4, 'ever'];
 console.log(arr1);
