@@ -6,6 +6,7 @@
         <meta name="_token" content="{{csrf_token()}}" />
         <title>UsingMoney</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
             .modal {
                 display: none; /* Hidden by default */
                 position: fixed; /* Stay in place */
@@ -20,6 +21,13 @@
                 background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
             }
 
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+            }
+
             .sidebar {
                 max-width: 80px;
                 min-width: 80px;
@@ -31,6 +39,7 @@
                 text-align: center;
                 background: #202020;
                 border-color: #202020;
+                overflow: hidden;
             }
 
             .sidebar-button {
