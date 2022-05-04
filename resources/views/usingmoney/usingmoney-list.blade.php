@@ -53,10 +53,35 @@
 
             .configbuttontop {
                 height: 81px;
+                margin-top: 20px;
             }
 
             .configbuttonmiddle {
                 height: 770px;
+            }
+
+            .sidebar .configbuttonmiddle .sidebar-button .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+            }
+
+            .sidebar .configbuttonmiddle ul {
+                margin: 0 5px;
+                align-items: center;
+                position: absolute;
+                transform: translateX(-30%);
+                line-height: 50px;
+            }
+
+            .sidebar .configbuttonmiddle ul li {
+                list-style: none;
+            }
+
+            .sidebar .configbuttonmiddle ul li a{
+                color:white;
             }
 
         </style>
@@ -65,29 +90,18 @@
     </head>
     <body>
         <div class="sidebar">
-            <div class="space" style="height:20px"></div>
             <div class="configbuttontop align-middle">
                 <div class="sidebar-button">
-                    <span class="material-symbols-outlined md-36" style="font-size: 36px">
+                    <span class="material-symbols-outlined md-36" style="font-size: 32px">
                         menu
                     </span>
                 </div>
             </div>
             <div class="configbuttonmiddle">
-                <div class="sidebar-button">
-                    <span class="material-symbols-outlined md-36" style="font-size: 36px">
-                        house
-                    </span>
-                </div>
-                <div class="sidebar-button">
-                    <span class="material-symbols-outlined md-36" style="font-size: 36px">
-                        account_balance_wallet
-                    </span>
-                </div>
-                <div class="sidebar-button">
-                    <span class="material-symbols-outlined md-36" style="font-size: 36px">
-                        book
-                    </span>
+                <ul class="sidebar-button">
+                    <li><a href='/usingmoney/list'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
+                    <li><a href='/usingmoney/formtransaction'><span class="material-symbols-outlined md-36" style="font-size: 32px">account_balance_wallet</span></a></li>
+                    <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">book</span></a></li>
                 </div>
             </div>
         </div>
@@ -148,18 +162,36 @@
                                 </div>
                                 <div class="modal-body">
                                     <form>
-                                        <div class="form-group">
-                                            <label for="date" class="col-form-label">Date</label>
-                                            <input type="date" class="form-control" id="dateinput">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="amount" class="col-form-label">Amount</label>
-                                            <input type="text" class="form-control" id="amount">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="note" class="col-form-label">Note</label>
-                                            <input type="text" class="form-control" id="note">
-                                        </div>
+                                        <table style="width:100%">
+                                            <div class="form-group">
+                                                <label for="date" class="col-form-label">Date</label>
+                                                <input type="date" class="form-control" id="dateinput">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col" style="width:50%">
+                                                        <label for="category1" class="col-form-label">Category 1</label>
+                                                        <input type="text" class="form-control" id="category1">
+                                                    </div>
+                                                    <div class="col" style="width:50%">
+                                                        <label for="category2" class="col-form-label">Category 2</label>
+                                                        <input type="text" class="form-control" id="category2">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group col-3" style="width:50%">
+
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="amount" class="col-form-label">Amount</label>
+                                                <input type="text" class="form-control" id="amount">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="note" class="col-form-label">Note</label>
+                                                <input type="text" class="form-control" id="note">
+                                            </div>
+                                        </table>
                                     </form>
                                 </div>
                                 <div class="modal-footer">
