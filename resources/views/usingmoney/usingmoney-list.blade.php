@@ -37,7 +37,7 @@
                 height: 100%;
                 border-style: solid;
                 text-align: center;
-                background: #202020;
+                background: #690078;
                 border-color: #202020;
                 overflow: hidden;
             }
