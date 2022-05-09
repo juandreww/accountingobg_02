@@ -37,13 +37,13 @@
                 height: 100%;
                 border-style: solid;
                 text-align: center;
-                background: #690078;
-                border-color: #202020;
+                background: #F5EDF6;
+                border-color: #F5EDF6;
                 overflow: hidden;
             }
 
             .sidebar-button {
-                color: white;
+                color: #94849C;
             }
 
             .homecontent {
@@ -81,7 +81,7 @@
             }
 
             .sidebar .configbuttonmiddle ul li a{
-                color:white;
+                color:#94849C;
             }
 
             .blockbutton {
@@ -121,7 +121,7 @@
                         <div class="col-1 align-self-center"></div>
                         <div class="col-3"></div>
                         <div class="col-2 align-self-center" style="text-align:right">
-                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:blue">
+                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:#94849C">
                                 Add Transaction
                             </button>
                         </div>
