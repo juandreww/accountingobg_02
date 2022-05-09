@@ -106,7 +106,7 @@
                 <ul class="sidebar-button">
                     <li><a href='/usingmoney/list'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
                     <li><a href='/usingmoney/formtransaction'><span class="material-symbols-outlined md-36" style="font-size: 32px">account_balance_wallet</span></a></li>
-                    <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">book</span></a></li>
+                    <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
                 </div>
             </div>
         </div>
