@@ -121,7 +121,7 @@
                         <div class="col-1 align-self-center"></div>
                         <div class="col-3"></div>
                         <div class="col-2 align-self-center" style="text-align:right">
-                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:#94849C; border-color: #94849C">
+                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="display: inline-block; background-color:#94849C; border-color: #94849C">
                                 Add Transaction
                             </button>
                         </div>
@@ -246,7 +246,7 @@
                          else
                          {
                              jQuery('.alert-danger').hide();
-                             $('#minebutton').hide();
+                             $('#minebutton');
                              $('#exampleModal').modal('hide');
                          }
                      }});
