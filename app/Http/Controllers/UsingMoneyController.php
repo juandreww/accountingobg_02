@@ -16,13 +16,12 @@ class UsingMoneyController extends Controller
         // $data = UsingMoney::where('date','>=',$now)->get();
         $data = UsingMoney::orderBy('date')->get();
         $b = $data[0];
-        $n = []; $date = '2022-05-03';
-        $c = DB::select("SELECT * FROM trnusingmoney WHERE Date= :date LIMIT 1", ['date' => $date]);
-        dd($c);
-        DB::transaction(function (&$n, $b) {
+        $n = null; $date = '2022-05-03';
+        DB::transaction(function () use (&$n, $b) {
             $n = $b;
+            $n->amount = 9999;
         });
-        dd($n);
+        dd($n->amount . ' ' . $b->amount);
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
