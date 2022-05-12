@@ -121,7 +121,7 @@
                         <div class="col-1 align-self-center"></div>
                         <div class="col-3"></div>
                         <div class="col-2 align-self-center" style="text-align:right">
-                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:#94849C">
+                            <button type="button" class="btn btn-primary ml-3 blockbutton" data-toggle="modal" data-target="#exampleModal" id ="minebutton" style="background-color:#94849C; border-color: #94849C">
                                 Add Transaction
                             </button>
                         </div>
@@ -211,9 +211,7 @@
             </div>
         </div>
 
-        <script>
-            let age;
-            console.log(age, age + 4, `age type is ${age}`);
+        <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

@@ -13,7 +13,7 @@ class UsingMoneyController extends Controller
     public function list(Request $request) {
         $now = now()->addHours(7)->firstOfMonth()->toDateTimeString();
         // $data = UsingMoney::where('date','>=',$now)->get();
-        $data = UsingMoney::get();
+        $data = UsingMoney::orderBy('date')->get();
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
