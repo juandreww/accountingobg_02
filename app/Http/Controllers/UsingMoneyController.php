@@ -15,13 +15,6 @@ class UsingMoneyController extends Controller
         $now = now()->addHours(7)->firstOfMonth()->toDateTimeString();
         // $data = UsingMoney::where('date','>=',$now)->get();
         $data = UsingMoney::orderBy('date')->get();
-        $b = $data[0];
-        $n = null; $date = '2022-05-03';
-        DB::transaction(function () use (&$n, $b) {
-            $n = $b;
-            $n->amount = 9999;
-        });
-        dd($n->amount . ' ' . $b->amount);
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
