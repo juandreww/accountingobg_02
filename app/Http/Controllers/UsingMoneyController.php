@@ -8,6 +8,8 @@ use \App\Models\User;
 use \App\Models\UsingMoney;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use App\Exports\UsingMoneyExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class UsingMoneyController extends Controller
 {
@@ -17,6 +19,10 @@ class UsingMoneyController extends Controller
         $data = UsingMoney::orderBy('date')->get();
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
+    }
+
+    public function export_excel() {
+        return Excel::download(new UsingMoneyExport, 'file.xlsx');
     }
 
     public function formtransaction(Request $request) {
