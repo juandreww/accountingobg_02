@@ -68,6 +68,18 @@
                 'opsz' 48
             }
 
+            .exportexcel .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+            }
+
+            .exportexcel a{
+                color:#94849C;
+            }
+
             .sidebar .configbuttonmiddle ul {
                 margin: 0 5px;
                 align-items: center;
@@ -106,7 +118,7 @@
                 <ul class="sidebar-button">
                     <li><a href='/usingmoney/list'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
                     <li><a href='/usingmoney/formtransaction'><span class="material-symbols-outlined md-36" style="font-size: 32px">account_balance_wallet</span></a></li>
-                    <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
+                    <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">logout</span></a></li>
                 </div>
             </div>
         </div>
@@ -149,7 +161,7 @@
                                 @endforeach
                             </table>
                             <div class="exportexcel">
-                                <a href="/usingmoney/exportexcel" class="btn btn-success my-3" target="_blank" >EXPORT EXCEL</a>
+                                <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">file_download</span></a>
                             </div>
                         </div>
                     </div>

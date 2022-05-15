@@ -42,18 +42,18 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
     public function map($data): array
     {
         return [
-            $data->amount,
             $data->date,
             $data->note,
+            $data->amount,
         ];
     }
 
     public function headings(): array
     {
         return [
-            'Amount',
             'Date',
-            'Note',
+            'Description',
+            'Amount',
         ];
     }
 
@@ -78,6 +78,10 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
         $event->sheet->getColumnDimension('B')->setWidth(20);
         $event->sheet->getColumnDimension('C')->setWidth(20);
 
+        $event->sheet->getColumnDimension('A')->setWidth(20);
+        $event->sheet->getColumnDimension('B')->setWidth(20);
+        $event->sheet->getColumnDimension('C')->setWidth(20);
+
         $event->sheet->styleCells(
             'A1:C1',
             [
@@ -86,8 +90,11 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
                 // ],
                 'fill' => [
                     'fillType' => \PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
-                    'color' => ['argb' => 'F7948E']
-                ]
+                    'color' => ['argb' => 'F5EDF6']
+                ],
+                'font' => [
+                    'bold' => true,
+                ],
             ]
         );
     }
