@@ -13,6 +13,7 @@ use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
 use Maatwebsite\Excel\Concerns\WithColumnFormatting;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use Maatwebsite\Excel\Concerns\WithStartRow;
 use Maatwebsite\Excel\Events\BeforeExport;
 use Maatwebsite\Excel\Events\BeforeWriting;
 use Maatwebsite\Excel\Events\BeforeSheet;
@@ -24,13 +25,18 @@ Sheet::macro('styleCells', function (Sheet $sheet, string $cellRange, array $sty
     $sheet->getDelegate()->getStyle($cellRange)->applyFromArray($style);
 });
 
-class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEvents
+class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEvents, WithStartRow
 {
     use Exportable, RegistersEventListeners;
 
     public function query()
     {
         return UsingMoney::query();
+    }
+
+    public function startRow(): int
+    {
+        return 2;
     }
 
     public function map($data): array
@@ -71,6 +77,7 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
         $event->sheet->getColumnDimension('A')->setWidth(20);
         $event->sheet->getColumnDimension('B')->setWidth(20);
         $event->sheet->getColumnDimension('C')->setWidth(20);
+
         $event->sheet->styleCells(
             'A1:C1',
             [
