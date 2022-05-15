@@ -24,11 +24,6 @@ Sheet::macro('styleCells', function (Sheet $sheet, string $cellRange, array $sty
     $sheet->getDelegate()->getStyle($cellRange)->applyFromArray($style);
 });
 
-Sheet::macro('applyColumnWidth', function (Sheet $sheet, string $cellRange) {
-    // $sheet->getDelegate()->getStyle($cellRange)->applyFromArray($style);
-    $sheet->getActiveSheet($cellRange)->getDefaultColumnDimension()->setWidth(18);
-});
-
 class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEvents
 {
     use Exportable, RegistersEventListeners;
@@ -73,16 +68,15 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
 
     public static function afterSheet(AfterSheet $event)
     {
-        $event->sheet->applyColumnWidth(
-            'A1:C1',
-        );
-
+        $event->sheet->getColumnDimension('A')->setWidth(20);
+        $event->sheet->getColumnDimension('B')->setWidth(20);
+        $event->sheet->getColumnDimension('C')->setWidth(20);
         $event->sheet->styleCells(
             'A1:C1',
             [
-                'alignment' => [
-                    'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
-                ],
+                // 'alignment' => [
+                //     'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
+                // ],
                 'fill' => [
                     'fillType' => \PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
                     'color' => ['argb' => 'F7948E']
