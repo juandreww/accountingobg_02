@@ -17,9 +17,16 @@ use Maatwebsite\Excel\Events\BeforeExport;
 use Maatwebsite\Excel\Events\BeforeWriting;
 use Maatwebsite\Excel\Events\BeforeSheet;
 use Maatwebsite\Excel\Events\AfterSheet;
+use \Maatwebsite\Excel\Sheet;
+use \Maatwebsite\Excel\Reader;
 
 Sheet::macro('styleCells', function (Sheet $sheet, string $cellRange, array $style) {
     $sheet->getDelegate()->getStyle($cellRange)->applyFromArray($style);
+});
+
+Sheet::macro('applyColumnWidth', function (Sheet $sheet, string $cellRange) {
+    // $sheet->getDelegate()->getStyle($cellRange)->applyFromArray($style);
+    $sheet->getActiveSheet($cellRange)->getDefaultColumnDimension()->setWidth(18);
 });
 
 class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEvents
@@ -66,15 +73,19 @@ class UsingMoneyExport implements FromQuery, WithMapping, WithHeadings, WithEven
 
     public static function afterSheet(AfterSheet $event)
     {
+        $event->sheet->applyColumnWidth(
+            'A1:C1',
+        );
+
         $event->sheet->styleCells(
-            'A1',
+            'A1:C1',
             [
                 'alignment' => [
                     'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
                 ],
                 'fill' => [
                     'fillType' => \PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
-                    'color' => ['argb' => '#F7948E']
+                    'color' => ['argb' => 'F7948E']
                 ]
             ]
         );
