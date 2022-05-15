@@ -7,9 +7,10 @@ use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\FromQuery;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Maatwebsite\Excel\Concerns\Exportable;
+use App\Exports\Date;
 
 
-class UsingMoneyExport implements FromQuery
+class UsingMoneyExport implements FromQuery, WithMapping
 {
     use Exportable;
 
@@ -30,5 +31,14 @@ class UsingMoneyExport implements FromQuery
     public function query()
     {
         return UsingMoney::query();
+    }
+
+    public function map($data): array
+    {
+        return [
+            $data->amount,
+            Date::dateTimeToExcel($data->date),
+            $data->note,
+        ];
     }
 }
