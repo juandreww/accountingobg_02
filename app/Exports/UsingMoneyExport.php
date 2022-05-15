@@ -16,8 +16,12 @@ class UsingMoneyExport implements FromCollection
         $data = UsingMoney::get();
         $result = [];
         foreach ($data as $d) {
-            $result[] =
+            $result[] = [
+                'date' => $d->date,
+                'amount'=> $d->amount,
+                'note' => $d->note
+            ];
         }
-        return UsingMoney::all();
+        return $result;
     }
 }
