@@ -4,24 +4,31 @@ namespace App\Exports;
 
 use App\Models\UsingMoney;
 use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\FromQuery;
+use Maatwebsite\Excel\Concerns\WithMapping;
+use Maatwebsite\Excel\Concerns\Exportable;
 
 
-class UsingMoneyExport implements FromCollection
+class UsingMoneyExport implements FromQuery
 {
-    /**
-    * @return \Illuminate\Support\Collection
-    */
-    public function collection()
+    use Exportable;
+
+    // public function collection()
+    // {
+    //     // $data = UsingMoney::get();
+    //     $result = [];
+    //     // foreach ($data as $d) {
+    //     //     $result[] = [
+    //     //         'date' => $d->date,
+    //     //         'amount'=> $d->amount,
+    //     //         'note' => $d->note
+    //     //     ];
+    //     // }
+    //     return $result;
+    // }
+
+    public function query()
     {
-        $data = UsingMoney::get();
-        $result = [];
-        foreach ($data as $d) {
-            $result[] = [
-                'date' => $d->date,
-                'amount'=> $d->amount,
-                'note' => $d->note
-            ];
-        }
-        return $result;
+        return UsingMoney::query();
     }
 }
