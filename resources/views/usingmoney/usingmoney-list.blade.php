@@ -148,6 +148,9 @@
                                     </tr>
                                 @endforeach
                             </table>
+                            <div class="exportexcel">
+                                <a href="/usingmoney/exportexcel" class="btn btn-success my-3" target="_blank" >EXPORT EXCEL</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,8 +213,6 @@
                 </div>
             </div>
         </div>
-
-        <a href="/usingmoney/exportexcel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
 
         <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
         </script>
