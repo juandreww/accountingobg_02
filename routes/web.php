@@ -24,8 +24,10 @@ Route::get('/table', [MainController::class, 'table']);
 Route::get('/users', [MainController::class, 'users']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::controller(UsingMoneyController::class)->group(function() {
+    Route::get('/usingmoney/list', 'list');
+    Route::get('/usingmoney/formtransaction', 'formtransaction');
+    Route::post('/usingmoney/savetransaction', 'savetransaction');
+    Route::get('/usingmoney/exportexcel', 'export_excel');
+});
 
-Route::get('/usingmoney/list', [App\Http\Controllers\UsingMoneyController::class, 'list']);
-Route::get('/usingmoney/formtransaction', [App\Http\Controllers\UsingMoneyController::class, 'formtransaction']);
-Route::post('/usingmoney/savetransaction', [App\Http\Controllers\UsingMoneyController::class, 'savetransaction']);
-Route::get('/usingmoney/exportexcel', [App\Http\Controllers\UsingMoneyController::class, 'export_excel']);
