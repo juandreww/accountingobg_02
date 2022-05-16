@@ -154,9 +154,9 @@
                                 </tr>
                                 @foreach($data as $d)
                                     @php
-                                        $url = '/usingmoney/list?uid=' . $d->uid;
+                                        $url = '/usingmoney/list?id=' . $d->uid;
                                     @endphp
-                                    <a href= {{$url}} class="stretched-link"><tr>
+                                    <a href= {{$url}} class="stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"><tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
                                         <td>{{$d->amount}}</td>
