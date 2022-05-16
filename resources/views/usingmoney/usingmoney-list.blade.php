@@ -48,7 +48,7 @@
 
             .homecontent {
                 position: relative;
-                left: 60px;
+                left: 81px;
             }
 
             .configbuttontop {
@@ -125,7 +125,7 @@
 
         <div class="homecontent">
             <div class="configheader">
-                <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-collapse: collapse; margin-bottom:0rem;">
+                <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-collapse: collapse; margin-bottom:0rem; margin-left: 11px;">
                     <div class="row border-bottom w-100 no-gutters">
                         <div class="col-2" style="padding: 0;"></div>
                         <div class="col-1"><img src="{{ URL::to('/assets/img/logo_black_64.png') }}"></div>
@@ -153,15 +153,31 @@
                                     <th>AMOUNT</td>
                                 </tr>
                                 @foreach($data as $d)
-                                    <tr>
+                                    @php
+                                        $url = '/usingmoney/list?uid=' . $d->uid;
+                                    @endphp
+                                    <a href= {{$url}} class="stretched-link"><tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
                                         <td>{{$d->amount}}</td>
-                                    </tr>
+                                    </tr></a>
                                 @endforeach
                             </table>
                             <div class="exportexcel">
-                                <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">file_download</span></a>
+                                <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">sheets</span></a>
+                            </div>
+                            @php
+                                $totalamount = 0;
+                            @endphp
+                            @foreach ($data as $d)
+                                @php
+                                    $amount = ltrim($d->amount, $d->amount[0]);
+                                    $amount = str_replace(',', '', $amount);
+                                    $totalamount += $amount;
+                                @endphp
+                            @endforeach
+                            <div class="list-totalamount" style="text-align: right;">
+                                Total Amount: {{ number_format($totalamount,2) }}
                             </div>
                         </div>
                     </div>
@@ -169,7 +185,7 @@
             </div>
 
             <div class="button-addtransaction">
-                <div class="container" style="border-style: solid;">
+                <div class="container">
                     <!-- Modal -->
                     <div id="exampleModal" class="modal">
                         <div class="modal-dialog" role="document">
@@ -226,8 +242,8 @@
             </div>
         </div>
 
-        <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
-        </script>
+        {{-- <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
+        </script> --}}
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
@@ -267,7 +283,6 @@
                      }});
                   });
                });
-         </script>
-
+        </script>
     </body>
 </html>
