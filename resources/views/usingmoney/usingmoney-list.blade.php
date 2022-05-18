@@ -156,7 +156,7 @@
                                     @php
                                         $url = '/usingmoney/list?id=' . $d->uid;
                                     @endphp
-                                    <a href= {{$url}} class="stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"><tr>
+                                    <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"><tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
                                         <td>{{$d->amount}}</td>
@@ -225,7 +225,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="note" class="col-form-label">Note</label>
-                                                <input type="text" class="form-control" id="note">
+                                                <input type="text" class="form-control" id="note" name="note" value=""/>
                                             </div>
                                         </table>
                                     </form>
@@ -283,6 +283,13 @@
                      }});
                   });
                });
+
+            $(document).on("click", ".edit-modal-dialog", function () {
+                var amount = $(this).data('amount');
+                $(".modal-body #amount").val( amount );
+            });
+
+
         </script>
     </body>
 </html>
