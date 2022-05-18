@@ -150,7 +150,7 @@
                                 <tr>
                                     <th>DATE</td>
                                     <th>DESCRIPTION</td>
-                                    <th>AMOUNTS</td>
+                                    <th>AMOUNT</td>
                                 </tr>
                                 @foreach($data as $d)
                                     @php
@@ -221,7 +221,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="amount" class="col-form-label">Amount</label>
-                                                <input type="text" class="form-control" id="amount">
+                                                <input type="text" class="form-control" id="amount" name="amount" value=""/>
                                             </div>
                                             <div class="form-group">
                                                 <label for="note" class="col-form-label">Note</label>
