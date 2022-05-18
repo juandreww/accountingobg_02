@@ -150,7 +150,7 @@
                                 <tr>
                                     <th>DATE</td>
                                     <th>DESCRIPTION</td>
-                                    <th>AMOUNT</td>
+                                    <th>AMOUNTS</td>
                                 </tr>
                                 @foreach($data as $d)
                                     @php
