@@ -101,6 +101,13 @@
                 width: 100%;
             }
 
+            .configheader-total {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* padding-left: 5px; */
+            }
+
         </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -122,12 +129,21 @@
                 </div>
             </div>
         </div>
-        <p>psnyr</p>
         <div class="homecontent">
             <div class="configheader">
                 <div class="table table-responsive w-100 d-block d-md-table col-12" style="border-collapse: collapse; margin-bottom:0rem; margin-left: 11px;">
                     <div class="row border-bottom w-100 no-gutters">
-                        <div class="col-2" style="padding: 0;"></div>
+                        @php
+                            $totalamount = 0;
+                        @endphp
+                        @foreach ($data as $d)
+                            @php
+                                $amount = ltrim($d->amount, $d->amount[0]);
+                                $amount = str_replace(',', '', $amount);
+                                $totalamount += $amount;
+                            @endphp
+                        @endforeach
+                        <div class="col-2 configheader-total">Total: <strong>{{ number_format($totalamount,2) }}</strong></div>
                         <div class="col-1"><img src="{{ URL::to('/assets/img/logo_black_64.png') }}"></div>
                         <div class="col-1 align-self-center"></div>
                         <div class="col-1 align-self-center"></div>
@@ -166,19 +182,7 @@
                             <div class="exportexcel">
                                 <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">sheets</span></a>
                             </div>
-                            @php
-                                $totalamount = 0;
-                            @endphp
-                            @foreach ($data as $d)
-                                @php
-                                    $amount = ltrim($d->amount, $d->amount[0]);
-                                    $amount = str_replace(',', '', $amount);
-                                    $totalamount += $amount;
-                                @endphp
-                            @endforeach
-                            <div class="list-totalamount" style="text-align: right;">
-                                Total Amount: {{ number_format($totalamount,2) }}
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -245,7 +249,7 @@
         {{-- <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
         </script> --}}
         <script>
-            console.log(document.querySelector('.sidebar'));
+            console.log(document.querySelectorAll('span'));
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
