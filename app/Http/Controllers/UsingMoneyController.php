@@ -46,4 +46,8 @@ class UsingMoneyController extends Controller
         // return view('usingmoney.usingmoney-listcopy');
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
+
+    public function sidebar1(Request $request) {
+        return view('usingmoney.mysidebar1');
+    }
 }
