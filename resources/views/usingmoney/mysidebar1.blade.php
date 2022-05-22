@@ -7,6 +7,16 @@
     <title>MySidebar1</title>
 </head>
 <body>
-
+    <section>
+        <a href="#home" class="logo"></a>
+        <a href="#list1"></a>
+        <a href="#list2"></a>
+        <a href="#list3"></a>
+        <a href="#list4"></a>
+        <a href="#list5"></a>
+        <a href="#list6"></a>
+        <a href="#list7"></a>
+        <a href="#list8"></a>
+    </section>
 </body>
 </html>
