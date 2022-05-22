@@ -35,6 +35,28 @@
             transition: 0.3s;
         }
 
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidebar .closebtn {
+            /* position: absolute; */
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #content {
+            transition: margin-left . 5s;
+            padding: 20px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+        }
+
         span {
             background-color: yellow;
         }
@@ -54,6 +76,9 @@
         <a href="#home">Asteroid</a>
     </div>
     <span onclick="openNav()">open</span>
-    <div class="content"></div>
+    <div class="content" id="content"></div>
+    <script>
+
+    </script>
 </body>
 </html>
