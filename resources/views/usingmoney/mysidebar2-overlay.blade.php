@@ -26,6 +26,15 @@
             padding-top: 60px;
         }
 
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
         span {
             background-color: yellow;
         }
