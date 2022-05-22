@@ -29,5 +29,6 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/formtransaction', 'formtransaction');
     Route::post('/usingmoney/savetransaction', 'savetransaction');
     Route::get('/usingmoney/exportexcel', 'export_excel');
+    Route::get('/usingmoney/sidebar1', 'sidebar1');
 });
 
