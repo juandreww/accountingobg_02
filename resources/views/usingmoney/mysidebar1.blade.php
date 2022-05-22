@@ -10,9 +10,10 @@
         body {
             margin: 0;
         }
+
         .sidebar {
             background-color: #9FEAFF;
-            width: 10%;
+            width: 200px;
             margin: 0;
             padding: 0;
             position: fixed;
@@ -32,23 +33,12 @@
             color: white;
         }
 
-        .sidebar a:hover:(.active) {
-            background-color: #04AA6D;
-            color: white;
-        }
-
         .sidebar a:hover:not(.active) {
             background-color: #555;
             color: white;
         }
 
-        div.content {
-            margin-left: 200px;
-            padding: 1px 16px;
-            height: 1000px;
-        }
-
-        @media screen and (max-width: 700 px) {
+        @media screen and (max-width: 700spx) {
             .sidebar {
                 width: 100%;
                 height: auto;
