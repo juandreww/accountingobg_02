@@ -77,8 +77,15 @@
     </div>
     <span onclick="openNav()">open</span>
     <div class="content" id="content"></div>
-    <script>
 
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0px";
+        }
     </script>
 </body>
 </html>
