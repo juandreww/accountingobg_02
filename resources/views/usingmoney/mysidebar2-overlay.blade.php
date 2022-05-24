@@ -21,7 +21,7 @@
             background-color: #111;
             top: 0;
             left: 0;
-            /* overflow-x: hidden; */
+            overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
         }
@@ -40,7 +40,7 @@
         }
 
         .sidebar .closebtn {
-            /* position: absolute; */
+            position: absolute;
             top: 0;
             right: 25px;
             font-size: 36px;
