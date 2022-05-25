@@ -31,5 +31,6 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/exportexcel', 'export_excel');
     Route::get('/usingmoney/sidebar1', 'sidebar1');
     Route::get('/usingmoney/sidebar2', 'sidebar2');
+    Route::get('/usingmoney/sidebar3', 'sidebar3');
 });
 

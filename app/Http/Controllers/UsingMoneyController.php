@@ -54,4 +54,8 @@ class UsingMoneyController extends Controller
     public function sidebar2(Request $request) {
         return view('usingmoney.mysidebar2-overlay');
     }
+
+    public function sidebar3(Request $request) {
+        return view('usingmoney.mysidebar3-withoutanimation');
+    }
 }
