@@ -9,6 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
         body {
             margin: 0;
+            font-family: "Poppins", sans-serif;
         }
         .sidebar {
             height: 100%;
@@ -20,11 +21,16 @@
             background-color: teal;
             overflow-x: hidden;
             padding-top: 60px;
-            transition: 3s;
+            transition: 0.5s;
         }
 
         .sidebar a {
             padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
         }
 
         .sidebar a:hover {
@@ -39,8 +45,8 @@
             margin-left: 50px;
         }
 
-        .content {
-            transition: 3s;
+        #content {
+            transition: margin-left .5s;
             padding: 20px;
         }
 
@@ -54,11 +60,16 @@
             color:burlywood;
         }
 
+        @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+        }
+
     </style>
 </head>
 <body>
     <div class="sidebar" id="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">Home</a>
         <a href="#">Jade</a>
         <a href="#">Sapphire</a>
@@ -73,7 +84,13 @@
     </div>
 
     <script>
+        function openNav() {
+            document.getElementById("sidebar").style.display = "block";
+        }
 
+        function closeNav() {
+            document.getElementById("sidebar").style.display = "none";
+        }
     </script>
 </body>
 </html>
