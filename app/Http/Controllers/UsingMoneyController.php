@@ -58,4 +58,8 @@ class UsingMoneyController extends Controller
     public function sidebar3(Request $request) {
         return view('usingmoney.mysidebar3-withoutanimation');
     }
+
+    public function sidebar4(Request $request) {
+        return view('usingmoney.mysidebar4-offcanvas');
+    }
 }
