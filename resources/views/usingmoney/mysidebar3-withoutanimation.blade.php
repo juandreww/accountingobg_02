@@ -12,8 +12,9 @@
             font-family: "Poppins", sans-serif;
         }
         .sidebar {
+            display: none;
             height: 100%;
-            width: 0;
+            width: 250px;
             position: fixed;
             z-index: 1;
             top: 0;
@@ -21,7 +22,6 @@
             background-color: teal;
             overflow-x: hidden;
             padding-top: 60px;
-            transition: 0.5s;
         }
 
         .sidebar a {
@@ -30,7 +30,6 @@
             font-size: 25px;
             color: #818181;
             display: block;
-            transition: 0.3s;
         }
 
         .sidebar a:hover {
