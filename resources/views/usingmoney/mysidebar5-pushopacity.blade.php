@@ -20,6 +20,8 @@
             background-color: #111;
             transition: 0.5s;
             padding-top: 60px;
+            overflow-x: hidden;
+
         }
 
         .sidebar a {
@@ -44,13 +46,19 @@
         }
 
         #content {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
 
+        @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 16px;}
         }
     </style>
 </head>
 <body>
     <div class="sidebar" id="sidebar">
-        <a href="#">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">Alpha</a>
         <a href="#">Beta</a>
         <a href="#">Charlie</a>
@@ -58,7 +66,9 @@
         <a href="#">Emmet</a>
         <a href="#">Fantasy</a>
     </div>
-    <div class="content" id="content"></div>
+    <div class="content" id="content">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; Open Side Navigation</span>
+    </div>
     <script>
         function openNav() {
             document.getElementById("sidebar").style.width = "250px";
