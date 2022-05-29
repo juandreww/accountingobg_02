@@ -17,9 +17,9 @@
             z-index: 1;
             top: 0;
             left: 0;
-            /* overflow-x: hidden; */
+            overflow-x: hidden;
             background-color: crimson;
-            transition: 3s;
+            transition: 0.5s;
             padding-top: 60px;
         }
 
@@ -33,7 +33,7 @@
         }
 
         .sidebar a:hover {
-            color: black;
+            color: #f1f1f1;
         }
 
         .sidebar .closebtn {
