@@ -243,7 +243,7 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     {{-- <button type="button" class="btn btn-primary" name="save-details" onclick="save()" data-toggle="modal" data-target="#myModalList" data-dismiss="modal">Save</button> --}}
-                                    <button type="submit" class="btn btn-primary" type="submit" name="submit" value="Submit" id="ajaxSubmit">Save</button>
+                                    <button type="submit" class="btn btn-primary" name="submit" value="Submit" id="ajaxSubmit">Save</button>
                                 </div>
                             </div>
                         </div>
@@ -262,8 +262,28 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body"></div>
-                                <div class="modal-footer"></div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <table style="width:100%">
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col" style="width:50%">
+                                                        <label for="datefrom" class="col-form-label">DateFrom</label>
+                                                        <input type="date" class="form-control" id="datefrom">
+                                                    </div>
+                                                    <div class="col" style="width:50%">
+                                                        <label for="dateuntil" class="col-form-label">DateUntil</label>
+                                                        <input type="date" class="form-control" id="dateuntil">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </table>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button class="btn btn-primary" type="submit" name="submit" value="Submit" id="ajaxSubmitCalendar">Save</button>
+                                </div>
                             </div>
                         </div>
                     </div>
