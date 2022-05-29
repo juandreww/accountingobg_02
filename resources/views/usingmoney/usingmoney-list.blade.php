@@ -257,7 +257,7 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="calendarModal-label">Date Range`</h5>
+                                    <h5 class="modal-title" id="calendarModal-label">Date Range</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -336,7 +336,7 @@
                   });
                });
 
-            $(document).on("click", ".edit-modal-dialog", function () {
+                $(document).on("click", ".edit-modal-dialog", function () {
                 var amount = $(this).data('amount');
                 $(".modal-body #amount").val( amount );
             });
@@ -356,7 +356,28 @@
                             datefrom: jQuery('#datefrom').val(),
                             dateuntil: jQuery('#dateuntil').val(),
                         },
+                        success: function(result){
+                            if(result.errors)
+                            {
+                                jQuery('.alert-danger').html('');
+
+                                jQuery.each(result.errors, function(key, value){
+                                    jQuery('.alert-danger').show();
+                                    jQuery('.alert-danger').append('<li>'+value+'</li>');
+                                });
+                            }
+                            else
+                            {
+                                jQuery('.alert-danger').hide();
+                                $('#calendarbutton');
+                                $('#calendarModal').modal('hide');
+                            }
+                        }
                     });
+                });
+                $('#calendarModal').on('click', function () {
+                    var datefrom = $(this).data('datefrom');
+                    location.href = "/usingmoney/list?datefrom=" + jQuery('#datefrom').val() + "&dateuntil=" + jQuery('#dateuntil').val();
                 });
             });
 
