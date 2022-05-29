@@ -14,10 +14,14 @@ use Maatwebsite\Excel\Facades\Excel;
 class UsingMoneyController extends Controller
 {
     public function list(Request $request) {
-        $now = now()->addHours(7)->firstOfMonth()->toDateTimeString();
-        // $data = UsingMoney::where('date','>=',$now)->get();
-        $data = UsingMoney::orderBy('date')->get();
-        // return view('usingmoney.usingmoney-listcopy');
+        $datefrom = isset($request->datefrom) ? $request->datefrom : null;
+        $dateuntil = isset($request->dateuntil) ? $request->dateuntil : null;
+        if ($datefrom && $dateuntil) {
+            $data = UsingMoney::where('date', '>=', $datefrom)->where('date', '<=', $dateuntil)->orderBy('date')->get();
+        } else {
+            $data = UsingMoney::orderBy('date')->get();
+        }
+
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
 

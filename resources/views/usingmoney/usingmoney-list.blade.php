@@ -341,6 +341,25 @@
                 $(".modal-body #amount").val( amount );
             });
 
+            jQuery(document).ready(function() {
+                jQuery('#ajaxSubmitCalendar').click(function(e) {
+                    e.preventDefault();
+                    $.ajaxSetup({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="_token]').attr('content')
+                        }
+                    });
+                    jQuery.ajax({
+                        url: " {{ url('/usingmoney/list') }}",
+                        method: 'get',
+                        data: {
+                            datefrom: jQuery('#datefrom').val(),
+                            dateuntil: jQuery('#dateuntil').val(),
+                        },
+                    });
+                });
+            });
+
 
         </script>
     </body>
