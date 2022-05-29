@@ -80,6 +80,10 @@
                 color:#94849C;
             }
 
+            .exportexcel span{
+                color:#94849C;
+            }
+
             .sidebar .configbuttonmiddle ul {
                 margin: 0 5px;
                 align-items: center;
@@ -183,7 +187,7 @@
                             </table>
                             <div class="exportexcel">
                                 <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">description</span></a>
-                                <a href="#"><span class="material-symbols-outlined md-36" style="font-size: 32px">calendar_month</span></a>
+                                <span class="material-symbols-outlined md-36" data-toggle="modal" data-target="#calendarModal" id ="calendarbutton" style="font-size: 32px">calendar_month</span>
                             </div>
                         </div>
                     </div>
@@ -197,10 +201,10 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Add Transaction</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                    <h5 class="modal-title" id="exampleModalLabel">Add Transaction</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                 </div>
                                 <div class="modal-body">
                                     <form>
@@ -252,9 +256,14 @@
                     <div class="modal" id="calendarModal">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                                <div class="modal-header">A</div>
-                                <div class="modal-body">B</div>
-                                <div class="modal-footer"><Canvas></Canvas></div>
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="calendarModal-label">Date Range`</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body"></div>
+                                <div class="modal-footer"></div>
                             </div>
                         </div>
                     </div>
@@ -271,7 +280,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
         <script>
-
             jQuery(document).ready(function(){
                jQuery('#ajaxSubmit').click(function(e){
                   e.preventDefault();
