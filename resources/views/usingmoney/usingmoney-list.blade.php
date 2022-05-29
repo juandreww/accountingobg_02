@@ -169,20 +169,21 @@
                                     <th>AMOUNT</td>
                                 </tr>
                                 @foreach($data as $d)
-                                    @php
+                                    {{-- @php
                                         $url = '/usingmoney/list?id=' . $d->uid;
-                                    @endphp
-                                    <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"><tr>
+                                    @endphp --}}
+                                    {{-- <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"> --}}
+                                    <tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
                                         <td>{{$d->amount}}</td>
-                                    </tr></a>
+                                    </tr>
+                                    {{-- </a> --}}
                                 @endforeach
                             </table>
                             <div class="exportexcel">
-                                <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">sheets</span></a>
+                                <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">description</span></a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -249,7 +250,7 @@
         {{-- <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
         </script> --}}
         <script>
-            console.log(document.querySelectorAll('span'));
+            // console.log(document.querySelectorAll('span'));
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
