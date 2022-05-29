@@ -62,4 +62,8 @@ class UsingMoneyController extends Controller
     public function sidebar4(Request $request) {
         return view('usingmoney.mysidebar4-offcanvas');
     }
+
+    public function sidebar5(Request $request) {
+        return view('usingmoney.mysidebar5-pushopacity');
+    }
 }
