@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MySidebar4 - Off Canvas</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
         body {
             margin: 0;
+            font-family: "Poppins", sans-serif;
         }
 
         .sidebar {
@@ -29,7 +31,7 @@
             font-size: 25px;
             color: coral;
             display: block;
-            transition: 10s;
+            transition: 1s;
         }
 
         .sidebar a:hover {
@@ -66,7 +68,7 @@
         <a href="#">Giga</a>
         <a href="#">Tera</a>
     </div>
-    <div class="content">
+    <div class="content" id="content">
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
     </div>
     <script>
