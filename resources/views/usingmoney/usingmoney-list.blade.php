@@ -246,6 +246,20 @@
                     </div>
                 </div>
             </div>
+
+            <div class="button-calendar">
+                <div class="container">
+                    <div class="modal" id="calendarModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">A</div>
+                                <div class="modal-body">B</div>
+                                <div class="modal-footer"><Canvas></Canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         {{-- <script type="text/javascript" src="{{ asset('/js/usingmoney.js') }}">
