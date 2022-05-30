@@ -142,9 +142,7 @@
                         @endphp
                         @foreach ($data as $d)
                             @php
-                                $amount = ltrim($d->amount, $d->amount[0]);
-                                $amount = str_replace(',', '', $amount);
-                                $totalamount += $amount;
+                                $totalamount += $d->amount;
                             @endphp
                         @endforeach
                         <div class="col-2 configheader-total">Total: <strong>{{ number_format($totalamount,2) }}</strong></div>
@@ -180,7 +178,7 @@
                                     <tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
-                                        <td>{{$d->amount}}</td>
+                                        <td>{{number_format($d->amount,2)}}</td>
                                     </tr>
                                     {{-- </a> --}}
                                 @endforeach
