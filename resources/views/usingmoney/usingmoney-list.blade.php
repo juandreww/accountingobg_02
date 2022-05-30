@@ -373,6 +373,7 @@
                         }
                     });
                 });
+
                 $('#calendarModal').on('click', function () {
                     var datefrom = $(this).data('datefrom');
                     location.href = "/usingmoney/list?datefrom=" + jQuery('#datefrom').val() + "&dateuntil=" + jQuery('#dateuntil').val();
