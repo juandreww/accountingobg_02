@@ -338,7 +338,6 @@
                 var amount = $(this).data('amount');
                 $(".modal-body #amount").val( amount );
             });
-
             jQuery(document).ready(function() {
                 jQuery('#ajaxSubmitCalendar').click(function(e) {
                     e.preventDefault();
