@@ -68,7 +68,7 @@
                 'opsz' 48
             }
 
-            .exportexcel .material-symbols-outlined {
+            .bottomlist .material-symbols-outlined {
                 font-variation-settings:
                 'FILL' 1,
                 'wght' 400,
@@ -76,11 +76,11 @@
                 'opsz' 48
             }
 
-            .exportexcel a{
+            .bottomlist a{
                 color:#94849C;
             }
 
-            .exportexcel span{
+            .bottomlist span{
                 color:#94849C;
             }
 
@@ -183,7 +183,7 @@
                                     {{-- </a> --}}
                                 @endforeach
                             </table>
-                            <div class="exportexcel">
+                            <div class="bottomlist">
                                 <a href="/usingmoney/exportexcel"><span class="material-symbols-outlined md-36" style="font-size: 32px">description</span></a>
                                 <span class="material-symbols-outlined md-36" data-toggle="modal" data-target="#calendarModal" id ="calendarbutton" style="font-size: 32px">calendar_month</span>
                             </div>
@@ -338,6 +338,7 @@
                 var amount = $(this).data('amount');
                 $(".modal-body #amount").val( amount );
             });
+
             jQuery(document).ready(function() {
                 jQuery('#ajaxSubmitCalendar').click(function(e) {
                     e.preventDefault();
