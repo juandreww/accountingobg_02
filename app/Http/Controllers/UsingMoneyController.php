@@ -25,6 +25,10 @@ class UsingMoneyController extends Controller
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
 
+    public function report(Request $request) {
+        return view('usingmoney.report');
+    }
+
     public function export_excel() {
         return Excel::download(new UsingMoneyExport, 'file.xlsx');
     }

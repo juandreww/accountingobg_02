@@ -26,6 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/list', 'list');
+    Route::get('/usingmoney/report', 'report');
     Route::get('/usingmoney/formtransaction', 'formtransaction');
     Route::post('/usingmoney/savetransaction', 'savetransaction');
     Route::get('/usingmoney/exportexcel', 'export_excel');
