@@ -14,10 +14,19 @@
         }
         .sidenav .sidenav-button {
             font-size: 32px;
+
+            font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48;
+
+            margin-bottom: 20px;
         }
 
         #upper-sidenav-button {
-            font-size: 60px;
+            font-size: 32px;
+            margin-bottom: 40px;
         }
 
         .sidenav {
@@ -36,6 +45,7 @@
             padding: 0px 5px 0px 20px;
             text-decoration: none;
             align-items: center;
+            color:#94849C;
         }
 
 
