@@ -128,6 +128,7 @@
             <div class="configbuttonmiddle">
                 <ul class="sidebar-button">
                     <li><a href='/usingmoney/list'><span class="material-symbols-outlined md-36" style="font-size: 32px">house</span></a></li>
+                    <li><a href='/usingmoney/report'><span class="material-symbols-outlined md-36" style="font-size: 32px">receipt_long</span></a></li>
                     <li><a href='/usingmoney/formtransaction'><span class="material-symbols-outlined md-36" style="font-size: 32px">account_balance_wallet</span></a></li>
                     <li><a href='/usingmoney/dashboard'><span class="material-symbols-outlined md-36" style="font-size: 32px">logout</span></a></li>
                 </div>
@@ -374,7 +375,7 @@
                     });
                 });
 
-                $('#calendarModal').on('click', function () {
+                $('#ajaxSubmitCalendar').on('click', function () {
                     var datefrom = $(this).data('datefrom');
                     location.href = "/usingmoney/list?datefrom=" + jQuery('#datefrom').val() + "&dateuntil=" + jQuery('#dateuntil').val();
                 });
