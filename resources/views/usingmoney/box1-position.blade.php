@@ -66,15 +66,101 @@
             top: 100px;
             left: 0px;
         }
+        #box2b {
+            height: 175px;
+            width: 175px;
+            background-color: darksalmon;
+            z-index: 1;
+            position: absolute;
+            top: 100px;
+            right: 0px;
+        }
+        #box2c {
+            height: 175px;
+            width: 175px;
+            background-color: darksalmon;
+            z-index: 1;
+            position: absolute;
+            bottom: 100px;
+            right: 0px;
+        }
+        #box2d {
+            height: 175px;
+            width: 175px;
+            background-color: darksalmon;
+            z-index: 1;
+            position: absolute;
+            bottom: 100px;
+            left: 0px;
+        }
+        #box2e {
+            height: 175px;
+            width: 175px;
+            background-color: darksalmon;
+            z-index: 1;
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            transform: translateY(50%)
+        }
+
+        #second {
+            width: 0.1em;
+            height: 150em;
+            background-color: #00f;
+            position: absolute;
+            top: 1em;
+            left: 2em;
+        }
 
         #box3a {
             height: 125px;
             width: 125px;
             background-color: aqua;
             z-index: 2;
-            position: absolute;
-            top: 0px;
+            position: relative;
+            top: -100px;
             left: 100px;
+        }
+
+        #box3b {
+            height: 125px;
+            width: 125px;
+            background-color: aqua;
+            z-index: 2;
+            position: relative;
+            top: -100px;
+            right: 50px;
+        }
+
+        #box3c {
+            height: 125px;
+            width: 125px;
+            background-color: aqua;
+            z-index: 2;
+            position: relative;
+            bottom: -150px;
+            right: 50px;
+        }
+
+        #box3d {
+            height: 125px;
+            width: 125px;
+            background-color: aqua;
+            z-index: 2;
+            position: relative;
+            bottom: -150px;
+            left: 100px;
+        }
+
+        #box3e {
+            height: 125px;
+            width: 125px;
+            background-color: aqua;
+            z-index: 2;
+            position: relative;
+            top: 25px;
+            left: 75px;
         }
 
 
@@ -87,16 +173,27 @@
     <div id="box1d"></div>
     <div id="box1e"></div>
 
-    <div id="box2a"></div>
-    <div id="box2b"></div>
-    <div id="box2c"></div>
-    <div id="box2d"></div>
-    <div id="box2e"></div>
+    <div id="box2a">
+        <div id="box3a"></div>
+    </div>
+    <div id="box2b">
+        <div id="box3b"></div>
+    </div>
+    <div id="box2c">
+        <div id="box3c"></div>
+    </div>
+    <div id="box2d">
+        <div id="box3d"></div>
+    </div>
+    <div id="box2e">
+        <div id="box3e"></div>
+    </div>
 
-    <div id="box3a"></div>
-    <div id="box3b"></div>
-    <div id="box3c"></div>
-    <div id="box3d"></div>
-    <div id="box3e"></div>
+
+
+
+
+
+    <div id="second"></div>
 </body>
 </html>
