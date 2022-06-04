@@ -175,6 +175,7 @@
 
     <div id="box2a">
         <div id="box3a"></div>
+
     </div>
     <div id="box2b">
         <div id="box3b"></div>
@@ -188,10 +189,6 @@
     <div id="box2e">
         <div id="box3e"></div>
     </div>
-
-
-
-
 
 
     <div id="second"></div>
