@@ -26,6 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/list', 'list');
+
     Route::get('/usingmoney/report', 'report');
     Route::get('/usingmoney/formtransaction', 'formtransaction');
     Route::post('/usingmoney/savetransaction', 'savetransaction');
@@ -35,5 +36,6 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/sidebar3', 'sidebar3');
     Route::get('/usingmoney/sidebar4', 'sidebar4');
     Route::get('/usingmoney/sidebar5', 'sidebar5');
+    Route::get('/usingmoney/box1', 'box1');
 });
 

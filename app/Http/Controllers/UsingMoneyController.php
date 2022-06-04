@@ -74,4 +74,8 @@ class UsingMoneyController extends Controller
     public function sidebar5(Request $request) {
         return view('usingmoney.mysidebar5-pushopacity');
     }
+
+    public function box1(Request $request) {
+        return view('usingmoney.box1-position');
+    }
 }
