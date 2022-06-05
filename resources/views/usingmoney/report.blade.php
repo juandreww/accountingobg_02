@@ -53,6 +53,24 @@
             color: #d66565;
         }
 
+        .content .content-header {
+            height: 80px;
+            width: 100%;
+            background-color: #d9d9d9;
+            position: fixed;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        .content .content-header .table {
+            border-collapse: collapse;
+            height: 80px;
+            max-height: 80px;
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
 
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -66,7 +84,21 @@
         <li><a href="/usingmoney/formtransaction"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
         <li><a href="/usingmoney/dashboard"><span class="material-symbols-outlined md-36 sidenav-button">logout</span></a></li>
     </div>
-    <div class="content"></div>
+    <div class="content">
+        <div class="content-header">
+            <div class="table table-responsive col-12">
+                <div class="col-1"></div>
+                <div class="col-2" id="h-total"></div>
+                <div class="col-1" id="h-logo"></div>
+                <div class="col-4"></div>
+                <div class="col-2" id="h-buttonadd"></div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <div class="content-body"></div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
