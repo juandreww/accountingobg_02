@@ -163,6 +163,46 @@
             left: 75px;
         }
 
+        #box4 {
+            height: 50px;
+            width: 500px;
+            background-color: darkmagenta;
+            z-index: 3;
+            position: sticky;
+            position: -webkit-sticky;
+            text-align: center;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            top: 25px;
+            left: 450px;
+        }
+
+        #box4b {
+            height: 50px;
+            width: 500px;
+            background-color: darkmagenta;
+            z-index: 3;
+            position: sticky;
+            position: -webkit-sticky;
+            text-align: center;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            top: 25px;
+            left: 450px;
+        }
+
+        #justtext {
+            color: white;
+        }
+
+        #justtextrelative {
+            color: white;
+        }
+
 
     </style>
 </head>
@@ -175,7 +215,6 @@
 
     <div id="box2a">
         <div id="box3a"></div>
-
     </div>
     <div id="box2b">
         <div id="box3b"></div>
@@ -189,6 +228,16 @@
     <div id="box2e">
         <div id="box3e"></div>
     </div>
+
+    <div id="box4">Sticky Box</div>
+
+    <div style="padding-bottom:2000px" id="justtext">
+        <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+        <p>Scroll back up to remove the stickyness.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+
 
 
     <div id="second"></div>
