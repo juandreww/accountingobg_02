@@ -27,7 +27,12 @@
 
         #upper-sidenav-button {
             font-size: 32px;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
+            justify-content: center;
+            align-items: flex-start;
+            display: flex;
+            position: relative;
+            top: 0px;
         }
 
         .sidenav {
@@ -39,7 +44,7 @@
             left: 0;
             background-color: #F5EDF6;
             overflow-x:  hidden;
-            padding-top: 20px;
+            /* padding-top: 20px; */
         }
 
         .sidenav li a {
@@ -56,11 +61,12 @@
         .content .content-header {
             height: 80px;
             width: 100%;
-            background-color: #d9d9d9;
             position: fixed;
-            z-index: -1;
+            /* z-index: -1; */
+            z-index: 99;
             top: 0;
             left: 0;
+            border-bottom: 1px solid #d9d9d9;
         }
 
         .content .content-header .table {
@@ -71,6 +77,22 @@
             margin-bottom: 0px;
         }
 
+        .content .content-header .table > :not(:first-child) {
+            border-top: 0px;
+        }
+
+        #h-total {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        #h-logo {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
 
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -78,7 +100,7 @@
 </head>
 <body>
     <div class="sidenav">
-        <li><a href="#"><span class="material-symbols-outlined md-36 sidenav-button" id="upper-sidenav-button">menu</span></a></li>
+        <li><a href="#"><div class="sidenav-button" id="upper-sidenav-button"><img src="{{ URL::to('/assets/img/logo_black_32.png') }}"></div></a></li>
         <li><a href="/usingmoney/list"><span class="material-symbols-outlined md-36 sidenav-button">house</span></a></li>
         <li><a href="/usingmoney/report"><span class="material-symbols-outlined md-36 sidenav-button">receipt_long</span></a></li>
         <li><a href="/usingmoney/formtransaction"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
@@ -86,13 +108,13 @@
     </div>
     <div class="content">
         <div class="content-header">
-            <div class="table table-responsive col-12">
-                <div class="col-1"></div>
-                <div class="col-2" id="h-total"></div>
-                <div class="col-1" id="h-logo"></div>
-                <div class="col-4"></div>
-                <div class="col-2" id="h-buttonadd"></div>
-                <div class="col-2"></div>
+            <div class="table table-responsive col-12 row">
+                <div class="h-col col-1"></div>
+                <div class="h-col col-2" id="h-total">Total: <strong>{{ number_format(0,2) }}</strong></div>
+                <div class="h-col col-1" id="h-logo"></div>
+                <div class="h-col col-4"></div>
+                <div class="h-col col-2" id="h-buttonadd"> </div>
+                <div class="h-col col-2"></div>
             </div>
         </div>
         <div class="content-body"></div>
