@@ -87,6 +87,7 @@
             display: flex;
             justify-content: left;
             align-items: center;
+            font-size: 20px;
         }
 
         #h-logo {
@@ -103,6 +104,40 @@
 
         .content-body .container {
             border: 1px solid black;
+            height: 100%;
+            max-width: 640px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+        }
+
+        .content-body .container .card .card-body {
+
+        }
+
+        #report-totalheader {
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+        #report-totalamount {
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        #bargraph {
+            border: 1px solid black;
+            width: 100%;
+            height: 320px;
+            max-height: 320px;
+        }
+
+        #piechart {
+            border: 1px solid black;
+            width: 100%;
+            height: 320px;
+            max-height: 320px;
         }
 
 
@@ -130,7 +165,16 @@
             </div>
         </div>
         <div class="content-body">
-            <div class="container"></div>
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="report-totalheader" id="report-totalheader">Net Expense</div>
+                        <div class="report-totalamount" id="report-totalamount"><strong>{{ number_format(0,2) }}</strong></div>
+                        <div class="report-bargraph" id="report-bargraph"><canvas id="bargraph">BarGraph</canvas></div>
+                        <div class="report-piechart" id="report-piechart"><canvas id="piechart">PieChart</canvas></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -138,5 +182,59 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+        var yValues = [55, 49, 44, 24, 15];
+        var barColors = "#c6267b";
+
+        new Chart("bargraph", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                scales: {
+                yAxes: [{
+                    ticks: {
+                    beginAtZero: true
+                    }
+                }],
+                }
+            }
+        });
+
+        var barColors = [
+            "#b91d47",
+            "#00aba9",
+            "#2b5797",
+            "#e8c3b9",
+            "#1e7145"
+        ];
+
+        new Chart("piechart", {
+            type: "doughnut",
+            data: {
+                labels: xValues,
+                datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+                }]
+            },
+            options: {
+                title: {
+                display: true,
+                text: "World Wide Wine Production 2018"
+                }
+            }
+        });
+
+        </script>
+    </script>
 </body>
 </html>
