@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
         body {
+            background-color: #e4e4e4 !important;
             margin: 0;
             font-family: "Poppins", sans-serif;
         }
@@ -62,11 +63,12 @@
             height: 80px;
             width: 100%;
             position: fixed;
-            /* z-index: -1; */
-            z-index: 99;
+            z-index: -1;
+            /* z-index: 99; */
             top: 0;
             left: 0;
             border-bottom: 1px solid #d9d9d9;
+            background-color: white;
         }
 
         .content .content-header .table {
@@ -93,6 +95,16 @@
             align-items: center;
         }
 
+        .content .content-body {
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 20px;
+        }
+
+        .content-body .container {
+            border: 1px solid black;
+        }
+
 
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -117,7 +129,9 @@
                 <div class="h-col col-2"></div>
             </div>
         </div>
-        <div class="content-body"></div>
+        <div class="content-body">
+            <div class="container"></div>
+        </div>
     </div>
 
 
