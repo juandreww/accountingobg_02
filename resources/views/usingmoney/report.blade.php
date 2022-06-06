@@ -184,8 +184,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
-        var yValues = [55, 49, 44, 24, 15];
+        var xValues = [];
+        var yValues = [];
+        for (let i = 1; i <= 31; i++) {
+            xValues.push(i);
+            yValues.push(Math.floor(Math.random() * 1000000) + 1);
+        }
+        console.info(yValues);
+
         var barColors = "#c6267b";
 
         new Chart("bargraph", {
@@ -193,28 +199,24 @@
             data: {
                 labels: xValues,
                 datasets: [{
-                backgroundColor: barColors,
-                data: yValues
+                    backgroundColor: barColors,
+                    data: yValues
                 }]
             },
             options: {
-                legend: {display: false},
-                scales: {
-                yAxes: [{
-                    ticks: {
-                    beginAtZero: true
+                plugins: {
+                    legend: {
+                        display: false
                     }
-                }],
                 }
             }
         });
 
         var barColors = [
-            "#b91d47",
-            "#00aba9",
-            "#2b5797",
-            "#e8c3b9",
-            "#1e7145"
+            "#f06292",
+            "#aeea00",
+            "#ffc400",
+            "#03a9f4"
         ];
 
         new Chart("piechart", {
