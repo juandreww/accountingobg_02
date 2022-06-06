@@ -28,7 +28,7 @@ class UsingMoneyController extends Controller
     public function report(Request $request) {
         $rawdata = UsingMoney::orderBy('date')->get();
         $group1 = $rawdata->groupBy('category1');
-        dd($group1);
+        return $group1;
         return view('usingmoney.report');
     }
 
