@@ -187,20 +187,32 @@
         var xValues = [];
         var yValues = [];
         var newxValues = [];
-        var group1 = {!! json_encode($group1) !!};
-        group1.forEach(myFunction);
+        var newyValues = [];
 
-        function myFunction(value) {
+        var data = {!! json_encode($rawdata) !!};
+        var group1 = {!! json_encode($group1) !!};
+        var total = 0;
+        // data.forEach(functionBarchart);
+        group1.forEach(functionPiechart);
+
+        function functionPiechart(value) {
             newxValues.push(value.name);
-            console.log(newxValues);
+            newyValues.push(value.total);
         }
 
         for (let i = 1; i <= 31; i++) {
             xValues.push(i);
+            data.forEach(function(value) {
+                const d = new Date(value.date);
+                if (d == i) {
+                    total += value.amount;
+                }
+            });
+            console.info(total);
+
             yValues.push(Math.floor(Math.random() * 1000000) + 1);
         }
 
-        console.info(yValues);
 
         var barColors = "#c6267b";
 
@@ -235,7 +247,7 @@
                 labels: newxValues,
                 datasets: [{
                 backgroundColor: barColors,
-                data: yValues
+                data: newyValues
                 }]
             },
             options: {
