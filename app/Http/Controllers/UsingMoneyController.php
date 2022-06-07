@@ -41,8 +41,8 @@ class UsingMoneyController extends Controller
             ];
             $totalGroup1 = 0;
         }
-        return $arrGroup1;
-        return view('usingmoney.report');
+        // return $arrGroup1;
+        return view('usingmoney.report', ['rawdata' => $rawdata, 'group1' => $arrGroup1]);
     }
 
     public function export_excel() {

@@ -186,10 +186,19 @@
     <script>
         var xValues = [];
         var yValues = [];
+        var newxValues = [];
+        $group1.forEach(myFunction);
+
+        function myFunction(value) {
+            newxValues.push(value.name);
+            console.log(newxValues);
+        }
+
         for (let i = 1; i <= 31; i++) {
             xValues.push(i);
             yValues.push(Math.floor(Math.random() * 1000000) + 1);
         }
+
         console.info(yValues);
 
         var barColors = "#c6267b";
