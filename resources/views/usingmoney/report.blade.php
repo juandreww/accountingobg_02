@@ -204,6 +204,9 @@
             xValues.push(i);
             data.forEach(function(value) {
                 const d = new Date(value.date);
+                console.info(i);
+                console.info(d);
+                console.info(d == i);
                 if (d == i) {
                     total += value.amount;
                 }
