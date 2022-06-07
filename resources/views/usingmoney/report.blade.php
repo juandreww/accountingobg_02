@@ -203,6 +203,8 @@
 
         var data = {!! json_encode($rawdata) !!};
         var group1 = {!! json_encode($group1) !!};
+        var totalamount = {!! json_encode($totalamount) !!};
+
         let total = 0;
         // data.forEach(functionBarchart);
         group1.forEach(functionPiechart);
@@ -221,7 +223,6 @@
                     total =  parseFloat(total) + parseFloat(value.amount);
                 }
             });
-            console.info(total);
 
             yValues.push(total);
             total = 0;
@@ -273,7 +274,11 @@
                     tooltip: {
                         enabled: false
                     },
-
+                    datalabels: {
+                        formatter: (value, context) => {
+                            return totalamount;
+                        }
+                    }
                 }
             },
             plugins: [ChartDataLabels]
