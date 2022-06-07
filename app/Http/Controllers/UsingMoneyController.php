@@ -28,7 +28,20 @@ class UsingMoneyController extends Controller
     public function report(Request $request) {
         $rawdata = UsingMoney::orderBy('date')->get();
         $group1 = $rawdata->groupBy('category1');
-        return $group1;
+        $arrGroup1 = []; $nameGroup1 = null;
+        $totalGroup1 = 0;
+        foreach ($group1 as $g) {
+            foreach ($g as $row) {
+                $totalGroup1 += $row->amount;
+                $nameGroup1 = $row->category1;
+            }
+            $arrGroup1[] = [
+                'name' => $nameGroup1,
+                'total' => $totalGroup1
+            ];
+            $totalGroup1 = 0;
+        }
+        return $arrGroup1;
         return view('usingmoney.report');
     }
 
