@@ -187,7 +187,8 @@
         var xValues = [];
         var yValues = [];
         var newxValues = [];
-        $group1.forEach(myFunction);
+        var group1 = {!! json_encode($group1) !!};
+        group1.forEach(myFunction);
 
         function myFunction(value) {
             newxValues.push(value.name);
@@ -231,7 +232,7 @@
         new Chart("piechart", {
             type: "doughnut",
             data: {
-                labels: xValues,
+                labels: newxValues,
                 datasets: [{
                 backgroundColor: barColors,
                 data: yValues
@@ -240,7 +241,7 @@
             options: {
                 title: {
                 display: true,
-                text: "World Wide Wine Production 2018"
+                text: "Category 1"
                 }
             }
         });
