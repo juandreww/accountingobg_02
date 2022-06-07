@@ -146,6 +146,14 @@
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    @php
+        $totalamount = 0;
+    @endphp
+    @foreach ($data as $d)
+        @php
+            $totalamount += $d->amount;
+        @endphp
+    @endforeach
     <div class="sidenav">
         <li><a href="#"><div class="sidenav-button" id="upper-sidenav-button"><img src="{{ URL::to('/assets/img/logo_black_32.png') }}"></div></a></li>
         <li><a href="/usingmoney/list"><span class="material-symbols-outlined md-36 sidenav-button">house</span></a></li>
@@ -157,7 +165,7 @@
         <div class="content-header">
             <div class="table table-responsive col-12 row">
                 <div class="h-col col-1"></div>
-                <div class="h-col col-2" id="h-total">Total: <strong>{{ number_format(0,2) }}</strong></div>
+                <div class="h-col col-2" id="h-total">Total: <strong>{{ number_format($totalamount,2) }}</strong></div>
                 <div class="h-col col-1" id="h-logo"></div>
                 <div class="h-col col-4"></div>
                 <div class="h-col col-2" id="h-buttonadd"> </div>
@@ -169,7 +177,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="report-totalheader" id="report-totalheader">Net Expense</div>
-                        <div class="report-totalamount" id="report-totalamount"><strong>{{ number_format(0,2) }}</strong></div>
+                        <div class="report-totalamount" id="report-totalamount"><strong>{{ number_format($totalamount,2) }}</strong></div>
                         <div class="report-bargraph" id="report-bargraph"><canvas id="bargraph">BarGraph</canvas></div>
                         <div class="report-piechart" id="report-piechart"><canvas id="piechart">PieChart</canvas></div>
                     </div>
@@ -191,7 +199,7 @@
 
         var data = {!! json_encode($rawdata) !!};
         var group1 = {!! json_encode($group1) !!};
-        var total = 0;
+        let total = 0;
         // data.forEach(functionBarchart);
         group1.forEach(functionPiechart);
 
@@ -204,16 +212,15 @@
             xValues.push(i);
             data.forEach(function(value) {
                 const d = new Date(value.date);
-                console.info(i);
-                console.info(d);
-                console.info(d == i);
-                if (d == i) {
-                    total += value.amount;
+                let dnum = d.getDate();
+                if (dnum == i) {
+                    total =  parseFloat(total) + parseFloat(value.amount);
                 }
             });
             console.info(total);
 
-            yValues.push(Math.floor(Math.random() * 1000000) + 1);
+            yValues.push(total);
+            total = 0;
         }
 
 
