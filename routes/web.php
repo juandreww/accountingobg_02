@@ -26,6 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/list', 'list');
+    Route::get('/usingmoney/list2', 'list2');
 
     Route::get('/usingmoney/report', 'report');
     Route::get('/usingmoney/formtransaction', 'formtransaction');

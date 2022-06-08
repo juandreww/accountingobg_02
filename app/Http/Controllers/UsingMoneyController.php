@@ -25,6 +25,18 @@ class UsingMoneyController extends Controller
         return view('usingmoney.usingmoney-list', ['data' => $data]);
     }
 
+    public function list2(Request $request) {
+        $datefrom = isset($request->datefrom) ? $request->datefrom : null;
+        $dateuntil = isset($request->dateuntil) ? $request->dateuntil : null;
+        if ($datefrom && $dateuntil) {
+            $data = UsingMoney::where('date', '>=', $datefrom)->where('date', '<=', $dateuntil)->orderBy('date')->get();
+        } else {
+            $data = UsingMoney::orderBy('date')->get();
+        }
+
+        return view('usingmoney.mylist2');
+    }
+
     public function report(Request $request) {
         $rawdata = UsingMoney::orderBy('date')->get();
         $group1 = $rawdata->groupBy('category1');
