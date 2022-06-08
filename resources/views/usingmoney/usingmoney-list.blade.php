@@ -335,10 +335,10 @@
                   });
                });
 
-                $(document).on("click", ".edit-modal-dialog", function () {
-                var amount = $(this).data('amount');
-                $(".modal-body #amount").val( amount );
-            });
+                $(document).on("show.bs.modal", ".edit-modal-dialog", function () {
+                    var amount = $(this).data('amount');
+                    $(".modal-body #amount").val( amount );
+                });
 
             jQuery(document).ready(function() {
                 jQuery('#ajaxSubmitCalendar').click(function(e) {
