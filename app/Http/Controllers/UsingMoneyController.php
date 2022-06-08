@@ -64,6 +64,8 @@ class UsingMoneyController extends Controller
         $data->date = $request->date;
         $data->amount = $request->amount;
         $data->note = $request->note;
+        $data->category1 = $request->category1;
+        $data->category2 = $request->category2;
         $data->save();
 
         $data = UsingMoney::get();
