@@ -276,7 +276,8 @@
                     },
                     datalabels: {
                         formatter: (value, context) => {
-                            return totalamount;
+                            const percentageValue = (value * 100 / totalamount).toFixed(1);
+                            return percentageValue + '%';
                         }
                     }
                 }
