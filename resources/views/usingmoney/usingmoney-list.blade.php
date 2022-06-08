@@ -172,16 +172,16 @@
                                     <th>AMOUNT</td>
                                 </tr>
                                 @foreach($data as $d)
-                                    {{-- @php
+                                    @php
                                         $url = '/usingmoney/list?id=' . $d->uid;
-                                    @endphp --}}
-                                    {{-- <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton"> --}}
+                                    @endphp
+                                    <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="minebutton">
                                     <tr>
                                         <td>{{$d->date}}</td>
                                         <td>{{$d->note}}</td>
                                         <td>{{number_format($d->amount,2)}}</td>
                                     </tr>
-                                    {{-- </a> --}}
+                                    </a>
                                 @endforeach
                             </table>
                             <div class="bottomlist">
