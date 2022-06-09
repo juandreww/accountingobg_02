@@ -11,6 +11,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
         body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .filter {
+            position: absolute;
             top: 0;
             left: 0;
             right: 0;
@@ -19,24 +25,34 @@
             opacity: .7;
             background-color: #85FFBD;
             background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-            margin: 0;
-            font-family: "Poppins", sans-serif;
-        }
-
-        .filter {
-
         }
 
         table {
-            border-radius: 8px 8px 0 0;
+            border-radius: 12px 12px 0 0;
             overflow : hidden;
+            background : #fafafa;
+            text-align: center;
+            width: 60%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            box-shadow: 0 12px 5px rgba(32,32,32,0.3);
         }
 
         .content {
+            position: absolute;
             left: 50%;
             top: 50%;
-            transform: translateY(75%);
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            background-color: transparent;
+        }
 
+        .list {
+            background-color: transparent;
+        }
+
+        .container {
+            background-color: transparent;
         }
 
         th {
@@ -57,9 +73,9 @@
                 <div class="container card card-body">
                     <table class="table table-bordered">
                         <tr>
-                            <th>DATE</th>
-                            <th>DESCRIPTION</th>
-                            <th>AMOUNT</th>
+                            <th style="width: 250px;">DATE</th>
+                            <th style="width: 350px;">DESCRIPTION</th>
+                            <th style="width: 250px;">AMOUNT</th>
                         </tr>
                         <tr>
                             <td>2010-05-09</td>
