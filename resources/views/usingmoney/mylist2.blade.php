@@ -35,7 +35,7 @@
             width: 60%;
             border-collapse: collapse;
             border-spacing: 0;
-            box-shadow: 0 12px 5px rgba(32,32,32,0.3);
+            box-shadow: 0 2px 12px rgba(32,32,32,0.3);
         }
 
         .content {
@@ -44,19 +44,19 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 2;
-            background-color: transparent;
         }
 
-        .list {
+        .content .content-body .list .card {
             background-color: transparent;
-        }
-
-        .container {
-            background-color: transparent;
+            border: none;
         }
 
         th {
             background-color: #eeff41 !important;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #eeeeee;
         }
 
     </style>
