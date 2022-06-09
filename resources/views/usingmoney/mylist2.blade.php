@@ -11,11 +11,36 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
         body {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            opacity: .7;
             background-color: #85FFBD;
             background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
             margin: 0;
             font-family: "Poppins", sans-serif;
+        }
+
+        .filter {
+
+        }
+
+        table {
+            border-radius: 8px 8px 0 0;
+            overflow : hidden;
+        }
+
+        .content {
+            left: 50%;
+            top: 50%;
+            transform: translateY(75%);
+
+        }
+
+        th {
+            background-color: #eeff41 !important;
         }
 
     </style>
@@ -23,6 +48,7 @@
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    <div class="filter"></div>
     <div class="sidenav"></div>
     <div class="content">
         <div class="content-header"></div>
