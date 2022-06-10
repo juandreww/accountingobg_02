@@ -59,8 +59,8 @@
 
     <script type="text/javascript">
         $("#submit").click(function() {
-            var name = $('#name').val();
-            var marks = $('#marks').val();
+            var name = $("#name").val();
+            var marks = $("#marks").val();
             var str = "You Have Entered " + "Name: " + name + " and Marks: " + marks;
             console.info(str);
             $("#modal-body").html(str);
