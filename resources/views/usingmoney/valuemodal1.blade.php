@@ -47,7 +47,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <h6 id="modal_body"></h6>
+                        <h6 id="modal-body"></h6>
                         <button class="btn btn-success btn-sm" id="submit" type="button" data-toggle="modal" data-target="#exampleModal">
                             Submit
                         </button>
