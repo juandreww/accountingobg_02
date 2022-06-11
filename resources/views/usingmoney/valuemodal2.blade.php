@@ -18,8 +18,8 @@
             padding-left: 20px;
         }
 
-        .container button {
-            width: 270px;
+        #submit {
+            width: 273px;
         }
 
         table tr td {
@@ -36,6 +36,10 @@
 
         #secondcol {
             width: 95%;
+        }
+
+        #xbutton {
+            width: 40px;
         }
 
     </style>
@@ -75,7 +79,7 @@
                             Message
                         </h5>
 
-                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <button class="close" id="xbutton" type="button" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">
                                 x
                             </span>
@@ -93,7 +97,12 @@
     </div>
 
     <script type="text/javascript">
-
+    $("#submit").click(function() {
+        var name = $("#name").val();
+        var note = $("#note").val();
+        var str = "My name is " + name + " . Note from me: " + note;
+        $("#modal-body").html(str);valuenm
+    });
     </script>
 </body>
 </html>
