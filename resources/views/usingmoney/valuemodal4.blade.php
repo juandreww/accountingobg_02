@@ -70,11 +70,34 @@
                 </td>
             </tr>
         </table>
-        <div class="modal fade" id="messagemodal">
-
+        <div class="modal fade" id="messagemodal" tab-index="-1" aria-labelledby="messagemodalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="messagemodalLabel">
+                            Message
+                        </h5>
+                        <button class="close" id="xbutton" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">
+                                x
+                            </span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" name="result" id="result" class="form-control">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        $("#submit").click(function() {
+            var name = $("#name").val();
+            var note = $("#note").val();
+            var str = "My name is " + name + " . Note from me: " + note;
+            $("#result").html(str);
+        });
+    </script>
 </body>
 </html>

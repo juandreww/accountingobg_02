@@ -72,7 +72,7 @@
             </tr>
         </table>
 
-        <div class="modal fade" id="messagemodal" tabindex="-1" aria-labelledby="mesasgemodalLabel" aria-hidden="true">
+        <div class="modal fade" id="messagemodal" tabindex="-1" aria-labelledby="messagemodalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
