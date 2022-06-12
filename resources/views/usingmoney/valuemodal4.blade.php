@@ -85,6 +85,7 @@
                     </div>
                     <div class="modal-body">
                         <input type="text" name="result" id="result" class="form-control">
+                        <h6 id="modal-body"></h6>
                     </div>
                 </div>
             </div>
@@ -96,8 +97,16 @@
             var name = $("#name").val();
             var note = $("#note").val();
             var str = "My name is " + name + " . Note from me: " + note;
-            $("#result").html(str);
+            $("#result").val(str);
+            $("#modal-body").html(str);
         });
+
+        // $("#submit").on('show.bs.modal', function(event) {
+        //     var button = $(event.relatedTarget);
+        //     var id = button.data('id');
+        //     console.info(id);
+
+        // });
     </script>
 </body>
 </html>
