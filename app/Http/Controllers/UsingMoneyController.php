@@ -126,6 +126,7 @@ class UsingMoneyController extends Controller
     }
 
     public function valuemodal5(Request $request) {
-        return view('usingmoney.valuemodal5');
+        $data = UsingMoney::orderBy('date')->get();
+        return view('usingmoney.valuemodal5', ['data' => $data]);
     }
 }
