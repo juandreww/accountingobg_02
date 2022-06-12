@@ -101,7 +101,7 @@
         var name = $("#name").val();
         var note = $("#note").val();
         var str = "My name is " + name + " . Note from me: " + note;
-        $("#modal-body").html(str);valuenm
+        $("#modal-body").html(str);
     });
     </script>
 </body>
