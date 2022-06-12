@@ -124,4 +124,8 @@ class UsingMoneyController extends Controller
     public function valuemodal4(Request $request) {
         return view('usingmoney.valuemodal4');
     }
+
+    public function valuemodal5(Request $request) {
+        return view('usingmoney.valuemodal5');
+    }
 }
