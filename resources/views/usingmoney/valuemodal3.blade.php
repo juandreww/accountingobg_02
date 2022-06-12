@@ -97,10 +97,11 @@
     </div>
 
     <script type="text/javascript">
-        $("$submit").click(function() {
+        $("#submit").click(function() {
             var name = $("#name").val();
             var note = $("#note").val();
             var str = "My name is " + name + " . Note from me: " + note;
+            console.info(str);
             $("#modal-body").html(str);
         });
     </script>
