@@ -106,9 +106,13 @@
             </div>
         </div>
     </div>
+
     <script type="text/javascript">
-    $("#submit").click(function() {
+    $("#submit").on('click', function(event) {
+        event.preventDefault();
+        console.info("sayonara");
         var str = "Konichiwa";
+        console.info(str);
         $("#note").val(str);
     });
     </script>
