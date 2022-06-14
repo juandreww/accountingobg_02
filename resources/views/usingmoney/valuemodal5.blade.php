@@ -55,7 +55,7 @@
                     </tr>
                     @foreach ($data as $row)
                         @php
-                            $url = '/usingmoney/list?id=' . $row->uid;
+                            $url = '/usingmoney/list?id=' . $row->uid . '&amount=' . $row->amount . '&date=' . $row->date . '&note=' . $row->note;
                         @endphp
                         <a href= {{$url}} class="edit-modal-dialog stretched-link" onclick="openModal()" data-toggle="modal" data-target="#exampleModal" id ="submit">
                             <tr>
@@ -109,13 +109,28 @@
 
     <script type="text/javascript">
         function openModal() {
-            var str = "Konichiwa";
             var href = $("a").attr("href");
-            var slash = href.lastIndexOf("/");
-            console.info(slash);
-            console.info(href);
-            console.info(str);
-            $("#note").val(str);
+            var slash = href.lastIndexOf("?");
+            var text = href.substring(slash + 1);
+
+            var searchParams = new URLSearchParams(text);
+            var date = null;
+            var amount = null;
+            var note = null;
+
+            searchParams.forEach(function(value, key) {
+                if (key == 'date') {
+                    date = value;
+                } else if (key == 'amount'){
+                    amount = value;
+                } else if (key == 'note'){
+                    note = value;
+                }
+            });
+
+            $("#date").val(date);
+            $("#amount").val(amount);
+            $("#note").val(value);
         }
     </script>
 </body>
