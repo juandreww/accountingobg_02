@@ -57,7 +57,7 @@
                         @php
                             $url = '/usingmoney/list?id=' . $row->uid;
                         @endphp
-                        <a href= {{$url}} class="edit-modal-dialog stretched-link" data-toggle="modal" data-target="#exampleModal" id ="submit">
+                        <a href= {{$url}} class="edit-modal-dialog stretched-link" onclick="openModal()" data-toggle="modal" data-target="#exampleModal" id ="submit">
                             <tr>
                                 <td>{{$row->date}}</td>
                                 <td>{{$row->note}}</td>
@@ -108,13 +108,12 @@
     </div>
 
     <script type="text/javascript">
-    $("#submit").on('click', function(event) {
-        event.preventDefault();
-        console.info("sayonara");
-        var str = "Konichiwa";
-        console.info(str);
-        $("#note").val(str);
-    });
+        function openModal() {
+            var str = "Konichiwa";
+            
+            console.info(str);
+            $("#note").val(str);
+        }
     </script>
 </body>
 </html>
