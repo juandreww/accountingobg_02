@@ -107,7 +107,10 @@
         </div>
     </div>
     <script type="text/javascript">
-
+    $("#submit").click(function() {
+        var str = "Konichiwa";
+        $("#note").val(str);
+    });
     </script>
 </body>
 </html>
