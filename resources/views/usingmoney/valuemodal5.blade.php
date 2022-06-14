@@ -110,7 +110,10 @@
     <script type="text/javascript">
         function openModal() {
             var str = "Konichiwa";
-
+            var href = $("a").attr("href");
+            var slash = href.lastIndexOf("/");
+            console.info(slash);
+            console.info(href);
             console.info(str);
             $("#note").val(str);
         }
