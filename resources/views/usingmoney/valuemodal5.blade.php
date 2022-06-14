@@ -101,7 +101,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button class="btn btn-primary" name="submit2" value="Submit" id="submit2"></button>
+                    <button class="btn btn-primary" type="submit" name="submit2" value="Submit" id="submit2">Submit</button>
                 </div>
             </div>
         </div>
@@ -127,10 +127,12 @@
                     note = value;
                 }
             });
-
+            console.info(date);
+            console.info(amount);
+            console.info(note);
             $("#date").val(date);
             $("#amount").val(amount);
-            $("#note").val(value);
+            $("#note").val(note);
         }
     </script>
 </body>
