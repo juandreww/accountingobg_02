@@ -110,7 +110,7 @@
     <script type="text/javascript">
         function openModal() {
             var str = "Konichiwa";
-            
+
             console.info(str);
             $("#note").val(str);
         }
