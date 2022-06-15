@@ -54,14 +54,20 @@
                         <th style="width: 250px">AMOUNT</th>
                     </tr>
                     @foreach ($data as $row)
-                        @php
-                            $url = '/usingmoney/list?id=' . $row->uid . '&amount=' . $row->amount . '&date=' . $row->date . '&note=' . $row->note;
-                        @endphp
+
                         <a href= {{$url}} class="edit-modal-dialog stretched-link" onclick="openModal()" data-toggle="modal" data-target="#exampleModal" id ="submit">
                             <tr>
                                 <td>{{$row->date}}</td>
                                 <td>{{$row->note}}</td>
                                 <td>{{number_format($row->amount,2)}}</td>
+                                <td>
+                                    @php
+                                        $urledit = '/usingmoney/show?id=' . $row->uid;
+                                        $urldelete = '/usingmoney/delete?id=' . $row->uid;
+                                    @endphp
+                                    <a href="{{$urledit}}">Edit</a>
+                                    <a href="{{$urldelete}}">Delete</a>
+                                </td>
                             </tr>
                         </a>
                     @endforeach
@@ -108,32 +114,34 @@
     </div>
 
     <script type="text/javascript">
-        function openModal() {
-            var href = $("a").attr("href");
-            var slash = href.lastIndexOf("?");
-            var text = href.substring(slash + 1);
+    //     function openModal() {
+    //         var href = $("a").attr("href");
+    //         var slash = href.lastIndexOf("?");
+    //         var text = href.substring(slash + 1);
 
-            var searchParams = new URLSearchParams(text);
-            var date = null;
-            var amount = null;
-            var note = null;
+    //         var searchParams = new URLSearchParams(text);
+    //         var date = null;
+    //         var amount = null;
+    //         var note = null;
+    //         console.info(text);
 
-            searchParams.forEach(function(value, key) {
-                if (key == 'date') {
-                    date = value;
-                } else if (key == 'amount'){
-                    amount = value;
-                } else if (key == 'note'){
-                    note = value;
-                }
-            });
-            console.info(date);
-            console.info(amount);
-            console.info(note);
-            $("#date").val(date);
-            $("#amount").val(amount);
-            $("#note").val(note);
-        }
-    </script>
+    //         searchParams.forEach(function(value, key) {
+    //             if (key == 'date') {
+    //                 date = value;
+    //             } else if (key == 'amount'){
+    //                 amount = value;
+    //             } else if (key == 'note'){
+    //                 note = value;
+    //             }
+    //         });
+
+    //         console.info(date);
+    //         console.info(amount);
+    //         console.info(note);
+    //         $("#date").val(date);
+    //         $("#amount").val(amount);
+    //         $("#note").val(note);
+    //     }
+    // </script>
 </body>
 </html>
