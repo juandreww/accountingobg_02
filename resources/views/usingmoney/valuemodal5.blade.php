@@ -54,22 +54,19 @@
                         <th style="width: 250px">AMOUNT</th>
                     </tr>
                     @foreach ($data as $row)
-
-                        <a href= {{$url}} class="edit-modal-dialog stretched-link" onclick="openModal()" data-toggle="modal" data-target="#exampleModal" id ="submit">
-                            <tr>
-                                <td>{{$row->date}}</td>
-                                <td>{{$row->note}}</td>
-                                <td>{{number_format($row->amount,2)}}</td>
-                                <td>
-                                    @php
-                                        $urledit = '/usingmoney/show?id=' . $row->uid;
-                                        $urldelete = '/usingmoney/delete?id=' . $row->uid;
-                                    @endphp
-                                    <a href="{{$urledit}}">Edit</a>
-                                    <a href="{{$urldelete}}">Delete</a>
-                                </td>
-                            </tr>
-                        </a>
+                        <tr>
+                            <td>{{$row->date}}</td>
+                            <td>{{$row->note}}</td>
+                            <td>{{number_format($row->amount,2)}}</td>
+                            <td>
+                                @php
+                                    $urledit = '/usingmoney/show?id=' . $row->uid;
+                                    $urldelete = '/usingmoney/delete?id=' . $row->uid;
+                                @endphp
+                                <a href="{{$urledit}}">Edit</a>
+                                <a href="{{$urldelete}}">Delete</a>
+                            </td>
+                        </tr>
                     @endforeach
                 </table>
             </div>
