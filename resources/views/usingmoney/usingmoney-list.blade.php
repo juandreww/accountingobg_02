@@ -165,13 +165,13 @@
                 <div class="container">
                     <div class="card">
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-2">DateFrom: {{$datefrom}}</div>
-                                <div class="col-2">DateUntil: {{$dateuntil}}</div>
-                            </div>
+                            @php
+                                $datefrom = isset($datefrom) ? DATE_FORMAT(DATE_CREATE($datefrom),"m/d") : null;
+                                $dateuntil = isset($dateuntil) ? DATE_FORMAT(DATE_CREATE($dateuntil),"m/d") : null;
+                            @endphp
                             <table class="table table-bordered">
                                 <tr>
-                                    <th>DATE</td>
+                                    <th>DATE ({{$datefrom}} - {{$dateuntil}})</td>
                                     <th>DESCRIPTION</td>
                                     <th>AMOUNT</td>
                                 </tr>

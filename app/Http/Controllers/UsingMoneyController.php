@@ -23,7 +23,6 @@ class UsingMoneyController extends Controller
             $data = UsingMoney::orderBy('date')->get();
         }
 
-
         return view('usingmoney.usingmoney-list', ['data' => $data, 'datefrom' => $datefrom, 'dateuntil' => $dateuntil]);
     }
 
