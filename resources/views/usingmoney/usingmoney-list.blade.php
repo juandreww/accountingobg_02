@@ -165,6 +165,10 @@
                 <div class="container">
                     <div class="card">
                         <div class="card-body">
+                            <div class="row">
+                                <div class="col-2">DateFrom: {{$datefrom}}</div>
+                                <div class="col-2">DateUntil: {{$dateuntil}}</div>
+                            </div>
                             <table class="table table-bordered">
                                 <tr>
                                     <th>DATE</td>

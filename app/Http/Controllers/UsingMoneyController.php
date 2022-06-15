@@ -14,15 +14,17 @@ use Maatwebsite\Excel\Facades\Excel;
 class UsingMoneyController extends Controller
 {
     public function list(Request $request) {
+        $now = now()->addHours(7)->toDateString();
         $datefrom = isset($request->datefrom) ? $request->datefrom : null;
-        $dateuntil = isset($request->dateuntil) ? $request->dateuntil : null;
+        $dateuntil = isset($request->dateuntil) ? $request->dateuntil : $now;
         if ($datefrom && $dateuntil) {
             $data = UsingMoney::where('date', '>=', $datefrom)->where('date', '<=', $dateuntil)->orderBy('date')->get();
         } else {
             $data = UsingMoney::orderBy('date')->get();
         }
 
-        return view('usingmoney.usingmoney-list', ['data' => $data]);
+
+        return view('usingmoney.usingmoney-list', ['data' => $data, 'datefrom' => $datefrom, 'dateuntil' => $dateuntil]);
     }
 
     public function list2(Request $request) {
