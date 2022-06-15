@@ -26,7 +26,7 @@ class UsingMoneyFactory extends Factory
         return [
             'uid' => $uuid,
             'created_at' => $now,
-            'date' => '2022-01-16',
+            'date' => '2022-03-12',
             'amount' => $amount,
             'note'=> 'amount is ' . $amount
         ];
