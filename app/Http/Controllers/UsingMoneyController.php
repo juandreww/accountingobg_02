@@ -129,4 +129,10 @@ class UsingMoneyController extends Controller
         $data = UsingMoney::orderBy('date')->get();
         return view('usingmoney.valuemodal5', ['data' => $data]);
     }
+
+    public function show(Request $request) {
+        $data = UsingMoney::where('uid', $request->id)->first();
+
+        return view('usingmoney.show', ['data' => $data]);
+    }
 }

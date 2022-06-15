@@ -43,5 +43,6 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/valuemodal3', 'valuemodal3');
     Route::get('/usingmoney/valuemodal4', 'valuemodal4');
     Route::get('/usingmoney/valuemodal5', 'valuemodal5');
+    Route::get('/usingmoney/show', 'show');
 });
 

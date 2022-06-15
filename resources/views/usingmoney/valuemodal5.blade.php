@@ -52,6 +52,7 @@
                         <th style="width: 250px">DATE</th>
                         <th style="width: 350px">DESCRIPTION</th>
                         <th style="width: 250px">AMOUNT</th>
+                        <th style="width: 250px">ACTION</th>
                     </tr>
                     @foreach ($data as $row)
                         <tr>
@@ -64,6 +65,7 @@
                                     $urldelete = '/usingmoney/delete?id=' . $row->uid;
                                 @endphp
                                 <a href="{{$urledit}}">Edit</a>
+                                |
                                 <a href="{{$urldelete}}">Delete</a>
                             </td>
                         </tr>
