@@ -146,15 +146,15 @@ class UsingMoneyController extends Controller
 
         $data = UsingMoney::orderBy('date')->get();
 
-        return view('usingmoney.usingmoney-list', ['data' => $data]);
+        return view('usingmoney.valuemodal5', ['data' => $data]);
     }
 
     public function destroy(Request $request) {
-        $data = UsingMoney::where('uid', $request->uid)->first();
+        $data = UsingMoney::where('uid', $request->id)->first();
         $data->delete();
 
         $data = UsingMoney::orderBy('date')->get();
 
-        return view('usingmoney.usingmoney-list', ['data' => $data]);
+        return view('usingmoney.valuemodal5', ['data' => $data]);
     }
 }

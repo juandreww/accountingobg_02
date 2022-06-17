@@ -37,6 +37,7 @@
             <div class="card-body">
                 @php $url = "/usingmoney/edit?uid=" . $data->uid @endphp
                 <form action="{{ $url }}" method="post">
+                    {{ csrf_field() }}
                     <table class="table table-bordered">
                         <div class="form-group">
                             <label for="date">Date</label><br>
