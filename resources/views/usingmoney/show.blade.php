@@ -12,6 +12,14 @@
             height: 250px;
             border: 1px solid black;
         }
+
+        table {
+            width: 100%;
+        }
+
+        .form-group {
+            width: 100%;
+        }
    </style>
 
     {{-- CSS --}}
@@ -26,7 +34,26 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                a
+                @php $url = "/edit?uid=" . $data->uid @endphp
+                <form action="{{ $url }}" method="post">
+                    <table class="table table-bordered">
+                        <div class="form-group">
+                            <label for="date">Date</label><br>
+                            <input type="date" name="date" id="date" value="{{ $data->date }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Amount</label><br>
+                            <input type="text" name="amount" id="amount" value="{{ $data->amount }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="note">Note</label><br>
+                            <input type="textarea" name="note" id="note" value="{{ $data->note }}">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                        </div>
+                    </table>
+                </form>
             </div>
         </div>
     </div>
