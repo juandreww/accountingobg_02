@@ -8,9 +8,9 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
         .container {
-            height: 250px;
-            border: 1px solid black;
+            margin-top: 20px;
         }
 
         table {
@@ -19,6 +19,7 @@
 
         .form-group {
             width: 100%;
+            padding: 10px;
         }
    </style>
 
@@ -50,7 +51,7 @@
                             <input type="textarea" name="note" id="note" value="{{ $data->note }}">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                            <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
                         </div>
                     </table>
                 </form>

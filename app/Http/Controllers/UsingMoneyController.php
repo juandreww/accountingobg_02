@@ -136,4 +136,25 @@ class UsingMoneyController extends Controller
 
         return view('usingmoney.show', ['data' => $data]);
     }
+
+    public function edit(Request $request) {
+        $data = UsingMoney::where('uid', $request->uid)->first();
+        $data->date = $request->date;
+        $data->amount = $request->amount;
+        $data->note = $request->note;
+        $data->save();
+
+        $data = UsingMoney::orderBy('date')->get();
+
+        return view('usingmoney.usingmoney-list', ['data' => $data]);
+    }
+
+    public function destroy(Request $request) {
+        $data = UsingMoney::where('uid', $request->uid)->first();
+        $data->delete();
+
+        $data = UsingMoney::orderBy('date')->get();
+
+        return view('usingmoney.usingmoney-list', ['data' => $data]);
+    }
 }
