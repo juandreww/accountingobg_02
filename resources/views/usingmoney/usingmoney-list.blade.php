@@ -112,6 +112,14 @@
                 /* padding-left: 5px; */
             }
 
+            .filterlisttop {
+                text-align: center;
+                align-items: center;
+                padding-bottom: 10px;
+                color:#94849C;
+                font-weight: bold;
+            }
+
         </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -166,12 +174,21 @@
                     <div class="card">
                         <div class="card-body">
                             @php
-                                $datefrom = isset($datefrom) ? DATE_FORMAT(DATE_CREATE($datefrom),"m/d") : null;
-                                $dateuntil = isset($dateuntil) ? DATE_FORMAT(DATE_CREATE($dateuntil),"m/d") : null;
+                                $datefrom = isset($datefrom) ? DATE_FORMAT(DATE_CREATE($datefrom),"d/m/y") : null;
+                                $dateuntil = isset($dateuntil) ? DATE_FORMAT(DATE_CREATE($dateuntil),"d/m/y") : null;
                             @endphp
+                            <div class="row filterlisttop">
+                                <div class="col-12">
+                                    @if ($datefrom && $dateuntil)
+                                        {{$datefrom}} - {{$dateuntil}}
+                                    @else
+                                        ALL TRANSACTIONS
+                                    @endif
+                                </div>
+                            </div>
                             <table class="table table-bordered">
                                 <tr>
-                                    <th>DATE ({{$datefrom}} - {{$dateuntil}})</td>
+                                    <th>DATE</td>
                                     <th>DESCRIPTION</td>
                                     <th>AMOUNT</td>
                                 </tr>
