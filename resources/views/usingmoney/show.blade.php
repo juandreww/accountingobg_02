@@ -35,7 +35,7 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                @php $url = "/edit?uid=" . $data->uid @endphp
+                @php $url = "/usingmoney/edit?uid=" . $data->uid @endphp
                 <form action="{{ $url }}" method="post">
                     <table class="table table-bordered">
                         <div class="form-group">
