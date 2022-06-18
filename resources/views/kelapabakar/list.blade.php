@@ -42,7 +42,7 @@
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: #F5EDF6;
+            background-color: #81C784;
             overflow-x:  hidden;
             /* padding-top: 20px; */
         }
@@ -51,11 +51,11 @@
             padding: 0px 5px 0px 20px;
             text-decoration: none;
             align-items: center;
-            color:#94849C;
+            color:#2E7D32;
         }
 
         .sidenav li a:hover {
-            color: #d66565;
+            color: #f2c75b;
         }
 
         .content .content-header {

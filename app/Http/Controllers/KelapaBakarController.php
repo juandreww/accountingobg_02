@@ -12,8 +12,7 @@ use Maatwebsite\Excel\Facades\Excel;
 class KelapaBakarController extends Controller
 {
     public function list(Request $request) {
-        $data = KelapaBakar::get();
-        dd($data);
+        // $data = KelapaBakar::get();
         return view('kelapabakar.list');
     }
 
