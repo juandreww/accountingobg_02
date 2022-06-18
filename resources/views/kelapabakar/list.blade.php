@@ -102,37 +102,31 @@
         }
 
         .content-body .container {
-            border: 1px solid black;
+            border: 2px solid black;
             height: 100%;
-            max-width: 640px;
+            height: 780px;
+            max-height: 780px;
+            max-width: 1280px;
             padding-left: 10px;
             padding-right: 10px;
             background-color: white;
+            position: fixed;
+            left: 100px;
+            top: 100px;
         }
 
-        #report-totalheader {
-            display: flex;
-            justify-content: center;
-            font-size: 20px;
-        }
-        #report-totalamount {
-            display: flex;
-            justify-content: center;
-            font-size: 24px;
-        }
-
-        #bargraph {
-            border: 1px solid black;
-            width: 100%;
-            height: 320px;
-            max-height: 320px;
-        }
-
-        #piechart {
-            border: 1px solid black;
-            width: 100%;
-            height: 320px;
-            max-height: 320px;
+        .content-addtransaction .container {
+            border: 2px solid black;
+            height: 100%;
+            height: 720px;
+            max-height: 720px;
+            max-width: 500px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+            position: fixed;
+            left: 1400px;
+            top: 100px;
         }
 
 
@@ -154,7 +148,7 @@
         <div class="content-header">
             <div class="table table-responsive col-12 row">
                 <div class="h-col col-1"></div>
-                <div class="h-col col-2" id="h-total">T:</div>
+                <div class="h-col col-2" id="h-total"><strong>KEDAI KELAPA BAKAR</strong></div>
                 <div class="h-col col-1" id="h-logo"></div>
                 <div class="h-col col-4"></div>
                 <div class="h-col col-2" id="h-buttonadd"> </div>
@@ -167,6 +161,13 @@
                     <div class="card-body">
                         a
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-addtransaction">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">b</div>
                 </div>
             </div>
         </div>
