@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\UsingMoneyController;
+use App\Http\Controllers\KedaiKelapaBakarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,5 +47,9 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/show', 'show');
     Route::post('/usingmoney/edit', 'edit');
     Route::get('/usingmoney/delete', 'destroy');
+});
+
+Route::controller(KedaiKelapaBakarController::class)->group(function() {
+    Route::get('/kelapabakar/list', 'list');
 });
 

@@ -9,13 +9,9 @@ use \App\Models\UsingMoney;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 
-class KedaiKelapaBakarCOntroller extends Controller
+class KedaiKelapaBakarController extends Controller
 {
     public function list(Request $request) {
-
-    }
-
-    public function config(Request $request) {
 
     }
 
