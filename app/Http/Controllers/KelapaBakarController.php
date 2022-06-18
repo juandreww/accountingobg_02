@@ -5,14 +5,13 @@ namespace App\Http\Controllers;
 use \Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use \App\Models\User;
-use \App\Models\UsingMoney;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 
-class KedaiKelapaBakarController extends Controller
+class KelapaBakarController extends Controller
 {
     public function list(Request $request) {
-
+        return view('kelapabakar.list');
     }
 
     public function save(Request $request) {

@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\UsingMoneyController;
-use App\Http\Controllers\KedaiKelapaBakarController;
+use App\Http\Controllers\KelapaBakarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,7 +49,7 @@ Route::controller(UsingMoneyController::class)->group(function() {
     Route::get('/usingmoney/delete', 'destroy');
 });
 
-Route::controller(KedaiKelapaBakarController::class)->group(function() {
+Route::controller(KelapaBakarController::class)->group(function() {
     Route::get('/kelapabakar/list', 'list');
 });
 
