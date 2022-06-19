@@ -8,6 +8,7 @@ use \App\Models\KelapaBakar;
 use \App\Models\User;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
+use Faker\Generator as Faker;
 
 class KelapaBakarController extends Controller
 {

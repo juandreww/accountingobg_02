@@ -51,5 +51,6 @@ Route::controller(UsingMoneyController::class)->group(function() {
 
 Route::controller(KelapaBakarController::class)->group(function() {
     Route::get('/kelapabakar/list', 'list');
+    Route::get('/kelapabakar/show', 'show');
 });
 
