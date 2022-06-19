@@ -20,6 +20,10 @@ class KelapaBakarController extends Controller
     public function show(Request $request) {
         $faker = Faker::create('id_ID');
         $type = $faker->randomElement(['Masuk', 'Keluar']);
+        $type2 = $faker->randomElement(['Biasa', 'Bakar']);
+        $qty = $faker->numberBetween(1, 20);
+        $price = $faker->numberBetween(50, 65) * 100;
+        $totalamount = $qty * $price;
     }
 
     public function save(Request $request) {
