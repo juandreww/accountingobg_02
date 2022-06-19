@@ -8,7 +8,7 @@ use \App\Models\KelapaBakar;
 use \App\Models\User;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
-use Faker\Generator as Faker;
+use Faker\Factory as Faker;
 
 class KelapaBakarController extends Controller
 {
@@ -18,7 +18,8 @@ class KelapaBakarController extends Controller
     }
 
     public function show(Request $request) {
-
+        $faker = Faker::create('id_ID');
+        $type = $faker->randomElement(['Masuk', 'Keluar']);
     }
 
     public function save(Request $request) {
