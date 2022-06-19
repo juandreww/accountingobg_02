@@ -133,12 +133,17 @@
             position: fixed;
             left: 1400px;
             top: 100px;
+            padding: 0;
         }
 
         table {
             width: 100%;
         }
 
+        #title-addtransaction {
+            text-align: center;
+            width: 100%;
+        }
 
     </style>
     {{-- CSS --}}
@@ -206,7 +211,9 @@
         <div class="content-addtransaction">
             <div class="container">
                 <div class="card">
-                    <div class="card-body">b</div>
+                    <div class="card-body">
+                        <h2 id="title-addtransaction">TAMBAH TRANSAKSI</h2>
+                    </div>
                 </div>
             </div>
         </div>
