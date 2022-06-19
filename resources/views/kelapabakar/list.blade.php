@@ -176,8 +176,19 @@
                                 <th style="width: 10%">BIASA/BAKAR</th>
                                 <th style="width: 10%">QUANTITY</th>
                                 <th style="width: 20%">PRICE</th>
-                                <th style="width: 30%">TOTALAMOUNT</th>
+                                <th style="width: 25%">TOTALAMOUNT</th>
+                                <th style="width: 5%">ACTION</th>
                             </tr>
+                            @foreach($data as $row)
+                            <tr>
+                                <td>{{$row->date}}</td>
+                                <td>{{$row->type}}</td>
+                                <td>{{$row->type2}}</td>
+                                <td>{{$row->quantity}}</td>
+                                <td>{{$row->price}}</td>
+                                <td>{{$row->totalamount}}</td>
+                            </tr>
+                            @endforeach
                         </table>
                     </div>
                 </div>
