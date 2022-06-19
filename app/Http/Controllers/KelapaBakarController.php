@@ -16,11 +16,11 @@ class KelapaBakarController extends Controller
         return view('kelapabakar.list', ['data' => $data]);
     }
 
-    public function save(Request $request) {
+    public function show(Request $request) {
 
     }
 
-    public function delete(Request $request) {
+    public function save(Request $request) {
 
     }
 

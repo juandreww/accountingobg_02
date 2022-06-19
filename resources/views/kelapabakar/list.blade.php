@@ -171,13 +171,13 @@
                     <div class="card-body">
                         <table class="table table-bordered">
                             <tr>
-                                <th style="width: 20%">TANGGAL</th>
+                                <th style="width: 12%">TANGGAL</th>
                                 <th style="width: 10%">MASUK/KELUAR</th>
                                 <th style="width: 10%">BIASA/BAKAR</th>
                                 <th style="width: 10%">QUANTITY</th>
                                 <th style="width: 20%">PRICE</th>
                                 <th style="width: 25%">TOTALAMOUNT</th>
-                                <th style="width: 5%">ACTION</th>
+                                <th style="width: 13%">ACTION</th>
                             </tr>
                             @foreach($data as $row)
                             <tr>
@@ -187,6 +187,15 @@
                                 <td>{{$row->quantity}}</td>
                                 <td>{{$row->price}}</td>
                                 <td>{{$row->totalamount}}</td>
+                                <td>
+                                    @php
+                                        $urledit = '/kelapabakar/show?id=' . $row->uid;
+                                        $urldelete = '/kelapabakar/delete?id=' . $row->uid;
+                                    @endphp
+                                    <a href="{{$urledit}}">Edit</a>
+                                    |
+                                    <a href="{{$urldelete}}">Delete</a>
+                                </td>
                             </tr>
                             @endforeach
                         </table>
