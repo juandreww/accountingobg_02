@@ -103,16 +103,22 @@
 
         .content-body .container {
             border: 2px solid black;
+            padding: 0;
             height: 100%;
             height: 780px;
             max-height: 780px;
             max-width: 1280px;
-            padding-left: 10px;
-            padding-right: 10px;
             background-color: white;
             position: fixed;
             left: 100px;
             top: 100px;
+        }
+
+        .content-body .container .card {
+            border: none;
+        }
+        .content-body .container .card .card-body {
+            padding: 10px;
         }
 
         .content-addtransaction .container {
@@ -127,6 +133,10 @@
             position: fixed;
             left: 1400px;
             top: 100px;
+        }
+
+        table {
+            width: 100%;
         }
 
 
@@ -159,7 +169,16 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        a
+                        <table class="table table-bordered">
+                            <tr>
+                                <th style="width: 20%">TANGGAL</th>
+                                <th style="width: 10%">MASUK/KELUAR</th>
+                                <th style="width: 10%">BIASA/BAKAR</th>
+                                <th style="width: 10%">QUANTITY</th>
+                                <th style="width: 20%">PRICE</th>
+                                <th style="width: 30%">TOTALAMOUNT</th>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>

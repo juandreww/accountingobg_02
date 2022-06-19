@@ -12,8 +12,8 @@ use Maatwebsite\Excel\Facades\Excel;
 class KelapaBakarController extends Controller
 {
     public function list(Request $request) {
-        // $data = KelapaBakar::get();
-        return view('kelapabakar.list');
+        $data = KelapaBakar::get();
+        return view('kelapabakar.list', ['data' => $data]);
     }
 
     public function save(Request $request) {
