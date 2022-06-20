@@ -162,6 +162,21 @@
             /* align-items: center; */
         }
 
+        select {
+            padding: .375rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-clip: padding-box;
+            /* appearance: none; */
+            display: block;
+            width: 100%;
+            background-color: #fff;
+            border-radius: .25rem;
+            border: 1px solid #ced4da;
+        }
+
     </style>
     {{-- CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -252,7 +267,10 @@
                                     <div class="form-group col-6">
                                         <label for="type2"><strong>Biasa/Bakar</strong></label>
                                         <div class="form-label-padding"></div>
-                                        <input type="text" class="form-control" id="type2" name="type2">
+                                        <select name="type2" id="type2">
+                                            <option value="biasa">Biasa</option>
+                                            <option value="bakar">Bakar</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-padding"></div>
