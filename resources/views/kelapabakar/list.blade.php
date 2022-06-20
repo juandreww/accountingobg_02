@@ -161,7 +161,7 @@
             background-color:#2E7D32 !important;
             color: white !important;
             font-size: 24px;
-            padding : 16px 18px 16px 18px !important;
+            padding : 12px 18px 12px 18px !important;
         }
 
         select {
