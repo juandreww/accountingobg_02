@@ -157,9 +157,7 @@
         }
 
         .submit-addtransaction {
-            display: flex;
-            justify-content: right;
-            /* align-items: center; */
+            float: right;
         }
 
         select {
