@@ -136,6 +136,17 @@
             padding: 0;
         }
 
+        .content-addtransaction .container .card .card-body {
+            padding: 20px;
+        }
+        .form-padding {
+            padding-top: 10px;
+        }
+
+        .form-label-padding {
+            padding-bottom: 5px;
+        }
+
         table {
             width: 100%;
         }
@@ -143,6 +154,12 @@
         #title-addtransaction {
             text-align: center;
             width: 100%;
+        }
+
+        .submit-addtransaction {
+            display: flex;
+            justify-content: right;
+            /* align-items: center; */
         }
 
     </style>
@@ -190,8 +207,8 @@
                                 <td>{{$row->type}}</td>
                                 <td>{{$row->type2}}</td>
                                 <td>{{$row->quantity}}</td>
-                                <td>{{$row->price}}</td>
-                                <td>{{$row->totalamount}}</td>
+                                <td>{{number_format($row->price,2)}}</td>
+                                <td>{{number_format($row->totalamount,2)}}</td>
                                 <td>
                                     @php
                                         $urledit = '/kelapabakar/show?id=' . $row->uid;
@@ -213,6 +230,52 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 id="title-addtransaction">TAMBAH TRANSAKSI</h2>
+                        <form action="kelapabakar/save" method="post">
+                            {{ csrf_field() }}
+                            <table>
+                                <div class="form-group">
+                                    <label for="date"><strong>Tanggal</strong></label>
+                                    <div class="form-label-padding"></div>
+                                    <input type="date" class="form-control" id="date" name="date">
+                                </div>
+                                <div class="form-padding"></div>
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label for="type"><strong>Masuk/Keluar</strong></label>
+                                        <div class="form-label-padding"></div>
+                                        <input type="text" class="form-control" id="type" name="type">
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label for="type2"><strong>Biasa/Bakar</strong></label>
+                                        <div class="form-label-padding"></div>
+                                        <input type="text" class="form-control" id="type2" name="type2">
+                                    </div>
+                                </div>
+                                <div class="form-padding"></div>
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label for="quantity"><strong>Quantity</strong></label>
+                                        <div class="form-label-padding"></div>
+                                        <input type="text" class="form-control" id="quantity" name="quantity">
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label for="price"><strong>Price</strong></label>
+                                        <div class="form-label-padding"></div>
+                                        <input type="text" class="form-control" id="price" name="price">
+                                    </div>
+                                </div>
+                                <div class="form-padding"></div>
+                                <div class="form-group">
+                                    <label for="totalamount"><strong>Total Amount</strong></label>
+                                    <div class="form-label-padding"></div>
+                                    <input type="text" class="form-control" id="totalamount" name="totalamount">
+                                </div>
+                                <div class="form-padding"></div>
+                                <div class="form-group">
+                                    <input class="btn btn-primary submit-addtransaction" type="submit" value="Submit">
+                                </div>
+                            </table>
+                        </form>
                     </div>
                 </div>
             </div>

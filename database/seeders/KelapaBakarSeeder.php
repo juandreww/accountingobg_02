@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use \App\Models\KelapaBakar;
 
 class KelapaBakarSeeder extends Seeder
 {
@@ -14,6 +15,6 @@ class KelapaBakarSeeder extends Seeder
      */
     public function run()
     {
-        //
+        KelapaBakar::factory(20)->create();
     }
 }
