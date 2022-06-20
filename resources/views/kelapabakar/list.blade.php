@@ -243,7 +243,11 @@
                                     <div class="form-group col-6">
                                         <label for="type"><strong>Masuk/Keluar</strong></label>
                                         <div class="form-label-padding"></div>
-                                        <input type="text" class="form-control" id="type" name="type">
+                                        <select name="type" id="type">
+                                            <option value="masuk">Masuk</option>
+                                            <option value="keluar">Keluar</option>
+                                        </select>
+                                        {{-- <input type="text" class="form-control" id="type" name="type"> --}}
                                     </div>
                                     <div class="form-group col-6">
                                         <label for="type2"><strong>Biasa/Bakar</strong></label>
