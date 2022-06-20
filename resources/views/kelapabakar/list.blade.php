@@ -158,6 +158,10 @@
 
         .submit-addtransaction {
             float: right;
+            background-color:#2E7D32 !important;
+            color: white !important;
+            font-size: 24px;
+            padding : 16px 18px 16px 18px !important;
         }
 
         select {
@@ -292,7 +296,7 @@
                                 </div>
                                 <div class="form-padding"></div>
                                 <div class="form-group">
-                                    <input class="btn btn-primary submit-addtransaction" type="submit" value="Submit">
+                                    <input class="btn submit-addtransaction" type="submit" value="Submit">
                                 </div>
                             </table>
                         </form>
