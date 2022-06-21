@@ -27,7 +27,7 @@ class KelapaBakarController extends Controller
         // $request = $request->getContent();
         $now = now()->addHours(7)->toDateTimeString();
         $uuid = Str::uuid()->toString();
-        $data = new UsingMoney();
+        $data = new KelapaBakar();
         $data->uid = $uuid;
         $data->created_at = $now;
         $data->date = $request->date;
