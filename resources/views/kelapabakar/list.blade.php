@@ -119,14 +119,15 @@
             border: none;
         }
         .content-body .container .card .card-body {
-            padding: 10px;
+            /* padding: 0px 10px 0px 10px; */
+            padding: 0px;
         }
 
         .content-addtransaction .container {
             border: 2px solid black;
             height: 100%;
-            height: 720px;
-            max-height: 720px;
+            height: 640px;
+            max-height: 640px;
             max-width: 500px;
             padding-left: 10px;
             padding-right: 10px;
@@ -249,7 +250,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 id="title-addtransaction">TAMBAH TRANSAKSI</h2>
-                        <form action="kelapabakar/save" method="post">
+                        <form action="/kelapabakar/save" method="post">
                             {{ csrf_field() }}
                             <table>
                                 <div class="form-group">
