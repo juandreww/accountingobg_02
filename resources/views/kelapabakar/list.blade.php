@@ -112,6 +112,7 @@
             position: fixed;
             left: 100px;
             top: 100px;
+            overflow: auto;
         }
 
         .content-body .container .card {
@@ -149,6 +150,7 @@
 
         table {
             width: 100%;
+            /* overflow: auto; */
         }
 
         #title-addtransaction {
