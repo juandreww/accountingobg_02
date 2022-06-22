@@ -18,9 +18,6 @@ class KelapaBakarController extends Controller
     }
 
     public function show(Request $request) {
-        $faker = Faker::create('id_ID');
-
-        dd($date);
     }
 
     public function save(Request $request) {
