@@ -43,7 +43,7 @@ class KelapaBakarController extends Controller
 
     }
 
-    public function deletefile(Request $request) {
+    public function delete(Request $request) {
 
     }
 }
