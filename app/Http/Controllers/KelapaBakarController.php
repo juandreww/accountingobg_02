@@ -17,6 +17,10 @@ class KelapaBakarController extends Controller
         return view('kelapabakar.list', ['data' => $data]);
     }
 
+    public function dashboard(Request $requesst) {
+        return view('kelapabakar.dashboard');
+    }
+
     public function show(Request $request) {
     }
 

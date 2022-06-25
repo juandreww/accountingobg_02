@@ -191,10 +191,10 @@
 <body>
     <div class="sidenav">
         <li><a href="#"><div class="sidenav-button" id="upper-sidenav-button"><img src="{{ URL::to('/assets/img/logo_black_32.png') }}"></div></a></li>
-        <li><a href="/usingmoney/list"><span class="material-symbols-outlined md-36 sidenav-button">house</span></a></li>
-        <li><a href="/usingmoney/report"><span class="material-symbols-outlined md-36 sidenav-button">receipt_long</span></a></li>
-        <li><a href="/usingmoney/formtransaction"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
-        <li><a href="/usingmoney/dashboard"><span class="material-symbols-outlined md-36 sidenav-button">logout</span></a></li>
+        <li><a href="/kelapabakar/dashboard"><span class="material-symbols-outlined md-36 sidenav-button">house</span></a></li>
+        <li><a href="/kelapabakar/list"><span class="material-symbols-outlined md-36 sidenav-button">receipt_long</span></a></li>
+        <li><a href="/kelapabakar/report"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
+        <li><a href="/kelapabakar/logout"><span class="material-symbols-outlined md-36 sidenav-button">logout</span></a></li>
     </div>
     <div class="content">
         <div class="content-header">
