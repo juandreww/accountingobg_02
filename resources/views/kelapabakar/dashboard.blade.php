@@ -146,6 +146,29 @@
             padding: 10px;
         }
 
+        .ct_upload .container {
+            border: 2px solid black;
+            height: 100%;
+            height: 480px;
+            max-height: 480px;
+            max-width: 480px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+            position: fixed;
+            left: 1100px;
+            top: 100px;
+            padding: 0;
+        }
+
+        .ct_upload .container .card {
+            border: none;
+        }
+
+        .ct_upload .container .card .card-body {
+            padding: 10px;
+        }
+
 
 
     </style>
@@ -203,15 +226,9 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        @section('scripts')
-                        <script>
-                            // Get a reference to the file input element
-                            const inputElement = document.querySelector('input[id="avatar"]');
-
-                            // Create a FilePond instance
-                            const pond = FilePond.create(inputElement);
-                        </script>
-                        @endsection
+                        <h3><strong>Upload Nota:</strong></h3>
+                        <input type="file" name="avatar" id="avatar">
+                        @yield('scripts')
                     </div>
                 </div>
             </div>
