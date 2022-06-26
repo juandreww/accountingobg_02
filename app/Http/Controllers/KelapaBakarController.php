@@ -23,7 +23,7 @@ class KelapaBakarController extends Controller
         $data = KelapaBakar::get();
         $das_stockremaining = $this->calculateStockRemaining($data);
         $das_totalpurchase = $this->totalSales($data);
-        return view('kelapabakar.dashboard', ['das_stockremaining' => $das_stockremaining]);
+        return view('kelapabakar.dashboard', ['das_stockremaining' => $das_stockremaining, 'das_totalpurchase' => $das_totalpurchase]);
     }
 
     private function calculateStockRemaining($data) {

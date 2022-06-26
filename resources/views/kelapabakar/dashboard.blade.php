@@ -187,11 +187,11 @@
                 <div class="card">
                     <div class="card-body">
                         <h3><strong>Total Pembelian Kelapa:</strong></h3>
-                        <p>2550 buah</p>
+                        <p>{{$das_totalpurchase->purchase}} buah</p>
                         <h3><strong>Total Penjualan Kelapa Biasa:</strong></h3>
-                        <p>700 buah</p>
+                        <p>{{$das_totalpurchase->nsales}} buah</p>
                         <h3><strong>Total Penjualan Kelapa Bakar:</strong></h3>
-                        <p>1850 buah</p>
+                        <p>{{$das_totalpurchase->msales}} buah</p>
                     </div>
                 </div>
             </div>
