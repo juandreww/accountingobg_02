@@ -251,7 +251,12 @@
         const pond = FilePond.create(inputElement);
 
         FilePond.setOptions({
-            server: '/kelabakar/upload',
+            server: {
+                url: '/upload',
+                headers: {
+                    'X-CSRF-TOKEN' : '{{csrf_token()}}'
+                }
+            }
         });
     </script>
 </body>

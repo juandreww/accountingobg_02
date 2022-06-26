@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\UsingMoneyController;
 use App\Http\Controllers\KelapaBakarController;
+use App\Http\Controllers\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,5 +55,9 @@ Route::controller(KelapaBakarController::class)->group(function() {
     Route::get('/kelapabakar/dashboard', 'dashboard');
     Route::get('/kelapabakar/show', 'show');
     Route::post('/kelapabakar/save', 'save');
+});
+
+Route::controller(UploadController::class)->group(function() {
+    Route::post('/upload', 'store');
 });
 
