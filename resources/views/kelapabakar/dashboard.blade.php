@@ -120,10 +120,33 @@
         }
 
         .ct_stockremaining .container .card .card-body {
-            padding: 0px;
+            padding: 10px;
         }
 
-        
+        .ct_totalpurchase .container {
+            border: 2px solid black;
+            height: 100%;
+            height: 480px;
+            max-height: 480px;
+            max-width: 480px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+            position: fixed;
+            left: 600px;
+            top: 100px;
+            padding: 0;
+        }
+
+        .ct_totalpurchase .container .card {
+            border: none;
+        }
+
+        .ct_totalpurchase .container .card .card-body {
+            padding: 10px;
+        }
+
+
 
     </style>
     {{-- CSS --}}
@@ -153,7 +176,8 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        a
+                        <h2><strong>Sisa Stock Kelapa Hari Ini:</strong></h2><br>
+                        <p>30 buah</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +186,12 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        b
+                        <h2><strong>Total Pembelian Kelapa:</strong></h2>
+                        <p>2550 buah</p>
+                        <h2><strong>Total Penjualan Kelapa Biasa:</strong></h2>
+                        <p>700 buah</p>
+                        <h2><strong>Total Penjualan Kelapa Bakar:</strong></h2>
+                        <p>1850 buah</p>
                     </div>
                 </div>
             </div>
