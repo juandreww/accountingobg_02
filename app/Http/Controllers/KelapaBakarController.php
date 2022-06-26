@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use stdClass;
 use \Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use \App\Models\KelapaBakar;
@@ -9,6 +10,7 @@ use \App\Models\User;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 use Faker\Factory as Faker;
+
 
 class KelapaBakarController extends Controller
 {
@@ -20,16 +22,35 @@ class KelapaBakarController extends Controller
     public function dashboard(Request $requesst) {
         $data = KelapaBakar::get();
         $das_stockremaining = $this->calculateStockRemaining($data);
-        $das_totalpurchase = $this->totalPurchase($data);
-        return view('kelapabakar.dashboard');
+        $das_totalpurchase = $this->totalSales($data);
+        return view('kelapabakar.dashboard', ['das_stockremaining' => $das_stockremaining]);
     }
 
     private function calculateStockRemaining($data) {
-
+        $tot_purchase = 0;
+        $tot_sales = 0;
+        foreach ($data as $d) {
+            if (strtolower($d->type) == 'masuk') $tot_purchase+= $d->quantity;
+            elseif (strtolower($d->type) == 'keluar') $tot_purchase+= $d->quantity;
+        }
+        $total = $tot_purchase - $tot_sales;
+        return $total;
     }
 
-    private function totalPurchase($data) {
-
+    private function totalSales($data) {
+        $obj = new stdClass();
+        $tot_purchase = 0;
+        $tot_nsales = 0;
+        $tot_msales = 0;
+        foreach ($data as $d) {
+            if (strtolower($d->type) == 'masuk') $tot_purchase+= $d->quantity;
+            elseif (strtolower($d->type) == 'keluar' && strtolower($d->type2) == 'biasa') $tot_nsales+= $d->quantity;
+            elseif (strtolower($d->type) == 'keluar' && strtolower($d->type2) == 'bakar') $tot_msales+= $d->quantity;
+        }
+        $obj->purchase = $tot_purchase;
+        $obj->nsales = $tot_nsales;
+        $obj->msales = $tot_msales;
+        return $obj;
     }
 
     public function show(Request $request) {

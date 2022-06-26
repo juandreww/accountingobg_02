@@ -177,7 +177,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h3><strong>Sisa Stock Kelapa Hari Ini:</strong></h3>
-                        <p>30 buah</p>
+                        <p>{{$das_stockremaining}} buah</p>
                     </div>
                 </div>
             </div>
