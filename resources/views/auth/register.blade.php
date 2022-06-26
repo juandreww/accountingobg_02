@@ -75,13 +75,5 @@
     </div>
 </div>
 
-@section('scripts')
-<script>
-    // Get a reference to the file input element
-    const inputElement = document.querySelector('input[id="avatar"]');
 
-    // Create a FilePond instance
-    const pond = FilePond.create(inputElement);
-</script>
-@endsection
 @endsection
