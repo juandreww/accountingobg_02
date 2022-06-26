@@ -176,7 +176,7 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        <h2><strong>Sisa Stock Kelapa Hari Ini:</strong></h2><br>
+                        <h3><strong>Sisa Stock Kelapa Hari Ini:</strong></h3>
                         <p>30 buah</p>
                     </div>
                 </div>
@@ -186,11 +186,11 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        <h2><strong>Total Pembelian Kelapa:</strong></h2>
+                        <h3><strong>Total Pembelian Kelapa:</strong></h3>
                         <p>2550 buah</p>
-                        <h2><strong>Total Penjualan Kelapa Biasa:</strong></h2>
+                        <h3><strong>Total Penjualan Kelapa Biasa:</strong></h3>
                         <p>700 buah</p>
-                        <h2><strong>Total Penjualan Kelapa Bakar:</strong></h2>
+                        <h3><strong>Total Penjualan Kelapa Bakar:</strong></h3>
                         <p>1850 buah</p>
                     </div>
                 </div>
