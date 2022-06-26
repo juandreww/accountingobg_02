@@ -235,11 +235,24 @@
         </div>
     </div>
 
+    <!-- Load FilePond library -->
+    <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
     {{-- JS --}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    <!-- Load FilePond library -->
-    <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
+    <script>
+        // Get a reference to the file input element
+        const inputElement =  document.querySelector('input[id="avatar"]');
+
+        // Create a FilePond instance
+        const pond = FilePond.create(inputElement);
+
+        FilePond.setOptions({
+            server: '/kelabakar/upload',
+        });
+    </script>
 </body>
 </html>
