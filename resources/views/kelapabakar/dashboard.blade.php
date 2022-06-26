@@ -108,6 +108,18 @@
         <li><a href="/kelapabakar/report"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
         <li><a href="/kelapabakar/logout"><span class="material-symbols-outlined md-36 sidenav-button">logout</span></a></li>
     </div>
+    <div class="content">
+        <div class="content-header">
+            <div class="table table-responsive col-12 row">
+                <div class="h-col col-1"></div>
+                <div class="h-col col-2" id="h-total"><strong>KEDAI KELAPA BAKAR</strong></div>
+                <div class="h-col col-1" id="h-logo"></div>
+                <div class="h-col col-4"></div>
+                <div class="h-col col-2" id="h-buttonadd"> </div>
+                <div class="h-col col-2"></div>
+            </div>
+        </div>
+    </div>
 
     {{-- JS --}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
