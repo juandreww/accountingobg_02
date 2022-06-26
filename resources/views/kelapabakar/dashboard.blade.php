@@ -58,7 +58,7 @@
             color: #f2c75b;
         }
 
-        .content .content-header {
+        .ct .ct_header {
             height: 80px;
             width: 100%;
             position: fixed;
@@ -70,7 +70,7 @@
             background-color: white;
         }
 
-        .content .content-header .table {
+        .ct .ct_header .table {
             border-collapse: collapse;
             height: 80px;
             max-height: 80px;
@@ -78,7 +78,7 @@
             margin-bottom: 0px;
         }
 
-        .content .content-header .table > :not(:first-child) {
+        .ct .ct_header .table > :not(:first-child) {
             border-top: 0px;
         }
 
@@ -95,6 +95,36 @@
             align-items: center;
         }
 
+        .ct .ct_stockremaining {
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 20px;
+        }
+
+        .ct_stockremaining .container {
+            border: 2px solid black;
+            padding: 0;
+            height: 100%;
+            height: 480px;
+            max-height: 480px;
+            max-width: 480px;
+            background-color: white;
+            position: fixed;
+            left: 100px;
+            top: 100px;
+            overflow: auto;
+        }
+
+        .ct_stockremaining .container .card {
+            border: none;
+        }
+
+        .ct_stockremaining .container .card .card-body {
+            padding: 0px;
+        }
+
+        
+
     </style>
     {{-- CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -108,8 +138,8 @@
         <li><a href="/kelapabakar/report"><span class="material-symbols-outlined md-36 sidenav-button">account_balance_wallet</span></a></li>
         <li><a href="/kelapabakar/logout"><span class="material-symbols-outlined md-36 sidenav-button">logout</span></a></li>
     </div>
-    <div class="content">
-        <div class="content-header">
+    <div class="ct">
+        <div class="ct_header">
             <div class="table table-responsive col-12 row">
                 <div class="h-col col-1"></div>
                 <div class="h-col col-2" id="h-total"><strong>KEDAI KELAPA BAKAR</strong></div>
@@ -117,6 +147,24 @@
                 <div class="h-col col-4"></div>
                 <div class="h-col col-2" id="h-buttonadd"> </div>
                 <div class="h-col col-2"></div>
+            </div>
+        </div>
+        <div class="ct_stockremaining">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        a
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ct_totalpurchase">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        b
+                    </div>
+                </div>
             </div>
         </div>
     </div>
