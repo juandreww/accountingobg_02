@@ -12,7 +12,6 @@ class UploadController extends Controller
             $filename = $file->getClientOriginalName();
             $folder = now()->timestamp . '-' .uniqid();
             $file->storeAs('avatars/tmp/' . $folder, $filename);
-
             return $folder;
         }
     }
