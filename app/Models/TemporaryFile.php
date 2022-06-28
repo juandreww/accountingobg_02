@@ -10,5 +10,4 @@ class TemporaryFile extends Model
     use HasFactory;
 
     protected $fillable = ['filename'];
-
 }
