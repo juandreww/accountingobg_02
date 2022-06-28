@@ -13,6 +13,7 @@ class UploadController extends Controller
             $folder = now()->timestamp . '-' .uniqid();
             $file->storeAs('avatars/tmp/' . $folder, $filename);
             return $folder;
+
         }
     }
 }
