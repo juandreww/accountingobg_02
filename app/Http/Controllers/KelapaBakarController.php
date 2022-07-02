@@ -82,4 +82,8 @@ class KelapaBakarController extends Controller
     public function delete(Request $request) {
 
     }
+
+    public function display1(Request $request) {
+
+    }
 }
