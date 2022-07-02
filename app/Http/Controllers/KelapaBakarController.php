@@ -84,6 +84,6 @@ class KelapaBakarController extends Controller
     }
 
     public function display1(Request $request) {
-
+        return view('kelapabakar.display1');
     }
 }
