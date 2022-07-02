@@ -69,8 +69,9 @@
 
         .kb_tomorrow {
             display: inline-block;
-            position: relative;
+            position: absolute;
             height: 100%;
+            left: 240px;
             width: 200px;
             background-color: #f5f5f5;
             margin-left: 10px;
@@ -80,8 +81,9 @@
 
         .kb_nextweek {
             display: inline-block;
-            position: relative;
+            position: absolute;
             height: 100%;
+            left: 480px;
             width: 200px;
             background-color: #f5f5f5;
             margin-left: 10px;
@@ -91,8 +93,9 @@
 
         .kb_done {
             display: inline-block;
-            position: relative;
+            position: absolute;
             height: 100%;
+            left: 720px;
             width: 200px;
             background-color: #f5f5f5;
             margin-left: 10px;
@@ -105,19 +108,21 @@
             width: 100%;
             padding: 2px;
             color: grey;
-            font-size: 14px;
+            font-size: 16px;
             margin-bottom: 20px
         }
 
         #kb_today_content {
             display: inline-block;
             height: 50px;
-            width: 195px;
-            background-color: bisque;
+            max-height: 50px;
+            width: 180px;
+            background-color: #fff;
             font-size: 16px;
-            padding: 2px;
+            padding: 5px 10px 5px 10px;
             margin-top: 5px;
             margin-bottom: 5px;
+            border: 2px solid #888888;
         }
 
     </style>
@@ -131,15 +136,33 @@
         <div class="kb_today">
             <span id="kb_header">Kanban Today</span>
             <span id="kb_today_content">Beli Jeruk 10 pcs</span>
-            {{-- <span id="kb_today_content">Beli Apel 10 pcs</span>
+            <span id="kb_today_content">Beli Apel 10 pcs</span>
             <span id="kb_today_content">Beli Anggur 10 pcs</span>
             <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
             <span id="kb_today_content">Masukkan Jeruk, Apel, Anggur ke Kulkas</span>
-            <span id="kb_today_content">Kupas Anggur 5 pcs</span> --}}
+            <span id="kb_today_content">Kupas Anggur 5 pcs</span>
         </div>
-        <div class="kb_tomorrow"><span id="kb_header">Kanban Tomorrow</span>a<br>d</div>
-        {{--<div class="kb_nextweek"><span id="kb_header">Kanban NextWeek</span>c</div>
-        <div class="kb_done"><span id="kb_header">Kanban Done</span>d</div> --}}
+        <div class="kb_tomorrow">
+            <span id="kb_header">Kanban Tomorrow</span>
+            <span id="kb_today_content">Beli Mangga & Pear 10 pcs</span>
+            <span id="kb_today_content">Sajikan 6 pcs Mangga di ruang tamu</span>
+            <span id="kb_today_content">Berikan 8 pcs Pear ke tetangga</span>
+            <span id="kb_today_content">Jus 2 pcs Pear</span>
+        </div>
+        <div class="kb_nextweek">
+            <span id="kb_header">Kanban NextWeek</span>
+            <span id="kb_today_content">Beli Apel 30 pcs</span>
+            <span id="kb_today_content">Sajikan 16 pcs Apel di ruang tamu</span>
+            <span id="kb_today_content">Beri makan kucing 2 pcs Apel</span>
+            <span id="kb_today_content">Buat adonan kue dengan 2 pcs Apel</span>
+        </div>
+        <div class="kb_done">
+            <span id="kb_header">Kanban Done</span>
+            <span id="kb_today_content">Kembalikan 5 pcs Apel berbau ke pasar</span>
+            <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
+            <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
+            <span id="kb_today_content">Buat milkshake dg 1 pcs Pisang</span>
+        </div>
     </div>
 </body>
 </html>
