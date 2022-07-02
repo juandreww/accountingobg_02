@@ -58,7 +58,7 @@
 
         .kb_today {
             display: inline-block;
-            position: relative;
+            position: absolute;
             height: 100%;
             width: 200px;
             background-color: #f5f5f5;
@@ -101,8 +101,23 @@
         }
 
         #kb_header {
-            display: block;
+            display: inline-block;
+            width: 100%;
+            padding: 2px;
+            color: grey;
+            font-size: 14px;
+            margin-bottom: 20px
+        }
 
+        #kb_today_content {
+            display: inline-block;
+            height: 50px;
+            width: 195px;
+            background-color: bisque;
+            font-size: 16px;
+            padding: 2px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
     </style>
@@ -113,10 +128,18 @@
     <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">This is Content Header</div>
     <div class="ct_body">
-        <div class="kb_today"><span id="kb_header">Kanban Today</span></div>
-        <div class="kb_tomorrow"><span id="kb_header">Kanban Tomorrow</span></div>
-        <div class="kb_nextweek"><span id="kb_nextweek">Kanban NextWeek</span></div>
-        <div class="kb_done"><span id="kb_done">Kanban Done</span></div>
+        <div class="kb_today">
+            <span id="kb_header">Kanban Today</span>
+            <span id="kb_today_content">Beli Jeruk 10 pcs</span>
+            {{-- <span id="kb_today_content">Beli Apel 10 pcs</span>
+            <span id="kb_today_content">Beli Anggur 10 pcs</span>
+            <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
+            <span id="kb_today_content">Masukkan Jeruk, Apel, Anggur ke Kulkas</span>
+            <span id="kb_today_content">Kupas Anggur 5 pcs</span> --}}
+        </div>
+        {{-- <div class="kb_tomorrow"><span id="kb_header">Kanban Tomorrow</span>a<br>d</div>
+        <div class="kb_nextweek"><span id="kb_header">Kanban NextWeek</span>c</div>
+        <div class="kb_done"><span id="kb_header">Kanban Done</span>d</div> --}}
     </div>
 </body>
 </html>
