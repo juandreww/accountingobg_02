@@ -27,19 +27,22 @@
             position: fixed;
             top: 40px;
             background-color: #fafbfd;
+
+        }
+
+        .pg_sidenav {
             display: inline-block;
             height: 100%;
             width: 150px;
         }
 
         .ct_header {
-            /* position: fixed; */
+            display: inline-block;
             top: 40px;
-            /* left: 150px; */
         }
 
         .ct_body {
-            /* position: fixed; */
+            display: inline-block;
             top: 60px;
             /* left: 150px; */
         }
