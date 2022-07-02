@@ -137,8 +137,8 @@
             <span id="kb_today_content">Masukkan Jeruk, Apel, Anggur ke Kulkas</span>
             <span id="kb_today_content">Kupas Anggur 5 pcs</span> --}}
         </div>
-        {{-- <div class="kb_tomorrow"><span id="kb_header">Kanban Tomorrow</span>a<br>d</div>
-        <div class="kb_nextweek"><span id="kb_header">Kanban NextWeek</span>c</div>
+        <div class="kb_tomorrow"><span id="kb_header">Kanban Tomorrow</span>a<br>d</div>
+        {{--<div class="kb_nextweek"><span id="kb_header">Kanban NextWeek</span>c</div>
         <div class="kb_done"><span id="kb_header">Kanban Done</span>d</div> --}}
     </div>
 </body>
