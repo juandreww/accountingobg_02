@@ -7,9 +7,8 @@
     <title>Display: 1</title>
     <style>
         .div1 {
-            background-color: teal;
+            background-color: whitesmoke;
             display:block;
-            height: 150px;
         }
 
         #span1 {
