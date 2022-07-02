@@ -65,6 +65,7 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 8px;
+            border-radius: 12px 12px 0px 0px;
         }
 
         .kb_tomorrow {
@@ -77,6 +78,7 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 8px;
+            border-radius: 12px 12px 0px 0px;
         }
 
         .kb_nextweek {
@@ -89,6 +91,7 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 8px;
+            border-radius: 12px 12px 0px 0px;
         }
 
         .kb_done {
@@ -101,6 +104,7 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 8px;
+            border-radius: 12px 12px 0px 0px;
         }
 
         #kb_header {
@@ -108,7 +112,7 @@
             width: 100%;
             padding: 2px;
             color: grey;
-            font-size: 16px;
+            font-size: 14px;
             margin-bottom: 20px
         }
 
@@ -116,13 +120,20 @@
             display: inline-block;
             height: 50px;
             max-height: 50px;
-            width: 180px;
+            width: 177px;
             background-color: #fff;
-            font-size: 16px;
+            font-size: 14px;
             padding: 5px 10px 5px 10px;
             margin-top: 5px;
             margin-bottom: 5px;
             border: 2px solid #888888;
+            border-radius: 4px 4px 4px 4px;
+            box-shadow: 1px 1px 1px #888888;
+        }
+
+        #checklist {
+            color: green;
+            font-size: 16px;
         }
 
     </style>
@@ -131,33 +142,42 @@
     <div class="pg_header">This is page Header</div>
     <div class="pg_sidenav">This is page Sidenav</div>
     <div class="pg_sidenav_shadow"></div>
-    <div class="ct_header">This is Content Header</div>
+    <div class="ct_header">
+        <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
+        <div class="ct_header_title">OD Board</div>
+        <div class="ct_header_searchcontainer">
+            <form action="/action">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
     <div class="ct_body">
         <div class="kb_today">
-            <span id="kb_header">Kanban Today</span>
+            <span id="kb_header">KANBAN TODAY</span>
             <span id="kb_today_content">Beli Jeruk 10 pcs</span>
             <span id="kb_today_content">Beli Apel 10 pcs</span>
             <span id="kb_today_content">Beli Anggur 10 pcs</span>
             <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
-            <span id="kb_today_content">Masukkan Jeruk, Apel, Anggur ke Kulkas</span>
+            <span id="kb_today_content">Masukkan Jeruk & Anggur ke Kulkas</span>
             <span id="kb_today_content">Kupas Anggur 5 pcs</span>
         </div>
         <div class="kb_tomorrow">
-            <span id="kb_header">Kanban Tomorrow</span>
+            <span id="kb_header">KANBAN TOMORROW</span>
             <span id="kb_today_content">Beli Mangga & Pear 10 pcs</span>
             <span id="kb_today_content">Sajikan 6 pcs Mangga di ruang tamu</span>
             <span id="kb_today_content">Berikan 8 pcs Pear ke tetangga</span>
             <span id="kb_today_content">Jus 2 pcs Pear</span>
         </div>
         <div class="kb_nextweek">
-            <span id="kb_header">Kanban NextWeek</span>
+            <span id="kb_header">KANBAN NEXTWEEK</span>
             <span id="kb_today_content">Beli Apel 30 pcs</span>
             <span id="kb_today_content">Sajikan 16 pcs Apel di ruang tamu</span>
             <span id="kb_today_content">Beri makan kucing 2 pcs Apel</span>
             <span id="kb_today_content">Buat adonan kue dengan 2 pcs Apel</span>
         </div>
         <div class="kb_done">
-            <span id="kb_header">Kanban Done</span>
+            <span id="kb_header">KANBAN DONE<span id="checklist">&nbsp;&nbsp;&nbsp;&nbsp;✓</span></span>
             <span id="kb_today_content">Kembalikan 5 pcs Apel berbau ke pasar</span>
             <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
             <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
