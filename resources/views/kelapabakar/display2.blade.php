@@ -52,6 +52,51 @@
             position: fixed;
             top: 300px;
             left: 260px;
+            height: 100%;
+        }
+
+        .kb_today {
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            width: 200px;
+            background-color: #f5f5f5;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 8px;
+        }
+
+        .kb_tomorrow {
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            width: 200px;
+            background-color: #f5f5f5;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 8px;
+        }
+
+        .kb_nextweek {
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            width: 200px;
+            background-color: #f5f5f5;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 8px;
+        }
+
+        .kb_done {
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            width: 200px;
+            background-color: #f5f5f5;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 8px;
         }
     </style>
 </head>
@@ -61,7 +106,10 @@
     <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">This is Content Header</div>
     <div class="ct_body">
-        This is Content Body
+        <div class="kb_today">Kanban Today</div>
+        <div class="kb_tomorrow">Kanban Tomorrow</div>
+        <div class="kb_nextweek">Kanban NextWeek</div>
+        <div class="kb_done">Kanban Done</div>
     </div>
 </body>
 </html>
