@@ -36,7 +36,12 @@
     </style>
 </head>
 <body>
-    <div class="div1">this is div1 Layer 1</div>
+    <div class="div1">
+        this is div1 Layer 1
+        <div class="div1a">
+            this is div1a Layer 6
+        </div>
+    </div>
     <span id="span1">this is span1 Layer 2</span>
     <img src="{{ URL::to('/assets/img/logo_black_32.png') }}" alt="" id="img">
     <span id="span2">this is span2 Layer 4</span>
