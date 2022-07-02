@@ -48,7 +48,7 @@
 <body>
     <div class="pg_header">This is Page Header</div>
     <div class="pg_body">
-        <div class="pg_sidenav"></div>
+        <div class="pg_sidenav">This is Page Sidenav</div>
         <div class="ct_header">This is Content Header</div>
         <div class="ct_body">This is Content Body</div>
     </div>
