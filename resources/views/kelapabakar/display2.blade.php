@@ -50,7 +50,7 @@
 
         .ct_body {
             position: fixed;
-            top: 450px;
+            top: 300px;
             left: 260px;
         }
     </style>
