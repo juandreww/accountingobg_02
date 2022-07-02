@@ -12,7 +12,7 @@
             /* background-color: #e4e4e4 !important; */
         }
         .pg_header {
-            height: 40px;
+            height: 80px;
             width: 100%;
             position: fixed;
             z-index: 1;
@@ -25,28 +25,40 @@
 
         .pg_sidenav {
             position: fixed;
-            top: 40px;
+            top: 80px;
             background-color: #fafbfd;
-            display: inline-block;
             height: 100%;
-            width: 150px;
+            width: 250px;
+
+        }
+        .pg_sidenav_shadow {
+            position: fixed;
+            top: 80px;
+            left: 250px;
+            background-color: #d9d9d9;
+            width: 0.5px;
+            height: 100%;
+            box-shadow: -0.1px 0px 1px #888888;
         }
 
         .ct_header {
-            display: inline-block;
-            top: 40px;
+            position: fixed;
+            top: 80px;
+            left: 260px;
+            height: 200px;
         }
 
         .ct_body {
-            display: inline-block;
-            top: 60px;
-            /* left: 150px; */
+            position: fixed;
+            top: 450px;
+            left: 260px;
         }
     </style>
 </head>
 <body>
     <div class="pg_header">This is Page Header</div>
     <div class="pg_sidenav">This is Page Sidenav</div>
+    <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">This is Content Header</div>
     <div class="ct_body">
         This is Content Body
