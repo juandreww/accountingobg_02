@@ -23,14 +23,10 @@
             box-shadow: 0px 0.1px 3px #888888;
         }
 
-        .pg_body {
+        .pg_sidenav {
             position: fixed;
             top: 40px;
             background-color: #fafbfd;
-
-        }
-
-        .pg_sidenav {
             display: inline-block;
             height: 100%;
             width: 150px;
@@ -50,14 +46,10 @@
 </head>
 <body>
     <div class="pg_header">This is Page Header</div>
-    <div class="pg_body">
-        <div class="pg_sidenav">This is Page Sidenav</div>
-        <div class="ct_header">This is Content Header</div>
-        <div class="ct_body">This is Content Body</div>
-    </div>
-    {{-- <div class="ct_header">This is Content Header</div>
+    <div class="pg_sidenav">This is Page Sidenav</div>
+    <div class="ct_header">This is Content Header</div>
     <div class="ct_body">
         This is Content Body
-    </div> --}}
+    </div>
 </body>
 </html>
