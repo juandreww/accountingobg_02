@@ -9,11 +9,12 @@
         .div1 {
             background-color: teal;
             display:block;
+            height: 150px;
         }
 
         #span1 {
+            display: none;
             background-color: peachpuff;
-            display: block;
         }
 
         #img {
@@ -22,7 +23,10 @@
         }
 
         #span2 {
+            display: inline-block;
             background-color: seagreen;
+            width: 300px;
+            height: 200px;
         }
 
         .div2 {
