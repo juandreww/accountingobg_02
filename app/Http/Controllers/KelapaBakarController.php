@@ -90,4 +90,8 @@ class KelapaBakarController extends Controller
     public function display2(Request $request) {
         return view('kelapabakar.display2');
     }
+
+    public function display3(Request $request) {
+        return view('kelapabakar.display3');
+    }
 }

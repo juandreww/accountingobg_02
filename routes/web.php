@@ -57,6 +57,7 @@ Route::controller(KelapaBakarController::class)->group(function() {
     Route::post('/kelapabakar/save', 'save');
     Route::get('/kelapabakar/display1', 'display1');
     Route::get('/kelapabakar/display2', 'display2');
+    Route::get('/kelapabakar/display3', 'display3');
 });
 
 Route::controller(UploadController::class)->group(function() {
