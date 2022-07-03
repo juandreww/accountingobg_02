@@ -197,7 +197,7 @@
             width: 36px;
             height: 36px;
             margin-left: 20px;
-            margin-right: 20px;
+            margin-right: 10px;
         }
 
 
@@ -207,6 +207,12 @@
             'wght' 400,
             'GRAD' 0,
             'opsz' 100
+        }
+
+        .ct_header_searchcontainer .material-symbols-outlined {
+            font-size: 40px;
+            color: black;s
+
         }
 
 
