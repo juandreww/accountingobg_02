@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -45,7 +46,7 @@
         .ct_header {
             position: fixed;
             top: 80px;
-            left: 260px;
+            left: 270px;
             height: 200px;
         }
 
@@ -136,6 +137,40 @@
             font-size: 16px;
         }
 
+        .ct_header_searchcontainer form {
+            display: flex;
+        }
+
+        .ct_header_searchcontainer button {
+            cursor: pointer;
+        }
+
+        #ct_header_searchbox {
+            display: inline-block;
+            height: 2.57em;
+        }
+
+        #ct_header_searchbutton {
+            display: inline-block;
+        }
+
+        .ct_header_breadcrumbs {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888888;
+        }
+
+        .ct_header_title {
+            margin-top: 40px;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .ct_header_searchcontainer {
+            margin-top: 25px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -147,8 +182,8 @@
         <div class="ct_header_title">OD Board</div>
         <div class="ct_header_searchcontainer">
             <form action="/action">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" placeholder="" name="search" id="ct_header_searchbox">
+                <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
         </div>
     </div>
