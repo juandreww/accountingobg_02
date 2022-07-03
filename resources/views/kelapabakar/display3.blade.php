@@ -215,15 +215,46 @@
 
         }
 
+        .pg_sidenav li {
+            padding-top: 8px;
+            padding-left: 20px;
+            font-size: 18px;
 
+
+        }
+
+        .pg_sidenav li a {
+            text-decoration: none;
+            color: black;
+        }
     </style>
+
     {{-- CSS --}}
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
-    <div class="pg_header">This is page Header</div>
-    <div class="pg_sidenav">This is page Sidenav</div>
+    <div class="pg_header">
+        <a href="#">Odessa Silverberg Software</a>
+        <a href="#">Your Work</a>
+        <a href="#">Projects</a>
+        <a href="#">Filters</a>
+        <a href="#">Dashboards</a>
+        <a href="#">People</a>
+        <a href="#">Apps</a>
+        <a href="#">Create</a>
+    </div>
+    <div class="pg_sidenav">
+        <li><a href="#">Software Project</a></li>
+        <li><a href="#">Planning</a></li>
+        <li><a href="#">Roadmap</a></li>
+        <li><a href="#">Board</a></li>
+        <li><a href="#">Development</a></li>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">Project Pages</a></li>
+        <li><a href="#">Add Shortcut</a></li>
+        <li><a href="#">Project Settings</a></li>
+    </div>
     <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">
         <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
