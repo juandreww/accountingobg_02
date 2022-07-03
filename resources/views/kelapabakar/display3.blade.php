@@ -168,6 +168,11 @@
 
         .ct_header_searchcontainer {
             margin-top: 25px;
+            display: block;
+        }
+
+        #ct_header_profpic {
+            display: inline-block;
         }
 
 
@@ -185,6 +190,7 @@
                 <input type="text" placeholder="" name="search" id="ct_header_searchbox">
                 <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
+            <span id="ct_header_profpic">abc</span>
         </div>
     </div>
     <div class="ct_body">
