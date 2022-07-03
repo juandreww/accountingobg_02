@@ -108,6 +108,20 @@
             border-radius: 12px 12px 0px 0px;
         }
 
+        .kb_add {
+            display: inline-block;
+            position: absolute;
+            /* height: 100%; */
+            height: 25px;
+            left: 960px;
+            width: 25px;
+            background-color: #f5f5f5;
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            padding: 8px;
+            border-radius: 6px 6px 6px 6px;
+        }
+
         #kb_header {
             display: inline-block;
             width: 100%;
@@ -175,8 +189,31 @@
             display: inline-block;
         }
 
+        #ct_header_fsearchbox {
+            float: left;
+        }
+
+        #fox-logo {
+            width: 36px;
+            height: 36px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 100
+        }
+
 
     </style>
+    {{-- CSS --}}
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
     <div class="pg_header">This is page Header</div>
@@ -186,11 +223,13 @@
         <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
         <div class="ct_header_title">OD Board</div>
         <div class="ct_header_searchcontainer">
-            <form action="/action">
+            <form action="/action" id="ct_header_fsearchbox">
                 <input type="text" placeholder="" name="search" id="ct_header_searchbox">
                 <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
-            <span id="ct_header_profpic">abc</span>
+            {{-- <span id="ct_header_profpic">abc</span> --}}
+            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
+            <a href="#"><span class="material-symbols-outlined">person_add</span></a>
         </div>
     </div>
     <div class="ct_body">
@@ -223,6 +262,9 @@
             <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
             <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
             <span id="kb_today_content">Buat milkshake dg 1 pcs Pisang</span>
+        </div>
+        <div class="kb_add">
+            <a href="#"><span class="material-symbols-outlined">add</span></a>
         </div>
     </div>
 </body>
