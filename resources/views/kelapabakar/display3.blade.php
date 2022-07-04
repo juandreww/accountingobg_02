@@ -236,10 +236,11 @@
             text-decoration: none;
             color: black;
             display: flex;
-            align-items: center;
+            align-items: stretch;
             justify-content: space-between;
             box-sizing: border-box;
-            flex: 10%;
+            position: relative;
+            flex: 1 0 0px;
         }
     </style>
 
