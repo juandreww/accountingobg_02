@@ -8,6 +8,7 @@
     <title>Display:3</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro&display=swap');
 
         body {
             margin: 0;
@@ -226,6 +227,14 @@
         .pg_sidenav li a {
             text-decoration: none;
             color: black;
+        }
+
+        .pg_header a {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Source Sans Pro', sans-serif;
         }
     </style>
 
