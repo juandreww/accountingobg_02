@@ -228,6 +228,7 @@
         .pg_sidenav li a {
             text-decoration: none;
             color: black;
+            font-size: 14px;
         }
 
         .pg_header a {
@@ -239,7 +240,7 @@
         }
 
         #sof_pro {
-            font-size: 16px;
+
             font-weight: 100;
         }
     </style>
@@ -261,10 +262,13 @@
     </div>
     <div class="pg_sidenav">
         <li><a href="#" id="sof_pro">Software Project</a></li>
-        <li><a href="#">Planning</a></li>
-        <li><a href="#">Roadmap</a></li>
+        <li><a href="#">PLANNING</a></li>
+        <li><div class="roadmap">
+            <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
+        </div>
+        </li>
         <li><a href="#">Board</a></li>
-        <li><a href="#">Development</a></li>
+        <li><a href="#">DEVELOPMENT</a></li>
         <li><a href="#">Code</a></li>
         <li><a href="#">Project Pages</a></li>
         <li><a href="#">Add Shortcut</a></li>
