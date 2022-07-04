@@ -235,7 +235,11 @@
             margin-left: 10px;
             text-decoration: none;
             color: black;
+            display: flex;
+            align-items: center;
 
+            box-sizing: border-box;
+            flex: 10%;
         }
     </style>
 
@@ -246,7 +250,7 @@
 <body>
     <div class="pg_header">
         <a href="#">Odessa Silverberg Software</a>
-        <a href="#">Your Work</a>
+        <a href="#">Your work</a>
         <a href="#">Projects</a>
         <a href="#">Filters</a>
         <a href="#">Dashboards</a>
