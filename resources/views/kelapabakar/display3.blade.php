@@ -12,7 +12,8 @@
 
         body {
             margin: 0;
-            font-family: 'Merriweather', serif;
+            /* font-family: 'Merriweather', serif; */
+            font-family: 'Source Sans Pro', sans-serif;
         }
 
         .pg_header {
@@ -234,7 +235,7 @@
             margin-left: 10px;
             text-decoration: none;
             color: black;
-            font-family: 'Source Sans Pro', sans-serif;
+
         }
     </style>
 
