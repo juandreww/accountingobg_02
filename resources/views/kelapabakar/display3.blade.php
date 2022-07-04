@@ -231,13 +231,13 @@
         }
 
         .pg_header a {
-            margin-right: 10px;
-            margin-left: 10px;
+            padding-right: 12px;
+            padding-left: 12px;
             text-decoration: none;
             color: black;
             display: flex;
             align-items: center;
-
+            justify-content: space-between;
             box-sizing: border-box;
             flex: 10%;
         }
