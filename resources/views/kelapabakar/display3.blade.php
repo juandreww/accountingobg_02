@@ -235,12 +235,12 @@
             padding-left: 12px;
             text-decoration: none;
             color: black;
-            display: flex;
-            align-items: stretch;
-            justify-content: space-between;
-            box-sizing: border-box;
-            position: relative;
-            flex: 1 0 0px;
+            margin-top: 40px;
+        }
+
+        #sof_pro {
+            font-size: 16px;
+            font-weight: 100;
         }
     </style>
 
@@ -260,7 +260,7 @@
         <a href="#">Create</a>
     </div>
     <div class="pg_sidenav">
-        <li><a href="#">Software Project</a></li>
+        <li><a href="#" id="sof_pro">Software Project</a></li>
         <li><a href="#">Planning</a></li>
         <li><a href="#">Roadmap</a></li>
         <li><a href="#">Board</a></li>
