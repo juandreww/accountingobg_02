@@ -263,9 +263,10 @@
     <div class="pg_sidenav">
         <li><a href="#" id="sof_pro">Software Project</a></li>
         <li><a href="#">PLANNING</a></li>
-        <li><div class="roadmap">
-            <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
-        </div>
+        <li>
+            <div class="roadmap">
+                <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
+            </div>
         </li>
         <li><a href="#">Board</a></li>
         <li><a href="#">DEVELOPMENT</a></li>
@@ -273,6 +274,7 @@
         <li><a href="#">Project Pages</a></li>
         <li><a href="#">Add Shortcut</a></li>
         <li><a href="#">Project Settings</a></li>
+
     </div>
     <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">
