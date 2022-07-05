@@ -275,6 +275,7 @@
         .pg_header ul li.active a {
             color: #234b8f;
             background-color: #e6effc;
+            border-bottom: 3px solid #234b8f;
         }
     </style>
 
@@ -285,14 +286,14 @@
 <body>
     <div class="pg_header">
         <ul>
-            <li class="active"><a href="#">Odessa Silverberg Software</a></li>
-            <li class="active"><a href="#">Your work</a></li>
-            <li class="active"><a href="#">Projects</a></li>
-            <li class="active"><a href="#">Filters</a></li>
-            <li class="active"><a href="#">Dashboards</a></li>
-            <li class="active"><a href="#">People</a></li>
-            <li class="active"><a href="#">Apps</a></li>
-            <li class="active"><a href="#">Create</a></li>
+            <li><a href="#">Odessa Silverberg Software</a></li>
+            <li><a href="#">Your work</a></li>
+            <li class="active"><a href="/kelapabakar/display3">Projects</a></li>
+            <li><a href="#">Filters</a></li>
+            <li><a href="#">Dashboards</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Create</a></li>
         </ul>
     </div>
     <div class="pg_sidenav active">
