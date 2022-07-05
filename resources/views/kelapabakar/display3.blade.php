@@ -252,6 +252,10 @@
             color: #234b8f;
             background-color: #e6effc;
         }
+
+        .pg_header ul {
+            display: flex;
+        }
     </style>
 
     {{-- CSS --}}
