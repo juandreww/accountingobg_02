@@ -269,15 +269,15 @@
         <a href="#">Apps</a>
         <a href="#">Create</a>
     </div>
-    <div class="pg_sidenav">
-        <li><a href="#" id="sof_pro">Software Project</a></li>
-        <li><a href="/kelapabakar/list">PLANNING</a></li>
+    <div class="pg_sidenav active">
+        <li><a href="#" id="sof_pro" class="active">Software Project</a></li>
+        <li class="active"><a href="/kelapabakar/list">PLANNING</a></li>
         <li>
             <div class="roadmap">
                 <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
             </div>
         </li>
-        <li><a href="/kelapabakar/display3">Board</a></li>
+        <li class="active"><a href="/kelapabakar/display3">Board</a></li>
         <li><a href="#">DEVELOPMENT</a></li>
         <li><a href="#">Code</a></li>
         <li><a href="#">Project Pages</a></li>
