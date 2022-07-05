@@ -255,6 +255,8 @@
 
         .pg_header ul {
             display: flex;
+            margin: 0;
+            padding-left: 20px;
         }
 
         .pg_header ul li {
@@ -265,9 +267,14 @@
         .pg_header ul li a {
             position: relative;
             display: block;
-            padding: 10px 20px;
+            padding: 10px 10px;
             text-decoration: none;
-            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .pg_header ul li.active a {
+            color: #234b8f;
+            background-color: #e6effc;
         }
     </style>
 
