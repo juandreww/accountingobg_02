@@ -243,6 +243,10 @@
 
             font-weight: 100;
         }
+
+        .pg_sidenav li a:hover {
+            color: #f2c75b;
+        }
     </style>
 
     {{-- CSS --}}
