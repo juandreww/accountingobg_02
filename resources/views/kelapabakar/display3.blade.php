@@ -244,8 +244,13 @@
             font-weight: 100;
         }
 
-        .pg_sidenav li a:hover {
-            color: #f2c75b;
+        .pg_sidenav li:hover {
+            background-color: #e6effc;
+        }
+
+        .pg_sidenav li a:active {
+            color: #234b8f;
+            background-color: #e6effc;
         }
     </style>
 
@@ -266,13 +271,13 @@
     </div>
     <div class="pg_sidenav">
         <li><a href="#" id="sof_pro">Software Project</a></li>
-        <li><a href="#">PLANNING</a></li>
+        <li><a href="/kelapabakar/list">PLANNING</a></li>
         <li>
             <div class="roadmap">
                 <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
             </div>
         </li>
-        <li><a href="#">Board</a></li>
+        <li><a href="/kelapabakar/display3">Board</a></li>
         <li><a href="#">DEVELOPMENT</a></li>
         <li><a href="#">Code</a></li>
         <li><a href="#">Project Pages</a></li>
