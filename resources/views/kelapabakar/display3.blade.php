@@ -260,14 +260,16 @@
 </head>
 <body>
     <div class="pg_header">
-        <a href="#">Odessa Silverberg Software</a>
-        <a href="#">Your work</a>
-        <a href="#">Projects</a>
-        <a href="#">Filters</a>
-        <a href="#">Dashboards</a>
-        <a href="#">People</a>
-        <a href="#">Apps</a>
-        <a href="#">Create</a>
+        <ul>
+            <li><a href="#">Odessa Silverberg Software</a></li>
+            <li><a href="#">Your work</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Filters</a></li>
+            <li><a href="#">Dashboards</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Create</a></li>
+        </ul>
     </div>
     <div class="pg_sidenav active">
         <li><a href="#" id="sof_pro" class="active">Software Project</a></li>
