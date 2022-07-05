@@ -256,6 +256,19 @@
         .pg_header ul {
             display: flex;
         }
+
+        .pg_header ul li {
+            display: flex;
+            list-style: none;
+        }
+
+        .pg_header ul li a {
+            position: relative;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
     </style>
 
     {{-- CSS --}}
