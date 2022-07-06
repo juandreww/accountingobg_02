@@ -262,7 +262,7 @@
         .pg_header ul li {
             display: flex;
             list-style: none;
-            align-items: center;
+            align-items: flex-end;
         }
 
         .pg_header ul li a {
