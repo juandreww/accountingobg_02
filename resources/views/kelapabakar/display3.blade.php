@@ -289,11 +289,11 @@
             <li><a href="#">Odessa Silverberg Software</a></li>
             <li><a href="#">Your work</a></li>
             <li class="active"><a href="/kelapabakar/display3">Projects</a></li>
-            <li><a href="#">Filters</a></li>
-            <li><a href="#">Dashboards</a></li>
-            <li><a href="#">People</a></li>
-            <li><a href="#">Apps</a></li>
-            <li><a href="#">Create</a></li>
+            <li><a href="/kelapabakar/display3">Filters</a></li>
+            <li><a href="/kelapabakar/display3">Dashboards</a></li>
+            <li><a href="/kelapabakar/display3">People</a></li>
+            <li><a href="/kelapabakar/display3">Apps</a></li>
+            <li><a href="/kelapabakar/display3">Create</a></li>
         </ul>
     </div>
     <div class="pg_sidenav active">
