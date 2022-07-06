@@ -297,7 +297,7 @@
             <li><a href="/kelapabakar/display3">Projects</a></li>
             <li><a href="/kelapabakar/display3">Filters</a></li>
             <li><a href="/kelapabakar/display3">Dashboards</a></li>
-            <li><a href="/kelapabakar/display3" id="focusmeplease">People</a></li>
+            <li><a href="/kelapabakar/display3">People</a></li>
             <li><a href="/kelapabakar/display3">Apps</a></li>
             <li><a href="/kelapabakar/display3">Create</a></li>
         </ul>
