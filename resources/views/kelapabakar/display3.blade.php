@@ -274,11 +274,11 @@
 
         .pg_header ul li a.active {
             color: #234b8f;
-            background-color: #e6effc;
             border-bottom: 3px solid #234b8f;
         }
 
         .pg_header ul li a:hover {
+            color: #234b8f;
             background-color: #e6effc;
         }
     </style>
