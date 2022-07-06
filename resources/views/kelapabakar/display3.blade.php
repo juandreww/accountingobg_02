@@ -17,7 +17,7 @@
         }
 
         .pg_header {
-            height: 80px;
+            height: 60px;
             width: 100%;
             position: fixed;
             z-index: 1;
@@ -236,7 +236,6 @@
             padding-left: 12px;
             text-decoration: none;
             color: black;
-            margin-top: 40px;
         }
 
         #sof_pro {
@@ -257,11 +256,13 @@
             display: flex;
             margin: 0;
             padding-left: 20px;
+            height: 60px;
         }
 
         .pg_header ul li {
             display: flex;
             list-style: none;
+            align-items: center;
         }
 
         .pg_header ul li a {
