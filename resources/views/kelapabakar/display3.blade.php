@@ -291,14 +291,14 @@
 <body>
     <div class="pg_header">
         <ul>
-            <li><a href="#">Odessa Silverberg Software</a></li>
-            <li><a href="#">Your work</a></li>
+            <li><a href="/kelapabakar/list">Odessa Silverberg Software</a></li>
+            <li><a href="/kelapabakar/dashboard">Your work</a></li>
             <li><a href="/kelapabakar/display3">Projects</a></li>
-            <li><a href="/kelapabakar/display3">Filters</a></li>
-            <li><a href="/kelapabakar/display3">Dashboards</a></li>
-            <li><a href="/kelapabakar/display3">People</a></li>
-            <li><a href="/kelapabakar/display3">Apps</a></li>
-            <li><a href="/kelapabakar/display3">Create</a></li>
+            <li><a href="/kelapabakar/display2">Filters</a></li>
+            <li><a href="/kelapabakar/display1">Dashboards</a></li>
+            <li><a href="/kelapabakar/display1">People</a></li>
+            <li><a href="/kelapabakar/display2">Apps</a></li>
+            <li><a href="/kelapabakar/display1">Create</a></li>
         </ul>
     </div>
     <div class="pg_sidenav active">
