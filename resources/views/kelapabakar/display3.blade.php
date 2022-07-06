@@ -265,6 +265,10 @@
             align-items: flex-end;
         }
 
+        .pg_header ul li:hover {
+            background-color: black;
+        }
+
         .pg_header ul li a {
             position: relative;
             display: block;
@@ -380,8 +384,11 @@
         })
 
         const currentLocation = location.href;
+        console.log('Current Location ' + currentLocation);
         const menuItem = document.querySelectorAll('a');
+        console.log('Menu Item ' + menuItem);
         const menuLength = menuItem.length;
+        console.log(menuLength);
         for (let i = 0; i<menuLength; i++) {
             if (menuItem[i].href === currentLocation) {
                 menuItem[i].className = "active";
