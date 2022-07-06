@@ -213,7 +213,7 @@
 
         .ct_header_searchcontainer .material-symbols-outlined {
             font-size: 40px;
-            color: black;s
+            color: black;
 
         }
 
@@ -264,11 +264,6 @@
             list-style: none;
             align-items: flex-end;
         }
-
-        .pg_header ul li:hover {
-            background-color: black;
-        }
-
         .pg_header ul li a {
             position: relative;
             display: block;
@@ -281,6 +276,10 @@
             color: #234b8f;
             background-color: #e6effc;
             border-bottom: 3px solid #234b8f;
+        }
+
+        .pg_header ul li a:hover {
+            background-color: #e6effc;
         }
     </style>
 
