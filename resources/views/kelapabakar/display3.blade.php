@@ -277,6 +277,12 @@
             background-color: #e6effc;
             border-bottom: 3px solid #234b8f;
         }
+
+        .pg_header ul li a:active, .pg_header ul li a:first-child {
+            color: #234b8f;
+            background-color: #e6effc;
+            border-bottom: 3px solid #234b8f;
+        }
     </style>
 
     {{-- CSS --}}
@@ -291,7 +297,7 @@
             <li><a href="/kelapabakar/display3">Projects</a></li>
             <li><a href="/kelapabakar/display3">Filters</a></li>
             <li><a href="/kelapabakar/display3">Dashboards</a></li>
-            <li><a href="/kelapabakar/display3">People</a></li>
+            <li><a href="/kelapabakar/display3" id="focusmeplease">People</a></li>
             <li><a href="/kelapabakar/display3">Apps</a></li>
             <li><a href="/kelapabakar/display3">Create</a></li>
         </ul>
