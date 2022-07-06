@@ -288,7 +288,7 @@
         <ul>
             <li><a href="#">Odessa Silverberg Software</a></li>
             <li><a href="#">Your work</a></li>
-            <li class="active"><a href="/kelapabakar/display3">Projects</a></li>
+            <li><a href="/kelapabakar/display3">Projects</a></li>
             <li><a href="/kelapabakar/display3">Filters</a></li>
             <li><a href="/kelapabakar/display3">Dashboards</a></li>
             <li><a href="/kelapabakar/display3">People</a></li>
@@ -369,7 +369,7 @@
 
     <script type="text/javascript">
         $(document).on('click', '.pg_header ul li', function() {
-            $(this).addClass('active')
+            $(this).addClass('active').siblings.removeClass('active')
         })
     </script>
 </body>
