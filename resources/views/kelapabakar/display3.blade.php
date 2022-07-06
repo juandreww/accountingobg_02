@@ -392,6 +392,7 @@
         console.log(menuLength);
         for (let i = 0; i<menuLength; i++) {
             if (menuItem[i].href === currentLocation) {
+                console.log('ItemActive' . i);
                 menuItem[i].className = "active";
             }
         }
