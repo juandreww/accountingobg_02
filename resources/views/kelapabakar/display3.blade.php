@@ -385,8 +385,9 @@
 
         const currentLocation = location.href;
         console.log('Current Location ' + currentLocation);
-        const menuItem = document.querySelectorAll('a');
+        const menuItem = document.querySelectorAll('.pg_header ul li a');
         console.log('Menu Item ' + menuItem);
+        console.dir(menuItem);
         const menuLength = menuItem.length;
         console.log(menuLength);
         for (let i = 0; i<menuLength; i++) {
