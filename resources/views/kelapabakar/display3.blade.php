@@ -277,13 +277,7 @@
             font-size: 14px;
         }
 
-        .pg_header ul li.active a {
-            color: #234b8f;
-            background-color: #e6effc;
-            border-bottom: 3px solid #234b8f;
-        }
-
-        .pg_header ul li a:active, .pg_header ul li a:first-child {
+        .pg_header ul li a.active {
             color: #234b8f;
             background-color: #e6effc;
             border-bottom: 3px solid #234b8f;
@@ -392,7 +386,7 @@
         console.log(menuLength);
         for (let i = 0; i<menuLength; i++) {
             if (menuItem[i].href === currentLocation) {
-                console.log('ItemActive' . i);
+                console.log('ItemActive' + i);
                 menuItem[i].className = "active";
             }
         }
