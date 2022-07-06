@@ -371,6 +371,15 @@
         $(document).on('click', '.pg_header ul li', function() {
             $(this).addClass('active').siblings.removeClass('active')
         })
+
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('a');
+        const menuLength = menuItem.length;
+        for (let i = 0; i<menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active";
+            }
+        }
     </script>
 </body>
 </html>
