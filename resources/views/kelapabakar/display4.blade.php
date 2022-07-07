@@ -301,6 +301,12 @@
             background-color: var(--ds-background-color-default, #ffffff);
             color: var(--ds-text-lowEmphasis, #6b778c);
         }
+
+        .pghn_ppt2 {
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
     </style>
 
     {{-- CSS --}}
@@ -315,7 +321,7 @@
                 <div role="presentation">
                     <button aria-expanded="false" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
                         <span class="pghn_ppt1">
-                            <span class="material-symbols-outlined">
+                            <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_ppt2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
                                 apps
                             </span>
                         </span>
