@@ -321,6 +321,29 @@
             user-select: none;
             margin: 0px 2px;
         }
+
+        .pghn_ppt {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            box-sizing: border-box;
+            display: flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500px;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            color: var(--ds-text-selected);
+            cursor: pointer;
+            height: auto;
+            line-height: 2.28571em;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+        }
     </style>
 
     {{-- CSS --}}
