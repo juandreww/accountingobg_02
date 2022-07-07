@@ -343,6 +343,14 @@
             width: auto;
             -webkit-box-pack: center;
             justify-content: center;
+            background-color: var(--ds-background-selected-resting);
+            border-width: 0px;
+            border-radius: 100%;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            padding: 4px;
+            outline: none;
+            margin: 0px 2px;
         }
     </style>
 
