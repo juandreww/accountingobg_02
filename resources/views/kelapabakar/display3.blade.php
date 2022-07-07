@@ -281,9 +281,20 @@
             color: #234b8f;
             background-color: #e6effc;
         }
+
+        .pg_header ul li button {
+            margin-bottom: 8px;
+            background-color: #0055c9;
+        }
+
+        header {
+            position: fixed;
+            z-index: 99;
+        }
     </style>
 
     {{-- CSS --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
@@ -297,7 +308,7 @@
             <li><a href="/kelapabakar/display1">Dashboards</a></li>
             <li><a href="/kelapabakar/display1">People</a></li>
             <li><a href="/kelapabakar/display2">Apps</a></li>
-            <li><a href="/kelapabakar/display1">Create</a></li>
+            <li><button type="button" class="btn btn-primary">Create</button></li>
         </ul>
     </div>
     <div class="pg_sidenav active">
