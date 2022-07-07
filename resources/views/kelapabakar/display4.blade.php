@@ -206,9 +206,9 @@
         .material-symbols-outlined {
             font-variation-settings:
             'FILL' 1,
-            'wght' 400,
+            'wght' 700,
             'GRAD' 0,
-            'opsz' 100
+            'opsz' 48
         }
 
         .ct_header_searchcontainer .material-symbols-outlined {
@@ -307,7 +307,7 @@
 
     {{-- CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -316,7 +316,11 @@
             <nav aria-label="Primary Navigation" class ="pgh_nav">
                 <div role="presentation">
                     <button aria-expanded="false" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
-                        <span class="pghn_ppt1"></span>
+                        <span class="pghn_ppt1">
+                            <span class="material-symbols-outlined">
+                                apps
+                            </span>
+                        </span>
                     </button>
                 </div>
                 <a href=""></a>
