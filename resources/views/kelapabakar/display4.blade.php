@@ -324,7 +324,7 @@
             <li><a href="/kelapabakar/dashboard">Your work</a></li>
             <li><a href="/kelapabakar/display3">Projects</a></li>
             <li><a href="/kelapabakar/display2">Filters</a></li>
-            <li><a href="/kelapabakar/display1">Dashboards</a></li>
+            <li><a href="/kelapabakar/display4">Dashboards</a></li>
             <li><a href="/kelapabakar/display1">People</a></li>
             <li><a href="/kelapabakar/display2">Apps</a></li>
             <li><button type="button" class="btn btn-primary">Create</button></li>
