@@ -221,8 +221,6 @@
             padding-top: 8px;
             padding-left: 20px;
             font-size: 18px;
-
-
         }
 
         .pg_sidenav li a {
