@@ -288,8 +288,20 @@
         }
 
         header {
-            position: fixed;
+            position: relative;
             z-index: 99;
+            padding-left: 12px;
+            padding-right: 12px;
+            display: flex;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            height: 56px;
+            -webkit-box-align: center;
+            align-items: center;
+            background-color: var(--ds-background-color-default, #ffffff);
+            color: var(--ds-text-lowEmphasis, #6b778c);
         }
     </style>
 
@@ -300,6 +312,9 @@
 </head>
 <body>
     <div class="pg_header">
+        <header role="banner">
+            its me
+        </header>
         <ul>
             <li><a href="/kelapabakar/list">Odessa Silverberg Software</a></li>
             <li><a href="/kelapabakar/dashboard">Your work</a></li>
