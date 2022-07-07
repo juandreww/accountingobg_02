@@ -94,4 +94,8 @@ class KelapaBakarController extends Controller
     public function display3(Request $request) {
         return view('kelapabakar.display3');
     }
+
+    public function display4(Request $request) {
+        return view('kelapabakar.display4');
+    }
 }
