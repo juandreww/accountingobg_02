@@ -354,7 +354,7 @@
         }
 
         .pgh_nav {
-            --webkit-box-align: center;
+            -webkit-box-align: center;
             align-items: center;
             display: flex;
             -webkit-box-flex: 1;
@@ -371,7 +371,7 @@
 </head>
 <body>
     <div class="pg_header">
-        <header role="banner">
+        <header role="banner" class ="pgh">
             <nav aria-label="Primary Navigation" class ="pgh_nav">
                 <div role="presentation">
                     <button aria-expanded="false" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
