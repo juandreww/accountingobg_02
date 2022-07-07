@@ -314,7 +314,11 @@
     <div class="pg_header">
         <header role="banner">
             <nav aria-label="Primary Navigation" class ="pgh_nav">
-                <div></div>
+                <div role="presentation">
+                    <button aria-expanded="false" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
+                        <span class="pghn_ppt1"></span>
+                    </button>
+                </div>
                 <a href=""></a>
                 <div class="pgh_nav1"></div>
             </nav>
