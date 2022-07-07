@@ -267,7 +267,7 @@
         .pg_header ul li a {
             position: relative;
             display: block;
-            padding: 10px 10px;
+            padding: 10px 10px 15px;
             text-decoration: none;
             font-size: 14px;
         }
