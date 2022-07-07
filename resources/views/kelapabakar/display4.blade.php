@@ -319,7 +319,7 @@
                 <div class="pgh_nav1"></div>
             </nav>
         </header>
-        <ul>
+        {{-- <ul>
             <li><a href="/kelapabakar/list">Odessa Silverberg Software</a></li>
             <li><a href="/kelapabakar/dashboard">Your work</a></li>
             <li><a href="/kelapabakar/display3">Projects</a></li>
@@ -328,7 +328,7 @@
             <li><a href="/kelapabakar/display1">People</a></li>
             <li><a href="/kelapabakar/display2">Apps</a></li>
             <li><button type="button" class="btn btn-primary">Create</button></li>
-        </ul>
+        </ul> --}}
     </div>
     <div class="pg_sidenav active">
         <li><a href="#" id="sof_pro" class="active">Software Project</a></li>
