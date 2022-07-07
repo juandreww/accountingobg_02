@@ -352,6 +352,16 @@
             outline: none;
             margin: 0px 2px;
         }
+
+        .pgh_nav {
+            --webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            min-width: 0px;
+            height: inherit;
+        }
     </style>
 
     {{-- CSS --}}
