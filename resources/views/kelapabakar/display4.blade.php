@@ -369,19 +369,30 @@
         }
 
         .pghn_ppt .pghn_ppt_tooltip {
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: #fff;
+            visibility: visible;
+            width: 80px;
+            height: 100%;
+            background-color: var(--ds-background-boldNeutral-resting,#172B4D);
+            color: var(--ds-text-onBold,#FFFFFF);
             text-align: center;
             border-radius: 6px;
-            padding: 5px 0;
             position: absolute;
-            z-index: 3;
+            z-index: 800;
+            font-size: 12px;
+            left: 10px;
+            top: 30px;
+            align-items: center;
+            text-align: center;
         }
 
         .pghn_ppt:hover .pghn_ppt_tooltip {
             visibility: visible;
+        }
+
+        .pghn_ppt .tooltip {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(5px, 52px);
         }
 
 
@@ -403,7 +414,7 @@
                                 apps
                             </span>
                         </span>
-                        <span class="pghn_ppt_tooltip">Tooltip Text</span>
+                        <div role="tooltip" class ="pghn_ppt_tooltip tooltip" data-placement="bottom" id="pghn_ppt_tooltip">Switch to...</div>
                     </button>
                 </div>
                 <a href=""></a>
