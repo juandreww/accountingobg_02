@@ -380,6 +380,10 @@
             z-index: 3;
         }
 
+        .pghn_ppt:hover .pghn_ppt_tooltip {
+            visibility: visible;
+        }
+
 
     </style>
 
