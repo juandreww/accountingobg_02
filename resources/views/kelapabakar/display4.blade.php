@@ -496,6 +496,28 @@
             white-space: nowrap;
         }
 
+        .pghn_sc_switchto-url1 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+            margin: 0px 2px;
+        }
+
+        .pghn_sc_switchto-url1b {
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 16px;
+            height: 16px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -531,7 +553,11 @@
                                                         <span class="pghn_sc_switchto-url0">
                                                             Andrewsoft Start
                                                         </span>
-                                                        <span class=""></span>
+                                                        <span class="pghn_sc_switchto-url1">
+                                                            <span role="presentation" aria-hidden="true" class="pghn_sc_switchto-url1b material-symbols-outlined">
+                                                                open_in_new
+                                                            </span>
+                                                        </span>
                                                     </a>
                                                 </div>
                                             </section>
