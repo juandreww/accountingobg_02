@@ -456,6 +456,46 @@
             flex: 1 1 0%;
         }
 
+        .pghn_sc_switchto-url {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            border-width: 0px;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            white-space: nowrap;
+            background: none;
+            cursor: pointer;
+            height: 2.28571em;
+            line-height: 2.28571em;
+            padding: 0px 10px;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: var(--ds-link, #0052cc) !important;
+        }
+
+        .pghn_sc_switchto-url0 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            margin: 0px 2px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -487,6 +527,12 @@
                                                     <h1 class="pghn_sc_switchto-1">
                                                         Switch to
                                                     </h1>
+                                                    <a target="_blank" rel="noopener noreferrer" class="section-link pghn_sc_switchto-url" data-testid="section-title__link" tabindex="0" href="/kelapabakar/display4">
+                                                        <span class="pghn_sc_switchto-url0">
+                                                            Andrewsoft Start
+                                                        </span>
+                                                        <span class=""></span>
+                                                    </a>
                                                 </div>
                                             </section>
                                             <section class="pghn_sc_discover"></section>
