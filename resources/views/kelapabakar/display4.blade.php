@@ -532,6 +532,26 @@
             border-radius: 3px;
         }
 
+        .pghn_sc_switchto-sub1b {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .pghn_sc_switchto-sub1c {
+            border-radius: 3px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+        }
+
+        .pghn_sc_switchto-sub1button:visited {
+            color: currentcolor;
+        }
+
+        .pghn_sc_switchto-sub1button {
+            display: flex;
+
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -575,7 +595,15 @@
                                                     </a>
                                                 </div>
                                                 <div class="pghn_sc_switchto-sub switchto_ani">
-                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                    <div class="pghn_sc_switchto-sub1">
+                                                        <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
+                                                            <div class="pghn_sc_switchto-sub1div">
+                                                                <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list1" draggable="false" aria-disabled="false">
+
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="pghn_sc_switchto-sub switchto_ani">
                                                     <div class="pghn_sc_switchto-sub1"></div>
