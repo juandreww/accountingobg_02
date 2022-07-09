@@ -410,7 +410,8 @@
         .pghn_ppt_modct {
             padding: 16px 16px 0px;
             min-height: 200px;
-            border: 10px solid black;
+            background-color: #fff;
+            border: 5px solid black;
         }
 
         .pghn_ppt_modct1 {
@@ -449,7 +450,9 @@
                                 <div class="pghn_ppt_modct">
                                     <div class="pghn_ppt_modct1">
                                         <div class="pghn_ppt_modct2">
-
+                                            <section></section>
+                                            <section></section>
+                                            <a href=""></a>
                                         </div>
                                     </div>
                                 </div>
