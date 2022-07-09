@@ -392,8 +392,14 @@
             visibility: visible;
         }
 
-        .pghn_ppt .tooltip {
+        .pghn_ppt_modal {
+            z-index: 400;
+        }
 
+        .pghn_ppt_modal1 {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(14px, 52px);
         }
 
 
@@ -417,6 +423,9 @@
                         </span>
                         <div role="tooltip" class ="pghn_ppt_tooltip" data-placement="bottom" id="pghn_ppt_tooltip">Switch to...</div>
                     </button>
+                    <div class="pghn_ppt_modal" data-placement="bottom-start" tabindex="0">
+
+                    </div>
                 </div>
                 <a href=""></a>
                 <div class="pgh_nav1"></div>
