@@ -402,6 +402,11 @@
             transform: translate(14px, 52px);
         }
 
+        .pghn_ppt_modal2 {
+            width: 400px;
+            max-height: calc(100vh - 100px);
+        }
+
 
     </style>
 
@@ -425,7 +430,9 @@
                     </button>
                     <div class="pghn_ppt_modal">
                         <div class="pghn_ppt_modal1" data-placement="bottom-start" tabindex="0">
+                            <div class="pghn_ppt_modal2">
 
+                            </div>
                         </div>
                     </div>
 
