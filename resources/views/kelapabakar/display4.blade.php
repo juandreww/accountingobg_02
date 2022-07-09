@@ -407,6 +407,21 @@
             max-height: calc(100vh - 100px);
         }
 
+        .pghn_ppt_modct {
+            padding: 16px 16px 0px;
+            min-height: 200px;
+            border: 10px solid black;
+        }
+
+        .pghn_ppt_modct1 {
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        .pghn_ppt_modct2 {
+            min-width: 280px;
+            min-height: calc(100% - 60px);
+        }
 
     </style>
 
@@ -431,7 +446,13 @@
                     <div class="pghn_ppt_modal">
                         <div class="pghn_ppt_modal1" data-placement="bottom-start" tabindex="0">
                             <div class="pghn_ppt_modal2">
+                                <div class="pghn_ppt_modct">
+                                    <div class="pghn_ppt_modct1">
+                                        <div class="pghn_ppt_modct2">
 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
