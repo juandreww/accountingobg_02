@@ -424,6 +424,24 @@
             min-height: calc(100% - 60px);
         }
 
+        .pghn_sc_switchto {
+            padding: 8px 0px;
+        }
+
+        .pghn_sc_switchto-0 {
+            display: flex;
+            flex-wrap: nowrap;
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            -webkit-box-pack: end;
+            justify-content: flex-end;
+            margin-left: 8px;
+            position: relative;
+            margin-bottom: 8px;
+            animation: 500ms ease 0s 1 normal forwards running ljGnjM;
+            opacity: 0;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -450,8 +468,12 @@
                                 <div class="pghn_ppt_modct">
                                     <div class="pghn_ppt_modct1">
                                         <div class="pghn_ppt_modct2">
-                                            <section></section>
-                                            <section></section>
+                                            <section class="pghn_sc_switchto" data-testid="switchTo__section">
+                                                <div class="pghn_sc_switchto-0">
+
+                                                </div>
+                                            </section>
+                                            <section class="pghn_sc_discover"></section>
                                             <a href=""></a>
                                         </div>
                                     </div>
