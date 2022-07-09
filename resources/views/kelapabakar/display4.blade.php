@@ -591,6 +591,24 @@
             background-color: rgb(0,82,204);
             overflow: hidden;
         }
+        .pghn_sc_switchto-sub1iconimg1 {
+            width: 24px;
+            height: 24px;
+            color: white;
+        }
+
+        .pghn_sc_switchto-sub1text1 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
 
     </style>
 
@@ -641,10 +659,14 @@
                                                                 <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list1" draggable="false" aria-disabled="false">
                                                                     <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
                                                                         <div class="pghn_sc_switchto-sub1iconbox1">
-
+                                                                            <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
+                                                                                settings_accessibility
+                                                                            </span>
                                                                         </div>
                                                                     </span>
-                                                                    <span></span>
+                                                                    <span class="pghn_sc_switchto-sub1text1">
+                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Find People</span>
+                                                                    </span>
                                                                 </a>
                                                             </div>
                                                         </div>
