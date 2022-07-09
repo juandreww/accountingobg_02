@@ -578,6 +578,20 @@
             flex-shrink: 0;
         }
 
+        .pghn_sc_switchto-sub1iconbox1 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(9,30,66,0.25), 0 0 1px 1px rgba(9,30, 66, 0.13));
+            background-color: rgb(0,82,204);
+            overflow: hidden;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -626,7 +640,9 @@
                                                             <div class="pghn_sc_switchto-sub1div">
                                                                 <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list1" draggable="false" aria-disabled="false">
                                                                     <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
+                                                                        <div class="pghn_sc_switchto-sub1iconbox1">
 
+                                                                        </div>
                                                                     </span>
                                                                     <span></span>
                                                                 </a>
