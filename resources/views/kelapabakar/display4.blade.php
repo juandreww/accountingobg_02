@@ -566,7 +566,7 @@
             width: 100%;
         }
 
-        .pghn_sc_switchto-sub1icon1 [data-item-elem-before] {
+        .pghn_sc_switchto-sub1button [data-item-elem-before] {
             margin-right: 8px;
             padding-bottom: 1px;
         }
@@ -608,6 +608,13 @@
             outline: none;
             overflow: hidden;
             text-align: left;
+        }
+
+        .pghn_sc_switchto_sub1text1b {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
     </style>
