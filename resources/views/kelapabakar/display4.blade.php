@@ -517,6 +517,20 @@
             width: 16px;
             height: 16px;
         }
+        /* .switchto_ani {
+            animation: 500ms ease 0s 1 normal forwards running 1jGnJM;
+            opacity: 0;
+        } */
+
+        .pghn_sc_switchto-sub1 {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
 
     </style>
 
@@ -545,7 +559,7 @@
                                     <div class="pghn_ppt_modct1">
                                         <div class="pghn_ppt_modct2">
                                             <section class="pghn_sc_switchto" data-testid="switchTo__section">
-                                                 <div class="pghn_sc_switchto-0">
+                                                <div class="pghn_sc_switchto-0 switchto_ani">
                                                     <h1 class="pghn_sc_switchto-1">
                                                         Switch to
                                                     </h1>
@@ -559,6 +573,18 @@
                                                             </span>
                                                         </span>
                                                     </a>
+                                                </div>
+                                                <div class="pghn_sc_switchto-sub switchto_ani">
+                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                </div>
+                                                <div class="pghn_sc_switchto-sub switchto_ani">
+                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                </div>
+                                                <div class="pghn_sc_switchto-sub switchto_ani">
+                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                </div>
+                                                <div class="pghn_sc_switchto-sub switchto_ani">
+                                                    <div class="pghn_sc_switchto-sub1"></div>
                                                 </div>
                                             </section>
                                             <section class="pghn_sc_discover"></section>
