@@ -549,7 +549,21 @@
 
         .pghn_sc_switchto-sub1button {
             display: flex;
-
+            box-sizing: border-box;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            user-select: none;
+            cursor: pointer;
+            background: transparent;
+            border-radius: 3px;
+            padding: 7px 8px;
+            text-decoration: none;
+            width: 100%;
         }
 
     </style>
