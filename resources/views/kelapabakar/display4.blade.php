@@ -17,7 +17,7 @@
         }
 
         .pg_header {
-            height: 60px;
+            height: 56px;
             width: 100%;
             position: fixed;
             z-index: 1;
@@ -287,7 +287,7 @@
 
         header {
             position: relative;
-            z-index: 99;
+            z-index: 2;
             padding-left: 12px;
             padding-right: 12px;
             display: flex;
@@ -300,6 +300,16 @@
             align-items: center;
             background-color: var(--ds-background-color-default, #ffffff);
             color: var(--ds-text-lowEmphasis, #6b778c);
+        }
+
+        .pgh_nav {
+            -webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            min-width: 0px;
+            height: inherit;
         }
 
         .pghn_ppt2 {
@@ -335,7 +345,7 @@
             position: relative;
             text-align: center;
             white-space: nowrap;
-            color: var(--ds-text-selected);
+            color: var(--ds-text-mediumEmphasis,#344563);
             cursor: pointer;
             height: auto;
             line-height: 2.28571em;
@@ -353,15 +363,24 @@
             margin: 0px 2px;
         }
 
-        .pgh_nav {
-            -webkit-box-align: center;
-            align-items: center;
-            display: flex;
-            -webkit-box-flex: 1;
-            flex-grow: 1;
-            min-width: 0px;
-            height: inherit;
+        .pgh_nav button:hover {
+            color: var(--ds-text-mediumEmphasis,#0052CC);
+            background-color: var(--ds-background-subtleNeutral-hover,rgba(222,235,255,0.9));
         }
+
+        .pghn_ppt .pghn_ppt_tooltip {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 3;
+        }
+
+
     </style>
 
     {{-- CSS --}}
@@ -380,6 +399,7 @@
                                 apps
                             </span>
                         </span>
+                        <span class="pghn_ppt_tooltip">Tooltip Text</span>
                     </button>
                 </div>
                 <a href=""></a>
