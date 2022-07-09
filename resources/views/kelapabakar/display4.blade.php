@@ -438,8 +438,22 @@
             margin-left: 8px;
             position: relative;
             margin-bottom: 8px;
-            animation: 500ms ease 0s 1 normal forwards running ljGnjM;
-            opacity: 0;
+            /* animation: 500ms ease 0s 1 normal forwards running ljGnjM;
+            opacity: 0; */
+        }
+
+        .pghn_sc_switchto-1 {
+            font-size: 1.14286em;
+            font-style: inherit;
+            line-height: 1.25;
+            color: var(--ds-text, var(--ds-text,#172B4D));
+            font-weight: 600;
+            letter-spacing: -0.006em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0px;
+            flex: 1 1 0%;
         }
 
     </style>
@@ -469,8 +483,10 @@
                                     <div class="pghn_ppt_modct1">
                                         <div class="pghn_ppt_modct2">
                                             <section class="pghn_sc_switchto" data-testid="switchTo__section">
-                                                <div class="pghn_sc_switchto-0">
-
+                                                 <div class="pghn_sc_switchto-0">
+                                                    <h1 class="pghn_sc_switchto-1">
+                                                        Switch to
+                                                    </h1>
                                                 </div>
                                             </section>
                                             <section class="pghn_sc_discover"></section>
