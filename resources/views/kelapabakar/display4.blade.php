@@ -680,13 +680,28 @@
                                                     </div>
                                                 </div>
                                                 <div class="pghn_sc_switchto-sub switchto_ani">
-                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                    <div class="pghn_sc_switchto-sub1">
+                                                        <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
+                                                            <div class="pghn_sc_switchto-sub1div">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="pghn_sc_switchto-sub switchto_ani">
-                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                    <div class="pghn_sc_switchto-sub1">
+                                                        <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
+                                                            <div class="pghn_sc_switchto-sub1div">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="pghn_sc_switchto-sub switchto_ani">
-                                                    <div class="pghn_sc_switchto-sub1"></div>
+                                                    <div class="pghn_sc_switchto-sub1">
+                                                        <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
+                                                            <div class="pghn_sc_switchto-sub1div">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </section>
                                             <section class="pghn_sc_discover"></section>
