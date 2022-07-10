@@ -623,11 +623,49 @@
         }
 
         .pghn_sc_man_list {
-
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            border-width: 0px;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            text-decoration: inherit;
+            transition: background 0s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            white-space: nowrap;
+            background: var(--ds-background-neutral, rgba(9,30,66,0.04));
+            cursor: pointer;
+            height: 2.28571em;
+            line-height: 2.28571em;
+            padding: 0px 10px;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            outline: none;
+            color: var(--ds-text,#42526e) !important;
         }
 
         .pghn_sc_man_list:hover {
-            var(--ds-background-neutral-hovered,rgba(9,30,66,0.08));
+            background: var(--ds-background-neutral-hovered,rgba(9,30,66,0.08));
+        }
+
+        .pghn_sc_man_list1 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            margin: 0px 2px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
     </style>
@@ -757,6 +795,7 @@
 
                                             </section>
                                             <a class="pghn_sc_man_list" href="kelapabakar/list" tabindex="0">
+                                                <span class="pghn_sc_man_list1">Manage List</span>
                                             </a>
                                         </div>
                                     </div>
