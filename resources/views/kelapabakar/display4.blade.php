@@ -745,8 +745,11 @@
                                                     </div>
                                                 </div>
                                             </section>
-                                            <section class="pghn_sc_discover"></section>
-                                            <a href=""></a>
+                                            <section class="pghn_sc_discover">
+
+                                            </section>
+                                            <a class="pghn_sc_man_list" href="kelapabakar/list" tabindex="0">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
