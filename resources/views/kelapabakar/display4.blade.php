@@ -683,6 +683,18 @@
                                                     <div class="pghn_sc_switchto-sub1">
                                                         <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
                                                             <div class="pghn_sc_switchto-sub1div">
+                                                                <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list2" draggable="false" aria-disabled="false">
+                                                                    <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
+                                                                        <div class="pghn_sc_switchto-sub1iconbox1">
+                                                                            <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
+                                                                                settings_accessibility
+                                                                            </span>
+                                                                        </div>
+                                                                    </span>
+                                                                    <span class="pghn_sc_switchto-sub1text1">
+                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Work Management</span>
+                                                                    </span>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -691,6 +703,18 @@
                                                     <div class="pghn_sc_switchto-sub1">
                                                         <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
                                                             <div class="pghn_sc_switchto-sub1div">
+                                                                <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list3" draggable="false" aria-disabled="false">
+                                                                    <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
+                                                                        <div class="pghn_sc_switchto-sub1iconbox1">
+                                                                            <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
+                                                                                settings_accessibility
+                                                                            </span>
+                                                                        </div>
+                                                                    </span>
+                                                                    <span class="pghn_sc_switchto-sub1text1">
+                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Trello</span>
+                                                                    </span>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -699,6 +723,18 @@
                                                     <div class="pghn_sc_switchto-sub1">
                                                         <div class="pghn_sc_switchto-sub1b pghn_sc_switchto-sub1c">
                                                             <div class="pghn_sc_switchto-sub1div">
+                                                                <a data-testid="switcher-item__JIRA_SOFTWAREodessaobg" class="pghn_sc_switchto-sub1button" tooltipcontent="[object Object]" href="/kelapabakar/list4" draggable="false" aria-disabled="false">
+                                                                    <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
+                                                                        <div class="pghn_sc_switchto-sub1iconbox1">
+                                                                            <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
+                                                                                settings_accessibility
+                                                                            </span>
+                                                                        </div>
+                                                                    </span>
+                                                                    <span class="pghn_sc_switchto-sub1text1">
+                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Adinistration</span>
+                                                                    </span>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
