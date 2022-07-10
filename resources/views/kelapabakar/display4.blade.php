@@ -817,6 +817,24 @@
                                                     </h1>
                                                 </div>
                                                 <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                    <a href="">
+                                                        <span>
+                                                            <div></div>
+                                                        </span>
+                                                        <span>
+                                                            <span>
+                                                                "Confluence"
+                                                                <span>
+                                                                    <span>
+                                                                        <span>
+                                                                            <span></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                            <span>Document Collaboration</span>
+                                                        </span>
+                                                    </a>
                                                 </div>
                                                 <div class="pghn_sc_discover1 pghn_sc_animation1">
                                                 </div>
