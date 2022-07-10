@@ -617,6 +617,11 @@
             white-space: nowrap;
         }
 
+        .pghn_sc_switchto-sub1b:hover {
+            background-color: var(--ds-background-neutral-subtle-hovered,#F4F5F7);
+            color: currentColor;
+        }
+
     </style>
 
     {{-- CSS --}}
