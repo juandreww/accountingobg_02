@@ -668,6 +668,25 @@
             white-space: nowrap;
         }
 
+        .pghn_sc_animation1 {
+            animation: 500ms ease 0s 1 normal forwards running 1jGnjM;
+            opacity: 0s;
+        }
+
+        .pghn_sc_discoverh1 {
+            font-size: 0.785714em;
+            font-style: inherit;
+            line-height: 1.45455;
+            color: var(--ds-text-subtlest, var(--ds-text-subtlest, #6B778C));
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-left: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 4px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -791,8 +810,22 @@
                                                     </div>
                                                 </div>
                                             </section>
-                                            <section class="pghn_sc_discover">
-
+                                            <section class="pghn_sc_discover" data-testid="discover__section">
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                    <h1 class="pghn_sc_discoverh1">
+                                                        Discover
+                                                    </h1>
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                </div>
                                             </section>
                                             <a class="pghn_sc_man_list" href="kelapabakar/list" tabindex="0">
                                                 <span class="pghn_sc_man_list1">Manage List</span>
