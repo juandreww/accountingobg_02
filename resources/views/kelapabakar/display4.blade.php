@@ -622,6 +622,14 @@
             color: currentColor;
         }
 
+        .pghn_sc_man_list {
+
+        }
+
+        .pghn_sc_man_list:hover {
+            var(--ds-background-neutral-hovered,rgba(9,30,66,0.08));
+        }
+
     </style>
 
     {{-- CSS --}}
