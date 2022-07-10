@@ -687,7 +687,7 @@
                                                                     <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
                                                                         <div class="pghn_sc_switchto-sub1iconbox1">
                                                                             <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
-                                                                                settings_accessibility
+                                                                                business_centre
                                                                             </span>
                                                                         </div>
                                                                     </span>
@@ -707,7 +707,7 @@
                                                                     <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
                                                                         <div class="pghn_sc_switchto-sub1iconbox1">
                                                                             <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
-                                                                                settings_accessibility
+                                                                                view_kanban
                                                                             </span>
                                                                         </div>
                                                                     </span>
@@ -727,12 +727,12 @@
                                                                     <span data-item-elem-before="true" class="pghn_sc_switchto-sub1icon1">
                                                                         <div class="pghn_sc_switchto-sub1iconbox1">
                                                                             <span class="material-symbols-outlined pghn_sc_switchto-sub1iconimg1">
-                                                                                settings_accessibility
+                                                                                settings
                                                                             </span>
                                                                         </div>
                                                                     </span>
                                                                     <span class="pghn_sc_switchto-sub1text1">
-                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Adinistration</span>
+                                                                        <span class="pghn_sc_switchto_sub1text1b" data-item-title="true">Administration</span>
                                                                     </span>
                                                                 </a>
                                                             </div>
