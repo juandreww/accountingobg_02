@@ -851,7 +851,7 @@
         <header role="banner" class ="pgh">
             <nav aria-label="Primary Navigation" class ="pgh_nav">
                 <div role="presentation">
-                    <button aria-expanded="false" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
+                    <button aria-expanded="false" id ="pghn_ppt1_button" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
                         <span class="pghn_ppt1">
                             <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_ppt2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
                                 apps
@@ -859,7 +859,7 @@
                         </span>
                         <div role="tooltip" class ="pghn_ppt_tooltip" data-placement="bottom" id="pghn_ppt_tooltip">Switch to...</div>
                     </button>
-                    <div class="pghn_ppt_modal">
+                    <div class="pghn_ppt_modal" id="pghn_ppt_modal">
                         <div class="pghn_ppt_modal1 pghn_ppt_modal1b" data-placement="bottom-start" tabindex="0">
                             <div class="pghn_ppt_modal2">
                                 <div class="pghn_ppt_modct">
@@ -1075,17 +1075,6 @@
                 <div class="pgh_nav1"></div>
             </nav>
         </header>
-
-        {{-- <ul>
-            <li><a href="/kelapabakar/list">Odessa Silverberg Software</a></li>
-            <li><a href="/kelapabakar/dashboard">Your work</a></li>
-            <li><a href="/kelapabakar/display3">Projects</a></li>
-            <li><a href="/kelapabakar/display2">Filters</a></li>
-            <li><a href="/kelapabakar/display4">Dashboards</a></li>
-            <li><a href="/kelapabakar/display1">People</a></li>
-            <li><a href="/kelapabakar/display2">Apps</a></li>
-            <li><button type="button" class="btn btn-primary">Create</button></li>
-        </ul> --}}
     </div>
     <div class="pg_sidenav active">
         <li><a href="#" id="sof_pro" class="active">Software Project</a></li>
@@ -1174,6 +1163,20 @@
             if (menuItem[i].href === currentLocation) {
                 console.log('ItemActive' + i);
                 menuItem[i].className = "active";
+            }
+        }
+
+        var modal = document.getElementById("pghn_ppt_modal");
+
+        var btn = document.getElementById("pghn_ppt1_button");
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
             }
         }
     </script>
