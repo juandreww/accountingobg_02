@@ -687,12 +687,30 @@
             margin-bottom: 4px;
         }
 
+        .pghn_sc_discover1_title {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: center;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
         .pghn_sc_discover1_tt1 {
             margin-top: 3px;
             display: block;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+        }
+
+        .pghn_sc_discover_tt1font {
+            color: rgb(107, 119, 140);
+            font-size: 11px;
         }
 
     </style>
@@ -829,7 +847,7 @@
                                                         <span>
                                                             <div></div>
                                                         </span>
-                                                        <span>
+                                                        <span class="pghn_sc_discover1_title">
                                                             <span>
                                                                 "Confluence"
                                                                 <span>
@@ -840,7 +858,7 @@
                                                                     </span>
                                                                 </span>
                                                             </span>
-                                                            <span class="pghn_sc_discover1_tt1">Document Collaboration</span>
+                                                            <span data-item-description="true" class="pghn_sc_discover1_tt1 pghn_sc_discover_tt1font">Document Collaboration</span>
                                                         </span>
                                                     </a>
                                                 </div>
