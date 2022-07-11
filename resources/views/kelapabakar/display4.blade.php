@@ -687,6 +687,14 @@
             margin-bottom: 4px;
         }
 
+        .pghn_sc_discover1_tt1 {
+            margin-top: 3px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -832,7 +840,7 @@
                                                                     </span>
                                                                 </span>
                                                             </span>
-                                                            <span>Document Collaboration</span>
+                                                            <span class="pghn_sc_discover1_tt1">Document Collaboration</span>
                                                         </span>
                                                     </a>
                                                 </div>
