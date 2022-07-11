@@ -340,7 +340,7 @@
             font-size: inherit;
             font-style: normal;
             font-family: inherit;
-            font-weight: 500px;
+            font-weight: 500;
             max-width: 100%;
             position: relative;
             text-align: center;
@@ -394,6 +394,7 @@
 
         .pghn_ppt_modal {
             z-index: 400;
+            display: none;
         }
 
         .pghn_ppt_modal1 {
@@ -661,6 +662,7 @@
             outline: none;
             color: var(--ds-text,#42526e) !important;
         }
+
 
         .pghn_sc_man_list:hover {
             background: var(--ds-background-neutral-hovered,rgba(9,30,66,0.08));
@@ -1102,7 +1104,7 @@
                 <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
             {{-- <span id="ct_header_profpic">abc</span> --}}
-            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo1.jpg') }}" id="fox-logo"></a>
+            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
             <a href="#"><span class="material-symbols-outlined">person_add</span></a>
         </div>
     </div>
