@@ -973,7 +973,7 @@
                                                                 <span class="pghn_sc_discover1_tryspan">
                                                                     <span class="pghn_sc_discover1_trybutton">
                                                                         <span class="pghn_sc_discover1_trytextbox">
-                                                                            <span class="pghn_sc_discover1_trytext"></span>
+                                                                            <span class="pghn_sc_discover1_trytext">Try</span>
                                                                         </span>
                                                                     </span>
                                                                 </span>
