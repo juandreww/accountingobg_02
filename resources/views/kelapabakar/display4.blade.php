@@ -720,6 +720,26 @@
             font-size: 11px;
         }
 
+        .pghn_sc_discover1href {
+            display: flex;
+            box-sizing: border-box;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            user-select: none;
+            cursor: pointer;
+            background: transparent;
+            border-radius: 3px;
+            color: var(--ds-text,#091e42);
+            padding: 7px 8px;
+            text-decoration: none;
+            width: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -850,7 +870,7 @@
                                                     </h1>
                                                 </div>
                                                 <div class="pghn_sc_discover1 pghn_sc_animation1">
-                                                    <a href="">
+                                                    <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
                                                         <span>
                                                             <div></div>
                                                         </span>
