@@ -740,6 +740,21 @@
             width: 100%;
         }
 
+        .pghn_sc_discover1_icon1 {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .pghn_sc_discover1_icon1margin {
+            margin-right: 8px;
+            padding-bottom: 1px;
+        }
+
+        .pghn_sc_discover1_icon1img {
+            display: flex;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -871,8 +886,12 @@
                                                 </div>
                                                 <div class="pghn_sc_discover1 pghn_sc_animation1">
                                                     <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
-                                                        <span>
-                                                            <div></div>
+                                                        <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
+                                                            <div class="pghn_sc_discover1_icon1img">
+                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
+                                                                    apps
+                                                                </span>
+                                                            </div>
                                                         </span>
                                                         <span class="pghn_sc_discover1_title">
                                                             <span class="pghn_sc_discover1_header1" data-item-title="true">
