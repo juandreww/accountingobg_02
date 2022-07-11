@@ -987,22 +987,65 @@
                                                         <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
                                                             <div class="pghn_sc_discover1_icon1img">
                                                                 <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_sym_grp2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
-                                                                    favorite
+                                                                    shopping_cart_checkout
                                                                 </span>
                                                             </div>
                                                         </span>
                                                         <span class="pghn_sc_discover1_title">
                                                             <span class="pghn_sc_discover1_header1" data-item-title="true">
-                                                                Confluence
-                                                                <span class="pghn_sc_discover1_tryspan">
-                                                                    <span class="pghn_sc_discover1_trybutton">
-                                                                        <span class="pghn_sc_discover1_trytextbox">
-                                                                            <span class="pghn_sc_discover1_trytext">Try</span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
+                                                                Easy Service Management
                                                             </span>
-                                                            <span data-item-description="true" class="pghn_sc_discover1_tt1 pghn_sc_discover_tt1font">Document Collaboration</span>
+                                                            <span data-item-description="true" class="pghn_sc_discover1_tt1 pghn_sc_discover_tt1font">Collaborative IT service management</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                    <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
+                                                        <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
+                                                            <div class="pghn_sc_discover1_icon1img">
+                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_sym_grp2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
+                                                                    token
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                        <span class="pghn_sc_discover1_title">
+                                                            <span class="pghn_sc_discover1_header1" data-item-title="true">
+                                                                OpsGenie
+                                                            </span>
+                                                            <span data-item-description="true" class="pghn_sc_discover1_tt1 pghn_sc_discover_tt1font">Modern incident management</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                    <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
+                                                        <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
+                                                            <div class="pghn_sc_discover1_icon1img">
+                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_sym_grp2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
+                                                                    travel_explore
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                        <span class="pghn_sc_discover1_title">
+                                                            <span class="pghn_sc_discover1_header1" data-item-title="true">
+                                                                Activa!
+                                                            </span>
+                                                            <span data-item-description="true" class="pghn_sc_discover1_tt1 pghn_sc_discover_tt1font">Integrate Activa! with your Andrewsoft products</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="pghn_sc_discover1 pghn_sc_animation1">
+                                                    <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
+                                                        <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
+                                                            <div class="pghn_sc_discover1_icon1img">
+                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_sym_grp2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
+                                                                    workspaces
+                                                                </span>
+                                                            </div>
+                                                        </span>
+                                                        <span class="pghn_sc_discover1_title">
+                                                            <span class="pghn_sc_discover1_header1" data-item-title="true">
+                                                                More AndrewSoft Products!
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
