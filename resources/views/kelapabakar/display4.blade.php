@@ -795,19 +795,39 @@
         }
 
         .pghn_sc_discover1_tryspan {
-
+            display: inline-block;
+            margin-left: 8px;
         }
 
         .pghn_sc_discover1_trybutton {
-
+            background-color: var(--ds-background-information, #DEEBFF);
+            color: var(--ds-text-information, #0747A6);
+            display: inline-block;
+            box-sizing: border-box;
+            max-width: 100%;
+            padding: 2px 0px 3px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1;
+            text-transform: uppercase;
+            vertical-align: baseline;
         }
 
         .pghn_sc_discover1_trytextbox {
-
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0px 4px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: top;
+            white-space: nowrap;
         }
 
         .pghn_sc_discover1_trytext {
-
+            padding-left: 8px;
+            padding-right: 8px;
         }
     </style>
 
