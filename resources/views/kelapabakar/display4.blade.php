@@ -753,6 +753,13 @@
 
         .pghn_sc_discover1_icon1img {
             display: flex;
+            box-sizing: border-box;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
         }
 
     </style>
