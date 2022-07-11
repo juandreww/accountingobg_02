@@ -1168,25 +1168,13 @@
             }
         }
 
-        var modal = document.getElementById("pghn_ppt_modal");
-
-        var btn = document.getElementById("pghn_ppt1_button");
-
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
         console.log(1);
         function toggle(modal, button) {
             console.log(1);
             var n = document.getElementById(modal);
+            console.log(n.style.display);
             if (n.style.display == 'none') {
-                n.style.display = '';
+                n.style.display = 'block';
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
             } else {
                 n.style.display = 'none';
