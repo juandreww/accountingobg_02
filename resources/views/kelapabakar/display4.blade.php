@@ -760,6 +760,15 @@
             align-items: center;
             border: 0px;
             font-size: 14px;
+            outline: 0px;
+            user-select: none;
+            cursor: pointer;
+            background: transparent;
+            border-radius: 3px;
+            color: var(--ds-text, #091e42);
+            padding: 7px 8px;
+            text-decoration: none;
+            width: 100%;
         }
 
     </style>
