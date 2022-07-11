@@ -853,7 +853,7 @@
         <header role="banner" class ="pgh">
             <nav aria-label="Primary Navigation" class ="pgh_nav">
                 <div role="presentation">
-                    <button aria-expanded="false" id ="pghn_ppt1_button" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0">
+                    <button aria-expanded="false" id ="pghn_ppt1_button" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0" onclick="toggle('pghn_ppt_modal', 'pghn_ppt')">
                         <span class="pghn_ppt1">
                             <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_ppt2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
                                 apps
@@ -1179,6 +1179,17 @@
         window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+            }
+        }
+        console.log(1);
+        function toggle(modal, button) {
+            var n = document.getElementById(modal);
+            if (n.style.display == 'none') {
+                n.style.display = '';
+                document.getElementById(button).setAttribute('aria-expanded', 'true');
+            } else {
+                n.style.display = 'none';
+                document.getElementById(button).setAttribute('aria-expanded', 'false');
             }
         }
     </script>
