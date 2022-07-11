@@ -687,6 +687,13 @@
             margin-bottom: 4px;
         }
 
+        .pghn_sc_discover1_header1 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
         .pghn_sc_discover1_title {
             display: flex;
             -webkit-box-pack: center;
@@ -848,8 +855,8 @@
                                                             <div></div>
                                                         </span>
                                                         <span class="pghn_sc_discover1_title">
-                                                            <span>
-                                                                "Confluence"
+                                                            <span class="pghn_sc_discover1_header1" data-item-title="true">
+                                                                Confluence
                                                                 <span>
                                                                     <span>
                                                                         <span>
