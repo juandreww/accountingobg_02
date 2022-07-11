@@ -1102,7 +1102,7 @@
                 <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
             {{-- <span id="ct_header_profpic">abc</span> --}}
-            <a href="#"><img src="{{ URL::to('/assets/img/ffox_logo1.jpg') }}" id="fox-logo"></a>
+            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo1.jpg') }}" id="fox-logo"></a>
             <a href="#"><span class="material-symbols-outlined">person_add</span></a>
         </div>
     </div>
