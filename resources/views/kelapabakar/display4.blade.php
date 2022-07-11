@@ -402,6 +402,17 @@
             transform: translate(14px, 52px);
         }
 
+        .pghn_ppt_modal1b {
+            display: block;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #ffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9,30, 66, 0.25), 0 0 1px rgba(9,30, 66, 0.31));
+            overflow: auto;
+        }
+
         .pghn_ppt_modal2 {
             width: 400px;
             max-height: calc(100vh - 100px);
@@ -411,7 +422,6 @@
             padding: 16px 16px 0px;
             min-height: 200px;
             background-color: #fff;
-            border: 5px solid black;
         }
 
         .pghn_ppt_modct1 {
@@ -850,7 +860,7 @@
                         <div role="tooltip" class ="pghn_ppt_tooltip" data-placement="bottom" id="pghn_ppt_tooltip">Switch to...</div>
                     </button>
                     <div class="pghn_ppt_modal">
-                        <div class="pghn_ppt_modal1" data-placement="bottom-start" tabindex="0">
+                        <div class="pghn_ppt_modal1 pghn_ppt_modal1b" data-placement="bottom-start" tabindex="0">
                             <div class="pghn_ppt_modal2">
                                 <div class="pghn_ppt_modct">
                                     <div class="pghn_ppt_modct1">
@@ -1103,7 +1113,7 @@
                 <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
             </form>
             {{-- <span id="ct_header_profpic">abc</span> --}}
-            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
+            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo1jpg') }}" id="fox-logo"></a>
             <a href="#"><span class="material-symbols-outlined">person_add</span></a>
         </div>
     </div>
