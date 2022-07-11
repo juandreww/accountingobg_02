@@ -771,6 +771,11 @@
             width: 100%;
         }
 
+        .pghn_sc_discover1href:hover {
+            background-color: var(--ds-background-neutral-subtle-hovered,#F4F5F7);
+            color: currentColor;
+        }
+
     </style>
 
     {{-- CSS --}}
