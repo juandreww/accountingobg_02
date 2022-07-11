@@ -751,7 +751,7 @@
             padding-bottom: 1px;
         }
 
-        .pghn_sc_discover1_icon1img {
+        .pghn_sc_discover1href {
             display: flex;
             box-sizing: border-box;
             min-height: 40px;
@@ -771,11 +771,44 @@
             width: 100%;
         }
 
+        .pghn_sc_discover1_icon1img {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            box-shadow: var(--ds-shadow-raised, 0 1px 1px rgba(9,30,66,0.25)),0 0 1px 1px rgba(9,30,66,0.13);
+            background-color: rgb(235, 236, 240);
+            overflow: hidden;
+        }
+
         .pghn_sc_discover1href:hover {
             background-color: var(--ds-background-neutral-subtle-hovered,#F4F5F7);
             color: currentColor;
         }
 
+        .pghn_sym_grp2 {
+            color: rgb(0,82,204);
+        }
+
+        .pghn_sc_discover1_tryspan {
+
+        }
+
+        .pghn_sc_discover1_trybutton {
+
+        }
+
+        .pghn_sc_discover1_trytextbox {
+
+        }
+
+        .pghn_sc_discover1_trytext {
+
+        }
     </style>
 
     {{-- CSS --}}
@@ -909,18 +942,18 @@
                                                     <a href="/kelapabakar/list" data-testid="suggested-product__link" class="pghn_sc_discover1href" aria-disabled="false">
                                                         <span data-item-elem-before="true" class="pghn_sc_discover1_icon1 pghn_sc_discover1_icon1margin">
                                                             <div class="pghn_sc_discover1_icon1img">
-                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
-                                                                    apps
+                                                                <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_sym_grp2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
+                                                                    favorite
                                                                 </span>
                                                             </div>
                                                         </span>
                                                         <span class="pghn_sc_discover1_title">
                                                             <span class="pghn_sc_discover1_header1" data-item-title="true">
                                                                 Confluence
-                                                                <span>
-                                                                    <span>
-                                                                        <span>
-                                                                            <span></span>
+                                                                <span class="pghn_sc_discover1_tryspan">
+                                                                    <span class="pghn_sc_discover1_trybutton">
+                                                                        <span class="pghn_sc_discover1_trytextbox">
+                                                                            <span class="pghn_sc_discover1_trytext"></span>
                                                                         </span>
                                                                     </span>
                                                                 </span>
