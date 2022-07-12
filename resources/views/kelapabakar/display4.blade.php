@@ -1181,6 +1181,7 @@
                 document.getElementById(button).setAttribute('aria-expanded', 'false');
             }
         }
+
     </script>
 </body>
 </html>
