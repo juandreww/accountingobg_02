@@ -853,6 +853,15 @@
             cursor: pointer;
             color: inherit;
         }
+
+        .pghl_label {
+            display: inline-block;
+            position: relative;
+            color: #2684FF;
+            fill: var(--logo-fill);
+            user-select: none;
+            height: 32px;
+        }
     </style>
 
     {{-- CSS --}}
@@ -1086,7 +1095,9 @@
 
                 </div>
                 <a href="/kelapabakar/list" class="pgh_logo">
-
+                    <span aria-label="Andrew Software" role="img" class="pghl_label">
+                        AndrewSoft
+                    </span>
                 </a>
                 <div class="pgh_nav1"></div>
             </nav>
