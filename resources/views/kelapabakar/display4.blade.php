@@ -894,6 +894,18 @@
             padding: 0px 4px;
             outline: none;
         }
+
+        .pghn1_b1tit {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            margin: 0px 2px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
     </style>
 
     {{-- CSS --}}
@@ -1134,7 +1146,9 @@
                 <div class="pgh_nav1">
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
-                            <span></span>
+                            <span class="pghn1_b1tit">
+                                Your Work
+                            </span>
                             <span></span>
                         </button>
                     </div>
