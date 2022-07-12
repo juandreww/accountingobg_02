@@ -857,6 +857,7 @@
         .pghl_label {
             display: inline-block;
             position: relative;
+            align-items: center;
             color: #2684FF;
             fill: var(--logo-fill);
             user-select: none;
