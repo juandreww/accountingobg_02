@@ -906,6 +906,34 @@
             text-overflow: ellipsis;
             white-space: nowrap;
         }
+
+        .pghn1_b1dropdown {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+            margin: 0px 2px;
+        }
+
+        .pghn1_b1dropdown1 {
+            margin-left: -8px;
+            margin-right: -8px;
+            opacity: 0.51;
+        }
+
+        .pghn1_b1dropdown2 {
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #ffff);
+        }
     </style>
 
     {{-- CSS --}}
