@@ -1100,7 +1100,12 @@
                     </span>
                 </a>
                 <div class="pgh_nav1">
-                    <div class="pghn1_b1"></div>
+                    <div class="pghn1_b1">
+                        <button>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
                     <div class="pghn1_b2"></div>
                     <div class="pghn1_b3"></div>
                     <div class="pghn1_b4"></div>
