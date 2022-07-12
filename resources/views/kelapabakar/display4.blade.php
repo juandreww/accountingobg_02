@@ -1101,7 +1101,7 @@
                 </a>
                 <div class="pgh_nav1">
                     <div class="pghn1_b1">
-                        <button>
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
                             <span></span>
                             <span></span>
                         </button>
