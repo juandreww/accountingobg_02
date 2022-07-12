@@ -862,6 +862,21 @@
             user-select: none;
             height: 32px;
         }
+
+        .pghn1_b1b {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+        }
     </style>
 
     {{-- CSS --}}
