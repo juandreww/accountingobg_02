@@ -1099,7 +1099,16 @@
                         AndrewSoft
                     </span>
                 </a>
-                <div class="pgh_nav1"></div>
+                <div class="pgh_nav1">
+                    <div class="pghn1_b1"></div>
+                    <div class="pghn1_b2"></div>
+                    <div class="pghn1_b3"></div>
+                    <div class="pghn1_b4"></div>
+                    <div class="pghn1_b5"></div>
+                    <div class="pghn1_b6"></div>
+                    <div class="pghn1_b7"></div>
+                    <div class="pghn1_b8"></div>
+                </div>
             </nav>
         </header>
     </div>
