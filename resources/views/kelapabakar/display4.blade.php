@@ -876,6 +876,23 @@
             position: relative;
             text-align: center;
             white-space: nowrap;
+            color: var(--ds-text-mediumEmphasis, #344563);
+            cursor: pointer;
+            height: 2.28571em;
+            line-height: 2.28571em;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            background-color: transparent;
+            margin-left: 0px;
+            margin-right: 0px;
+            border-width: 0px;
+            border-radius: 3px;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            padding: 0px 4px;
+            outline: none;
         }
     </style>
 
