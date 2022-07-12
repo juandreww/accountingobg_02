@@ -841,6 +841,18 @@
             padding-left: 8px;
             padding-right: 8px;
         }
+
+        .pgh_logo {
+            -webkit-box-align: center;
+            align-items: center;
+            padding: 4px;
+            border-radius: 3px;
+            border: 0px;
+            background: none;
+            display: flex;
+            cursor: pointer;
+            color: inherit;
+        }
     </style>
 
     {{-- CSS --}}
@@ -1073,7 +1085,9 @@
                     </div>
 
                 </div>
-                <a href=""></a>
+                <a href="/kelapabakar/list" class="pgh_logo">
+
+                </a>
                 <div class="pgh_nav1"></div>
             </nav>
         </header>
