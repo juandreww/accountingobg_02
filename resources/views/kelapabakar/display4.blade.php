@@ -1152,7 +1152,9 @@
                             <span class="pghn1_b1dropdown">
                                 <span class="pghn1_b1dropdown1">
                                     <span class="pghn1_b1dropdown2">
-
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
                                     </span>
                                 </span>
                             </span>
