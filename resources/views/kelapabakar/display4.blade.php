@@ -1019,6 +1019,14 @@
             min-height: 0%;
         }
 
+        .pghn_yourwork2_headertab1 {
+            position: relative;
+            display: flex;
+            font-weight: 500;
+            padding: 0px;
+            margin: 0px;
+        }
+
 
     </style>
 
@@ -1279,12 +1287,12 @@
                                     <div class="pghn_yourwork2">
                                         <div class="pghn_yourwork2_header">
                                             <div class="pghn_yourwork2_headertab">
-                                                <div class="pghn_yourwork2_headertab1">
+                                                <div role="tablist" class="pghn_yourwork2_headertab1">
                                                     <div class=""></div>
                                                     <div class=""></div>
                                                     <div class=""></div>
                                                 </div>
-                                                                                            </div>
+                                            </div>
                                         </div>
                                         <div></div>
                                         <div></div>
