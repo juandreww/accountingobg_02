@@ -979,6 +979,20 @@
             }
         }
 
+        .pghn_yourwork {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(92px, 52px);
+            display: block;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #fffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+            overflow: auto;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1232,7 +1246,7 @@
                                 </span>
                             </span>
                         </button>
-                        <div class="pghn_yourwork" data-placement="bottom-start">
+                        <div class="pghn_yourwork" data-placement="bottom-start" tab-index= "0">
                             <span>
                                 <div>
                                     <div>
