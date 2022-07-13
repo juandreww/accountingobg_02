@@ -1628,8 +1628,13 @@
         function toggleactive(div) {
             console.log('2b');
             var n = document.getElementById(div);
-            console.dir(div);
+            console.dir(n);
 
+            if (n.attributes.aria-selected = 'false') {
+                document.getElementById(div).setAttribute('aria-selected', 'true');
+            } else {
+                document.getElementById(div).setAttribute('aria-selected', 'false');
+            }
             // if (n.style.display == 'none') {
             //     n.style.display = 'block';
             //     document.getElementById(button).setAttribute('aria-expanded', 'true');
