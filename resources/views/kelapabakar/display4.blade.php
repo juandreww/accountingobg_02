@@ -1612,7 +1612,7 @@
 
         console.log(1);
         function toggle(modal, button) {
-            console.log(1b);
+            console.log('1b');
             var n = document.getElementById(modal);
             console.log(n.style.display);
             if (n.style.display == 'none') {
@@ -1626,16 +1626,17 @@
 
         console.log(2);
         function toggleactive(div) {
-            console.log(2b);
+            console.log('2b');
             var n = document.getElementById(div);
-            console.log(n.style.display);
-            if (n.style.display == 'none') {
-                n.style.display = 'block';
-                document.getElementById(button).setAttribute('aria-expanded', 'true');
-            } else {
-                n.style.display = 'none';
-                document.getElementById(button).setAttribute('aria-expanded', 'false');
-            }
+            console.dir(div);
+
+            // if (n.style.display == 'none') {
+            //     n.style.display = 'block';
+            //     document.getElementById(button).setAttribute('aria-expanded', 'true');
+            // } else {
+            //     n.style.display = 'none';
+            //     document.getElementById(button).setAttribute('aria-expanded', 'false');
+            // }
         }
     </script>
 </body>
