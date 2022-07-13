@@ -944,6 +944,11 @@
             height: 100%;
             position: relative;
         }
+
+        .pgh_nav1 > * {
+            flex-shrink: 0;
+            margin: 0px 4px;
+        }
     </style>
 
     {{-- CSS --}}
@@ -1186,6 +1191,86 @@
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
                             <span class="pghn1_b1tit">
                                 Your Work
+                            </span>
+                            <span class="pghn1_b1dropdown">
+                                <span class="pghn1_b1dropdown1">
+                                    <span class="pghn1_b1dropdown2">
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="pghn1_b1">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                            <span class="pghn1_b1tit">
+                                Projects
+                            </span>
+                            <span class="pghn1_b1dropdown">
+                                <span class="pghn1_b1dropdown1">
+                                    <span class="pghn1_b1dropdown2">
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="pghn1_b1">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                            <span class="pghn1_b1tit">
+                                Filters
+                            </span>
+                            <span class="pghn1_b1dropdown">
+                                <span class="pghn1_b1dropdown1">
+                                    <span class="pghn1_b1dropdown2">
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="pghn1_b1">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                            <span class="pghn1_b1tit">
+                                Dashboards
+                            </span>
+                            <span class="pghn1_b1dropdown">
+                                <span class="pghn1_b1dropdown1">
+                                    <span class="pghn1_b1dropdown2">
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="pghn1_b1">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                            <span class="pghn1_b1tit">
+                                People
+                            </span>
+                            <span class="pghn1_b1dropdown">
+                                <span class="pghn1_b1dropdown1">
+                                    <span class="pghn1_b1dropdown2">
+                                        <span role="presentation" class="material-symbols-outlined">
+                                            arrow_drop_down
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="pghn1_b1">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                            <span class="pghn1_b1tit">
+                                Apps
                             </span>
                             <span class="pghn1_b1dropdown">
                                 <span class="pghn1_b1dropdown1">
