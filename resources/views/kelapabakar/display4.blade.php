@@ -960,6 +960,13 @@
             height: 100%;
             position: relative;
         }
+
+        @media (min-width: 1280px) {
+            .pghn_sc_switchto-url {
+                margin: 0px 16px;
+            }
+        }
+
     </style>
 
     {{-- CSS --}}
