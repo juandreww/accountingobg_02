@@ -1232,7 +1232,7 @@
                                 </span>
                             </span>
                         </button>
-                        <div class="pghn_yourwork">
+                        <div class="pghn_yourwork" data-placement="bottom-start">
                             <span>
                                 <div>
                                     <div>
