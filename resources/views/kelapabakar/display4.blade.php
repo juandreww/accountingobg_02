@@ -993,6 +993,11 @@
             overflow: auto;
         }
 
+        .pghn_yourwork1 {
+            min-width: 320px;
+            max-width: 800px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1248,7 +1253,7 @@
                         </button>
                         <div class="pghn_yourwork" data-placement="bottom-start" tab-index= "0">
                             <span>
-                                <div>
+                                <div class="pghn_yourwork1">
                                     <div>
                                         <div></div>
                                         <div></div>
