@@ -987,7 +987,7 @@
             box-sizing: border-box;
             z-index: 400;
             flex: 1 1 auto;
-            background-color: var(--ds-surface-overlay, #fffff);
+            background-color: var(--ds-surface-overlay, #ffffff);
             border-radius: 3px;
             box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31));
             overflow: auto;
@@ -1415,10 +1415,10 @@
                                         </div>
                                         <div role="group" data-section="true" class="pghn_yourwork2_footer">
                                             <span>
-                                                <a href="pghn_yourwork2_footer1" draggable="false" aria-disabled="false" href="/kelapabakar/display4" target="_self">
+                                                <a class="pghn_yourwork2_footer1" draggable="false" aria-disabled="false" href="/kelapabakar/display4" target="_self">
                                                     <span class="pghn_yourwork2_footer2">
                                                         <span class="pghn_yourwork2_footer3" data-item-title="true">
-                                                            Go to Your Work Page
+                                                            Go to Your Work page
                                                         </span>
                                                     </span>
                                                 </a>
