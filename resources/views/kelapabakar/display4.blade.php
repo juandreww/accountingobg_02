@@ -1116,6 +1116,19 @@
             color: currentColor;
         }
 
+        .pghn_yourwork2_footer2 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
     </style>
 
     {{-- CSS --}}
