@@ -998,6 +998,13 @@
             max-width: 800px;
         }
 
+        .pghn_yourwork2 {
+            max-height: calc(100vh - 200px);
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1254,7 +1261,7 @@
                         <div class="pghn_yourwork" data-placement="bottom-start" tab-index= "0">
                             <span>
                                 <div class="pghn_yourwork1">
-                                    <div>
+                                    <div class="pghn_yourwork2">
                                         <div></div>
                                         <div></div>
                                         <div></div>
