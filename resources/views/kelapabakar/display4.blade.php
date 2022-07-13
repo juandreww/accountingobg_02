@@ -1078,6 +1078,11 @@
             content: "";
         }
 
+        .pghn_yourwork2_body1 {
+            padding: 24px 32px;
+            text-align: center;
+        }
+
 
     </style>
 
@@ -1352,7 +1357,9 @@
                                             </div>
                                         </div>
                                         <div role="group" data-section="true" class="pghn_yourwork2_body">
-
+                                            <div class="pghn_yourwork2_body1">
+                                                You have no open issues assigned to you
+                                            </div>
                                         </div>
                                         <div></div>
                                     </div>
