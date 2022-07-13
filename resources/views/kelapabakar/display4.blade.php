@@ -1628,20 +1628,11 @@
         function toggleactive(div) {
             console.log('2b');
             var n = document.getElementById(div);
-            console.dir(n.attributes.['aria-selected']);
-
-            if (n.attributes.aria-selected == 'false') {
+            if (n.attributes['aria-selected'].value == 'false') {
                 document.getElementById(div).setAttribute('aria-selected', 'true');
             } else {
                 document.getElementById(div).setAttribute('aria-selected', 'false');
             }
-            // if (n.style.display == 'none') {
-            //     n.style.display = 'block';
-            //     document.getElementById(button).setAttribute('aria-expanded', 'true');
-            // } else {
-            //     n.style.display = 'none';
-            //     document.getElementById(button).setAttribute('aria-expanded', 'false');
-            // }
         }
     </script>
 </body>
