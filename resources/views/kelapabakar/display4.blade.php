@@ -1039,6 +1039,17 @@
             height: 2px;
         }
 
+        .pghn_yourwork2_headertab1 [role="tab"] {
+            cursor: pointer;
+            line-height: 1.8;
+            margin: 0px;
+            padding: 4px 8px;
+            position: relative;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .pghn_yourwork2_headertab1 [role="tab"] [aria-selected="true"]::after {
             content: "";
             border-radius: 2px;
