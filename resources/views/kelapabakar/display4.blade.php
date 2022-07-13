@@ -1083,6 +1083,16 @@
             text-align: center;
         }
 
+        .pghn_yourwork2_footer {
+            flex-shrink: 0;
+            border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9,30,66,0.08)));
+        }
+
+        .pghn_yourwork2_footer::before, .pghn_yourwork2_footer::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
 
     </style>
 
@@ -1361,7 +1371,17 @@
                                                 You have no open issues assigned to you
                                             </div>
                                         </div>
-                                        <div></div>
+                                        <div role="group" data-section="true" class="pghn_yourwork2_footer">
+                                            <span>
+                                                <a href="pghn_yourwork2_footer1" draggable="false" aria-disabled="false" href="/kelapabakar/display4" target="_self">
+                                                    <span class="pghn_yourwork2_footer2">
+                                                        <span class="pghn_yourwork2_footer3" data-item-title="true">
+                                                            Go to Your Work Page
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </span>
