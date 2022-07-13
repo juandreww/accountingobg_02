@@ -1026,6 +1026,18 @@
             padding: 0px;
             margin: 0px;
         }
+        .pghn_yourwork2_headertab1::before {
+            content: "";
+            border-radius: 2px;
+            bottom: 0px;
+            margin: 0px;
+            position: absolute;
+            width: inherit;
+            left: 8px;
+            right: 8px;
+            background-color: var(--ds-border, #EBECF0);
+            height: 2px;
+        }
 
 
     </style>
