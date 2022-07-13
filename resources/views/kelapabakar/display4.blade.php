@@ -1067,6 +1067,17 @@
             color: var(--ds-text-brand, #0052cc);
         }
 
+        .pghn_yourwork2_body {
+            flex-shrink: 1;
+            overflow: auto;
+        }
+
+        .pghn_yourwork2_body::before, .pghn_yourwork2_body::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
 
     </style>
 
@@ -1340,7 +1351,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div></div>
+                                        <div role="group" data-section="true" class="pghn_yourwork2_body">
+
+                                        </div>
                                         <div></div>
                                     </div>
                                 </div>
