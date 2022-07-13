@@ -1645,8 +1645,6 @@
             var n = document.getElementById(div);
             if (n.attributes['aria-selected'].value == 'false') {
                 document.getElementById(div).setAttribute('aria-selected', 'true');
-            } else {
-                document.getElementById(div).setAttribute('aria-selected', 'false');
             }
 
             document.getElementById(othertab1).setAttribute('aria-selected', 'false');
