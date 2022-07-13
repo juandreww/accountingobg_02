@@ -1396,7 +1396,7 @@
                                         <div class="pghn_yourwork2_header">
                                             <div class="pghn_yourwork2_headertab">
                                                 <div role="tablist" class="pghn_yourwork2_headertab1">
-                                                    <div id="pghn_yw_assignedtome" aria-setsize="3" role="tab" aria-posinset="1" aria-selected="false" aria-controls="pghn_yw_assignedtome-tab" tabindex="0">
+                                                    <div id="pghn_yw_assignedtome" aria-setsize="3" role="tab" aria-posinset="1" aria-selected="false" aria-controls="pghn_yw_assignedtome-tab" tabindex="0" onclick="toggleactive('pghn_yw_assignedtome')">
                                                         Assigned to me
                                                     </div>
                                                     <div class="pghn_yw_recent" aria-setsize="3" role="tab" aria-posinset="2" aria-selected="false" aria-controls="pghn_yw_recent-tab" tabindex="0">
@@ -1612,7 +1612,7 @@
 
         console.log(1);
         function toggle(modal, button) {
-            console.log(1);
+            console.log(1b);
             var n = document.getElementById(modal);
             console.log(n.style.display);
             if (n.style.display == 'none') {
@@ -1625,6 +1625,18 @@
         }
 
         console.log(2);
+        function toggleactive(div) {
+            console.log(2b);
+            var n = document.getElementById(div);
+            console.log(n.style.display);
+            if (n.style.display == 'none') {
+                n.style.display = 'block';
+                document.getElementById(button).setAttribute('aria-expanded', 'true');
+            } else {
+                n.style.display = 'none';
+                document.getElementById(button).setAttribute('aria-expanded', 'false');
+            }
+        }
     </script>
 </body>
 </html>
