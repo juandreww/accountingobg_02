@@ -1628,9 +1628,9 @@
         function toggleactive(div) {
             console.log('2b');
             var n = document.getElementById(div);
-            console.dir(n);
+            console.dir(n.attributes);
 
-            if (n.attributes.aria-selected = 'false') {
+            if (n.attributes.aria-selected == 'false') {
                 document.getElementById(div).setAttribute('aria-selected', 'true');
             } else {
                 document.getElementById(div).setAttribute('aria-selected', 'false');
