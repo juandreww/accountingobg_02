@@ -1628,7 +1628,7 @@
         function toggleactive(div) {
             console.log('2b');
             var n = document.getElementById(div);
-            console.dir(n.attributes);
+            console.dir(n.attributes.['aria-selected']);
 
             if (n.attributes.aria-selected == 'false') {
                 document.getElementById(div).setAttribute('aria-selected', 'true');
