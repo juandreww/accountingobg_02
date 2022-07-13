@@ -854,6 +854,10 @@
             color: inherit;
         }
 
+        .pgh_logo > * {
+            max-height: 24px;
+        }
+
         .pghl_label {
             display: inline-block;
             position: relative;
@@ -861,6 +865,14 @@
             fill: var(--logo-fill);
             user-select: none;
             height: 32px;
+            -webkit-box-align: center;
+            align-items: center;
+            padding: 4px;
+            border-radius: 3px;
+            border: 0px;
+            background: none;
+            display: flex;
+            cursor: pointer;
         }
 
         .pghn1_b1b {
@@ -962,7 +974,7 @@
         }
 
         @media (min-width: 1280px) {
-            .pghn_sc_switchto-url {
+            .pgh_logo {
                 margin: 0px 16px;
             }
         }
