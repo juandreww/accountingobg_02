@@ -1400,10 +1400,10 @@
                                                     <div id="pghn_yw_assignedtome" aria-setsize="3" role="tab" aria-posinset="1" aria-selected="false" aria-controls="pghn_yw_assignedtome-tab" tabindex="0" onclick="toggleactive('pghn_yw_assignedtome')">
                                                         Assigned to me
                                                     </div>
-                                                    <div class="pghn_yw_recent" aria-setsize="3" role="tab" aria-posinset="2" aria-selected="false" aria-controls="pghn_yw_recent-tab" tabindex="0" onclick="toggleactive('pghn_yw_assignedtome')">
+                                                    <div class="pghn_yw_recent" aria-setsize="3" role="tab" aria-posinset="2" aria-selected="false" aria-controls="pghn_yw_recent-tab" tabindex="0" onclick="toggleactive('pghn_yw_recent')">
                                                         Recent
                                                     </div>
-                                                    <div class="pghn_yw_boards" aria-setsize="3" role="tab" aria-posinset="3" aria-selected="false" aria-controls="pghn_yw_boards-tab" tabindex="0" onclick="toggleactive('pghn_yw_assignedtome')">
+                                                    <div class="pghn_yw_boards" aria-setsize="3" role="tab" aria-posinset="3" aria-selected="false" aria-controls="pghn_yw_boards-tab" tabindex="0" onclick="toggleactive('pghn_yw_boards')">
                                                         Boards
                                                     </div>
                                                 </div>
