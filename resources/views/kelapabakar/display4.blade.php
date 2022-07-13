@@ -949,6 +949,17 @@
             flex-shrink: 0;
             margin: 0px 4px;
         }
+
+        .pghn1_b1 {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            height: 100%;
+            position: relative;
+        }
     </style>
 
     {{-- CSS --}}
