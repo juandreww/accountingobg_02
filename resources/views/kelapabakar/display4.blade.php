@@ -1009,6 +1009,17 @@
             padding: 12px 12px 0px;
         }
 
+        .pghn_yourwork2_headertab {
+            display: flex;
+            flex-basis: 100%;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            max-width: 100%;
+            min-height: 0%;
+        }
+
+
     </style>
 
     {{-- CSS --}}
@@ -1268,10 +1279,12 @@
                                     <div class="pghn_yourwork2">
                                         <div class="pghn_yourwork2_header">
                                             <div class="pghn_yourwork2_headertab">
-                                                <div class=""></div>
-                                                <div class=""></div>
-                                                <div class=""></div>
-                                            </div>
+                                                <div class="pghn_yourwork2_headertab1">
+                                                    <div class=""></div>
+                                                    <div class=""></div>
+                                                    <div class=""></div>
+                                                </div>
+                                                                                            </div>
                                         </div>
                                         <div></div>
                                         <div></div>
