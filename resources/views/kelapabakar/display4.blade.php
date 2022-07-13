@@ -1232,6 +1232,17 @@
                                 </span>
                             </span>
                         </button>
+                        <div class="pghn_yourwork">
+                            <span>
+                                <div>
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
                     </div>
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
