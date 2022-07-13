@@ -1039,6 +1039,19 @@
             height: 2px;
         }
 
+        .pghn_yourwork2_headertab1 [role="tab"] [aria-selected="true"]::after {
+            content: "";
+            border-radius: 2px;
+            bottom: 0px;
+            margin: 0px;
+            position: absolute;
+            width: inherit;
+            left: 8px;
+            right: 8px;
+            border-bottom: 2px solid var(--ds-text-brand, #0052cc);
+            height: 2px;
+        }
+
 
     </style>
 
