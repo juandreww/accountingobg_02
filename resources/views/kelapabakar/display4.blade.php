@@ -1094,6 +1094,28 @@
             content: "";
         }
 
+        .pghn_yourwork2_footer1 {
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 40px;
+            margin: 0px;
+            padding: 8px 20px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            user-select: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .pghn_yourwork2_footer1:visited {
+            color: currentColor;
+        }
+
     </style>
 
     {{-- CSS --}}
