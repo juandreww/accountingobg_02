@@ -1005,6 +1005,10 @@
             overflow: auto;
         }
 
+        .pghn_yourwork2_header {
+            padding: 12px 12px 0px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1262,7 +1266,13 @@
                             <span>
                                 <div class="pghn_yourwork1">
                                     <div class="pghn_yourwork2">
-                                        <div></div>
+                                        <div class="pghn_yourwork2_header">
+                                            <div class="pghn_yourwork2_headertab">
+                                                <div class=""></div>
+                                                <div class=""></div>
+                                                <div class=""></div>
+                                            </div>
+                                        </div>
                                         <div></div>
                                         <div></div>
                                     </div>
