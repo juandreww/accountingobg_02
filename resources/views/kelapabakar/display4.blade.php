@@ -934,6 +934,16 @@
             --icon-primary-color: currentColor;
             --icon-secondary-color: var(--ds-surface, #ffff);
         }
+
+        .pgh_nav1 {
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            display: flex;
+            -webkit-box-flex: 1;
+            flex: 1 0 0px;
+            height: 100%;
+            position: relative;
+        }
     </style>
 
     {{-- CSS --}}
