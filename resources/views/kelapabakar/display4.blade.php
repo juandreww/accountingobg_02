@@ -1052,6 +1052,10 @@
             height: 2px;
         }
 
+        .pghn_yourwork2_headertab1 [role="tab"][aria-selected="true"] {
+            color: var(--ds-text-brand, #0052cc);
+        }
+
 
     </style>
 
@@ -1313,7 +1317,9 @@
                                         <div class="pghn_yourwork2_header">
                                             <div class="pghn_yourwork2_headertab">
                                                 <div role="tablist" class="pghn_yourwork2_headertab1">
-                                                    <div class=""></div>
+                                                    <div id="pghn_yw_assignedtome" aria-setsize="3" role="tab" aria-posinset="1" aria-selected="true" aria-controls="pghn_yw_assignedtome-tab" tabindex="0">
+                                                        "Assigned to me"
+                                                    </div>
                                                     <div class=""></div>
                                                     <div class=""></div>
                                                 </div>
