@@ -983,7 +983,7 @@
             position: fixed;
             inset: 0px auto auto 0px;
             transform: translate(92px, 52px);
-            display: block;
+            display: none;
             box-sizing: border-box;
             z-index: 400;
             flex: 1 1 auto;
@@ -1148,7 +1148,7 @@
         <header role="banner" class ="pgh">
             <nav aria-label="Primary Navigation" class ="pgh_nav">
                 <div role="presentation">
-                    <button aria-expanded="false" id ="pghn_ppt1_button" aria-hashpopup="true" class="pghn_ppt" type="button" tabindex="0" onclick="toggle('pghn_ppt_modal', 'pghn_ppt1_button')">
+                    <button aria-expanded="false" id ="pghn_ppt1_button" aria-haspopup="true" class="pghn_ppt" type="button" tabindex="0" onclick="toggle('pghn_ppt_modal', 'pghn_ppt1_button')">
                         <span class="pghn_ppt1">
                             <span role="img" aria-label="Appswitcher Icon" class="material-symbols-outlined pghn_ppt2" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #ffffff);">
                                 apps
@@ -1375,7 +1375,7 @@
                 </a>
                 <div class="pgh_nav1">
                     <div class="pghn1_b1">
-                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" id="pghn1_b1b" type="button" tabindex="0" onclick="toggle('pghn_yourwork', 'pghn1_b1b')">
                             <span class="pghn1_b1tit">
                                 Your Work
                             </span>
@@ -1389,7 +1389,7 @@
                                 </span>
                             </span>
                         </button>
-                        <div class="pghn_yourwork" data-placement="bottom-start" tab-index= "0">
+                        <div class="pghn_yourwork" id="pghn_yourwork" data-placement="bottom-start" tab-index= "0">
                             <span>
                                 <div class="pghn_yourwork1">
                                     <div class="pghn_yourwork2">
@@ -1624,6 +1624,7 @@
             }
         }
 
+        console.log(2);
     </script>
 </body>
 </html>
