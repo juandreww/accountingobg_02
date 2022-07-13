@@ -1129,6 +1129,13 @@
             text-align: left;
         }
 
+        .pghn_yourwork2_footer3 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
