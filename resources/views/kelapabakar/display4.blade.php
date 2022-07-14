@@ -1968,10 +1968,23 @@
 
         console.log(1);
         function toggle(modal, button) {
+            if (modal == 'pghn_projects') {
+                othertab1 = 'pghn_yourwork';
+                othertab2 = 'pghn_filters';
+                othertab3 = 'pghn_dashboards';
+                othertab4 = 'pghn_people';
+                othertab5 = 'pghn_apps';
+            } else if (div == 'pghn_yw_recent') {
+                othertab1 = 'pghn_yw_assignedtome';
+                othertab2 = 'pghn_yw_boards';
+            } else if (div == 'pghn_yw_boards') {
+                othertab1 = 'pghn_yw_assignedtome';
+                othertab2 = 'pghn_yw_recent';
+            }
             console.log('1b');
             var n = document.getElementById(modal);
             console.log(n.style.display);
-            if (n.style.display == 'none') {
+            if (n.style.display == 'none' || n.style.display == '') {
                 n.style.display = 'block';
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
             } else {
