@@ -1974,19 +1974,49 @@
                 othertab3 = 'pghn_dashboards';
                 othertab4 = 'pghn_people';
                 othertab5 = 'pghn_apps';
-            } else if (div == 'pghn_yw_recent') {
-                othertab1 = 'pghn_yw_assignedtome';
-                othertab2 = 'pghn_yw_boards';
-            } else if (div == 'pghn_yw_boards') {
-                othertab1 = 'pghn_yw_assignedtome';
-                othertab2 = 'pghn_yw_recent';
+            } else if (modal == 'pghn_yourwork') {
+                othertab1 = 'pghn_projects';
+                othertab2 = 'pghn_filters';
+                othertab3 = 'pghn_dashboards';
+                othertab4 = 'pghn_people';
+                othertab5 = 'pghn_apps';
+            } else if (modal == 'pghn_filters') {
+                othertab1 = 'pghn_projects';
+                othertab2 = 'pghn_yourwork';
+                othertab3 = 'pghn_dashboards';
+                othertab4 = 'pghn_people';
+                othertab5 = 'pghn_apps';
+            } else if (modal == 'pghn_dashboards') {
+                othertab1 = 'pghn_projects';
+                othertab2 = 'pghn_yourwork';
+                othertab3 = 'pghn_filters';
+                othertab4 = 'pghn_people';
+                othertab5 = 'pghn_apps';
+            } else if (modal == 'pghn_people') {
+                othertab1 = 'pghn_projects';
+                othertab2 = 'pghn_yourwork';
+                othertab3 = 'pghn_dashboards';
+                othertab4 = 'pghn_filter';
+                othertab5 = 'pghn_apps';
+            } else if (modal == 'pghn_apps') {
+                othertab1 = 'pghn_projects';
+                othertab2 = 'pghn_yourwork';
+                othertab3 = 'pghn_dashboards';
+                othertab4 = 'pghn_filter';
+                othertab5 = 'pghn_people';
             }
+
             console.log('1b');
             var n = document.getElementById(modal);
             console.log(n.style.display);
             if (n.style.display == 'none' || n.style.display == '') {
                 n.style.display = 'block';
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
+                document.getElementById(othertab1).setAttribute('aria-expanded', 'false');
+                document.getElementById(othertab2).setAttribute('aria-expanded', 'false');
+                document.getElementById(othertab3).setAttribute('aria-expanded', 'false');
+                document.getElementById(othertab4).setAttribute('aria-expanded', 'false');
+                document.getElementById(othertab5).setAttribute('aria-expanded', 'false');
             } else {
                 n.style.display = 'none';
                 document.getElementById(button).setAttribute('aria-expanded', 'false');
