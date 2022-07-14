@@ -1168,16 +1168,25 @@
             overflow: auto;
         }
 
-        .pghn_projects_parttop [data-ds--menu--heading-item]:first-of-type {
+        .pghn_projects_parttop [data-ds--menu--heading-item]:first-of-type, .pghn_filters_parttop [data-ds--menu--heading-item]:first-of-type
+        , .pghn_dashboards_parttop [data-ds--menu--heading-item]:first-of-type, .pghn_people_parttop [data-ds--menu--heading-item]:first-of-type
+        , .pghn_apps_parttop [data-ds--menu--heading-item]:first-of-type {
             margin-top: 14px;
         }
 
-        .pghn_projects_parttop [data-ds--menu--heading-item] {
+        .pghn_projects_parttop [data-ds--menu--heading-item], .pghn_filters_parttop [data-ds--menu--heading-item]
+        , .pghn_dashboards_parttop [data-ds--menu--heading-item], .pghn_people_parttop [data-ds--menu--heading-item]
+        , .pghn_apps_parttop [data-ds--menu--heading-item] {
             margin-top: 20px;
             margin-bottom: 6px;
         }
 
-        .pghn_projects_parttop::before, .pghn_projects_parttop::after {
+        .pghn_projects_parttop::before, .pghn_projects_parttop::after
+        , .pghn_filters_parttop::before, .pghn_filters_parttop::after
+        , .pghn_dashboards_parttop::before, .pghn_dashboards_parttop::after
+        , .pghn_projects_parttop::before, .pghn_projects_parttop::after
+        , .pghn_projects_parttop::before, .pghn_projects_parttop::after
+        , .pghn_projects_parttop::before, .pghn_projects_parttop::after {
             display: block;
             height: 6px;
             content: "";
