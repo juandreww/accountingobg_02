@@ -1137,7 +1137,7 @@
             white-space: nowrap;
         }
 
-        .pghn_projects {
+        .pghn_projects, .pghn_filters, .pghn_dashboards, .pghn_people, .pghn_apps {
             position: fixed;
             inset: 0px auto auto 0px;
             transform: translate(306px, 52px);
@@ -1151,19 +1151,19 @@
             overflow: auto;
         }
 
-        .pghn_projects1 {
+        .pghn_projects1, .pghn_filters1, .pghn_dashboards1, .pghn_people1, .pghn_apps1 {
             min-width: 320px;
             max-width: 800px;
         }
 
-        .pghn_projects2 {
+        .pghn_projects2, .pghn_filters2, .pghn_dashboards2, .pghn_people2, .pghn_apps2 {
             max-height: calc(100vh - 200px);
             display: flex;
             flex-direction: column;
             overflow: auto;
         }
 
-        .pghn_projects_parttop {
+        .pghn_projects_parttop, .pghn_filters_parttop, .pghn_dashboards_parttop, .pghn_people_parttop, .pghn_apps_parttop {
             flex-shrink: 1;
             overflow: auto;
         }
@@ -1662,32 +1662,32 @@
                                 </span>
                             </span>
                         </button>
-                        {{-- <div class="pghn_projects" id="pghn_dashboards" data-placement="bottom-start">
+                        <div class="pghn_dashboards" id="pghn_dashboards" data-placement="bottom-start">
                             <span>
-                                <div class="pghn_projects1">
-                                    <div class="pghn_projects2">
-                                        <div role="group" data-section="true" class="pghn_projects_parttop">
+                                <div class="pghn_dashboards1">
+                                    <div class="pghn_dashboards2">
+                                        <div role="group" data-section="true" class="pghn_dashboards_parttop">
                                             <span>
-                                                <div data-ds--menu--heading-item="true" class="pghn_projects_thead">
+                                                <div data-ds--menu--heading-item="true" class="pghn_dashboards_thead">
                                                     Recent
                                                 </div>
-                                                <div class="pghn_projects_tbody">
+                                                <div class="pghn_dashboards_tbody">
                                                     _
                                                 </div>
                                             </span>
                                         </div>
-                                        <div role="group" data-section="true" class="pghn_projects_partbottom">
+                                        <div role="group" data-section="true" class="pghn_dashboards_partbottom">
                                             <span>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_dashboards_bbutton" type="button">
+                                                    <span class="pghn_dashboards_bbutton1">
+                                                        <span class="pghn_dashboards_bbutton2" data-item-title="true">
                                                             Display Choice 1
                                                         </span>
                                                     </span>
                                                 </button>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_dashboards_bbutton" type="button">
+                                                    <span class="pghn_dashboards_bbutton1">
+                                                        <span class="pghn_dashboards_bbutton2" data-item-title="true">
                                                             Display Choice 2
                                                         </span>
                                                     </span>
@@ -1697,7 +1697,7 @@
                                     </div>
                                 </div>
                             </span>
-                        </div> --}}
+                        </div>
                     </div>
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1f" id="pghn1_b1f" type="button" tabindex="0" onclick="toggle('pghn_people', 'pghn1_b1f')">
@@ -1714,32 +1714,32 @@
                                 </span>
                             </span>
                         </button>
-                        {{-- <div class="pghn_projects" id="pghn_people" data-placement="bottom-start">
+                        <div class="pghn_people" id="pghn_people" data-placement="bottom-start">
                             <span>
-                                <div class="pghn_projects1">
-                                    <div class="pghn_projects2">
-                                        <div role="group" data-section="true" class="pghn_projects_parttop">
+                                <div class="pghn_people1">
+                                    <div class="pghn_people2">
+                                        <div role="group" data-section="true" class="pghn_people_parttop">
                                             <span>
-                                                <div data-ds--menu--heading-item="true" class="pghn_projects_thead">
+                                                <div data-ds--menu--heading-item="true" class="pghn_people_thead">
                                                     Recent
                                                 </div>
-                                                <div class="pghn_projects_tbody">
+                                                <div class="pghn_people_tbody">
                                                     _
                                                 </div>
                                             </span>
                                         </div>
-                                        <div role="group" data-section="true" class="pghn_projects_partbottom">
+                                        <div role="group" data-section="true" class="pghn_people_partbottom">
                                             <span>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_people_bbutton" type="button">
+                                                    <span class="pghn_people_bbutton1">
+                                                        <span class="pghn_people_bbutton2" data-item-title="true">
                                                             Display Choice 1
                                                         </span>
                                                     </span>
                                                 </button>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_people_bbutton" type="button">
+                                                    <span class="pghn_people_bbutton1">
+                                                        <span class="pghn_people_bbutton2" data-item-title="true">
                                                             Display Choice 2
                                                         </span>
                                                     </span>
@@ -1749,7 +1749,7 @@
                                     </div>
                                 </div>
                             </span>
-                        </div> --}}
+                        </div>
                     </div>
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1g" id="pghn1_b1g" type="button" tabindex="0" onclick="toggle('pghn_apps', 'pghn1_b1g')">
@@ -1766,32 +1766,32 @@
                                 </span>
                             </span>
                         </button>
-                        {{-- <div class="pghn_projects" id="pghn_apps" data-placement="bottom-start">
+                        <div class="pghn_apps" id="pghn_apps" data-placement="bottom-start">
                             <span>
-                                <div class="pghn_projects1">
-                                    <div class="pghn_projects2">
-                                        <div role="group" data-section="true" class="pghn_projects_parttop">
+                                <div class="pghn_apps1">
+                                    <div class="pghn_apps2">
+                                        <div role="group" data-section="true" class="pghn_apps_parttop">
                                             <span>
-                                                <div data-ds--menu--heading-item="true" class="pghn_projects_thead">
+                                                <div data-ds--menu--heading-item="true" class="pghn_apps_thead">
                                                     Recent
                                                 </div>
-                                                <div class="pghn_projects_tbody">
+                                                <div class="pghn_apps_tbody">
                                                     _
                                                 </div>
                                             </span>
                                         </div>
-                                        <div role="group" data-section="true" class="pghn_projects_partbottom">
+                                        <div role="group" data-section="true" class="pghn_apps_partbottom">
                                             <span>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_apps_bbutton" type="button">
+                                                    <span class="pghn_apps_bbutton1">
+                                                        <span class="pghn_apps_bbutton2" data-item-title="true">
                                                             Display Choice 1
                                                         </span>
                                                     </span>
                                                 </button>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_apps_bbutton" type="button">
+                                                    <span class="pghn_apps_bbutton1">
+                                                        <span class="pghn_apps_bbutton2" data-item-title="true">
                                                             Display Choice 2
                                                         </span>
                                                     </span>
@@ -1801,7 +1801,7 @@
                                     </div>
                                 </div>
                             </span>
-                        </div> --}}
+                        </div>
                     </div>
                     <div class="pghn1_b2"></div>
                 </div>
