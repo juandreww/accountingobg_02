@@ -1241,7 +1241,7 @@
             cursor: pointer;
         }
 
-        .pghn_projects_bbutton1 {
+        .pghn_projects_bbutton1, .pghn_filters_bbutton1, .pghn_dashboards_bbutton1, .pghn_people_bbutton1, .pghn_apps_bbutton1 {
             display: flex;
             -webkit-box-pack: center;
             justify-content: center;
