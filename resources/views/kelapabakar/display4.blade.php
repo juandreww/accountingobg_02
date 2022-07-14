@@ -1184,15 +1184,14 @@
         .pghn_projects_parttop::before, .pghn_projects_parttop::after
         , .pghn_filters_parttop::before, .pghn_filters_parttop::after
         , .pghn_dashboards_parttop::before, .pghn_dashboards_parttop::after
-        , .pghn_projects_parttop::before, .pghn_projects_parttop::after
-        , .pghn_projects_parttop::before, .pghn_projects_parttop::after
-        , .pghn_projects_parttop::before, .pghn_projects_parttop::after {
+        , .pghn_people_parttop::before, .pghn_people_parttop::after
+        , .pghn_apps_parttop::before, .pghn_apps_parttop::after {
             display: block;
             height: 6px;
             content: "";
         }
 
-        .pghn_projects_thead {
+        .pghn_projects_thead, .pghn_filters_thead, .pghn_dashboards_thead, .pghn_people_thead, .pghn_apps_thead {
             padding: 0px 20px;
             color: var(--ds-text-subtle, #5e6c84);
             font-size: 11px;
@@ -1201,25 +1200,29 @@
             text-transform: uppercase;
         }
 
-        .pghn_projects_tbody {
+        .pghn_projects_tbody, .pghn_filters_tbody, .pghn_dashboards_tbody, .pghn_people_tbody, .pghn_apps_tbody {
             padding: 0px 20px;
             color: #ffffff;
             margin-top: 20px;
             margin-bottom: 104px;
         }
 
-        .pghn_projects_partbottom {
+        .pghn_projects_partbottom, .pghn_filters_partbottom, .pghn_dashboards_partbottom, .pghn_people_partbottom, .pghn_apps_partbottom {
             flex-shrink: 0;
             border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9,30,66, 0.08)));
         }
 
-        .pghn_projects_partbottom::before, .pghn_projects_partbottom::after {
+        .pghn_projects_partbottom::before, .pghn_projects_partbottom::after,
+        .pghn_filters_partbottom::before, .pghn_filters_partbottom::after,
+        .pghn_dashboards_partbottom::before, .pghn_dashboards_partbottom::after,
+        .pghn_people_partbottom::before, .pghn_people_partbottom::after,
+        .pghn_apps_partbottom::before, .pghn_apps_partbottom::after {
             display: block;
             height: 6px;
             content: "";
         }
 
-        .pghn_projects_bbutton {
+        .pghn_projects_bbutton, .pghn_filters_bbutton, .pghn_dashboards_bbutton, .pghn_people_bbutton, .pghn_apps_bbutton {
             display: flex;
             box-sizing: border-box;
             width: 100%;
