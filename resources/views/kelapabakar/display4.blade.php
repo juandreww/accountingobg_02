@@ -1201,7 +1201,7 @@
 
         .pghn_projects_partbottom {
             flex-shrink: 0;
-            border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9,30,66, 0.88)));
+            border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9,30,66, 0.08)));
         }
 
         .pghn_projects_partbottom::before, .pghn_projects_partbottom::after {
@@ -1544,7 +1544,7 @@
                         </div>
                     </div>
                     <div class="pghn1_b1">
-                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
+                        <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1c" id="pghn1_b1c" type="button" tabindex="0" onclick="toggle('pghn_projects', 'pghn1_b1b')">
                             <span class="pghn1_b1tit">
                                 Projects
                             </span>
@@ -1578,6 +1578,13 @@
                                                     <span class="pghn_projects_bbutton1">
                                                         <span class="pghn_projects_bbutton2" data-item-title="true">
                                                             Display Choice 1
+                                                        </span>
+                                                    </span>
+                                                </button>
+                                                <button class="pghn_projects_bbutton" type="button">
+                                                    <span class="pghn_projects_bbutton1">
+                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                            Display Choice 2
                                                         </span>
                                                     </span>
                                                 </button>
@@ -1653,12 +1660,6 @@
                         </button>
                     </div>
                     <div class="pghn1_b2"></div>
-                    <div class="pghn1_b3"></div>
-                    <div class="pghn1_b4"></div>
-                    <div class="pghn1_b5"></div>
-                    <div class="pghn1_b6"></div>
-                    <div class="pghn1_b7"></div>
-                    <div class="pghn1_b8"></div>
                 </div>
             </nav>
         </header>
