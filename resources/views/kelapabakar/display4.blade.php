@@ -875,7 +875,7 @@
             cursor: pointer;
         }
 
-        .pghn1_b1b {
+        .pghn1_b1b , .pghn1_b1c, .pghn1_b1d, .pghn1_b1e, .pghn1_b1f, .pghn1_b1g {
             -webkit-box-align: baseline;
             align-items: baseline;
             box-sizing: border-box;
@@ -1610,32 +1610,32 @@
                                 </span>
                             </span>
                         </button>
-                        {{-- <div class="pghn_projects" id="pghn_filters" data-placement="bottom-start">
+                        <div class="pghn_filters" id="pghn_filters" data-placement="bottom-start">
                             <span>
-                                <div class="pghn_projects1">
-                                    <div class="pghn_projects2">
-                                        <div role="group" data-section="true" class="pghn_projects_parttop">
+                                <div class="pghn_filters1">
+                                    <div class="pghn_filters2">
+                                        <div role="group" data-section="true" class="pghn_filters_parttop">
                                             <span>
-                                                <div data-ds--menu--heading-item="true" class="pghn_projects_thead">
+                                                <div data-ds--menu--heading-item="true" class="pghn_filters_thead">
                                                     Recent
                                                 </div>
-                                                <div class="pghn_projects_tbody">
+                                                <div class="pghn_filters_tbody">
                                                     _
                                                 </div>
                                             </span>
                                         </div>
-                                        <div role="group" data-section="true" class="pghn_projects_partbottom">
+                                        <div role="group" data-section="true" class="pghn_filters_partbottom">
                                             <span>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_filters_bbutton" type="button">
+                                                    <span class="pghn_filters_bbutton1">
+                                                        <span class="pghn_filters_bbutton2" data-item-title="true">
                                                             Display Choice 1
                                                         </span>
                                                     </span>
                                                 </button>
-                                                <button class="pghn_projects_bbutton" type="button">
-                                                    <span class="pghn_projects_bbutton1">
-                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                <button class="pghn_filters_bbutton" type="button">
+                                                    <span class="pghn_filters_bbutton1">
+                                                        <span class="pghn_filters_bbutton2" data-item-title="true">
                                                             Display Choice 2
                                                         </span>
                                                     </span>
@@ -1645,7 +1645,7 @@
                                     </div>
                                 </div>
                             </span>
-                        </div> --}}
+                        </div>
                     </div>
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1e" id="pghn1_b1e" type="button" tabindex="0" onclick="toggle('pghn_dashboards', 'pghn1_b1e')">
