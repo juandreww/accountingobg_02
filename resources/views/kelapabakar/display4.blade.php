@@ -2047,6 +2047,11 @@
                 var n3 = document.getElementById(othermod3);
                 var n4 = document.getElementById(othermod4);
                 var n5 = document.getElementById(othermod5);
+                n1.style.display = 'none';
+                n2.style.display = 'none';
+                n3.style.display = 'none';
+                n4.style.display = 'none';
+                n5.style.display = 'none';
 
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
                 document.getElementById(othertab1).setAttribute('aria-expanded', 'false');
