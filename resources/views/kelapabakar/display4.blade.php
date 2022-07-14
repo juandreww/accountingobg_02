@@ -1137,10 +1137,52 @@
             white-space: nowrap;
         }
 
-        .pghn_projects, .pghn_filters, .pghn_dashboards, .pghn_people, .pghn_apps {
+        .pghn_projects, .pghn_apps {
             position: fixed;
             inset: 0px auto auto 0px;
             transform: translate(306px, 52px);
+            display: none;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #ffffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9,30,66,0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+            overflow: auto;
+        }
+
+        .pghn_filters {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(388px, 52px);
+            display: none;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #ffffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9,30,66,0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+            overflow: auto;
+        }
+
+        .pghn_dashboards {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(459px, 52px);
+            display: none;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #ffffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9,30,66,0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+            overflow: auto;
+        }
+
+        .pghn_people {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(566px, 52px);
             display: none;
             box-sizing: border-box;
             z-index: 400;
