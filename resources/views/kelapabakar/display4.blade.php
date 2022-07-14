@@ -1168,10 +1168,28 @@
             overflow: auto;
         }
 
+        .pghn_projects_parttop [data-ds--menu--heading-item]:first-of-type {
+            margin-top: 14px;
+        }
+
+        .pghn_projects_parttop [data-ds--menu--heading-item] {
+            margin-top: 20px;
+            margin-bottom: 6px;
+        }
+
         .pghn_projects_parttop::before, .pghn_projects_parttop::after {
             display: block;
             height: 6px;
             content: "";
+        }
+
+        .pghn_projects_thead {
+            padding: 0px 20px;
+            color: var(--ds-text-subtle, #5e6c84);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.45455;
+            text-transform: uppercase;
         }
 
     </style>
@@ -1488,11 +1506,10 @@
                                     <div class="pghn_projects2">
                                         <div role="group" data-section="true" class="pghn_projects_parttop">
                                             <span>
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
+                                                <div class="pghn_projects_thead">
+
+                                                </div>
+                                                <div class="pghn_projects_tbody"></div>
                                             </span>
                                         </div>
                                         <div></div>
