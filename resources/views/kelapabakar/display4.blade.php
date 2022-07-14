@@ -1969,41 +1969,41 @@
         console.log(1);
         function toggle(modal, button) {
             if (modal == 'pghn_projects') {
-                othertab1 = 'pghn_yourwork';
-                othertab2 = 'pghn_filters';
-                othertab3 = 'pghn_dashboards';
-                othertab4 = 'pghn_people';
-                othertab5 = 'pghn_apps';
+                othertab1 = 'pghn1_b1b';
+                othertab2 = 'pghn1_b1d';
+                othertab3 = 'pghn1_b1e';
+                othertab4 = 'pghn1_b1f';
+                othertab5 = 'pghn1_b1g';
             } else if (modal == 'pghn_yourwork') {
-                othertab1 = 'pghn_projects';
-                othertab2 = 'pghn_filters';
-                othertab3 = 'pghn_dashboards';
-                othertab4 = 'pghn_people';
-                othertab5 = 'pghn_apps';
+                othertab1 = 'pghn1_b1c';
+                othertab2 = 'pghn1_b1d';
+                othertab3 = 'pghn1_b1e';
+                othertab4 = 'pghn1_b1f';
+                othertab5 = 'pghn1_b1g';
             } else if (modal == 'pghn_filters') {
-                othertab1 = 'pghn_projects';
-                othertab2 = 'pghn_yourwork';
-                othertab3 = 'pghn_dashboards';
-                othertab4 = 'pghn_people';
-                othertab5 = 'pghn_apps';
+                othertab1 = 'pghn1_b1b';
+                othertab2 = 'pghn1_b1c';
+                othertab3 = 'pghn1_b1e';
+                othertab4 = 'pghn1_b1f';
+                othertab5 = 'pghn1_b1g';
             } else if (modal == 'pghn_dashboards') {
-                othertab1 = 'pghn_projects';
-                othertab2 = 'pghn_yourwork';
-                othertab3 = 'pghn_filters';
-                othertab4 = 'pghn_people';
-                othertab5 = 'pghn_apps';
+                othertab1 = 'pghn1_b1b';
+                othertab2 = 'pghn1_b1c';
+                othertab3 = 'pghn1_b1d';
+                othertab4 = 'pghn1_b1f';
+                othertab5 = 'pghn1_b1g';
             } else if (modal == 'pghn_people') {
-                othertab1 = 'pghn_projects';
-                othertab2 = 'pghn_yourwork';
-                othertab3 = 'pghn_dashboards';
-                othertab4 = 'pghn_filter';
-                othertab5 = 'pghn_apps';
+                othertab1 = 'pghn1_b1b';
+                othertab2 = 'pghn1_b1c';
+                othertab3 = 'pghn1_b1d';
+                othertab4 = 'pghn1_b1e';
+                othertab5 = 'pghn1_b1g';
             } else if (modal == 'pghn_apps') {
-                othertab1 = 'pghn_projects';
-                othertab2 = 'pghn_yourwork';
-                othertab3 = 'pghn_dashboards';
-                othertab4 = 'pghn_filter';
-                othertab5 = 'pghn_people';
+                othertab1 = 'pghn1_b1b';
+                othertab2 = 'pghn1_b1c';
+                othertab3 = 'pghn1_b1d';
+                othertab4 = 'pghn1_b1e';
+                othertab5 = 'pghn1_b1f';
             }
 
             console.log('1b');
