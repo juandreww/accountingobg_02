@@ -1254,7 +1254,7 @@
             text-align: left;
         }
 
-        .pghn_projects_bbutton2 {
+        .pghn_projects_bbutton2, .pghn_filters_bbutton2, .pghn_dashboards_bbutton2, .pghn_people_bbutton2, .pghn_apps_bbutton2 {
             display: block;
             overflow: hidden;
             text-overflow: ellipsis;
