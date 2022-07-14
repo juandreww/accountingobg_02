@@ -1192,6 +1192,64 @@
             text-transform: uppercase;
         }
 
+        .pghn_projects_tbody {
+            padding: 0px 20px;
+            color: #ffffff;
+            margin-top: 20px;
+            margin-bottom: 104px;
+        }
+
+        .pghn_projects_partbottom {
+            flex-shrink: 0;
+            border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9,30,66, 0.88)));
+        }
+
+        .pghn_projects_partbottom::before, .pghn_projects_partbottom::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
+        .pghn_projects_bbutton {
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 40px;
+            margin: 0px;
+            padding: 8px 20px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            user-select: none;
+            background-color: transparent;
+            color: currentColor;
+            cursor: pointer;
+        }
+
+        .pghn_projects_bbutton1 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .pghn_projects_bbutton2 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1506,13 +1564,25 @@
                                     <div class="pghn_projects2">
                                         <div role="group" data-section="true" class="pghn_projects_parttop">
                                             <span>
-                                                <div class="pghn_projects_thead">
-
+                                                <div data-ds--menu--heading-item="true" class="pghn_projects_thead">
+                                                    Recent
                                                 </div>
-                                                <div class="pghn_projects_tbody"></div>
+                                                <div class="pghn_projects_tbody">
+                                                    _
+                                                </div>
                                             </span>
                                         </div>
-                                        <div></div>
+                                        <div role="group" data-section="true" class="pghn_projects_partbottom">
+                                            <span>
+                                                <button class="pghn_projects_bbutton" type="button">
+                                                    <span class="pghn_projects_bbutton1">
+                                                        <span class="pghn_projects_bbutton2" data-item-title="true">
+                                                            Display Choice 1
+                                                        </span>
+                                                    </span>
+                                                </button>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </span>
