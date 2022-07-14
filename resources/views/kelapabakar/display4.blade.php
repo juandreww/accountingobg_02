@@ -1137,6 +1137,43 @@
             white-space: nowrap;
         }
 
+        .pghn_projects {
+            position: fixed;
+            inset: 0px auto auto 0px;
+            transform: translate(306px, 52px);
+            display: block;
+            box-sizing: border-box;
+            z-index: 400;
+            flex: 1 1 auto;
+            background-color: var(--ds-surface-overlay, #ffffff);
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-overlay, 0 4px 8px -2px rgba(9,30,66,0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+            overflow: auto;
+        }
+
+        .pghn_projects1 {
+            min-width: 320px;
+            max-width: 800px;
+        }
+
+        .pghn_projects2 {
+            max-height: calc(100vh - 200px);
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+
+        .pghn_projects_parttop {
+            flex-shrink: 1;
+            overflow: auto;
+        }
+
+        .pghn_projects_parttop::before, .pghn_projects_parttop::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1445,6 +1482,24 @@
                                 </span>
                             </span>
                         </button>
+                        <div class="pghn_projects" id="pghn_projects" data-placement="bottom-start">
+                            <span>
+                                <div class="pghn_projects1">
+                                    <div class="pghn_projects2">
+                                        <div role="group" data-section="true" class="pghn_projects_parttop">
+                                            <span>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                            </span>
+                                        </div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
                     </div>
                     <div class="pghn1_b1">
                         <button aria-expanded="false" aria-haspopup="true" class="pghn1_b1b" type="button" tabindex="0">
