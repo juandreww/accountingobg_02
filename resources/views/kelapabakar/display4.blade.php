@@ -2042,11 +2042,11 @@
             if (n.style.display == 'none' || n.style.display == '') {
                 n.style.display = 'block';
 
-                var n1 = document.getElementById(modal);
-                var n2 = document.getElementById(modal);
-                var n3 = document.getElementById(modal);
-                var n4 = document.getElementById(modal);
-                var n5 = document.getElementById(modal);
+                var n1 = document.getElementById(othermod1);
+                var n2 = document.getElementById(othermod2);
+                var n3 = document.getElementById(othermod3);
+                var n4 = document.getElementById(othermod4);
+                var n5 = document.getElementById(othermod5);
 
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
                 document.getElementById(othertab1).setAttribute('aria-expanded', 'false');
