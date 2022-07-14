@@ -1974,36 +1974,66 @@
                 othertab3 = 'pghn1_b1e';
                 othertab4 = 'pghn1_b1f';
                 othertab5 = 'pghn1_b1g';
+                othermod1 = 'pghn_yourwork';
+                othermod2 = 'pghn_filters';
+                othermod3 = 'pghn_dashboards';
+                othermod4 = 'pghn_people';
+                othermod5 = 'pghn_apps';
             } else if (modal == 'pghn_yourwork') {
                 othertab1 = 'pghn1_b1c';
                 othertab2 = 'pghn1_b1d';
                 othertab3 = 'pghn1_b1e';
                 othertab4 = 'pghn1_b1f';
                 othertab5 = 'pghn1_b1g';
+                othermod1 = 'pghn_projects';
+                othermod2 = 'pghn_filters';
+                othermod3 = 'pghn_dashboards';
+                othermod4 = 'pghn_people';
+                othermod5 = 'pghn_apps';
             } else if (modal == 'pghn_filters') {
                 othertab1 = 'pghn1_b1b';
                 othertab2 = 'pghn1_b1c';
                 othertab3 = 'pghn1_b1e';
                 othertab4 = 'pghn1_b1f';
                 othertab5 = 'pghn1_b1g';
+                othermod1 = 'pghn_yourwork';
+                othermod2 = 'pghn_projects';
+                othermod3 = 'pghn_dashboards';
+                othermod4 = 'pghn_people';
+                othermod5 = 'pghn_apps';
             } else if (modal == 'pghn_dashboards') {
                 othertab1 = 'pghn1_b1b';
                 othertab2 = 'pghn1_b1c';
                 othertab3 = 'pghn1_b1d';
                 othertab4 = 'pghn1_b1f';
                 othertab5 = 'pghn1_b1g';
+                othermod1 = 'pghn_yourwork';
+                othermod2 = 'pghn_projects';
+                othermod3 = 'pghn_filters';
+                othermod4 = 'pghn_people';
+                othermod5 = 'pghn_apps';
             } else if (modal == 'pghn_people') {
                 othertab1 = 'pghn1_b1b';
                 othertab2 = 'pghn1_b1c';
                 othertab3 = 'pghn1_b1d';
                 othertab4 = 'pghn1_b1e';
                 othertab5 = 'pghn1_b1g';
+                othermod1 = 'pghn_yourwork';
+                othermod2 = 'pghn_projects';
+                othermod3 = 'pghn_filters';
+                othermod4 = 'pghn_dashboards';
+                othermod5 = 'pghn_apps';
             } else if (modal == 'pghn_apps') {
                 othertab1 = 'pghn1_b1b';
                 othertab2 = 'pghn1_b1c';
                 othertab3 = 'pghn1_b1d';
                 othertab4 = 'pghn1_b1e';
                 othertab5 = 'pghn1_b1f';
+                othermod1 = 'pghn_yourwork';
+                othermod2 = 'pghn_projects';
+                othermod3 = 'pghn_filters';
+                othermod4 = 'pghn_dashboards';
+                othermod5 = 'pghn_people';
             }
 
             console.log('1b');
@@ -2011,6 +2041,13 @@
             console.log(n.style.display);
             if (n.style.display == 'none' || n.style.display == '') {
                 n.style.display = 'block';
+
+                var n1 = document.getElementById(modal);
+                var n2 = document.getElementById(modal);
+                var n3 = document.getElementById(modal);
+                var n4 = document.getElementById(modal);
+                var n5 = document.getElementById(modal);
+
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
                 document.getElementById(othertab1).setAttribute('aria-expanded', 'false');
                 document.getElementById(othertab2).setAttribute('aria-expanded', 'false');
