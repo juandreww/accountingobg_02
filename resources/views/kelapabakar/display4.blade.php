@@ -1326,8 +1326,8 @@
         }
 
         .pghn1_b2a {
-            -webkit-box-align: flex-start;
-            align-items: flex-start;
+            -webkit-box-align: baseline;
+            align-items: baseline;
             box-sizing: border-box;
             display: inline-flex;
             font-size: inherit;
@@ -1356,7 +1356,7 @@
             margin: 0px;
         }
 
-        .pghn1_b2a:hover {
+        #createGlobalItem:hover {
             color: var(--ds-text-onBold, #FFFFFF);
             background-color: var(--ds-background-boldBrand-hover, rgba(0,82,204,0.9));
         }
