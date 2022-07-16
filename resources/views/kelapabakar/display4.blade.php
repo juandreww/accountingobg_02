@@ -1318,6 +1318,49 @@
 
         }
 
+        .pghn1_b2 {
+            margin-left: 12px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .pghn1_b2a {
+            -webkit-box-align: flex-start;
+            align-items: flex-start;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            color: var(--ds-text-onBold, #FFFFFF);
+            cursor: pointer;
+            height: 2.28571em;
+            line-height: 2.28571em;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            background-color: var(--ds-background-boldBrand-resting, #0052cc);
+            border-width: 0px;
+            border-radius: 3px;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            padding: 0px 10px;
+            outline: none;
+            margin: 0px;
+        }
+
+        .pghn1_b2a:hover {
+            color: var(--ds-text-onBold, #FFFFFF);
+            background-color: var(--ds-background-boldBrand-hover, rgba(0,82,204,0.9));
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1871,7 +1914,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="pghn1_b2"></div>
+                    <div data-testid="create-button-wrapper" class="pghn1_b2">
+                        <button id="createGlobalItem" data-hide-on-smallscreens="true" class="pghn1_b2a" type="button" tabindex="0">
+                            <span class="pghn1_b2b">Create</span>
+                        </button>
+                    </div>
+                    <div class=""></div>
                 </div>
             </nav>
         </header>
