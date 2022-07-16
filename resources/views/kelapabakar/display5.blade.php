@@ -2038,8 +2038,8 @@
                                 <div class="pgs_bot">
                                     <div class="pgs_bot1">
                                         <span class="pgs_bot2">
-                                            <span class="pgs_bot2a"></span>
-                                            <span class="pgs_bot2b"></span>
+                                            <span data-item-title="true" class="pgs_bot2a">You're in a team managed project</span>
+                                            <span data-item-description="true" class="pgs_bot2b">Learn more</span>
                                         </span>
                                     </div>
                                 </div>
