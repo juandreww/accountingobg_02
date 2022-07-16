@@ -1427,6 +1427,7 @@
             text-align: center;
             white-space: normal;
             line-height: initial;
+            font-size: 12px;
         }
 
         .pgs_bot2 {
@@ -1443,9 +1444,9 @@
         }
 
         .pgs_bot2a {
-            text-align: center;
-            white-space: normal;
-            line-height: initial;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .pgs_bot2b {
