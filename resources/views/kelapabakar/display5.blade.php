@@ -1397,6 +1397,32 @@
             position: relative;
         }
 
+        .pgs_bot {
+            position: relative;
+            padding: 8px 8px 14px;
+        }
+
+        .pgs_bot1 {
+            box-sizing: border-box;
+            margin: 0px;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            color: currentColor;
+            cursor: pointer;
+            border-radius: 3px;
+            user-select: auto;
+            display: block;
+            text-align: center;
+            min-height: 24px;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            background-color: transparent;
+            padding: 0px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1970,7 +1996,14 @@
                             <nav aria-label class ="pg_sidenav_e">
                                 <div class="pgs_top">a</div>
                                 <div class="pgs_mid">b</div>
-                                <div class="pgs_bot">c</div>
+                                <div class="pgs_bot">
+                                    <div class="pgs_bot1">
+                                        <span class="pgs_bot2">
+                                            <span class="pgs_bot2a"></span>
+                                            <span class="pgs_bot2b"></span>
+                                        </span>
+                                    </div>
+                                </div>
                             </nav>
                         </div>
                     </div>
