@@ -1423,6 +1423,35 @@
             padding: 0px;
         }
 
+        .pgs_bot1 [data-item-title] {
+            text-align: center;
+            white-space: normal;
+            line-height: initial;
+        }
+
+        .pgs_bot2 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .pgs_bot2a {
+            text-align: center;
+            white-space: normal;
+            line-height: initial;
+        }
+
+        .pgs_bot2b {
+
+        }
+
     </style>
 
     {{-- CSS --}}
