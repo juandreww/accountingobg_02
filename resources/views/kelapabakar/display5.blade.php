@@ -1358,8 +1358,11 @@
 
         .pg_sidenav_b {
             position: fixed;
-            top: calc(var(--bannerHeight, 0px) + var(--topNavigationHeight, 0px));
+            top: 56px;
             left: var(--leftPanelWidth, 0px);
+            bottom: 0px;
+            width: var(--leftSidebarWidth, 0px);
+            transition: width 300ms cubic-bezier(0.2, 0, 0, 1) 0s;
         }
 
         .pg_sidenav_c {
@@ -1385,6 +1388,13 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
+        }
+
+        .pg_body {
+            grid-area: content / content / content / content;
+            display: flex;
+            height: 100%;
+            position: relative;
         }
 
     </style>
