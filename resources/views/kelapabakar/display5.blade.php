@@ -1590,7 +1590,19 @@
             line-height: 1.2 !important;
         }
 
-        .pgs_toptextbot {}
+        .pgs_toptext [data-item-description] {
+            line-height: 1.2 !important;
+        }
+
+        .pgs_toptextbot {
+            margin-top: 3px;
+            color: var(--ds-text-subtlest, #6B778C);
+            font-size: 12px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
 
     </style>
 
