@@ -1588,6 +1588,7 @@
             font-weight: 600;
             color: var(--ds-text, #42526e);
             line-height: 1.2 !important;
+            margin-bottom: 0;
         }
 
         .pgs_toptext [data-item-description] {
