@@ -1582,6 +1582,16 @@
             text-align: left;
         }
 
+        .pgs_top3 [data-item-title] {
+            font-size: 14px;
+            letter-spacing: -0.003em;
+            font-weight: 600;
+            color: var(--ds-text, #42526e);
+            line-height: 1.2 !important;
+        }
+
+        .pgs_toptextbot {}
+
     </style>
 
     {{-- CSS --}}
@@ -2165,7 +2175,8 @@
                                                     </div>
                                                 </span>
                                                 <span class="pgs_toptext">
-
+                                                    <h2 class="pgs_toptexttop" data-item-title="true">odessaobg</h2>
+                                                    <span data-item-description="true" class="pgs_toptextbot">Software Project</span>
                                                 </span>
                                             </div>
                                         </span>
