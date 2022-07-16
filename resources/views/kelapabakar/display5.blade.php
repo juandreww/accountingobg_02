@@ -1569,6 +1569,19 @@
             background-image:
         }
 
+        .pgs_toptext {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2151,7 +2164,9 @@
                                                         </span>
                                                     </div>
                                                 </span>
-                                                <span class="pgs_toptext"></span>
+                                                <span class="pgs_toptext">
+
+                                                </span>
                                             </div>
                                         </span>
                                     </div>
