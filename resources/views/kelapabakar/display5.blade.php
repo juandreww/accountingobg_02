@@ -1462,6 +1462,26 @@
             white-space: nowrap;
         }
 
+        .pgs_top {
+            margin-left: 8px;
+        }
+
+        .pgs_top1 {
+            padding: 24px 8px 8px;
+        }
+
+        .pgs_top2 {
+            width: 100%;
+            height: 100%;
+            color: var(--ds-text-subtle, #42526e);
+            min-width: 240px;
+            background-color: var(--ds-surface, #fafbfc);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2033,7 +2053,16 @@
                     <div class="pg_sidenav_c">
                         <div class="pg_sidenav_d">
                             <nav aria-label class ="pg_sidenav_e">
-                                <div class="pgs_top">a</div>
+                                <div class="pgs_top">
+                                    <div class="pgs_top1" data-navheader="true">
+                                        <span class="pgs_top2">
+                                            <div>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
                                 <div class="pgs_mid">b</div>
                                 <div class="pgs_bot">
                                     <div class="pgs_bot1">
