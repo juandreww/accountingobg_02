@@ -1361,7 +1361,7 @@
             top: 56px;
             left: var(--leftPanelWidth, 0px);
             bottom: 0px;
-            width: var(--leftSidebarWidth, 0px);
+            width: 240px;
             transition: width 300ms cubic-bezier(0.2, 0, 0, 1) 0s;
         }
 
