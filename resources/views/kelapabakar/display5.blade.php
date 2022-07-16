@@ -1369,6 +1369,23 @@
             height: 100%;
         }
 
+        .pg_sidenav_d {
+            height: 100%;
+            min-width: 240px;
+        }
+
+        .pg_sidenav_e {
+            width: 100%;
+            height: 100%;
+            color: var(--ds-text-subtle, #42526e);
+            min-width: 240px;
+            background-color: var(--ds-surface, #FAFBFC);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1938,7 +1955,11 @@
             <div class="pg_sidenav_b">
                 <div class="pg_sidenav_c">
                     <div class="pg_sidenav_d">
-                        <nav aria-label class ="pg_sidenav_e"></nav>
+                        <nav aria-label class ="pg_sidenav_e">
+                            <div class="pgs_top"></div>
+                            <div class="pgs_mid"></div>
+                            <div class="pgs_bot"></div>
+                        </nav>
                     </div>
                 </div>
             </div>
