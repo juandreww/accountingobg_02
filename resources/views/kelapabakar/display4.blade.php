@@ -1960,7 +1960,6 @@
         <li><a href="#">Project Settings</a></li>
 
     </div>
-    <div class="pg_sidenav_shadow"></div>
     <div class="ct_header">
         <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
         <div class="ct_header_title">OD Board</div>
