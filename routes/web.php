@@ -59,6 +59,7 @@ Route::controller(KelapaBakarController::class)->group(function() {
     Route::get('/kelapabakar/display2', 'display2');
     Route::get('/kelapabakar/display3', 'display3');
     Route::get('/kelapabakar/display4', 'display4');
+    Route::get('/kelapabakar/display5', 'display5');
 });
 
 Route::controller(UploadController::class)->group(function() {
