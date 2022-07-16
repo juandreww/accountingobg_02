@@ -1502,6 +1502,17 @@
             background-color: transparent;
         }
 
+        .pgs_top3 [data-item-elem-before] {
+            display: flex;
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
     </style>
 
     {{-- CSS --}}
