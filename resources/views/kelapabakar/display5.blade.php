@@ -1553,6 +1553,22 @@
             font-family: inherit;
         }
 
+        .pgs_topicon_b::after {
+            background-color: transparent;
+            inset: 0px;
+            border-radius: 2px;
+            content: " ";
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            transition: opacity 200ms ease 0s;
+            width: 100%;
+        }
+
+        .pgs_topicon_c {
+            background-image:
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2131,9 +2147,7 @@
                                                 <span data-item-elem-before="true" class="pgs_topicon">
                                                     <div class="pgs_topicon_a">
                                                         <span class="pgs_topicon_b">
-                                                            <span>
-
-                                                            </span>
+                                                            <img src="{{ URL::to('/assets/img/top_header_icon+99999999999999999+8 9.jpg') }}" style="border-radius: 2px;">
                                                         </span>
                                                     </div>
                                                 </span>
