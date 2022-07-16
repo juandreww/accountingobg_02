@@ -2147,7 +2147,7 @@
                                                 <span data-item-elem-before="true" class="pgs_topicon">
                                                     <div class="pgs_topicon_a">
                                                         <span class="pgs_topicon_b">
-                                                            <img src="{{ URL::to('/assets/img/top_header_icon+99999999999999999+8 9.jpg') }}" style="border-radius: 2px;">
+                                                            <img src="{{ URL::to('/assets/img/top_header_icon.png') }}" style="border-radius: 2px;">
                                                         </span>
                                                     </div>
                                                 </span>
