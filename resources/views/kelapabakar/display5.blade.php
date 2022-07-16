@@ -1342,6 +1342,33 @@
             position: relative;
         }
 
+        .pg_sidenav {
+            position: relative;
+            z-index: 199;
+        }
+
+        .pg_sidenav_a {
+            position: relative;
+            width: var(--leftSidebarWidth, 0px);
+            transition: width 300ms cubic-bezier(0.2, 0, 0, 1) 0s;
+            z-index: 1;
+            margin-left: 0px;
+        }
+
+        .pg_sidenav_b {
+            position: fixed;
+            top: calc(var(--bannerHeight, 0px) + var(--topNavigationHeight, 0px));
+            left: var(--leftPanelWidth, 0px);
+        }
+
+        .pg_sidenav_c {
+            visibility: visible;
+            transition: none 0s ease 0s;
+            opacity: 1;
+            overflow: hidden auto;
+            height: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1906,13 +1933,12 @@
         </header>
     </div>
     <div class="pg_sidenav active">
-        <div class="pg_sidenav_a">
+        <div class="pg_sidenav_a" data-testid="ContextualNavigation" id="pg_sidenav_a" data-ds--page-layout--slot="left-sidebar">
+            <style>:root{--leftSidebarWidth: 302px;}</style>
             <div class="pg_sidenav_b">
                 <div class="pg_sidenav_c">
                     <div class="pg_sidenav_d">
-                        <div class="pg_sidenav_e">
-
-                        </div>
+                        <nav aria-label class ="pg_sidenav_e"></nav>
                     </div>
                 </div>
             </div>
