@@ -1482,6 +1482,26 @@
             overflow: hidden;
         }
 
+        .pgs_top3 {
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            color: currentColor;
+            cursor: pointer;
+            padding: 8px 10px;
+            border-radius: 3px;
+            user-select: auto;
+            background-color: transparent;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2056,9 +2076,9 @@
                                 <div class="pgs_top">
                                     <div class="pgs_top1" data-navheader="true">
                                         <span class="pgs_top2">
-                                            <div>
-                                                <span></span>
-                                                <span></span>
+                                            <div class="pgs_top3">
+                                                <span class="pgs_topicon"></span>
+                                                <span class="pgs_toptext"></span>
                                             </div>
                                         </span>
                                     </div>
