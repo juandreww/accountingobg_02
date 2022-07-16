@@ -1361,6 +1361,18 @@
             background-color: var(--ds-background-boldBrand-hover, rgba(0,82,204,0.9));
         }
 
+        .pghn1_b2b {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            -webkit-box-flex: 1;
+            margin: 0px 2px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
