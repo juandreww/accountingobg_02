@@ -1950,68 +1950,70 @@
             </nav>
         </header>
     </div>
-    <div class="pg_sidenav active">
-        <div class="pg_sidenav_a" data-testid="ContextualNavigation" id="pg_sidenav_a" data-ds--page-layout--slot="left-sidebar">
-            <style>:root{--leftSidebarWidth: 302px;}</style>
-            <div class="pg_sidenav_b">
-                <div class="pg_sidenav_c">
-                    <div class="pg_sidenav_d">
-                        <nav aria-label class ="pg_sidenav_e">
-                            <div class="pgs_top">a</div>
-                            <div class="pgs_mid">b</div>
-                            <div class="pgs_bot">c</div>
-                        </nav>
+    <div class="pg_body">
+        <div class="pg_sidenav active">
+            <div class="pg_sidenav_a" data-testid="ContextualNavigation" id="pg_sidenav_a" data-ds--page-layout--slot="left-sidebar">
+                <style>:root{--leftSidebarWidth: 302px;}</style>
+                <div class="pg_sidenav_b">
+                    <div class="pg_sidenav_c">
+                        <div class="pg_sidenav_d">
+                            <nav aria-label class ="pg_sidenav_e">
+                                <div class="pgs_top">a</div>
+                                <div class="pgs_mid">b</div>
+                                <div class="pgs_bot">c</div>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="ct_header">
-        <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
-        <div class="ct_header_title">OD Board</div>
-        <div class="ct_header_searchcontainer">
-            <form action="/action" id="ct_header_fsearchbox">
-                <input type="text" placeholder="" name="search" id="ct_header_searchbox">
-                <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
-            </form>
-            {{-- <span id="ct_header_profpic">abc</span> --}}
-            <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
-            <a href="#"><span class="material-symbols-outlined">person_add</span></a>
+        <div class="ct_header">
+            <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
+            <div class="ct_header_title">OD Board</div>
+            <div class="ct_header_searchcontainer">
+                <form action="/action" id="ct_header_fsearchbox">
+                    <input type="text" placeholder="" name="search" id="ct_header_searchbox">
+                    <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
+                </form>
+                {{-- <span id="ct_header_profpic">abc</span> --}}
+                <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
+                <a href="#"><span class="material-symbols-outlined">person_add</span></a>
+            </div>
         </div>
-    </div>
-    <div class="ct_body">
-        <div class="kb_today">
-            <span id="kb_header">KANBAN TODAY</span>
-            <span id="kb_today_content">Beli Jeruk 10 pcs</span>
-            <span id="kb_today_content">Beli Apel 10 pcs</span>
-            <span id="kb_today_content">Beli Anggur 10 pcs</span>
-            <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
-            <span id="kb_today_content">Masukkan Jeruk & Anggur ke Kulkas</span>
-            <span id="kb_today_content">Kupas Anggur 5 pcs</span>
-        </div>
-        <div class="kb_tomorrow">
-            <span id="kb_header">KANBAN TOMORROW</span>
-            <span id="kb_today_content">Beli Mangga & Pear 10 pcs</span>
-            <span id="kb_today_content">Sajikan 6 pcs Mangga di ruang tamu</span>
-            <span id="kb_today_content">Berikan 8 pcs Pear ke tetangga</span>
-            <span id="kb_today_content">Jus 2 pcs Pear</span>
-        </div>
-        <div class="kb_nextweek">
-            <span id="kb_header">KANBAN NEXTWEEK</span>
-            <span id="kb_today_content">Beli Apel 30 pcs</span>
-            <span id="kb_today_content">Sajikan 16 pcs Apel di ruang tamu</span>
-            <span id="kb_today_content">Beri makan kucing 2 pcs Apel</span>
-            <span id="kb_today_content">Buat adonan kue dengan 2 pcs Apel</span>
-        </div>
-        <div class="kb_done">
-            <span id="kb_header">KANBAN DONE<span id="checklist">&nbsp;&nbsp;&nbsp;&nbsp;✓</span></span>
-            <span id="kb_today_content">Kembalikan 5 pcs Apel berbau ke pasar</span>
-            <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
-            <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
-            <span id="kb_today_content">Buat milkshake dg 1 pcs Pisang</span>
-        </div>
-        <div class="kb_add">
-            <a href="#"><span class="material-symbols-outlined">add</span></a>
+        <div class="ct_body">
+            <div class="kb_today">
+                <span id="kb_header">KANBAN TODAY</span>
+                <span id="kb_today_content">Beli Jeruk 10 pcs</span>
+                <span id="kb_today_content">Beli Apel 10 pcs</span>
+                <span id="kb_today_content">Beli Anggur 10 pcs</span>
+                <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
+                <span id="kb_today_content">Masukkan Jeruk & Anggur ke Kulkas</span>
+                <span id="kb_today_content">Kupas Anggur 5 pcs</span>
+            </div>
+            <div class="kb_tomorrow">
+                <span id="kb_header">KANBAN TOMORROW</span>
+                <span id="kb_today_content">Beli Mangga & Pear 10 pcs</span>
+                <span id="kb_today_content">Sajikan 6 pcs Mangga di ruang tamu</span>
+                <span id="kb_today_content">Berikan 8 pcs Pear ke tetangga</span>
+                <span id="kb_today_content">Jus 2 pcs Pear</span>
+            </div>
+            <div class="kb_nextweek">
+                <span id="kb_header">KANBAN NEXTWEEK</span>
+                <span id="kb_today_content">Beli Apel 30 pcs</span>
+                <span id="kb_today_content">Sajikan 16 pcs Apel di ruang tamu</span>
+                <span id="kb_today_content">Beri makan kucing 2 pcs Apel</span>
+                <span id="kb_today_content">Buat adonan kue dengan 2 pcs Apel</span>
+            </div>
+            <div class="kb_done">
+                <span id="kb_header">KANBAN DONE<span id="checklist">&nbsp;&nbsp;&nbsp;&nbsp;✓</span></span>
+                <span id="kb_today_content">Kembalikan 5 pcs Apel berbau ke pasar</span>
+                <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
+                <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
+                <span id="kb_today_content">Buat milkshake dg 1 pcs Pisang</span>
+            </div>
+            <div class="kb_add">
+                <a href="#"><span class="material-symbols-outlined">add</span></a>
+            </div>
         </div>
     </div>
 
