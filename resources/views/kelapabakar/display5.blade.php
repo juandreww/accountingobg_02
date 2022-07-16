@@ -20,7 +20,7 @@
             height: 56px;
             width: 100%;
             position: fixed;
-            z-index: 1;
+            z-index: 200;
             top: 0;
             left: 0;
             background-color: white;
@@ -1345,6 +1345,7 @@
         .pg_sidenav {
             position: relative;
             z-index: 199;
+            top: 56px;
         }
 
         .pg_sidenav_a {
@@ -1956,9 +1957,9 @@
                 <div class="pg_sidenav_c">
                     <div class="pg_sidenav_d">
                         <nav aria-label class ="pg_sidenav_e">
-                            <div class="pgs_top"></div>
-                            <div class="pgs_mid"></div>
-                            <div class="pgs_bot"></div>
+                            <div class="pgs_top">a</div>
+                            <div class="pgs_mid">b</div>
+                            <div class="pgs_bot">c</div>
                         </nav>
                     </div>
                 </div>
