@@ -1521,6 +1521,38 @@
             flex-shrink: 0;
         }
 
+        .pgs_topicon_a {
+            display: inline-block;
+            position: relative;
+            outline: 0px;
+        }
+
+        .pgs_topicon_b {
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            background-color: transparent;
+            border-radius: 2px;
+            box-sizing: content-box;
+            cursor: inherit;
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            outline: none;
+            overflow: hidden;
+            position: static;
+            transform: translateZ(0px);
+            transition: transform 200ms ease 0s, opacity 200ms ease 0s;
+            box-shadow: transparent 0px 0px 0px 2px;
+            border: none;
+            margin: 2px;
+            padding: 0px;
+            font-size: inherit;
+            font-family: inherit;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2096,7 +2128,15 @@
                                     <div class="pgs_top1" data-navheader="true">
                                         <span class="pgs_top2">
                                             <div class="pgs_top3">
-                                                <span class="pgs_topicon"></span>
+                                                <span data-item-elem-before="true" class="pgs_topicon">
+                                                    <div class="pgs_topicon_a">
+                                                        <span class="pgs_topicon_b">
+                                                            <span>
+
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </span>
                                                 <span class="pgs_toptext"></span>
                                             </div>
                                         </span>
