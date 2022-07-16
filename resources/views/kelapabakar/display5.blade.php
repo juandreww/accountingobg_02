@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Display:4</title>
+    <title>Display:5</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro&display=swap');
@@ -25,24 +25,6 @@
             left: 0;
             background-color: white;
             box-shadow: 0px 0.1px 3px #888888;
-        }
-
-        .pg_sidenav {
-            position: fixed;
-            top: 80px;
-            background-color: #fafbfd;
-            height: 100%;
-            width: 250px;
-        }
-
-        .pg_sidenav_shadow {
-            position: fixed;
-            top: 80px;
-            left: 250px;
-            background-color: #d9d9d9;
-            width: 0.5px;
-            height: 100%;
-            box-shadow: -0.1px 0px 1px #888888;
         }
 
         .ct_header {
@@ -217,18 +199,6 @@
 
         }
 
-        .pg_sidenav li {
-            padding-top: 8px;
-            padding-left: 20px;
-            font-size: 18px;
-        }
-
-        .pg_sidenav li a {
-            text-decoration: none;
-            color: black;
-            font-size: 14px;
-        }
-
         .pg_header a {
             padding-right: 12px;
             padding-left: 12px;
@@ -239,15 +209,6 @@
         #sof_pro {
 
             font-weight: 100;
-        }
-
-        .pg_sidenav li:hover {
-            background-color: #e6effc;
-        }
-
-        .pg_sidenav li a:active {
-            color: #234b8f;
-            background-color: #e6effc;
         }
 
         .pg_header ul {
@@ -1945,20 +1906,17 @@
         </header>
     </div>
     <div class="pg_sidenav active">
-        <li><a href="#" id="sof_pro" class="active">Software Project</a></li>
-        <li class="active"><a href="/kelapabakar/list">PLANNING</a></li>
-        <li>
-            <div class="roadmap">
-                <span class="material-symbols-outlined">storage</span><a href="#">Roadmap</a>
-            </div>
-        </li>
-        <li class="active"><a href="/kelapabakar/display3">Board</a></li>
-        <li><a href="#">DEVELOPMENT</a></li>
-        <li><a href="#">Code</a></li>
-        <li><a href="#">Project Pages</a></li>
-        <li><a href="#">Add Shortcut</a></li>
-        <li><a href="#">Project Settings</a></li>
+        <div class="pg_sidenav_a">
+            <div class="pg_sidenav_b">
+                <div class="pg_sidenav_c">
+                    <div class="pg_sidenav_d">
+                        <div class="pg_sidenav_e">
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="ct_header">
         <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
