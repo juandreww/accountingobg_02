@@ -1429,6 +1429,11 @@
             line-height: initial;
             font-size: 12px;
         }
+        .pgs_bot1 [data-item-description] {
+            display: inline-block;
+            text-align: center;
+            margin: 6px;
+        }
 
         .pgs_bot2 {
             display: flex;
@@ -1450,7 +1455,11 @@
         }
 
         .pgs_bot2b {
-
+            color: var(--ds-text-subtlest, #6B778C);
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
     </style>
