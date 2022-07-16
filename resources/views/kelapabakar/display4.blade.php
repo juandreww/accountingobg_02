@@ -1373,6 +1373,14 @@
             white-space: nowrap;
         }
 
+        .pghn1_whitespace {
+            flex-shrink: 1;
+            min-width: 1px;
+            margin: 0px;
+            width: 100%;
+            position: relative;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -1931,7 +1939,7 @@
                             <span class="pghn1_b2b">Create</span>
                         </button>
                     </div>
-                    <div class=""></div>
+                    <div class="pghn1_whitespace"></div>
                 </div>
             </nav>
         </header>
