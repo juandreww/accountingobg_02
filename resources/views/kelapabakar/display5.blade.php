@@ -1724,6 +1724,18 @@
             height: 24px;
         }
 
+        .pgs_midtop_1button_a > span {
+            width: 24px;
+            height: 24px;
+            overflow: hidden;
+            pointer-events: none;
+            max-width: 100%;
+            max-height: 100%;
+            color: var(--icon-primary-color);
+            fill: var(--icon-secondary-color);
+            vertical-align: bottom;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2323,12 +2335,16 @@
                                                         <div class="pgs_midtop_1">
                                                             <div class="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0">
                                                                 <span data-testid="sidebar.expand-button.container-planning" role="img" aria-label="PLANNING" class="pgs_midtop_1button_a">
-                                                                    <img src="" alt="">
+                                                                    <span class="material-symbols-outlined">arrow_drop_down</span>
                                                                 </span>
                                                             </div>
-                                                            <div class="pgs_midtop1ct"></div>
+                                                            <div class="pgs_midtop1ct">
+
+                                                            </div>
                                                         </div>
-                                                        <div class="pgs_midtop_2"></div>
+                                                        <div class="pgs_midtop_2">
+
+                                                        </div>
                                                     </div>
                                                     <div class="pgs_midbot"></div>
                                                 </div>
