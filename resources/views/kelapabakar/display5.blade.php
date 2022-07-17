@@ -1842,6 +1842,19 @@
             vertical-align: bottom;
         }
 
+        .pgs_midtop1ct2_2 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2452,7 +2465,9 @@
                                                                             <span class="material-symbols-outlined">local_fire_department</span>
                                                                         </span>
                                                                     </span>
-                                                                    <span></span>
+                                                                    <span class="pgs_midtop1ct2_2">
+                                                                        <span></span>
+                                                                    </span>
                                                                 </a>
                                                                 <span class="pgs_midtop1ct3"></span>
                                                             </div>
