@@ -1685,6 +1685,13 @@
             background-color: var(--ds-menu-scroll-indicator-color, var(--ds-surface, #FAFBFC));
         }
 
+        .pgs_mid_d {
+            margin-top: 0px;
+            margin-left: 8px;
+            margin-right: 8px;
+            position: relative;
+        }
+
     </style>
 
     {{-- CSS --}}
