@@ -1619,6 +1619,43 @@
             flex-direction: column;
         }
 
+        .pgs_mid_b {
+            display: flex;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .pgs_mid_b::before {
+            content: "";
+            display: block;
+            left: 8px;
+            right: 8px;
+            height: 2px;
+            border-radius: 1px;
+            background-color: var(--ds-menu-seperator-color, var(--ds-border, #EBECF0));
+            position: absolute;
+            z-index: 1;
+        }
+
+        .pgs_mid_b::after {
+            content: "";
+            position: absolute;
+            display: block;
+            border-radius: 1px;
+            flex-shrink: 0;
+            height: 2px;
+            left: 8px;
+            right: 8px;
+            bottom: 0px;
+            z-index: 1;
+            background-color: var(--ds-menu-seperator-color, var(--ds-border, #EBECF0));
+        }
+
+        .pgs_mid_c {
+
+        }
+
     </style>
 
     {{-- CSS --}}
