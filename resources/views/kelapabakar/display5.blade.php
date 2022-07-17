@@ -2011,6 +2011,15 @@
             color: var(--ds-text-subtle, #42526e);
         }
 
+        .pgs_midtop_2text1 {
+            padding: 0px 10px;
+            color: var(--ds-text-subtle, #5e56c84);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.45455;
+            text-transform: uppercase;
+        }
+
     </style>
 
     {{-- CSS --}}
