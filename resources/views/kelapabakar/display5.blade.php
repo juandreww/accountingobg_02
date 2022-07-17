@@ -1692,6 +1692,20 @@
             position: relative;
         }
 
+        .pgs_midtop {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            margin-left: 15px;
+            margin-right: -6px;
+            border-radius: 6px;
+            padding-top: 8px;
+            margin-top: 2px;
+            padding-right: 5px;
+            border: 2px solid transparent;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2287,7 +2301,14 @@
                                         <div class="pgs_mid_b">
                                             <div class="pgs_mid_c">
                                                 <div class="pgs_mid_d">
-
+                                                    <div class="pgs_midtop">
+                                                        <div class="pgs_midtop_1">
+                                                            <div class="pgs_midtop_1button"></div>
+                                                            <div class="pgs_midtop1ct"></div>
+                                                        </div>
+                                                        <div class="pgs_midtop_2"></div>
+                                                    </div>
+                                                    <div class="pgs_midbot"></div>
                                                 </div>
                                             </div>
                                         </div>
