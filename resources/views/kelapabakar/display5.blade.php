@@ -2480,7 +2480,12 @@
                                                                         <span class="pgs_midtop1ct2_3">Roadmap</span>
                                                                     </span>
                                                                 </a>
-                                                                <span class="pgs_midtop1ct3"></span>
+                                                                <span data-test-id="ak-spotlight-target-spotlight-sidebar-next-gen-board" class="pgs_midtop1ct3">
+                                                                    <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-board-link" aria-current="page" draggable="false" aria-disabled="false" href="/kelapabakar/display2" target="_self" class="pgs_midtop1ct3a">
+                                                                        <span data-item-elem-before="true" class="pgs_midtop1ct3button"></span>
+                                                                        <span class="pgs_midtop1ct3text"></span>
+                                                                    </a>
+                                                                </span>
                                                             </div>
                                                         </div>
                                                         <div class="pgs_midtop_2">
