@@ -2218,6 +2218,7 @@
             -webkit-box-pack: center;
             justify-content: center;
             margin-right: 16px;
+            padding-left: 51px;
         }
 
         .pgs_midbot_r2_a {
@@ -2231,6 +2232,7 @@
             flex-shrink: 0;
             line-height: 1;
         }
+
 
     </style>
 
@@ -2905,9 +2907,7 @@
                                                                 <button class="pgs_midbot_r2" data-testid="navigation-apps-sidebar-common.ui.shortcuts.shortcuts-add-link" draggable="false" aria-disabled="false" type="button">
                                                                     <span data-item-elem-before="true" class="pgs_midbot_r2_a">
                                                                         <span class="pgs_midbot_r2_b">
-                                                                            <span class="pgs_midbot_r2_c">
-
-                                                                            </span>
+                                                                            <span class="material-symbols-outlined">code</span>
                                                                         </span>
                                                                     </span>
                                                                 </button>
