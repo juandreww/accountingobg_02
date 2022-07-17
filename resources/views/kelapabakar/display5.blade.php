@@ -3182,7 +3182,7 @@
         }
 
         function toggleexpandcollapse(div1, div2, button) {
-            console.log('1b');
+            console.log('1c');
             var n = document.getElementById(div1);
             console.log(n.style.display);
             if (n.style.display == 'none' || n.style.display == '') {
