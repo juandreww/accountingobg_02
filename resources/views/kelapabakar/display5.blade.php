@@ -2268,6 +2268,19 @@
             flex-shrink: 0;
         }
 
+        .pgh_profile > * {
+            flex-shrink: 0;
+            margin-right: 4px;
+        }
+
+        .pgh_search {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+        }
 
     </style>
 
