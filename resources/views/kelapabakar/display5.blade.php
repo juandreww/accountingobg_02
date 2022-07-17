@@ -1963,6 +1963,22 @@
             border: 2px solid transparent;
         }
 
+        .pgs_midtop_2icon {
+            position: relative;
+            top: -4px;
+            height: 100%;
+            opacity: 0;
+            padding: 0px;
+            margin: 0px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            display: flex;
+            flex: 0 0 auto;
+            outline: none;
+            transition: box-shadow 0.2s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+        }
+
     </style>
 
     {{-- CSS --}}
