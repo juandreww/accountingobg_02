@@ -2220,6 +2220,18 @@
             margin-right: 16px;
         }
 
+        .pgs_midbot_r2_a {
+            flex-shrink: 0;
+        }
+
+        .pgs_midbot_r2_b {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
     </style>
 
     {{-- CSS --}}
