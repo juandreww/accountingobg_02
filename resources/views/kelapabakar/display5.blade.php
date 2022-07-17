@@ -1946,7 +1946,7 @@
         }
 
         .pgs_midtop_2 > div {
-            margin-left: -15px;
+            margin-left: 0;
         }
 
         .pgs_midtop_2 {
@@ -1954,7 +1954,7 @@
             display: flex;
             flex-direction: row;
             height: auto;
-            margin-left: -15px;
+            margin-left: 15px;
             margin-right: -6px;
             border-radius: 6px;
             padding-top: 8px;
