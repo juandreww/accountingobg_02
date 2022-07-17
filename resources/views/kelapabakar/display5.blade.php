@@ -1866,6 +1866,26 @@
             line-height: 1.2;
         }
 
+        .pgs_midtop1ct3a {
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            user-select: none;
+            cursor: pointer;
+            padding: 8px 10px;
+            border-radius: 3px;
+            color: var(--ds-text-selected, #0052cc);
+            background-color: transparent;
+        }
+
     </style>
 
     {{-- CSS --}}
