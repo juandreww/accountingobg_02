@@ -1967,7 +1967,7 @@
             position: relative;
             top: -4px;
             height: 100%;
-            opacity: 0;
+            opacity: 1;
             padding: 0px;
             margin: 0px;
             border: none;
