@@ -2174,6 +2174,17 @@
             text-align: left;
         }
 
+        .pgs_midbot_r1_b1 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .pgs_midbot_r1 [data-item-title] {
+            line-height: 1.2;
+        }
+
     </style>
 
     {{-- CSS --}}
