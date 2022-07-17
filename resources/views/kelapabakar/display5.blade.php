@@ -2103,11 +2103,12 @@
             border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9, 30, 66, 0.08)));
         }
 
-        .pgs_midbot::before, .pgs_midbot::after {
+        .pgs_midbot_b::before, .pgs_midbot_b::after {
             display: block;
             height: 6px;
             content: "";
         }
+
 
 
     </style>
