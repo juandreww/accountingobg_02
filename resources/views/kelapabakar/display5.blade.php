@@ -2090,6 +2090,25 @@
             white-space: nowrap;
         }
 
+        .pgs_midbot {
+            height: auto;
+        }
+
+        .pgs_midbot_a {
+            height: 100%;
+        }
+
+        .pgs_midbot_b {
+            flex-shrink: 0;
+            border-top: 2px solid var(--ds-menu-seperator-color, var(--ds-border, rgba(9, 30, 66, 0.08)));
+        }
+
+        .pgs_midbot::before, .pgs_midbot::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
 
     </style>
 
@@ -2748,7 +2767,7 @@
                                                     </div>
                                                     <div class="pgs_midbot">
                                                         <div class="pgs_midbot_a">
-                                                            <div class="pgs_midbot_b">
+                                                            <div class="pgs_midbot_b" role="group" data-section="group">
                                                                 <a href=""></a>
                                                                 <button></button>
                                                                 <a href=""></a>
