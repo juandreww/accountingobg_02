@@ -1736,6 +1736,21 @@
             vertical-align: bottom;
         }
 
+        .pgs_midtop div[role="group"] {
+            display: block;
+            width: calc(100% - 16px);
+        }
+
+        .pgs_midtop1ct {
+            flex-shrink: 0;
+        }
+
+        .pgs_midtop1ct::before, .pgs_midtop1ct::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2339,7 +2354,9 @@
                                                                 </span>
                                                             </div>
                                                             <div class="pgs_midtop1ct">
-
+                                                                <div class="pgs_midtop1ct1"></div>
+                                                                <a class="pgs_midtop1ct2"></div>
+                                                                <span class="pgs_midtop1ct3"></div>
                                                             </div>
                                                         </div>
                                                         <div class="pgs_midtop_2">
