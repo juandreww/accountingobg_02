@@ -2004,7 +2004,12 @@
             content: "";
         }
 
-        .
+        .pgs_midtop_2 div[role="group"] div[data-ds--menu--heading-item="true"] {
+            margin-top: -6px;
+            padding-left: 0px;
+            display: block;
+            color: var(--ds-text-subtle, #42526e);
+        }
 
     </style>
 
