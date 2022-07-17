@@ -2257,6 +2257,12 @@
             white-space: nowrap;
         }
 
+        .pgs_midbot {
+            height: auto;
+        }
+
+
+
 
     </style>
 
@@ -2940,7 +2946,18 @@
                                                                         </span>
                                                                     </span>
                                                                 </button>
-                                                                <a href=""></a>
+                                                                <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display2" target="_self" class="pgs_midbot_r1">
+                                                                    <span data-item-elem-before="true" class="pgs_midbot_r1_a">
+                                                                        <span class="pgs_midbot_r1_b" role="presentation" aria-hidden="true">
+                                                                            <span class="material-symbols-outlined">settings</span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="pgs_midbot_r1_b">
+                                                                        <span class="pgs_midbot_r1_b1" data-item-title="true">
+                                                                            Project settings
+                                                                        </span>
+                                                                    </span>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
