@@ -1756,7 +1756,7 @@
         }
 
         .pgs_midtop1ct1 {
-            padding: 0px 10px;
+            /* padding: 0px 10px; */
             color: var(--ds-text-subtle, #5e6c84);
             font-size: 11px;
             font-weight: 700;
@@ -2019,6 +2019,50 @@
             line-height: 1.45455;
             text-transform: uppercase;
         }
+
+        .pgs_midtop_2 div[role="group"] > span > a {
+            margin-right: 7px;
+            border-radius: 4px;
+        }
+
+        .pgs_midtop_2ct1 {
+            width: calc(100% + 8px);
+            padding-left: 17px;
+            margin-left: -7px;
+            display: flex;
+            box-sizing: border-box;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            text-decoration: none;
+            user-select: none;
+            color: currentColor;
+            cursor: pointer;
+            padding: 8px 10px;
+            background-color: transparent;
+        }
+
+        .pgs_midtop_2ct1 [data-item-elem-before] {
+            display: flex;
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .pgs_midtop_2ct2 {
+            flex-shrink: 0;
+        }
+
+        .pgs_midtop_2ct2icon {
+
+        }
+
 
     </style>
 
@@ -2658,6 +2702,16 @@
                                                             </div>
                                                             <div class="pgs_midtop_2text" aria-label="DEVELOPMENT" data-testid role="group" data-section="true">
                                                                 <div class="pgs_midtop_2text1" data-testid data-ds--menu--heading-item="true" aria-hidden="true">DEVELOPMENT</div>
+                                                                <span data-test-id="ak-spotlight-target-spotlight-sidebar-code-next-gen">
+                                                                    <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-code-link" draggable="false" aria-disabled="false" class="pgs_midtop_2ct1" target="_self" href="/kelapabakar/display1">
+                                                                        <span data-item-elem-before="true" class="pgs_midtop_2ct2">
+                                                                            <span role="presentation" aria-hidden="true" class="pgs_midtop_2ct2icon">
+                                                                                <span class="material-symbols-outlined">code</span>
+                                                                            </span>
+                                                                        </span>
+                                                                        <span class="pgs_midtop_2ct2text"></span>
+                                                                    </a>
+                                                                </span>
                                                             </div>
                                                         </div>
                                                     </div>
