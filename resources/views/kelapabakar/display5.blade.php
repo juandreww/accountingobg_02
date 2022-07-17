@@ -1945,6 +1945,24 @@
             text-align: left;
         }
 
+        .pgs_midtop_2 > div {
+            margin-left: -15px;
+        }
+
+        .pgs_midtop_2 {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            margin-left: -15px;
+            margin-right: -6px;
+            border-radius: 6px;
+            padding-top: 8px;
+            margin-top: 2px;
+            padding-right: 5px;
+            border: 2px solid transparent;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2576,7 +2594,12 @@
                                                             </div>
                                                         </div>
                                                         <div class="pgs_midtop_2">
-
+                                                            <div class="pgs_midtop_2icon" role="button" aria-expanded="true" tabindex="0">
+                                                                <span data-testid="sidebar.expand-button.container-development" role="img" aria-label="DEVELOPMENT" class="pgs_midtop_2icon1">
+                                                                    <span class="material-symbols-outlined pgs_midtop_1button_b">arrow_drop_down</span>
+                                                                </span>
+                                                            </div>
+                                                            <div></div>
                                                         </div>
                                                     </div>
                                                     <div class="pgs_midbot"></div>
