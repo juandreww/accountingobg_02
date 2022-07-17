@@ -1886,6 +1886,17 @@
             background-color: transparent;
         }
 
+        .pgs_midtop1ct3a::before {
+            content: "";
+            position: absolute;
+            height: 16px;
+            width: 4px;
+            left: 0px;
+            top: 12px;
+            background: var(--ds-text-selected, #0052CC);
+            border-radius: 0px 1.998px 1.998px 0px;
+        }
+
     </style>
 
     {{-- CSS --}}
