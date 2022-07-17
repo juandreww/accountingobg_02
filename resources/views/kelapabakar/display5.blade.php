@@ -2218,7 +2218,7 @@
             -webkit-box-pack: center;
             justify-content: center;
             margin-right: 16px;
-            padding-left: 45px;
+            padding-left: 46px;
         }
 
         .pgs_midbot_r2_a {
