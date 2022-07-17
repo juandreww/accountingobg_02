@@ -2844,7 +2844,23 @@
                 </div>
             </nav>
             <div class="pgh_profile">
-                <div class="pgh_search"></div>
+                <div class="pgh_search">
+                    <div class="pgh_search1">
+                        <div class="pgh_search2">
+                            <div class="pgh_search3">
+                                <div class="pgh_search4">
+                                    <div class="pgh_search5">
+                                        <div class="pgh_search6">
+                                            <div class="pgh_search7">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span></span>
                 <span></span>
                 <span></span>
