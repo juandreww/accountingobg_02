@@ -2233,6 +2233,17 @@
             line-height: 1;
         }
 
+        .pgs_midbot_r2 [data-item-title] {
+            line-height: 1.2;
+        }
+
+        .pgs_midbot_r2text {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
 
     </style>
 
@@ -2895,7 +2906,7 @@
                                                                 <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display1" target="_self" class="pgs_midbot_r1">
                                                                     <span data-item-elem-before="true" class="pgs_midbot_r1_a">
                                                                         <span class="pgs_midbot_r1_b" role="presentation" aria-hidden="true">
-                                                                            <span class="material-symbols-outlined">code</span>
+                                                                            <span class="material-symbols-outlined">article</span>
                                                                         </span>
                                                                     </span>
                                                                     <span class="pgs_midbot_r1_b">
@@ -2907,7 +2918,12 @@
                                                                 <button class="pgs_midbot_r2" data-testid="navigation-apps-sidebar-common.ui.shortcuts.shortcuts-add-link" draggable="false" aria-disabled="false" type="button">
                                                                     <span data-item-elem-before="true" class="pgs_midbot_r2_a">
                                                                         <span class="pgs_midbot_r2_b">
-                                                                            <span class="material-symbols-outlined">code</span>
+                                                                            <span class="material-symbols-outlined">edit_document</span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="pgs_midbot_r2text">
+                                                                        <span class="pgs_midbot_r2text1">
+
                                                                         </span>
                                                                     </span>
                                                                 </button>
