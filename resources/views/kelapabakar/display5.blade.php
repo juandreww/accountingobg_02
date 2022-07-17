@@ -1862,6 +1862,10 @@
             white-space: nowrap;
         }
 
+        .pgs_midtop1ct2 [data-item-title] {
+            line-height: 1.2;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2473,7 +2477,7 @@
                                                                         </span>
                                                                     </span>
                                                                     <span class="pgs_midtop1ct2_2">
-                                                                        <span class="pgs_midtop1ct2_3"></span>
+                                                                        <span class="pgs_midtop1ct2_3">Roadmap</span>
                                                                     </span>
                                                                 </a>
                                                                 <span class="pgs_midtop1ct3"></span>
