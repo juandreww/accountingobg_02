@@ -1832,6 +1832,16 @@
             line-height: 1;
         }
 
+        .pgs_midtop_1button_b {
+            overflow: hidden;
+            pointer-events: none;
+            max-width: 100%;
+            max-height: 100%;
+            color: var(--icon-primary-color);
+            fill: var(--icon-secondary-color);
+            vertical-align: bottom;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2431,7 +2441,7 @@
                                                         <div class="pgs_midtop_1">
                                                             <div class="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0">
                                                                 <span data-testid="sidebar.expand-button.container-planning" role="img" aria-label="PLANNING" class="pgs_midtop_1button_a">
-                                                                    <span class="material-symbols-outlined">arrow_drop_down</span>
+                                                                    <span class="material-symbols-outlined pgs_midtop_1button_b">arrow_drop_down</span>
                                                                 </span>
                                                             </div>
                                                             <div class="pgs_midtop1ct">
