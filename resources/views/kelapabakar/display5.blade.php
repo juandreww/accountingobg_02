@@ -2861,14 +2861,14 @@
                                                 <div class="pgs_mid_d">
                                                     <div class="pgs_midtop pgs_midtop_row">
                                                         <div class="pgs_midtop_1">
-                                                            <div class="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0">
+                                                            <div class="pgs_midtop_1button" id="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0" onclick="toggleexpandcollapse('pgs_midtop1ct2', 'pgs_midtop1ct3', 'pgs_midtop_1button')">
                                                                 <span data-testid="sidebar.expand-button.container-planning" role="img" aria-label="PLANNING" class="pgs_midtop_1button_a">
                                                                     <span class="material-symbols-outlined pgs_midtop_1button_b">arrow_drop_down</span>
                                                                 </span>
                                                             </div>
                                                             <div class="pgs_midtop1ct">
                                                                 <div class="pgs_midtop1ct1" data-testid data-ds--menu--heading-item="true" aria-hidden="true">PLANNING</div>
-                                                                <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-roadmap-link" draggable="false" aria-disabled="false" href="/kelapabakar/display3" target="_self" class="pgs_midtop1ct2">
+                                                                <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-roadmap-link" draggable="false" aria-disabled="false" href="/kelapabakar/display3" target="_self" class="pgs_midtop1ct2" id="pgs_midtop1ct2">
                                                                     <span data-item-elem-before="true" class="pgs_midtop1ct2_1">
                                                                         <span role="presentation" aria-hidden="true" class="pgs_midtop1ct2_1b">
                                                                             <span class="material-symbols-outlined">local_fire_department</span>
@@ -2878,7 +2878,7 @@
                                                                         <span class="pgs_midtop1ct2_3">Roadmap</span>
                                                                     </span>
                                                                 </a>
-                                                                <span data-test-id="ak-spotlight-target-spotlight-sidebar-next-gen-board" class="pgs_midtop1ct3">
+                                                                <span data-test-id="ak-spotlight-target-spotlight-sidebar-next-gen-board" class="pgs_midtop1ct3" id="pgs_midtop1ct3">
                                                                     <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-board-link" aria-current="page" draggable="false" aria-disabled="false" href="/kelapabakar/display2" target="_self" class="pgs_midtop1ct3a">
                                                                         <span data-item-elem-before="true" class="pgs_midtop1ct3icon">
                                                                             <span role="presentation" aria-hidden="true" class="pgs_midtop1ct3icon1">
@@ -3179,6 +3179,25 @@
 
             document.getElementById(othertab1).setAttribute('aria-selected', 'false');
             document.getElementById(othertab2).setAttribute('aria-selected', 'false');
+        }
+
+        function toggleexpandcollapse(div1, div2, button) {
+            console.log('1b');
+            var n = document.getElementById(div1);
+            console.log(n.style.display);
+            if (n.style.display == 'none' || n.style.display == '') {
+                n.style.display = 'block';
+
+                var n1 = document.getElementById(div2);
+                n1.style.display = 'block';
+
+                document.getElementById(button).setAttribute('aria-expanded', 'true');
+            } else {
+                n.style.display = 'none';
+                var n1 = document.getElementById(div2);
+                n1.style.display = 'none';
+                document.getElementById(button).setAttribute('aria-expanded', 'false');
+            }
         }
     </script>
 </body>
