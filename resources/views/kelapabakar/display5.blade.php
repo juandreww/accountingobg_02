@@ -2538,7 +2538,7 @@
                                                                     <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-board-link" aria-current="page" draggable="false" aria-disabled="false" href="/kelapabakar/display2" target="_self" class="pgs_midtop1ct3a">
                                                                         <span data-item-elem-before="true" class="pgs_midtop1ct3icon">
                                                                             <span role="presentation" aria-hidden="true" class="pgs_midtop1ct3icon1">
-                                                                                <span class="material-symbols-outlined">local_fire_department</span>
+                                                                                <span class="material-symbols-outlined">developer_board</span>
                                                                             </span>
                                                                         </span>
                                                                         <span class="pgs_midtop1ct3text"></span>
