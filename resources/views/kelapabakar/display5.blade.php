@@ -1979,6 +1979,16 @@
             transition: box-shadow 0.2s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
         }
 
+        .pgs_midtop_2icon1 {
+            --icon-primary-color: var(--ds-icon, #42526e);
+            --icon-secondary-color: var(--ds-surface, #ffffff);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 24px;
+            height: 24px;
+        }
+
     </style>
 
     {{-- CSS --}}
