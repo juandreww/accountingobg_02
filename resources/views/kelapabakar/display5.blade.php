@@ -1714,6 +1714,10 @@
             border: 2px solid transparent;
         }
 
+        .pgs_midtop_1button {
+            height: 24px;
+        }
+
         .pgs_midtop_1button_a {
             --icon-primary-color: var(--ds-icon, #42526e);
             --icon-secondary-color: var(--ds-surface, #ffffff);
@@ -1750,6 +1754,32 @@
             height: 6px;
             content: "";
         }
+
+        .pgs_midtop1ct1 {
+            padding: 0px 10px;
+            color: var(--ds-text-subtle, #5e6c84);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.45455;
+            text-transform: uppercase;
+        }
+
+        .pgs_midtop div[role="group"] div[data-ds--menu--heading-item="true"] {
+            margin-top: -6px;
+            padding-left: 0px;
+            display: block;
+            color: var(--ds-text-subtle, #42526e);
+        }
+
+        .pgs_midtop1ct div[data-ds--menu--heading-item]:first-of-type {
+            /* margin-top: 14px; */
+        }
+
+        .pgs_midtop1ct [data-ds--menu--heading-item] {
+            /* margin-top: 20px; */
+            /* margin-bottom: 6px; */
+        }
+
 
     </style>
 
@@ -2354,9 +2384,16 @@
                                                                 </span>
                                                             </div>
                                                             <div class="pgs_midtop1ct">
-                                                                <div class="pgs_midtop1ct1"></div>
-                                                                <a class="pgs_midtop1ct2"></div>
-                                                                <span class="pgs_midtop1ct3"></div>
+                                                                <div class="pgs_midtop1ct1" data-testid data-ds--menu--heading-item="true" aria-hidden="true">PLANNING</div>
+                                                                <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-roadmap-link" draggable="false" aria-disabled="false" href="/kelapabakar/display3" target="_self" class="pgs_midtop1ct2">
+                                                                    <span data-item-elem-before="true" class="pgs_midtop1ct2_1">
+                                                                        <span role="presentation" aria-hidden="true" class="pgs_midtop1ct2_1b">
+                                                                            <span class="material-symbols-outlined">local_fire_department</span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span></span>
+                                                                </a>
+                                                                <span class="pgs_midtop1ct3"></span>
                                                             </div>
                                                         </div>
                                                         <div class="pgs_midtop_2">
