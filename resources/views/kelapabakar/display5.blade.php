@@ -1855,6 +1855,13 @@
             text-align: left;
         }
 
+        .pgs_midtop1ct2_3 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2466,7 +2473,7 @@
                                                                         </span>
                                                                     </span>
                                                                     <span class="pgs_midtop1ct2_2">
-                                                                        <span></span>
+                                                                        <span class="pgs_midtop1ct2_3"></span>
                                                                     </span>
                                                                 </a>
                                                                 <span class="pgs_midtop1ct3"></span>
