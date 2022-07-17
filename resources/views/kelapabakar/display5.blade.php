@@ -1780,6 +1780,36 @@
             /* margin-bottom: 6px; */
         }
 
+        .pgs_midtop_1 div[role="group"] > a {
+            margin-right: 7px;
+            border-radius: 4px;
+        }
+
+        .pgs_midtop_row div[role="group"] > a {
+            width: calc(100% + 8px);
+            padding-left: 17px;
+            margin-left: -17px;
+        }
+
+        .pgs_midtop1ct2 {
+            display: flex;
+            box-sizing: border-box;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            user-select: none;
+            color: currentColor;
+            cursor: pointer;
+            padding: 8px 10px;
+            background-color: transparent;
+        }
+
+
 
     </style>
 
@@ -2376,7 +2406,7 @@
                                         <div class="pgs_mid_b">
                                             <div class="pgs_mid_c">
                                                 <div class="pgs_mid_d">
-                                                    <div class="pgs_midtop">
+                                                    <div class="pgs_midtop pgs_midtop_row">
                                                         <div class="pgs_midtop_1">
                                                             <div class="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0">
                                                                 <span data-testid="sidebar.expand-button.container-planning" role="img" aria-label="PLANNING" class="pgs_midtop_1button_a">
