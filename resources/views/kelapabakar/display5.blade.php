@@ -2110,7 +2110,7 @@
         }
 
         .pgs_midbot div[role="group"] > a {
-            padding-left: 17px;
+            padding-left: 41px;
             border-radius: 4px;
         }
 
