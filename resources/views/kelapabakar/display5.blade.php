@@ -1692,7 +1692,15 @@
             position: relative;
         }
 
+        .pgs_mid_d > div {
+            margin-left: -15px;
+        }
+
         .pgs_midtop {
+            margin-left: 8px;
+        }
+
+        .pgs_midtop_1 {
             position: relative;
             display: flex;
             flex-direction: row;
@@ -1704,6 +1712,16 @@
             margin-top: 2px;
             padding-right: 5px;
             border: 2px solid transparent;
+        }
+
+        .pgs_midtop_1button_a {
+            --icon-primary-color: var(--ds-icon, #42526e);
+            --icon-secondary-color: var(--ds-surface, #ffffff);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 24px;
+            height: 24px;
         }
 
     </style>
@@ -2303,7 +2321,11 @@
                                                 <div class="pgs_mid_d">
                                                     <div class="pgs_midtop">
                                                         <div class="pgs_midtop_1">
-                                                            <div class="pgs_midtop_1button"></div>
+                                                            <div class="pgs_midtop_1button" role="button" aria-expanded="true" tabindex="0">
+                                                                <span data-testid="sidebar.expand-button.container-planning" role="img" aria-label="PLANNING" class="pgs_midtop_1button_a">
+                                                                    <img src="" alt="">
+                                                                </span>
+                                                            </div>
                                                             <div class="pgs_midtop1ct"></div>
                                                         </div>
                                                         <div class="pgs_midtop_2"></div>
