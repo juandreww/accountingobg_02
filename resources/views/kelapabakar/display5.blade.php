@@ -2060,7 +2060,34 @@
         }
 
         .pgs_midtop_2ct2icon {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #ffffff);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+        .pgs_midtop_2ct2text {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
 
+        .pgs_midtop_2ct1 [data-item-title] {
+            line-height: 1.2;
+        }
+
+        .pgs_midtop_2ct2text1 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
 
@@ -2709,7 +2736,11 @@
                                                                                 <span class="material-symbols-outlined">code</span>
                                                                             </span>
                                                                         </span>
-                                                                        <span class="pgs_midtop_2ct2text"></span>
+                                                                        <span class="pgs_midtop_2ct2text">
+                                                                            <span class="pgs_midtop_2ct2text1" data-item-title="true">
+                                                                                Code
+                                                                            </span>
+                                                                        </span>
                                                                     </a>
                                                                 </span>
                                                             </div>
