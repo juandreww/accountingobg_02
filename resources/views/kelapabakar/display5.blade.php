@@ -2895,7 +2895,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="pgs_midtop_2">
-                                                            <div class="pgs_midtop_2icon" role="button" aria-expanded="true" tabindex="0">
+                                                            <div class="pgs_midtop_2icon" role="button" aria-expanded="true" tabindex="0" onclick="toggleexpandcollapse2('pgs_midtop_2ct1', 'pgs_midtop_2icon')">
                                                                 <span data-testid="sidebar.expand-button.container-development" role="img" aria-label="DEVELOPMENT" class="pgs_midtop_2icon1">
                                                                     <span class="material-symbols-outlined pgs_midtop_1button_b">arrow_drop_down</span>
                                                                 </span>
@@ -2903,7 +2903,7 @@
                                                             <div class="pgs_midtop_2text" aria-label="DEVELOPMENT" data-testid role="group" data-section="true">
                                                                 <div class="pgs_midtop_2text1" data-testid data-ds--menu--heading-item="true" aria-hidden="true">DEVELOPMENT</div>
                                                                 <span data-test-id="ak-spotlight-target-spotlight-sidebar-code-next-gen">
-                                                                    <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-code-link" draggable="false" aria-disabled="false" class="pgs_midtop_2ct1" target="_self" href="/kelapabakar/display1">
+                                                                    <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-code-link" draggable="false" aria-disabled="false" class="pgs_midtop_2ct1" id="pgs_midtop_2ct1" target="_self" href="/kelapabakar/display1">
                                                                         <span data-item-elem-before="true" class="pgs_midtop_2ct2">
                                                                             <span role="presentation" aria-hidden="true" class="pgs_midtop_2ct2icon">
                                                                                 <span class="material-symbols-outlined">code</span>
@@ -3186,16 +3186,30 @@
             var n = document.getElementById(div1);
             console.log(n.style.display);
             if (n.style.display == 'none' || n.style.display == '') {
-                n.style.display = 'block';
+                n.style.display = 'flex';
 
                 var n1 = document.getElementById(div2);
-                n1.style.display = 'block';
+                n1.style.display = 'flex';
 
                 document.getElementById(button).setAttribute('aria-expanded', 'true');
             } else {
                 n.style.display = 'none';
                 var n1 = document.getElementById(div2);
                 n1.style.display = 'none';
+                document.getElementById(button).setAttribute('aria-expanded', 'false');
+            }
+        }
+
+        function toggleexpandcollapse2(div1, button) {
+            console.log('1c');
+            var n = document.getElementById(div1);
+            console.log(n.style.display);
+            if (n.style.display == 'none' || n.style.display == '') {
+                n.style.display = 'flex';
+
+                document.getElementById(button).setAttribute('aria-expanded', 'true');
+            } else {
+                n.style.display = 'none';
                 document.getElementById(button).setAttribute('aria-expanded', 'false');
             }
         }
