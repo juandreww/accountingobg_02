@@ -2109,7 +2109,10 @@
             content: "";
         }
 
-
+        .pgs_midbot div[role="group"] > a {
+            padding-left: 17px;
+            border-radius: 4px;
+        }
 
     </style>
 
@@ -2769,7 +2772,10 @@
                                                     <div class="pgs_midbot">
                                                         <div class="pgs_midbot_a">
                                                             <div class="pgs_midbot_b" role="group" data-section="group">
-                                                                <a href=""></a>
+                                                                <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display1" target="_self" class="pgs_midbot_r1">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </a>
                                                                 <button></button>
                                                                 <a href=""></a>
                                                             </div>
