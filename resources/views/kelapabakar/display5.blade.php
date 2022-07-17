@@ -1920,6 +1920,30 @@
             line-height: 0;
         }
 
+        .pgs_midtop1ct3text {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .pgs_midtop1ct3a [data-item-title]{
+            line-height: 1.2;
+        }
+
+        .pgs_midtop1ct3text1 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2541,7 +2565,11 @@
                                                                                 <span class="material-symbols-outlined">developer_board</span>
                                                                             </span>
                                                                         </span>
-                                                                        <span class="pgs_midtop1ct3text"></span>
+                                                                        <span class="pgs_midtop1ct3text">
+                                                                            <span class="pgs_midtop1ct3text1" data-item-title="true">
+                                                                                Board
+                                                                            </span>
+                                                                        </span>
                                                                     </a>
                                                                 </span>
                                                             </div>
