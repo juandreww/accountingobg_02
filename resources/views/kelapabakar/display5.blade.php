@@ -2153,6 +2153,14 @@
             flex-shrink: 0;
         }
 
+        .pgs_midbot_r1_b {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #ffffff);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2814,7 +2822,6 @@
                                                                 <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display1" target="_self" class="pgs_midbot_r1">
                                                                     <span data-item-elem-before="true" class="pgs_midbot_r1_a">
                                                                         <span class="pgs_midbot_r1_b" role="presentation" aria-hidden="true">
-
                                                                             <span class="material-symbols-outlined">code</span>
                                                                         </span>
                                                                     </span>
