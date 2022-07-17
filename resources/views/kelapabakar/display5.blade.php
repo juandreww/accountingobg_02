@@ -2261,7 +2261,12 @@
             height: auto;
         }
 
-
+        .pgh_profile {
+            -webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            flex-shrink: 0;
+        }
 
 
     </style>
