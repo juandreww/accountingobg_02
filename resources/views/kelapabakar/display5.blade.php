@@ -1653,7 +1653,12 @@
         }
 
         .pgs_mid_c {
-
+            display: flex;
+            overflow: auto;
+            width: 100%;
+            position: relative;
+            box-sizing: border-box;
+            flex-direction: column;
         }
 
     </style>
