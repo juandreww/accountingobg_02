@@ -2161,6 +2161,19 @@
             line-height: 1;
         }
 
+        .pgs_midbot_r1_b {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            line-height: 1.22;
+            outline: none;
+            overflow: hidden;
+            text-align: left;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2825,7 +2838,11 @@
                                                                             <span class="material-symbols-outlined">code</span>
                                                                         </span>
                                                                     </span>
-                                                                    <span></span>
+                                                                    <span class="pgs_midbot_r1_b">
+                                                                        <span class="pgs_midbot_r1_b1" data-item-title="true">
+                                                                            Project pages
+                                                                        </span>
+                                                                    </span>
                                                                 </a>
                                                                 <button></button>
                                                                 <a href=""></a>
