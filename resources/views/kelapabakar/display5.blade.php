@@ -2114,6 +2114,26 @@
             border-radius: 4px;
         }
 
+        .pgs_midbot_r1 {
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 40px;
+            margin: 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            border: 0px;
+            font-size: 14px;
+            outline: 0px;
+            text-decoration: none;
+            user-select: none;
+            color: currentColor;
+            cursor: pointer;
+            padding: 8px 10px;
+            border-radius: 3px;
+            background-color: transparent;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2773,7 +2793,11 @@
                                                         <div class="pgs_midbot_a">
                                                             <div class="pgs_midbot_b" role="group" data-section="group">
                                                                 <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display1" target="_self" class="pgs_midbot_r1">
-                                                                    <span></span>
+                                                                    <span data-item-elem-before="true" class="pgs_midbot_r1_a">
+                                                                        <span class="pgs_midbot_r1_b">
+                                                                            <span class="material-symbols-outlined">code</span>
+                                                                        </span>
+                                                                    </span>
                                                                     <span></span>
                                                                 </a>
                                                                 <button></button>
