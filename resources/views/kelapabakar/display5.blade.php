@@ -1989,6 +1989,23 @@
             height: 24px;
         }
 
+        .pgs_midtop_2[role="group"] {
+            display: block;
+            width: calc(100% - 16px);
+        }
+
+        .pgs_midtop_2text {
+            flex-shrink: 0;
+        }
+
+        .pgs_midtop_2text::before,.pgs_midtop_2text::after {
+            display: block;
+            height: 6px;
+            content: "";
+        }
+
+        .
+
     </style>
 
     {{-- CSS --}}
@@ -2625,7 +2642,9 @@
                                                                     <span class="material-symbols-outlined pgs_midtop_1button_b">arrow_drop_down</span>
                                                                 </span>
                                                             </div>
-                                                            <div></div>
+                                                            <div class="pgs_midtop_2text" aria-label="DEVELOPMENT" data-testid role="group" data-section="true">
+                                                                <div class="pgs_midtop_2text1" data-testid data-ds--menu--heading-item="true" aria-hidden="true">DEVELOPMENT</div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="pgs_midbot"></div>
