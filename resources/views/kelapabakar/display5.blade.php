@@ -1605,6 +1605,20 @@
             white-space: nowrap;
         }
 
+        .pgs_mid {
+            position: relative;
+            height: 100%;
+            outline: none;
+        }
+
+        .pgs_mid_a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2195,7 +2209,17 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="pgs_mid">b</div>
+                                <div class="pgs_mid" tabindex="-1">
+                                    <div class="pgs_mid_a" data-enter-from="right" data-exit-to="left">
+                                        <div class="pgs_mid_b">
+                                            <div class="pgs_mid_c">
+                                                <div class="pgs_mid_d">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="pgs_bot">
                                     <div class="pgs_bot1">
                                         <span class="pgs_bot2">
