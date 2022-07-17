@@ -2134,6 +2134,25 @@
             background-color: transparent;
         }
 
+        .pgs_midbot_r1 [data-item-elem-before] {
+            display: flex;
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .pgs_midbot_r1_a {
+            display: flex;
+            margin-right: 12px;
+            -webkit-box-align: center;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2794,7 +2813,8 @@
                                                             <div class="pgs_midbot_b" role="group" data-section="group">
                                                                 <a data-test-id="navigation-apps-sidebar-common.ui.shortcuts.business-pages-link" draggable="false" aria-disabled="false" href="/kelapabakar/display1" target="_self" class="pgs_midbot_r1">
                                                                     <span data-item-elem-before="true" class="pgs_midbot_r1_a">
-                                                                        <span class="pgs_midbot_r1_b">
+                                                                        <span class="pgs_midbot_r1_b" role="presentation" aria-hidden="true">
+
                                                                             <span class="material-symbols-outlined">code</span>
                                                                         </span>
                                                                     </span>
