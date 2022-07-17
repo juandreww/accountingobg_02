@@ -1824,6 +1824,14 @@
             flex-shrink: 0;
         }
 
+        .pgs_midtop1ct2_1b {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
     </style>
 
     {{-- CSS --}}
