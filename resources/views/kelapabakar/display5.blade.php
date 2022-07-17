@@ -2746,7 +2746,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="pgs_midbot"></div>
+                                                    <div class="pgs_midbot">
+                                                        <div class="pgs_midbot_a">
+                                                            <div class="pgs_midbot_b">
+                                                                <a href=""></a>
+                                                                <button></button>
+                                                                <a href=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
