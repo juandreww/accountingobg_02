@@ -2185,6 +2185,11 @@
             line-height: 1.2;
         }
 
+        .pgs_midbot div[role="group"] > button {
+            padding-left: 17px;
+            border-radius: 4px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2855,7 +2860,15 @@
                                                                         </span>
                                                                     </span>
                                                                 </a>
-                                                                <button></button>
+                                                                <button class="pgs_midbot_r2" data-testid="navigation-apps-sidebar-common.ui.shortcuts.shortcuts-add-link" draggable="false" aria-disabled="false" type="button">
+                                                                    <span data-item-elem-before="true" class="pgs_midbot_r2_a">
+                                                                        <span class="pgs_midbot_r2_b">
+                                                                            <span class="pgs_midbot_r2_c">
+
+                                                                            </span>
+                                                                        </span>
+                                                                    </span>
+                                                                </button>
                                                                 <a href=""></a>
                                                             </div>
                                                         </div>
