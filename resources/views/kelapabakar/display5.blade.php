@@ -2825,6 +2825,13 @@
                     <div class="pghn1_whitespace"></div>
                 </div>
             </nav>
+            <div class="pgh_profile">
+                <div class="pgh_search"></div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </header>
     </div>
     <div class="pg_body">
