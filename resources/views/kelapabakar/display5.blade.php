@@ -1897,6 +1897,21 @@
             border-radius: 0px 1.998px 1.998px 0px;
         }
 
+        .pgs_midtop1ct3a [data-item-elem-before] {
+            display: flex;
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .pgs_midtop1ct3icon1 {
+            flex-shrink: 0;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -2513,7 +2528,9 @@
                                                                 </a>
                                                                 <span data-test-id="ak-spotlight-target-spotlight-sidebar-next-gen-board" class="pgs_midtop1ct3">
                                                                     <a data-testid="navigation-apps-sidebar-next-gen.ui.menu.software-board-link" aria-current="page" draggable="false" aria-disabled="false" href="/kelapabakar/display2" target="_self" class="pgs_midtop1ct3a">
-                                                                        <span data-item-elem-before="true" class="pgs_midtop1ct3button"></span>
+                                                                        <span data-item-elem-before="true" class="pgs_midtop1ct3icon">
+                                                                            <span role="presentation" aria-hidden="true" class="pgs_midtop1ct3icon1"></span>
+                                                                        </span>
                                                                         <span class="pgs_midtop1ct3text"></span>
                                                                     </a>
                                                                 </span>
