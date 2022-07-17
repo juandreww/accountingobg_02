@@ -1661,6 +1661,30 @@
             flex-direction: column;
         }
 
+        .pgs_mid_c::before {
+            border-radius: 1px;
+            content: "";
+            left: 0px;
+            right: 0px;
+            height: 2px;
+            background-color: var(--ds-menu-scroll-indicator-color, var(--ds-surface, #fafbfc));
+            position: absolute;
+            display: block;
+            z-index: 2;
+        }
+
+        .pgs_mid_c::after {
+            border-radius: 1px;
+            content: "";
+            display: block;
+            flex-shrink: 0;
+            height: 2px;
+            margin-top: auto;
+            position: relative;
+            z-index: 2;
+            background-color: var(--ds-menu-scroll-indicator-color, var(--ds-surface, #FAFBFC));
+        }
+
     </style>
 
     {{-- CSS --}}
