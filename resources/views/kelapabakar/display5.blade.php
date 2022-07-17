@@ -2217,7 +2217,7 @@
             align-items: center;
             -webkit-box-pack: center;
             justify-content: center;
-            margin-right: 16px;
+            margin-right: 28px;
             padding-left: 46px;
         }
 
