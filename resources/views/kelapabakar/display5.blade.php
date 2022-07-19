@@ -2380,6 +2380,31 @@
             height: 24px;
         }
 
+        @media screen and (max-width: 780px) {
+            .pgn_search_b2 {
+                display: none;
+            }
+        }
+
+        .pgh_search_b2 {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            color: var(--ds-text-subtlest, #68778C);
+        }
+
+        .pgh_search1 input:not([type="checkbox"]):not([type="radio"]) {
+            border-bottom-right-radius: 6px;
+        }
+
+        input:not([type=checkbox]):not([type=radio]), select, textarea {
+            outline: 0;
+            border-bottom-right-radius: 3.01px;
+        }
+
+
 
 
     </style>
@@ -2963,8 +2988,14 @@
                                                         </span>
                                                     </button>
                                                 </span>
-                                                <span></span>
-                                                <input type="text">
+                                                <span class="pgh_search_b2">
+                                                    <span class="pgh_search_b2a">
+                                                        <span class="material-symbols-outlined">
+                                                            search
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                                <input data-test-id="search-dialog-dialog-wrapper" tabindex="-1" default class="pgh_search_b3" maxlength="500" type="text" placeholder="Search" value>
                                             </div>
                                         </div>
                                     </div>
