@@ -2411,7 +2411,18 @@
         }
 
         .pgh_search_b3 {
-
+            height: 32px;
+            width: 100%;
+            padding: 0px 12px 0px 30px;
+            box-sizing: border-box;
+            outline: none;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 20px;
+            border: 2px solid var(--ds-border-input, #DFE1E6);
+            box-shadow: none;
+            background-color: var(--ds-background-input, #FFFFFF);
+            color: var(--ds-text-subtlest, #6B778C);
         }
 
 
