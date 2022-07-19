@@ -2303,6 +2303,13 @@
             position: relative;
         }
 
+        @media screen and (min-width: 781px) {
+            .pgh_search3 {
+                min-width: 200px;
+            }
+        }
+
+
         .pgh_search3 {
             position: relative;
             width: 32px;
@@ -2996,7 +3003,7 @@
                                     <div class="pgh_search5">
                                         <div class="pgh_search6" role="presentation">
                                             <div class="pgh_search7">
-                                                <span class="pgh_search_b1">
+                                                {{-- <span class="pgh_search_b1">
                                                     <button class="pgh_search_b1a" type="button" tabindex="0">
                                                         <span class="pgh_search_b1b">
                                                             <span role="img" aria-label="search" class="pgh_search_b1c">
@@ -3006,7 +3013,7 @@
                                                             </span>
                                                         </span>
                                                     </button>
-                                                </span>
+                                                </span> --}}
                                                 <span class="pgh_search_b2">
                                                     <span class="pgh_search_b2a">
                                                         <span class="material-symbols-outlined">
