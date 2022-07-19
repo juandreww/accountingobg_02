@@ -2404,7 +2404,15 @@
             border-bottom-right-radius: 3.01px;
         }
 
+        @media screen and (max-width: 780px) {
+            .pgh_search_b3 {
+                display: none;
+            }
+        }
 
+        .pgh_search_b3 {
+
+        }
 
 
     </style>
