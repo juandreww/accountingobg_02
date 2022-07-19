@@ -2370,6 +2370,16 @@
             margin: 0px 2px;
         }
 
+        .pgh_search_b1c {
+            --icon-primary-color: var(--ds-text-subtlest, #68778C);
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 24px;
+            height: 24px;
+        }
+
 
 
     </style>
@@ -2945,7 +2955,7 @@
                                                 <span class="pgh_search_b1">
                                                     <button class="pgh_search_b1a" type="button" tabindex="0">
                                                         <span class="pgh_search_b1b">
-                                                            <span>
+                                                            <span role="img" aria-label="search" class="pgh_search_b1c">
                                                                 <span class="material-symbols-outlined">
                                                                     search
                                                                 </span>
