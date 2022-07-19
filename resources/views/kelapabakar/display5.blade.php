@@ -2356,6 +2356,20 @@
             border-color: var(--ds-border-input, #DFE1E6);
         }
 
+        .pgh_search_b1b {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+            margin: 0px 2px;
+        }
+
 
 
     </style>
@@ -2930,7 +2944,7 @@
                                             <div class="pgh_search7">
                                                 <span class="pgh_search_b1">
                                                     <button class="pgh_search_b1a" type="button" tabindex="0">
-                                                        <span>
+                                                        <span class="pgh_search_b1b">
                                                             <span>
                                                                 <span class="material-symbols-outlined">
                                                                     search
