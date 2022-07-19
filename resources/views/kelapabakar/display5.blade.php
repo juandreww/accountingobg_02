@@ -2324,7 +2324,27 @@
             max-width: 100%;
         }
 
-
+        .pgh_search_b1a {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            box-sizing: border-box;
+            display: flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            color: var(--ds-text-subtlest, #68778C);
+            cursor: pointer;
+            height: auto;
+            line-height: 2.28571em;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+        }
 
 
 
@@ -2898,8 +2918,8 @@
                                     <div class="pgh_search5">
                                         <div class="pgh_search6" role="presentation">
                                             <div class="pgh_search7">
-                                                <span>
-                                                    <button>
+                                                <span class="pgh_search_b1">
+                                                    <button class="pgh_search_b1a" type="button" tabindex="0">
                                                         <span>
                                                             <span>
                                                                 <span class="material-symbols-outlined">
