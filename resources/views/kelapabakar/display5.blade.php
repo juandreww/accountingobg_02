@@ -2282,6 +2282,41 @@
             position: relative;
         }
 
+        .pgh_profile {
+            -webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            flex-shrink: 0;
+        }
+
+        .pgh_profile > * {
+            flex-shrink: 0;
+            margin-right: 4px;
+        }
+
+        .pgh_search {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .pgh_search3 {
+            position: relative;
+            width: 32px;
+            height: 32px;
+        }
+
+        .pgh_search5 {
+            position: relative;
+        }
+
+        @media screen and (max-width: 780px){}
+
+
+
     </style>
 
     {{-- CSS --}}
@@ -2850,7 +2885,7 @@
                             <div class="pgh_search3">
                                 <div class="pgh_search4">
                                     <div class="pgh_search5">
-                                        <div class="pgh_search6">
+                                        <div class="pgh_search6" role="presentation">
                                             <div class="pgh_search7">
 
 
