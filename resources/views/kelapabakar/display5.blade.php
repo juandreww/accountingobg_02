@@ -2319,6 +2319,11 @@
             }
         }
 
+        .pgh_search7 {
+            position: relative;
+            max-width: 100%;
+        }
+
 
 
 
