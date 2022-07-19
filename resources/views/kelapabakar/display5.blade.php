@@ -2898,9 +2898,19 @@
                                     <div class="pgh_search5">
                                         <div class="pgh_search6" role="presentation">
                                             <div class="pgh_search7">
-
-
-
+                                                <span>
+                                                    <button>
+                                                        <span>
+                                                            <span>
+                                                                <span class="material-symbols-outlined">
+                                                                    search
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </button>
+                                                </span>
+                                                <span></span>
+                                                <input type="text">
                                             </div>
                                         </div>
                                     </div>
