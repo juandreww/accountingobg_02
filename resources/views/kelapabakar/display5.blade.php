@@ -2313,7 +2313,13 @@
             position: relative;
         }
 
-        @media screen and (max-width: 780px){}
+        @media screen and (max-width: 780px) {
+            .pgh_search7 {
+                width: 100%;
+            }
+        }
+
+
 
 
 
