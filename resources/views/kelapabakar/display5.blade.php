@@ -2402,6 +2402,10 @@
             color: var(--ds-text-subtlest, #68778C);
         }
 
+        .pgh_search_b2 > span[role="img"] {
+            line-height: 0;
+        }
+
         .pgh_search_b2a {
             display: inline-block;
             flex-shrink: 0;
