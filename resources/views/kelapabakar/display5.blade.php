@@ -2402,6 +2402,15 @@
             color: var(--ds-text-subtlest, #68778C);
         }
 
+        .pgh_search_b2a {
+            display: inline-block;
+            flex-shrink: 0;
+            width: 16px;
+            height: 16px;
+            --icon-primary-color: var(--ds-text-subtlest, #68778c);
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+        }
+
         .pgh_search1 input:not([type="checkbox"]):not([type="radio"]) {
             border-bottom-right-radius: 6px;
         }
