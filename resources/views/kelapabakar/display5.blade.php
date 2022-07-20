@@ -3052,7 +3052,21 @@
                         </div>
                     </div>
                 </div>
-                <span></span>
+                <span>
+                    <div>
+                        <div>
+                            <button>
+                                <span>
+                                    <span>
+                                        <span class="material-symbols-outlined">
+                                            search
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </span>
                 <span></span>
                 <span></span>
                 <span></span>
