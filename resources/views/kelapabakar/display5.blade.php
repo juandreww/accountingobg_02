@@ -2415,6 +2415,11 @@
             --icon-secondary-color: var(--ds-surface, #FFFFFF);
         }
 
+        .pgh_search_b2b {
+            height: 16px;
+            width: 16px;
+        }
+
         .pgh_search1 input:not([type="checkbox"]):not([type="radio"]) {
             border-bottom-right-radius: 6px;
         }
@@ -3029,7 +3034,7 @@
                                                 </span> --}}
                                                 <span class="pgh_search_b2">
                                                     <span class="pgh_search_b2a">
-                                                        <span class="material-symbols-outlined">
+                                                        <span class="material-symbols-outlined pgh_search_b2b">
                                                             search
                                                         </span>
                                                     </span>
