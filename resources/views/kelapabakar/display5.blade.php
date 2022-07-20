@@ -2418,6 +2418,9 @@
         .pgh_search_b2b {
             height: 16px;
             width: 16px;
+            font-size: 16px !important;
+            position: relative;
+            padding-bottom: 4px;
         }
 
         .pgh_search1 input:not([type="checkbox"]):not([type="radio"]) {
