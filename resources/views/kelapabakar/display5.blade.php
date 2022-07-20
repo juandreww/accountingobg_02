@@ -2409,6 +2409,7 @@
         .pgh_search_b2a {
             display: inline-block;
             flex-shrink: 0;
+            display: flex;
             width: 16px;
             height: 16px;
             --icon-primary-color: var(--ds-text-subtlest, #68778c);
