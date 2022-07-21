@@ -3167,7 +3167,27 @@
                         </div>
                     </div>
                 </span>
-                <span></span>
+                <span>
+                    <span class="pgh_profpic">
+                        <div class="pgh_profpic1">
+                            <div class="pgh_profpic2">
+                                <button class="pgh_profpic3">
+                                    <span class="pgh_profpic4">
+                                        <span class="pgh_profpic5">
+                                            <div class="pgh_profpic6">
+                                                <span class="pgh_profpic7">
+                                                    <span class="pgh_profpic8">
+                                                        <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </span>
+                </span>
             </div>
         </header>
     </div>
