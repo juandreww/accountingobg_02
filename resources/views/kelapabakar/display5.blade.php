@@ -2541,6 +2541,17 @@
             color: var(--ds-text-lowEmphasis, #6B778C);
         }
 
+        .pgh_profpic > * {
+            position: relative;
+        }
+
+        .pgh_profpic::before, .pgh_profpic::after {
+            border-radius: 50%;
+            width: 36px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
 
     </style>
 
@@ -3187,8 +3198,8 @@
                 <span>
                     <span class="pgh_profpic">
                         <div class="pgh_profpic1">
-                            <div class="pgh_profpic2">
-                                <button class="pgh_profpic3">
+                            <div class="pgh_profpic2" role="presentation">
+                                <button class="pgh_profpic3" aria-haspopup="true" aria-label="Your profile and settings" type="button" tabindex="0">
                                     <span class="pgh_profpic4">
                                         <span class="pgh_profpic5">
                                             <div class="pgh_profpic6">
