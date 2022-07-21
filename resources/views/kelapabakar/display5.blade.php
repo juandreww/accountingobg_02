@@ -2494,6 +2494,27 @@
             margin: 0px 2px;
         }
 
+        .pgh_notification1 > span {
+            margin: 0px;
+        }
+
+        .pgh_notification2 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+        }
+
+        .pgh_notification3 {
+
+        }
+
 
     </style>
 
@@ -3097,7 +3118,7 @@
                         <div role="presentation">
                             <button aria-describedby="andrewsoft-notification-count" aria-expanded="false" aria-haspopup="true" class="pgh_notification1" type="button" tabindex="0">
                                 <span class="pgh_notification2">
-                                    <span class="">
+                                    <span class="pgh_notification3" role="img" aria-label="Notifications">
                                         <span class="material-symbols-outlined">
                                             search
                                         </span>
