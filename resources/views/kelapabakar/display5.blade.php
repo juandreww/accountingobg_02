@@ -2524,6 +2524,23 @@
             background-color: var(--ds-background-subtleNeutral-hover, rgba(222, 235, 255, 0.9));
         }
 
+        .pgh_profpic {
+            display: block;
+            -webkit-box-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-shrink: 0;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            padding-left: 12px;
+            padding-right: 12px;
+            height: 56px;
+            position: relative;
+            background-color: var(--ds-background-default, #FFFFFF);
+            color: var(--ds-text-lowEmphasis, #6B778C);
+        }
+
 
     </style>
 
