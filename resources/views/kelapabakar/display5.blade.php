@@ -2551,7 +2551,6 @@
             left: 50%;
             transform: translateX(-50%);
         }
-
         .pgh_profpic3 {
             -webkit-box-align: baseline;
             align-items: baseline;
