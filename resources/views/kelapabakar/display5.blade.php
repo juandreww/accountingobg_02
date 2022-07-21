@@ -2512,7 +2512,11 @@
         }
 
         .pgh_notification3 {
-
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
         }
 
 
@@ -3120,7 +3124,7 @@
                                 <span class="pgh_notification2">
                                     <span class="pgh_notification3" role="img" aria-label="Notifications">
                                         <span class="material-symbols-outlined">
-                                            search
+                                            notifications
                                         </span>
                                     </span>
                                 </span>
