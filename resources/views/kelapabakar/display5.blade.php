@@ -2519,6 +2519,11 @@
             line-height: 1;
         }
 
+        .pgh_notification1:hover {
+            color: var(--ds-text-mediumEmphasis, #0052cc);
+            background-color: var(--ds-background-subtleNeutral-hover, rgba(222, 235, 255, 0.9));
+        }
+
 
     </style>
 
