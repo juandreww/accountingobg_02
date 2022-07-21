@@ -3137,8 +3137,36 @@
                         </div>
                     </div>
                 </span>
-                <span></span>
-                <span></span>
+                <span>
+                    <div class="pgh_notification">
+                        <div role="presentation">
+                            <button aria-describedby="andrewsoft-notification-count" aria-expanded="false" aria-haspopup="true" class="pgh_notification1" type="button" tabindex="0">
+                                <span class="pgh_notification2">
+                                    <span class="pgh_notification3" role="img" aria-label="Notifications">
+                                        <span class="material-symbols-outlined">
+                                            notifications
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </span>
+                <span>
+                    <div class="pgh_notification">
+                        <div role="presentation">
+                            <button aria-describedby="andrewsoft-notification-count" aria-expanded="false" aria-haspopup="true" class="pgh_notification1" type="button" tabindex="0">
+                                <span class="pgh_notification2">
+                                    <span class="pgh_notification3" role="img" aria-label="Notifications">
+                                        <span class="material-symbols-outlined">
+                                            notifications
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </span>
                 <span></span>
             </div>
         </header>
