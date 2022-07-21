@@ -2454,6 +2454,46 @@
             color: var(--ds-text-subtlest, #6B778C);
         }
 
+        .pgh_profile > * {
+            flex-shrink: 0;
+            margin-right: 4px;
+        }
+
+        .pgh_notification {
+            position: relative;
+        }
+
+        .pgh_notification1 {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            box-sizing: border-box;
+            display: flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            color: var(--ds-text-mediumEmphasis, #344563);
+            cursor: pointer;
+            height: auto;
+            line-height: 2.28571em;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            background-color: transparent;
+            border-width: 0px;
+            border-radius: 100%;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            padding: 4px;
+            outline: none;
+            margin: 0px 2px;
+        }
+
 
     </style>
 
@@ -3053,11 +3093,11 @@
                     </div>
                 </div>
                 <span>
-                    <div>
-                        <div>
-                            <button>
-                                <span>
-                                    <span>
+                    <div class="pgh_notification">
+                        <div role="presentation">
+                            <button aria-describedby="andrewsoft-notification-count" aria-expanded="false" aria-haspopup="true" class="pgh_notification1" type="button" tabindex="0">
+                                <span class="pgh_notification2">
+                                    <span class="">
                                         <span class="material-symbols-outlined">
                                             search
                                         </span>
