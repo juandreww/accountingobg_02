@@ -3144,7 +3144,7 @@
                                 <span class="pgh_notification2">
                                     <span class="pgh_notification3" role="img" aria-label="Notifications">
                                         <span class="material-symbols-outlined">
-                                            notifications
+                                            help
                                         </span>
                                     </span>
                                 </span>
@@ -3159,7 +3159,7 @@
                                 <span class="pgh_notification2">
                                     <span class="pgh_notification3" role="img" aria-label="Notifications">
                                         <span class="material-symbols-outlined">
-                                            notifications
+                                            settings
                                         </span>
                                     </span>
                                 </span>
