@@ -2552,6 +2552,34 @@
             transform: translateX(-50%);
         }
 
+        .pgh_profpic3 {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            box-sizing: border-box;
+            display: flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            color: var(--ds-text-mediumEmphasis, #344563);
+            cursor: pointer;
+            height: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            background-color: transparent;
+            border-width: 0px;
+            border-radius: 100%;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            padding: 4px;
+            outline: none;
+            margin: 0px 2px;
+        }
+
 
     </style>
 
