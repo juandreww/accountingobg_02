@@ -2578,8 +2578,6 @@
             outline: none;
             margin: 0px 2px;
         }
-
-
     </style>
 
     {{-- CSS --}}
