@@ -2579,6 +2579,11 @@
             margin: 0px 2px;
         }
 
+        .pgh_profpic3:hover {
+            color: var(--ds-text-mediumEmphasis,#0052CC);
+            background-color: var(--ds-background-subtleNeutral-hover,rgba(222,235,255,0.9));
+        }
+
         .pgh_profpic3 > span {
             margin: 0px;
         }
@@ -2602,7 +2607,7 @@
             outline: 0px;
         }
 
-        /.pgh_profpic7 {
+        .pgh_profpic7 {
             height: 24px;
             width: 24px;
             -webkit-box-align: stretch;
