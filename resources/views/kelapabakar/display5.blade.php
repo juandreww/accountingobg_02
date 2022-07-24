@@ -2747,6 +2747,7 @@
             font-weight: 400;
             flex-shrink: 1;
             min-width: 0px;
+            color: black;
         }
 
         .bt_bt1r1_li1aspan {
@@ -3624,9 +3625,9 @@
                                                     </a>
                                                 </li>
                                                 <li class="bt_bt1r1_li2">
-                                                    {{-- <a class="bt_bt1r1_li1a" tabindex="0" href="/projects" target="_self">
+                                                    <a class="bt_bt1r1_li1a" tabindex="0" href="/projects" target="_self">
                                                         <span class="bt_bt1r1_li1aspan">odessaobg</span>
-                                                    </a> --}}
+                                                    </a>
                                                 </li>
                                             </ol>
                                         </nav>
