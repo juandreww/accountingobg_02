@@ -2761,6 +2761,14 @@
             white-space: nowrap;
         }
 
+        .ct_bt1r1_ol > li:not(:last-child)::after {
+            content: "/";
+            flex-shrink: 0;
+            padding: 0px 8px;
+            text-align: center;
+            width: 8px;
+        }
+
     </style>
 
     {{-- CSS --}}
