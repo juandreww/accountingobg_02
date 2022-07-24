@@ -2840,6 +2840,25 @@
             line-height: inherit;
         }
 
+        .ct_bt1r2_a8 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 0 1 auto;
+        }
+
+        .ct_bt1r2_a9 {
+            font-size: 1.71429em;
+            font-style: inherit;
+            line-height: 1.16667;
+            color: var(--ds-text,var(--ds-text, #172B4D));
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3691,7 +3710,7 @@
                                                                 <div class="ct_bt1r2_a6" data-read-view-fit-container-width="false">
                                                                     <div class="ct_bt1r2_a7">
                                                                         <div class="ct_bt1r2_a8">
-                                                                            <h1>OD Board</h1>
+                                                                            <h1 class="ct_bt1r2_a9">OD Board</h1>
                                                                         </div>
                                                                     </div>
                                                                 </div>
