@@ -2658,6 +2658,14 @@
             height: calc(100vw - var(--leftPanelWidth, 0px) - var(--leftSidebarWidth, 0px) - var(--rightPanelWidth, 0px) - var(--rightSidebarWidth, 0px)) !important;
         }
 
+        .ct_body2 {
+            height: calc(100vh - (var(--topNavigationHeight, 0px) + var(--bannerHeight, 0px)));
+            overflow: hidden;
+            box-sizing: border-box;
+            background: var(--ds-surface, #FFFFFF);
+            display: flex;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3491,7 +3499,7 @@
         </div>
         <div class="ct_body">
             <div class="ct_body1" data-ds--page-layout--slot="main" id="ct_body1">
-                <div class="ct_body2">
+                <div class="ct_body2" data-test-id="software-board.board">
                     <div class="ct_body3">
                         <div class="ct_body4">
                             <div class="ct_bodytop"></div>
