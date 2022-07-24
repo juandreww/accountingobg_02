@@ -2959,6 +2959,11 @@
             color: var(--ds-text, #42526e) !important;
         }
 
+        .ct_bt1r2_b1b {
+            display: inline-block;
+
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3838,7 +3843,27 @@
                                                             </span>
                                                         </button>
                                                     </div>
-                                                    <span class="ct_bt1r2_b1b"></span>
+                                                    <span class="ct_bt1r2_b1b">
+                                                        <div class="ct_bt1r2_b1b0">
+                                                            <span class="ct_bt1r2_b1b1">
+                                                                <div role="presentation" class="ct_bt1r2_b1b2">
+                                                                    <button class="ct_bt1r2_b1b3" aria-label="Add to Starred" type="button" tabindex="0">
+                                                                        <span class="ct_bt1r2_b1b4">
+                                                                            <span class="ct_bt1r2_b1b5" data-test-id="favouriting.favorite-button-stateless.icon-wrapper">
+                                                                                <span class="ct_bt1r2_b1b6" role="presentation" aria-hidden="true">
+                                                                                    <span class="ct_bt1r2_b1b7">
+                                                                                        <span class="material-symbols-outlined">
+                                                                                            search
+                                                                                        </span>
+                                                                                    </span>
+                                                                                </span>
+                                                                            </span>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
                                                     <div class="ct_bt1r2_b1c"></div>
                                                 </div>
                                             </div>
