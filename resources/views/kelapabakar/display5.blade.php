@@ -2952,6 +2952,13 @@
             vertical-align: bottom;
         }
 
+        .ct_bt1r2_b1a0:hover {
+            background: var(--ds-background-neutral-subtle-hovered, rgba(9, 30, 66, 0.08));
+            text-decoration: inherit;
+            transition-duration: 0s, 0.15s;
+            color: var(--ds-text, #42526e) !important;
+        }
+
     </style>
 
     {{-- CSS --}}
