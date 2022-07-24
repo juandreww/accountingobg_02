@@ -3501,8 +3501,16 @@
                 <div class="ct_body2" data-test-id="software-board.board">
                     <div class="ct_body3">
                         <div class="ct_body4">
-                            <div class="ct_bodytop"></div>
-                            <div class="ct_bodybot"></div>
+                            <div class="ct_bodytop">
+                                <div class="ct_bodytop1">
+                                    <div class="ct_bodytop1_r1"></div>
+                                    <div class="ct_bodytop1_r2"></div>
+                                    <div class="ct_bodytop1_r3"></div>
+                                </div>
+                            </div>
+                            <div class="ct_bodybot">
+
+                            </div>
                         </div>
                     </div>
                 </div>
