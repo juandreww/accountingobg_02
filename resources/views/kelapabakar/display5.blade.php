@@ -3477,39 +3477,7 @@
             </div>
         </div>
         <div class="ct_body">
-            <div class="kb_today">
-                <span id="kb_header">KANBAN TODAY</span>
-                <span id="kb_today_content">Beli Jeruk 10 pcs</span>
-                <span id="kb_today_content">Beli Apel 10 pcs</span>
-                <span id="kb_today_content">Beli Anggur 10 pcs</span>
-                <span id="kb_today_content">Kupas Jeruk 3 pcs</span>
-                <span id="kb_today_content">Masukkan Jeruk & Anggur ke Kulkas</span>
-                <span id="kb_today_content">Kupas Anggur 5 pcs</span>
-            </div>
-            <div class="kb_tomorrow">
-                <span id="kb_header">KANBAN TOMORROW</span>
-                <span id="kb_today_content">Beli Mangga & Pear 10 pcs</span>
-                <span id="kb_today_content">Sajikan 6 pcs Mangga di ruang tamu</span>
-                <span id="kb_today_content">Berikan 8 pcs Pear ke tetangga</span>
-                <span id="kb_today_content">Jus 2 pcs Pear</span>
-            </div>
-            <div class="kb_nextweek">
-                <span id="kb_header">KANBAN NEXTWEEK</span>
-                <span id="kb_today_content">Beli Apel 30 pcs</span>
-                <span id="kb_today_content">Sajikan 16 pcs Apel di ruang tamu</span>
-                <span id="kb_today_content">Beri makan kucing 2 pcs Apel</span>
-                <span id="kb_today_content">Buat adonan kue dengan 2 pcs Apel</span>
-            </div>
-            <div class="kb_done">
-                <span id="kb_header">KANBAN DONE<span id="checklist">&nbsp;&nbsp;&nbsp;&nbsp;✓</span></span>
-                <span id="kb_today_content">Kembalikan 5 pcs Apel berbau ke pasar</span>
-                <span id="kb_today_content">Tukar 5 pcs Apel dengan 3 pcs Pisang</span>
-                <span id="kb_today_content">Setelah olahraga makan 1 pcs Pisang</span>
-                <span id="kb_today_content">Buat milkshake dg 1 pcs Pisang</span>
-            </div>
-            <div class="kb_add">
-                <a href="#"><span class="material-symbols-outlined">add</span></a>
-            </div>
+
         </div>
     </div>
 
