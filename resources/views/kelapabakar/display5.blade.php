@@ -2666,6 +2666,18 @@
             display: flex;
         }
 
+        .ct_body3 {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .ct_bodytop {
+            padding: 0px 40px;
+
+        }
+
     </style>
 
     {{-- CSS --}}
