@@ -2633,7 +2633,6 @@
             font-family: inherit;
         }
 
-
         .pgh_profpic8 {
             display: flex;
             width: 100%;
@@ -2645,6 +2644,20 @@
             background-size: cover;
             background-image: url("/assets/img/fox_logo.jpg");
         }
+
+        .ct_body {
+            display: contents;
+        }
+
+        .ct_body > :first-of-type {
+            transition: width 300ms cubic-bezier(0.2, 0, 0, 1) 0s;
+            width: calc(100vw - var(--leftPanelWidth, 0px) - var(--leftSidebarWidth 0px) - var(--rightPanelWidth, 0px) - var(--rightSidebarWidth, 9px)) !important;
+        }
+
+        [data-ds--page-layout--slot="main"] {
+            height: calc(100vw - var(--leftPanelWidth, 0px) - var(--leftSidebarWidth, 0px) - var(--rightPanelWidth, 0px) - var(--rightSidebarWidth, 0px)) !important;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3477,7 +3490,7 @@
             </div>
         </div>
         <div class="ct_body">
-            <div class="ct_body1">
+            <div class="ct_body1" data-ds--page-layout--slot="main" id="ct_body1">
                 <div class="ct_body2">
                     <div class="ct_body3">
                         <div class="ct_body4">
