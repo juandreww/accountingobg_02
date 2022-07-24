@@ -2687,7 +2687,11 @@
         }
 
         .ct_bt1r1_ol {
-
+            margin: 0px;
+            padding: 0px;
+            color: var(--ds-text-lowEmphasis, #6B778C);
+            display: flex;
+            flex-wrap: wrap;
         }
 
     </style>
