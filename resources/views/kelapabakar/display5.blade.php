@@ -2871,6 +2871,14 @@
             text-align: left;
         }
 
+        .ct_bt1r2_b1 {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
     </style>
 
     {{-- CSS --}}
