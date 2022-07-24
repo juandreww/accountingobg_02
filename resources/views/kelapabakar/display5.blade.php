@@ -2859,6 +2859,18 @@
             white-space: nowrap;
         }
 
+        .ct_bt1r2_b {
+            max-width: 100%;
+            margin-bottom: 8px;
+            margin-left: auto;
+            padding-left: 32px;
+            flex: 0 0 auto;
+            white-space: nowrap;
+        }
+        .ct_bt1r2_b0 {
+            text-align: left;
+        }
+
     </style>
 
     {{-- CSS --}}
