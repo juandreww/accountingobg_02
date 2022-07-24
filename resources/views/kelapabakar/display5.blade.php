@@ -2602,7 +2602,7 @@
             outline: 0px;
         }
 
-        .pgh_profpic7 {
+        /.pgh_profpic7 {
             height: 24px;
             width: 24px;
             -webkit-box-align: stretch;
@@ -2627,6 +2627,7 @@
             font-size: inherit;
             font-family: inherit;
         }
+
 
         .pgh_profpic8 {
             display: flex;
