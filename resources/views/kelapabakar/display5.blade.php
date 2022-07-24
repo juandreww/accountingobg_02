@@ -2748,6 +2748,18 @@
             min-width: 0px;
         }
 
+        .bt_bt1r1_li1aspan {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            margin: 0px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
