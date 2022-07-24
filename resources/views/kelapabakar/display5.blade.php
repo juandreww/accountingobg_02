@@ -2792,7 +2792,22 @@
         }
 
         .ct_bodytop1_r2 {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+        }
 
+        .ct_bt1r2_a {
+            min-width: 0px;
+            max-width: 100%;
+            margin-bottom: 8px;
+            flex: 1 1 auto;
+        }
+
+        .ct_bt1r2_a1 {
+            max-width: 420px;
+            margin-top: 2px;
+            margin-bottom: 2px;
         }
 
     </style>
