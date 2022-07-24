@@ -2627,6 +2627,10 @@
             font-size: inherit;
             font-family: inherit;
         }
+
+        .pgh_profpic8 {
+            display: flex;
+        }
     </style>
 
     {{-- CSS --}}
