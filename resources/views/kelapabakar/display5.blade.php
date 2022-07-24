@@ -2938,6 +2938,10 @@
             line-height: 1;
         }
 
+        .ct_bt1r2_b1a3:hover {
+            color: rgb(107, 119, 140);
+        }
+
         .ct_bt1r2_b1a4 {
             overflow: hidden;
             pointer-events: none;
