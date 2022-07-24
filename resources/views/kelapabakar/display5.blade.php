@@ -2810,6 +2810,28 @@
             margin-bottom: 2px;
         }
 
+        .ct_bt1r2_a2 {
+            margin-top: -8px;
+        }
+
+        .ct_bt1r2_a4 {
+            margin-top: 8px;
+        }
+
+        .ct_bt1r2_a5 {
+            line-height: 1;
+        }
+
+        .ct_bt1r2_a6 {
+            display: inline-block;
+            box-sizing: border-box;
+            width: auto;
+            max-width: 100%;
+            border: 2px solid transparent;
+            border-radius: 3px;
+            transition: background 0.2s ease 0s;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3658,7 +3680,7 @@
                                                     <form action="" class="ct_bt1r2_a3">
                                                         <div class="ct_bt1r2_a4">
                                                             <div class="ct_bt1r2_a5">
-                                                                <div class="ct_bt1r2_a6">
+                                                                <div class="ct_bt1r2_a6" data-read-view-fit-container-width="false">
                                                                     <div class="ct_bt1r2_a7">
                                                                         <h1>OD Board</h1>
                                                                     </div>
