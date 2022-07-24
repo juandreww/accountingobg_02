@@ -2728,6 +2728,24 @@
             font-size: inherit;
             font-style: normal;
             font-family: inherit;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            white-space: nowrap;
+            background: none;
+            cursor: pointer;
+            height: auto;
+            line-height: inherit;
+            padding: 0px;
+            vertical-align: baseline;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            font-weight: 400;
+            flex-shrink: 1;
+            min-width: 0px;
         }
 
     </style>
