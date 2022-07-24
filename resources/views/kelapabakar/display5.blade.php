@@ -2595,6 +2595,11 @@
             font-size: 0px;
             user-select: none;
         }
+
+        .pgh_profpic6 {
+            display: inline-block;
+            position: relative;
+        }
     </style>
 
     {{-- CSS --}}
@@ -3243,7 +3248,7 @@
                             <div class="pgh_profpic2" role="presentation">
                                 <button class="pgh_profpic3" aria-haspopup="true" aria-label="Your profile and settings" type="button" tabindex="0">
                                     <span class="pgh_profpic4">
-                                        <span class="pgh_profpic5">
+                                        <span class="pgh_profpic5" data-test-id="ak-spotlight-target-profile-spotlight">
                                             <div class="pgh_profpic6">
                                                 <span class="pgh_profpic7">
                                                     <span class="pgh_profpic8">
