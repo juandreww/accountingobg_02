@@ -37,7 +37,7 @@
         .ct_body {
             position: relative;
             top: 56px;
-            left: 260px;
+            left: 240px;
             height: 100%;
         }
 
@@ -1351,6 +1351,7 @@
             position: relative;
             z-index: 199;
             top: 56px;
+            width: 240px;
         }
 
         .pg_sidenav_a {
