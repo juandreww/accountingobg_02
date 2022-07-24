@@ -2630,6 +2630,13 @@
 
         .pgh_profpic8 {
             display: flex;
+            width: 100%;
+            height: 100%;
+            flex: 1 1 100%;
+            background-color: transparent;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 
