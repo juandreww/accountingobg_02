@@ -2930,6 +2930,24 @@
             color: rgb(66,82,110);
         }
 
+        .ct_bt1r2_b1a3 {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: #ffffff;
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
+        .ct_bt1r2_b1a4 {
+            overflow: hidden;
+            pointer-events: none;
+            max-width: 100%;
+            max-height: 100%;
+            color: var(--icon-primary-color);
+            fill: var(--icon-secondary-color);
+            vertical-align: bottom;
+        }
+
     </style>
 
     {{-- CSS --}}
