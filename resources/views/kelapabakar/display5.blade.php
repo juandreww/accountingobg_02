@@ -2615,6 +2615,17 @@
             flex-direction: column;
             -webkit-box-pack: center;
             justify-content: center;
+            outline: none;
+            overflow: hidden;
+            position: static;
+            transform: translateZ(0px);
+            transition: transform 200ms ease 0s, opacity 200ms ease 0s;
+            box-shadow: transparent 0px 0px 0px 2px;
+            border: none;
+            margin: 2px;
+            padding: 0px;
+            font-size: inherit;
+            font-family: inherit;
         }
     </style>
 
