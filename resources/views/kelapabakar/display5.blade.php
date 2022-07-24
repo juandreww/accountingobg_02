@@ -2908,7 +2908,27 @@
             color: var(--ds-text, #42526e) !important;
         }
 
+        .ct_bt1r2_b1a1 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
 
+        .ct_bt1r2_b1a2 {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            color: rgb(66,82,110);
+        }
 
     </style>
 
