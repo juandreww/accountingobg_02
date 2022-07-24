@@ -2643,6 +2643,7 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-image: url("/assets/img/fox_logo.jpg");
         }
     </style>
 
@@ -3296,7 +3297,6 @@
                                             <div class="pgh_profpic6">
                                                 <span class="pgh_profpic7">
                                                     <span class="pgh_profpic8">
-                                                        <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
                                                     </span>
                                                 </span>
                                             </div>
