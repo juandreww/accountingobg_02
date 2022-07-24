@@ -2832,6 +2832,14 @@
             transition: background 0.2s ease 0s;
         }
 
+        .ct_bt1r2_a7 {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            margin: 8px 0px;
+            line-height: inherit;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3682,7 +3690,9 @@
                                                             <div class="ct_bt1r2_a5">
                                                                 <div class="ct_bt1r2_a6" data-read-view-fit-container-width="false">
                                                                     <div class="ct_bt1r2_a7">
-                                                                        <h1>OD Board</h1>
+                                                                        <div class="ct_bt1r2_a8">
+                                                                            <h1>OD Board</h1>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
