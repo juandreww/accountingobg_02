@@ -35,10 +35,15 @@
         }
 
         .ct_body {
-            position: fixed;
-            top: 300px;
+            position: relative;
+            top: 56px;
             left: 260px;
             height: 100%;
+        }
+
+        .ct_body1 {
+            position: relative;
+            top: 56px;
         }
 
         .kb_today {
@@ -2708,6 +2713,23 @@
             text-align: -webkit-match-parent;
         }
 
+        .bt_bt1r1_li1a:visited {
+            background: none;
+            color: var(--ds-text-subtle, #68778c) !important;
+        }
+
+        .bt_bt1r1_li1a {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            border-width: 0px;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3536,7 +3558,11 @@
                                     <div class="ct_bodytop1_r1">
                                         <nav aria-label="Breadcrumbs" tabindex="-1">
                                             <ol class="ct_bt1r1_ol">
-                                                <li class="bt_bt1r1_li1"></li>
+                                                <li class="bt_bt1r1_li1">
+                                                    <a class="bt_bt1r1_li1a" tabindex="0" href="/projects" target="_self">
+                                                        <span class="bt_bt1r1_li1aspan">Projects</span>
+                                                    </a>
+                                                </li>
                                                 <li class="bt_bt1r1_li2"></li>
                                             </ol>
                                         </nav>
