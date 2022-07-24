@@ -2599,6 +2599,22 @@
         .pgh_profpic6 {
             display: inline-block;
             position: relative;
+            outline: 0px;
+        }
+
+        .pgh_profpic7 {
+            height: 24px;
+            width: 24px;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            background-color: transparent;
+            border-radius: 50%;
+            box-sizing: content-box;
+            cursor: inherit;
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
         }
     </style>
 
