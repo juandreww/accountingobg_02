@@ -2879,6 +2879,12 @@
             align-items: center;
         }
 
+        .ct_bt1r2_b1a0 {
+
+        }
+
+
+
     </style>
 
     {{-- CSS --}}
@@ -3743,7 +3749,21 @@
                                         <div class="ct_bt1r2_b">
                                             <div class="ct_bt1r2_b0">
                                                 <div class="ct_bt1r2_b1">
-                                                    <div class="ct_bt1r2_b1a" role="presentation"></div>
+                                                    <div class="ct_bt1r2_b1a" role="presentation">
+                                                        <button class="ct_bt1r2_b1a0" type="button" data-test-id="automation-menu.ui.button.menu-button" externalid="automation-menu.ui.button.menu-button" tabindex="0">
+                                                            <span class="ct_bt1r2_b1a1">
+                                                                <span class="ct_bt1r2_b1a2">
+                                                                    <span class="ct_bt1r2_b1a3">
+                                                                        <span class="ct_bt1r2_b1a4">
+                                                                            <span class="material-symbols-outlined">
+                                                                                search
+                                                                            </span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
                                                     <span class="ct_bt1r2_b1b"></span>
                                                     <div class="ct_bt1r2_b1c"></div>
                                                 </div>
