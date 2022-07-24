@@ -2678,6 +2678,14 @@
 
         }
 
+        .ct_bodytop1 {
+            margin: 24px 0px 16px;
+        }
+
+        .ct_bodytop1_r1 {
+            min-height: 24px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3503,7 +3511,14 @@
                         <div class="ct_body4">
                             <div class="ct_bodytop">
                                 <div class="ct_bodytop1">
-                                    <div class="ct_bodytop1_r1"></div>
+                                    <div class="ct_bodytop1_r1">
+                                        <nav>
+                                            <ol>
+                                                <li></li>
+                                                <li></li>
+                                            </ol>
+                                        </nav>
+                                    </div>
                                     <div class="ct_bodytop1_r2"></div>
                                     <div class="ct_bodytop1_r3"></div>
                                 </div>
