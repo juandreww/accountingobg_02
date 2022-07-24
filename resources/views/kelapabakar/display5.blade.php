@@ -3496,19 +3496,6 @@
                 </div>
             </div>
         </div>
-        <div class="ct_header">
-            <div class="ct_header_breadcrumbs">Projects / odessaobg</div>
-            <div class="ct_header_title">OD Board</div>
-            <div class="ct_header_searchcontainer">
-                <form action="/action" id="ct_header_fsearchbox">
-                    <input type="text" placeholder="" name="search" id="ct_header_searchbox">
-                    <button type="submit" id="ct_header_searchbutton"><i class="fa fa-search"></i></button>
-                </form>
-                {{-- <span id="ct_header_profpic">abc</span> --}}
-                <a href="#"><img src="{{ URL::to('/assets/img/fox_logo.jpg') }}" id="fox-logo"></a>
-                <a href="#"><span class="material-symbols-outlined">person_add</span></a>
-            </div>
-        </div>
         <div class="ct_body">
             <div class="ct_body1" data-ds--page-layout--slot="main" id="ct_body1">
                 <div class="ct_body2" data-test-id="software-board.board">
