@@ -3147,6 +3147,12 @@
             border: 2px solid transparent;
         }
 
+        .ct_bodytop1_r3l12b1b {
+            line-height: 0;
+            display: block;
+            cursor: pointer;
+        }
+
 
 
     </style>
