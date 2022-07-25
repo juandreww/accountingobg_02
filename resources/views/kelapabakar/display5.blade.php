@@ -3143,7 +3143,8 @@
         }
 
         .ct_bodytop1_r3l12b1a {
-
+            border-radius: 50%;
+            border: 2px solid transparent;
         }
 
 
@@ -4092,7 +4093,7 @@
                                                             <div class="ct_bodytop1_r3l12b">
                                                                 <div class="ct_bodytop1_r3l12b1">
                                                                     <div class="ct_bodytop1_r3l12b1a">
-                                                                        <label for="" class="ct_bodytop1_r3l12b1b">
+                                                                        <label for="asignee.status.stateless.avatar.asignee-filter-avatar" data-test-id="filters.ui.filters.asignee.stateless.avatar.asignee-filter-avatar" class="ct_bodytop1_r3l12b1b">
                                                                             <div class="ct_bodytop1_r3l12b1c" role="presentation">
                                                                                 <div class="ct_bodytop1_r3l12b1d">
                                                                                     <span class="ct_bodytop1_r3l12b1e">
