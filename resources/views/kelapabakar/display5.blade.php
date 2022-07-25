@@ -3107,6 +3107,13 @@
             vertical-align: bottom;
         }
 
+        .ct_bodytop1_r3l12b1f {
+            background-image: url("/assets/img/fox_logo.jpg");
+
+        }
+
+
+
     </style>
 
     {{-- CSS --}}
