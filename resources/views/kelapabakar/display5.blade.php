@@ -3869,7 +3869,7 @@
                                                                     <span class="ct_bt1r2_b1a3">
                                                                         <span class="ct_bt1r2_b1a4">
                                                                             <span class="material-symbols-outlined">
-                                                                                search
+                                                                                flash_on
                                                                             </span>
                                                                         </span>
                                                                     </span>
@@ -3887,7 +3887,7 @@
                                                                                 <span class="ct_bt1r2_b1b6" role="presentation" aria-hidden="true">
                                                                                     <span class="ct_bt1r2_b1b7">
                                                                                         <span class="material-symbols-outlined">
-                                                                                            search
+                                                                                            favorite
                                                                                         </span>
                                                                                     </span>
                                                                                 </span>
