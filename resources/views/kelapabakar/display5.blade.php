@@ -2961,7 +2961,17 @@
 
         .ct_bt1r2_b1b {
             display: inline-block;
+            margin: 1px;
+        }
 
+        .ct_bt1r2_b1b1 {
+            display: inline-block;
+            margin: 1px;
+        }
+
+        .ct_bt1r2_b1b3 {
+            -webkit-box-align: baseline;
+            align-items: baseline;
         }
 
     </style>
@@ -3844,7 +3854,7 @@
                                                         </button>
                                                     </div>
                                                     <span class="ct_bt1r2_b1b">
-                                                        <div class="ct_bt1r2_b1b0">
+                                                        <div class="ct_bt1r2_b1b0" data-test-id="favourite-button">
                                                             <span class="ct_bt1r2_b1b1">
                                                                 <div role="presentation" class="ct_bt1r2_b1b2">
                                                                     <button class="ct_bt1r2_b1b3" aria-label="Add to Starred" type="button" tabindex="0">
