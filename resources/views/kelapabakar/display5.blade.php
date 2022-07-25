@@ -3189,6 +3189,18 @@
             font-family: inherit
         }
 
+        .ct_bodytop1_r3l12b1f1 {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex: 1 1 100%;
+            background-color: transparent;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50%:
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4146,7 +4158,23 @@
                                                                         </label>
                                                                     </div>
                                                                 </div>
-                                                                <div class="ct_bodytop1_r3l12b2"></div>
+                                                                <div class="ct_bodytop1_r3l12b1">
+                                                                    <div class="ct_bodytop1_r3l12b1a">
+                                                                        <label for="asignee.status.stateless.avatar.asignee-filter-avatar" data-test-id="filters.ui.filters.asignee.stateless.avatar.asignee-filter-avatar" class="ct_bodytop1_r3l12b1b">
+                                                                            <div class="ct_bodytop1_r3l12b1c" role="presentation">
+                                                                                <div class="ct_bodytop1_r3l12b1d">
+                                                                                    <span class="ct_bodytop1_r3l12b1e">
+                                                                                        <span class="ct_bodytop1_r3l12b1f1">
+                                                                                            <span class="material-symbols-outlined">
+                                                                                                person_add
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </fieldset>
                                                     </div>
