@@ -2972,6 +2972,30 @@
         .ct_bt1r2_b1b3 {
             -webkit-box-align: baseline;
             align-items: baseline;
+            border-width: 0px;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            white-space: nowrap;
+            background: none;
+            cursor: pointer;
+            height: auto;
+            line-height: inherit;
+            padding: 0px;
+            vertical-align: baseline;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: var(--ds-text, #42526e) !important;
         }
 
     </style>
