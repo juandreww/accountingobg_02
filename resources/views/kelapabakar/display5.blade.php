@@ -1572,10 +1572,6 @@
             width: 100%;
         }
 
-        .pgs_topicon_c {
-            background-image:
-        }
-
         .pgs_toptext {
             display: flex;
             -webkit-box-pack: center;
@@ -3113,8 +3109,16 @@
         }
 
         .ct_bodytop1_r3l12b1f {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex: 1 1 100%;
+            background-color: transparent;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
             background-image: url("/assets/img/fox_logo.jpg");
-
+            border-radius: 50%:
         }
 
         .ct_bodytop1_r3l12b {
