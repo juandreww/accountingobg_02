@@ -3107,9 +3107,21 @@
             vertical-align: bottom;
         }
 
+        .ct_bodytop1_r3l12a {
+            border: 0px;
+            margin-left: 12px;
+        }
+
         .ct_bodytop1_r3l12b1f {
             background-image: url("/assets/img/fox_logo.jpg");
 
+        }
+
+        .ct_bodytop1_r3l12b {
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
         }
 
 
@@ -4054,7 +4066,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="ct_bodytop1_r3l12">
-                                                        <fieldset class="ct_bodytop1_r3l12a">
+                                                        <fieldset class="ct_bodytop1_r3l12a" data-test-id="filters.ui.filters.asignee.stateless.asignee-filter">
                                                             <div class="ct_bodytop1_r3l12b">
                                                                 <div class="ct_bodytop1_r3l12b1">
                                                                     <div class="ct_bodytop1_r3l12b1a">
