@@ -4036,13 +4036,38 @@
                                                                 <input type="text" class="ct_bodytop1_r311input" aria-label="Search this board" aria-describedby="search-issue-description" type="text" data-test-id="searchfield" name="search" placeholder="Search this board" autocomplete="on" data-ds--text-field--input="true" value>
                                                                 <div class="ct_bodytop1_r311button">
                                                                     <span class="ct_bodytop1_r311button1">
-                                                                        <span class="ct_bodytop1_r311button2"></span>
+                                                                        <span class="ct_bodytop1_r311button2">
+                                                                            <span class="material-symbols-outlined">
+                                                                                search
+                                                                            </span>
+                                                                        </span>
                                                                     </span>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="ct_bodytop1_r3l12"></div>
+                                                    <div class="ct_bodytop1_r3l12">
+                                                        <fieldset class="ct_bodytop1_r3l12a">
+                                                            <div class="ct_bodytop1_r3l12b">
+                                                                <div class="ct_bodytop1_r3l12b1">
+                                                                    <div class="ct_bodytop1_r3l12b1a">
+                                                                        <label for="" class="ct_bodytop1_r3l12b1b">
+                                                                            <div class="ct_bodytop1_r3l12b1c" role="presentation">
+                                                                                <div class="ct_bodytop1_r3l12b1d">
+                                                                                    <span class="ct_bodytop1_r3l12b1e">
+                                                                                        <span class="ct_bodytop1_r3l12b1f">
+
+                                                                                        </span>
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ct_bodytop1_r3l12b2"></div>
+                                                            </div>
+                                                        </fieldset>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="ct_bodytop1_r3right"></div>
