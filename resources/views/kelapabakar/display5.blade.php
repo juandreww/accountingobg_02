@@ -4005,7 +4005,7 @@
                                                     <div class="ct_bodytop1_r3l11">
                                                         <div class="ct_bodytop1_r3l11a">
                                                             <div class="ct_bodytop1_r311b" data-test--text-field--container="true">
-                                                                <input type="text" class="ct_bodytop1_r311input">
+                                                                <input type="text" class="ct_bodytop1_r311input" aria-label="Search this board" aria-describedby="search-issue-description" type="text" data-test-id="searchfield" name="search" placeholder="Search this board" autocomplete="on" data-ds--text-field--input="true" value>
                                                                 <div class="ct_bodytop1_r311button">
                                                                     <span>
                                                                         <span></span>
