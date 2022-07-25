@@ -44,6 +44,7 @@
         .ct_body1 {
             position: relative;
             top: 56px;
+            width: 100%;
         }
 
         .kb_today {
@@ -2998,6 +2999,63 @@
             color: var(--ds-text, #42526e) !important;
         }
 
+        .ct_bodytop1_r3 {
+            margin-top: 16px;
+        }
+
+        .ct_bodytop1_r3a {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            margin-bottom: 32px;
+            width: 100%;
+            white-space: nowrap;
+        }
+
+        .ct_bodytop1_r3left {
+            flex: 1 1 0%;
+        }
+
+        .ct_bodytop1_r3l1 {
+            display: flex;
+            position: relative;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .ct_bodytop1_r3l11 {
+            display: flex;
+        }
+
+        .ct_bodytop1_r3l11a {
+            display: flex;
+            width: 120px;
+            transition: all 0.3s cubiz-bezier(0.15, 1, 0.3, 1) 0s;
+        }
+
+        .ct_bodytop1_r311b {
+            -webkit-box-align: center;
+            align-items: center;
+            background-color: var(--ds-background-input, #FAFBFC);
+            border-color: var(--ds-border, #DFE1E6);
+            color: var(--ds-text, #091e42);
+            cursor: text;
+            border-radius: 3px;
+            border-width: 2px;
+            border-style: solid;
+            box-sizing: border-box;
+            display: flex;
+            flex: 1 1 100%;
+            font-size: 14px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            overflow: hidden;
+            transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+            overflow-wrap: break-word;
+            vertical-align: top;
+            pointer-events: auto;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3898,12 +3956,47 @@
                                                             </span>
                                                         </div>
                                                     </span>
-                                                    <div class="ct_bt1r2_b1c"></div>
+                                                    <div class="ct_bt1r2_b1a" role="presentation">
+                                                        <button class="ct_bt1r2_b1a0" type="button" data-test-id="automation-menu.ui.button.menu-button" externalid="automation-menu.ui.button.menu-button" tabindex="0">
+                                                            <span class="ct_bt1r2_b1a1">
+                                                                <span class="ct_bt1r2_b1a2">
+                                                                    <span class="ct_bt1r2_b1a3">
+                                                                        <span class="ct_bt1r2_b1a4">
+                                                                            <span class="material-symbols-outlined">
+                                                                                more_horiz
+                                                                            </span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="ct_bodytop1_r3"></div>
+                                    <div class="ct_bodytop1_r3">
+                                        <div class="ct_bodytop1_r3a">
+                                            <div class="ct_bodytop1_r3left">
+                                                <div class="ct_bodytop1_r3l1">
+                                                    <div class="ct_bodytop1_r3l11">
+                                                        <div class="ct_bodytop1_r3l11a">
+                                                            <div class="ct_bodytop1_r311b">
+                                                                <input type="text">
+                                                                <div class="ct_bodytop1_r311button">
+                                                                    <span>
+                                                                        <span></span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ct_bodytop1_r3l12"></div>
+                                                </div>
+                                            </div>
+                                            <div class="ct_bodytop1_r3right"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="ct_bodybot">
