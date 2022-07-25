@@ -3160,7 +3160,29 @@
         }
 
         .ct_bodytop1_r3l12b1e {
-
+            height: 32px;
+            width: 32px;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            background-color: var(--ds-surface-overlay, #FFFFFF);
+            border-radius: 50%;
+            box-sizing: content-box;
+            cursor: inherit;
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            outline: none;
+            overflow: hidden;
+            position: static;
+            transform: translateZ(0px);
+            transition: transform 200ms ease 0s, opacity 200ms ease 0s;
+            box-shadow: 0 0 0 2px var(--ds-surface-overlay, #FFFFFF);
+            border: none;
+            margin: 2px;
+            padding: 0px;
+            font-size: inherit;
+            font-family: inherit
         }
 
     </style>
