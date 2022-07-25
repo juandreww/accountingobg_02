@@ -3079,6 +3079,12 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
+        .ct_bodytop1_r311button {
+            color: rgb(94, 108, 132);
+            margin: 0px 8px 0px 0px;
+            display: flex;
+        }
+
     </style>
 
     {{-- CSS --}}
