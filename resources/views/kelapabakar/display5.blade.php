@@ -3095,6 +3095,18 @@
             height: 16px;
         }
 
+        .ct_bodytop1_r311button1 > svg {
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            pointer-events: none;
+            max-width: 100%;
+            max-height: 100%;
+            color: var(--icon-primary-color);
+            fill: var(--icon-secondary-color);
+            vertical-align: bottom;
+        }
+
     </style>
 
     {{-- CSS --}}
