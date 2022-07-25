@@ -3056,6 +3056,29 @@
             pointer-events: auto;
         }
 
+        .ct_bodytop1_r311input:not([data-compact]) {
+            padding: 8px 6px;
+            height: 2.57em;
+        }
+
+        input:not([type=checkbox]):not([type=radio]), select, textarea {
+            outline: 0;
+            border-bottom-right-radius: 3.01px;
+        }
+
+        .ct_bodytop1_r311input {
+            background-color: transparent;
+            border: 0px;
+            box-sizing: border-box;
+            color: inherit;
+            cursor: inherit;
+            font-size: 14px;
+            min-width: 0;
+            width: 100%;
+            line-height: 1.42857;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -3981,8 +4004,8 @@
                                                 <div class="ct_bodytop1_r3l1">
                                                     <div class="ct_bodytop1_r3l11">
                                                         <div class="ct_bodytop1_r3l11a">
-                                                            <div class="ct_bodytop1_r311b">
-                                                                <input type="text">
+                                                            <div class="ct_bodytop1_r311b" data-test--text-field--container="true">
+                                                                <input type="text" class="ct_bodytop1_r311input">
                                                                 <div class="ct_bodytop1_r311button">
                                                                     <span>
                                                                         <span></span>
