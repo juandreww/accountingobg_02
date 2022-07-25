@@ -3124,6 +3124,28 @@
             align-items: center;
         }
 
+        .ct_bodytop1_r3l12b1 {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            height: 40px;
+            position: relative;
+            background: transparent;
+            vertical-align: top;
+            padding: 0px;
+            transition: transform 0.1s ease-out 0s;
+            border-radius: 50%;
+            z-index: 5;
+        }
+
+        .ct_bodytop1_r3l12b1:first-child {
+            margin-left: 0px;
+        }
+
+        .ct_bodytop1_r3l12b1a {
+
+        }
+
 
 
     </style>
