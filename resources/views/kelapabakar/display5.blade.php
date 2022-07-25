@@ -3081,6 +3081,10 @@
             display: flex;
         }
 
+        .ct_bodytop1_r311input::placeholder {
+            color: white;
+        }
+
         .ct_bodytop1_r311button1 {
             --icon-primary-color: currentColor;
             --icon-secondary-color: var(--ds-surface, #FFFFFF);
@@ -3091,7 +3095,20 @@
             height: 16px;
         }
 
-        .ct_bodytop1_r311button1 > svg {
+        .ct_bodytop1_r311button2 {
+            display: inline-block;
+            overflow: hidden;
+            pointer-events: none;
+            max-width: 100%;
+            max-height: 100%;
+            color: var(--icon-primary-color);
+            fill: var(--icon-secondary-color);
+            vertical-align: bottom;
+            width: 16px;
+            height: 16px;
+        }
+
+        .ct_bodytop1_r3l12a > svg {
             width: 16px;
             height: 16px;
             overflow: hidden;
@@ -4131,7 +4148,7 @@
                                                                 <div class="ct_bodytop1_r311button">
                                                                     <span class="ct_bodytop1_r311button1">
                                                                         <span class="ct_bodytop1_r311button2">
-                                                                            <span class="material-symbols-outlined">
+                                                                            <span class="material-symbols-outlined" style="font-size: 16px">
                                                                                 search
                                                                             </span>
                                                                         </span>
@@ -4165,7 +4182,7 @@
                                                                                 <div class="ct_bodytop1_r3l12b1d">
                                                                                     <span class="ct_bodytop1_r3l12b1e">
                                                                                         <span class="ct_bodytop1_r3l12b1f1">
-                                                                                            <span class="material-symbols-outlined">
+                                                                                            <span class="material-symbols-outlined" style="font-size:32px">
                                                                                                 person_add
                                                                                             </span>
                                                                                         </span>
