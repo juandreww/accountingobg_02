@@ -3085,6 +3085,16 @@
             display: flex;
         }
 
+        .ct_bodytop1_r311button1 {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 16px;
+            height: 16px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4013,8 +4023,8 @@
                                                             <div class="ct_bodytop1_r311b" data-test--text-field--container="true">
                                                                 <input type="text" class="ct_bodytop1_r311input" aria-label="Search this board" aria-describedby="search-issue-description" type="text" data-test-id="searchfield" name="search" placeholder="Search this board" autocomplete="on" data-ds--text-field--input="true" value>
                                                                 <div class="ct_bodytop1_r311button">
-                                                                    <span>
-                                                                        <span></span>
+                                                                    <span class="ct_bodytop1_r311button1">
+                                                                        <span class="ct_bodytop1_r311button2"></span>
                                                                     </span>
                                                                 </div>
                                                             </div>
