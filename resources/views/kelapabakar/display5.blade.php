@@ -3414,6 +3414,26 @@
             position: relative;
         }
 
+        .ct_bodybotb2c2 {
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            padding-left: 6px;
+            padding-right: 12px;
+        }
+
+        .ct_bodybotb2c3 {
+            position: sticky;
+            top: 0px;
+            z-index: 4;
+        }
+
     </style>
 
     {{-- CSS --}}
