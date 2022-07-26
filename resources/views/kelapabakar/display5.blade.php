@@ -3215,7 +3215,6 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            border-radius: 50%:
         }
 
     </style>
@@ -4180,7 +4179,7 @@
                                                                         <label for="asignee.status.stateless.avatar.asignee-filter-avatar" data-test-id="filters.ui.filters.asignee.stateless.avatar.asignee-filter-avatar" class="ct_bodytop1_r3l12b1b">
                                                                             <div class="ct_bodytop1_r3l12b1c" role="presentation">
                                                                                 <div class="ct_bodytop1_r3l12b1d">
-                                                                                    <span class="ct_bodytop1_r3l12b1e">
+                                                                                    <span class="ct_bodytop1_r3l12b1e" style="border-radius:0%">
                                                                                         <span class="ct_bodytop1_r3l12b1f1">
                                                                                             <span class="material-symbols-outlined" style="font-size:32px">
                                                                                                 person_add
