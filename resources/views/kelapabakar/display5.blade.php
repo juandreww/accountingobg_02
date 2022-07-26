@@ -3303,6 +3303,17 @@
             white-space: nowrap;
         }
 
+        .ct_bodytop1_r3rb6labelb {
+            display: flex;
+        }
+
+        .ct_bodytop1_r3rb6labelc {
+            max-width: 120px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4292,7 +4303,7 @@
                                                                     <div class="ct_bodytop1_r3rb5">
                                                                         <button class="ct_bodytop1_r3rb6" aria-expanded="false" aria-haspopup="true" id="swimlane-switch-menu-trigger">
                                                                             <span class="ct_bodytop1_r3rb6label">
-                                                                                <div class="ct_bodytop1_r3rb6labela">
+                                                                                <div class="ct_bodytop1_r3rb6labela" role="presentation">
                                                                                     <div class="ct_bodytop1_r3rb6labelb">
                                                                                         <span class="ct_bodytop1_r3rb6labelc">None</spanm>
                                                                                     </div>
