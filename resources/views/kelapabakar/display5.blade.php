@@ -3267,6 +3267,20 @@
             color: var(--ds-text, #42526e) !important;
         }
 
+        .ct_bodytop1_r3rb6dd {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+            margin: 0px 2px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4258,9 +4272,7 @@
                                                                             <span class="ct_bodytop1_r3rb6label"></span>
                                                                             <span class="ct_bodytop1_r3rb6dd">
                                                                                 <span class="ct_bodytop1_r3rb6dda">
-                                                                                    <div class="ct_bodytop1_r3rb6ddb">
-
-                                                                                    </div>
+                                                                                    <span class="material-symbols-outlined">arrow_drop_down</span>
                                                                                 </span>
                                                                             </span>
                                                                         </button>
