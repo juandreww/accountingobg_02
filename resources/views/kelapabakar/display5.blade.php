@@ -3406,6 +3406,14 @@
             transition: none 0s ease 0s;
         }
 
+        .ct_bodybotb2c > div {
+            height: 100%;
+        }
+
+        .ct_bodybotb2c1 > * {
+            position: relative;
+        }
+
     </style>
 
     {{-- CSS --}}
