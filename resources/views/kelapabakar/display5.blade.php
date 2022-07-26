@@ -4247,16 +4247,22 @@
                                                 </div>
                                             </div>
                                             <div class="ct_bodytop1_r3right">
-                                                <label for="swimlane-swimtech-menu-trigger" class="ct_bodytop1_r3ra">Group by</label>
+                                                <label for="swimlane-switch-menu-trigger" class="ct_bodytop1_r3ra">Group by</label>
                                                 <div class="ct_bodytop1_r3rb">
                                                     <div class="ct_bodytop1_r3rb1">
                                                         <div class="ct_bodytop1_r3rb2">
                                                             <div class="ct_bodytop1_r3rb3">
                                                                 <div class="ct_bodytop1_r3rb4">
                                                                     <div class="ct_bodytop1_r3rb5">
-                                                                        <button class="ct_bodytop1_r3rb6">
-                                                                            <div class="ct_bodytop1_r3rb6label"></div>
-                                                                            <div class="ct_bodytop1_r3rb6dd"></div>
+                                                                        <button class="ct_bodytop1_r3rb6" aria-expanded="false" aria-haspopup="true" id="swimlane-switch-menu-trigger">
+                                                                            <span class="ct_bodytop1_r3rb6label"></span>
+                                                                            <span class="ct_bodytop1_r3rb6dd">
+                                                                                <span class="ct_bodytop1_r3rb6dda">
+                                                                                    <div class="ct_bodytop1_r3rb6ddb">
+
+                                                                                    </div>
+                                                                                </span>
+                                                                            </span>
                                                                         </button>
                                                                     </div>
                                                                 </div>
