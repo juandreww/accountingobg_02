@@ -3314,6 +3314,18 @@
             text-overflow: ellipsis;
         }
 
+        .ct_bodybot {
+            height: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        .ct_bodybota {
+            display: block;
+            width: 100%;
+            position: absolute;
+        }
+
     </style>
 
     {{-- CSS --}}
