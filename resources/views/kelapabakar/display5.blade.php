@@ -3434,6 +3434,59 @@
             z-index: 4;
         }
 
+        .ct_bodybotb2c5 {
+            -webkit-box-align: baseline;
+            align-items: baseline;
+            border-width: 0px;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-flex;
+            font-size: inherit;
+            font-style: normal;
+            font-family: inherit;
+            font-weight: 500;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+            white-space: nowrap;
+            background: var(--ds-background-neutral, rgba(9, 30, 66, 0.04));
+            cursor: pointer;
+            height: 2.28571em;
+            line-height: 2.28571em;
+            padding: 0px 2px;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: var(--ds-text, #42526e) !important;
+        }
+
+        .ct_bodybotb2c6 {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            align-self: center;
+            display: flex;
+            -webkit-box-flex: 0;
+            flex-grow: 0;
+            flex-shrink: 0;
+            line-height: 0;
+            font-size: 0px;
+            user-select: none;
+            margin: 0px 2px;
+        }
+
+        .ct_bodybotb2c7 {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 24px;
+            height: 24px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4458,12 +4511,12 @@
                                                     <span class="ct_bodybotb2c1">
                                                         <div class="ct_bodybotb2c2">
                                                             <div class="ct_bodybotb2c3">
-                                                                <div class="ct_bodybotb2c4">
-                                                                    <button class="ct_bodybotb2c5">
+                                                                <div class="ct_bodybotb2c4" role="presentation">
+                                                                    <button class="ct_bodybotb2c5" aria-label="Create column" data-testid="platform-board-kit.ui.column.column-create.button.styled.button" type="button" tabindex="0">
                                                                         <span class="ct_bodybotb2c6">
-                                                                            <div class="ct_bodybotb2c7">
+                                                                            <span class="ct_bodybotb2c7">
                                                                                 <span class="material-symbols-outlined">add</span>
-                                                                            </div>
+                                                                            </span>
                                                                         </span>
                                                                     </button>
                                                                 </div>
