@@ -3384,6 +3384,28 @@
             z-index: 90;
         }
 
+        .ct_bodybotb2c1 {
+            height: 100%;
+            display: block;
+        }
+
+        .ct_bodybotb2c1 > div::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 3px;
+            box-shadow: 0 0 0 3px var(--ds-border-accent-purple, #C0B6F2);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .ct_bodybotb2c > div::before {
+            transition: none 0s ease 0s;
+        }
+
     </style>
 
     {{-- CSS --}}
