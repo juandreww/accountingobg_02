@@ -3230,6 +3230,15 @@
             padding: 0px 8px;
         }
 
+        .ct_bodytop1_r3rb1 {
+            display: inline-flex;
+        }
+
+        .ct_bodytop1_r3rb4 {
+            display: inline-flex;
+            transition: box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+        }
+
     </style>
 
     {{-- CSS --}}
