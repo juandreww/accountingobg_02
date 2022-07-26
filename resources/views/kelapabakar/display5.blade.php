@@ -3217,6 +3217,12 @@
             background-size: cover;
         }
 
+        .ct_bodytop1_r3right {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4196,7 +4202,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="ct_bodytop1_r3right"></div>
+                                            <div class="ct_bodytop1_r3right">
+                                                <label for="swimlane-swimtech-menu-trigger" class="ct_bodytop1_r3ra">Group by</label>
+                                                <div class="ct_bodytop1_r3rb">
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
