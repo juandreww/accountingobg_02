@@ -3291,6 +3291,18 @@
             height: 24px;
         }
 
+        .ct_bodytop1_r3rb6label {
+            transition: opacity 0.3s ease 0s;
+            opacity: 1;
+            margin: 0px 2px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4279,7 +4291,13 @@
                                                                 <div class="ct_bodytop1_r3rb4">
                                                                     <div class="ct_bodytop1_r3rb5">
                                                                         <button class="ct_bodytop1_r3rb6" aria-expanded="false" aria-haspopup="true" id="swimlane-switch-menu-trigger">
-                                                                            <span class="ct_bodytop1_r3rb6label"></span>
+                                                                            <span class="ct_bodytop1_r3rb6label">
+                                                                                <div class="ct_bodytop1_r3rb6labela">
+                                                                                    <div class="ct_bodytop1_r3rb6labelb">
+                                                                                        <span class="ct_bodytop1_r3rb6labelc">None</spanm>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </span>
                                                                             <span class="ct_bodytop1_r3rb6dd">
                                                                                 <span class="ct_bodytop1_r3rb6dda" role="presentation" aria-hidden="true">
                                                                                     <span class="material-symbols-outlined">arrow_drop_down</span>
