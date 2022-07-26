@@ -3338,6 +3338,27 @@
             position: relative;
         }
 
+        .ct_bodybotb1b {
+            width: 100%;
+            max-height: 100%;
+            height: 100%;
+            overflow: auto;
+            flex: 1 1 0%;
+            position: relative;
+        }
+
+        .ct_bodybotb2 {
+            display: flex;
+            flex-flow: row nowrap;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            user-select: none;
+            padding: 0px 0px 40px 34px;
+            width: fit-content;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4354,7 +4375,7 @@
                                 <div class="ct_bodybota"></div>
                                 <div class="ct_bodybotb" data-test-id="software-board.board-area">
                                     <div class="ct_bodybotb1">
-                                        <div class="ct_bodybotb1b">
+                                        <div class="ct_bodybotb1b" data-test-id="platform-board-kit.ui.board.scroll.board-scroll">
                                             <section class="ct_bodybotb2">
                                                 <div class="ct_bodybotb2a"></div>
                                                 <div class="ct_bodybotb2b"></div>
