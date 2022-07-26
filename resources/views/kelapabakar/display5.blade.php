@@ -3258,7 +3258,13 @@
             cursor: pointer;
             height: 2.28571em;
             line-height: 2.28571em;
-
+            padding: 0px 10px;
+            vertical-align: middle;
+            width: auto;
+            -webkit-box-pack: center;
+            justify-content: center;
+            outline: none;
+            color: var(--ds-text, #42526e) !important;
         }
 
     </style>
