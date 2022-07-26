@@ -3359,6 +3359,19 @@
             width: fit-content;
         }
 
+        .ct_bodybotb2a {
+            left: 0px;
+            margin-left: -40px;
+            box-shadow: var(--ds-UNSAFE-util-MISSING_TOKEN, 0 80px 0 #FFFFFF, 5px -2px 7px rgba(9,30, 66, 0.08));
+            background: var(--ds-surface, #FFFFFF);
+            width: 40px;
+            position: sticky;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease 0s;
+            z-index: 90;
+        }
+
     </style>
 
     {{-- CSS --}}
