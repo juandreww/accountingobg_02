@@ -3281,6 +3281,16 @@
             margin: 0px 2px;
         }
 
+        .ct_bodytop1_r3rb6dda {
+            --icon-primary-color: currentColor;
+            --icon-secondary-color: var(--ds-surface, #FFFFFF);
+            display: inline-block;
+            flex-shrink: 0;
+            line-height: 1;
+            width: 24px;
+            height: 24px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4271,7 +4281,7 @@
                                                                         <button class="ct_bodytop1_r3rb6" aria-expanded="false" aria-haspopup="true" id="swimlane-switch-menu-trigger">
                                                                             <span class="ct_bodytop1_r3rb6label"></span>
                                                                             <span class="ct_bodytop1_r3rb6dd">
-                                                                                <span class="ct_bodytop1_r3rb6dda">
+                                                                                <span class="ct_bodytop1_r3rb6dda" role="presentation" aria-hidden="true">
                                                                                     <span class="material-symbols-outlined">arrow_drop_down</span>
                                                                                 </span>
                                                                             </span>
