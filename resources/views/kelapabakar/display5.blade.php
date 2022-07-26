@@ -3223,6 +3223,13 @@
             align-items: center;
         }
 
+        .ct_bodytop1_r3ra {
+            font-size: 11px;
+            color: var(--ds-text-subtlest, #5e6c84);
+            text-transform: uppercase;
+            padding: 0px 8px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4205,7 +4212,20 @@
                                             <div class="ct_bodytop1_r3right">
                                                 <label for="swimlane-swimtech-menu-trigger" class="ct_bodytop1_r3ra">Group by</label>
                                                 <div class="ct_bodytop1_r3rb">
-
+                                                    <div class="ct_bodytop1_r3rb1">
+                                                        <div class="ct_bodytop1_r3rb2">
+                                                            <div class="ct_bodytop1_r3rb3">
+                                                                <div class="ct_bodytop1_r3rb4">
+                                                                    <div class="ct_bodytop1_r3rb5">
+                                                                        <button class="ct_bodytop1_r3rb6">
+                                                                            <div class="ct_bodytop1_r3rb6label"></div>
+                                                                            <div class="ct_bodytop1_r3rb6dd"></div>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
