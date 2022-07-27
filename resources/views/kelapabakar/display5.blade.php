@@ -3655,6 +3655,14 @@
             margin-top: -8px;
         }
 
+        .ct_kanb_top_txt3 {
+            margin-top: 8px;
+        }
+
+        .ct_kanb_top_txt4 {
+            line-height: 1;
+        }
+
     </style>
 
     {{-- CSS --}}
