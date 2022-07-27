@@ -3671,6 +3671,29 @@
             max-width: 100%;
         }
 
+        .ct_kanb_top_txt6 {
+            min-width: 0px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .ct_kanb_top_txt7 {
+            font-style: inherit;
+            line-height: 1.14286;
+            display: flex;
+            margin-top: 16px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: var(--ds-text-subtlest, #5e6c84);
+            letter-spacing: normal;
+            font-size: 12px;
+            height: 100%;
+            margin-left: 8px;
+            margin-right: 8px;
+            overflow: hidden;
+        }
+
     </style>
 
     {{-- CSS --}}
