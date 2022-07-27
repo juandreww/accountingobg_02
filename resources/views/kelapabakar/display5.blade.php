@@ -3556,6 +3556,19 @@
             transition: min-width 300ms ease 0s, max-width 300ms ease-in 0s;
         }
 
+        .ct_kanban4c {
+            display: flex;
+            flex-direction: column;
+            background-color: var(---ds-surface-sunken, #f4f5f7);
+            border-radius: 6px;
+            position: relative;
+            align-self: stretch;
+            flex: 1 1 auto;
+            transition: opacity 0.2s ease 0s, min-width 300ms ease 0s, max-width 300ms ease-in 0s;
+            min-width: 270px;
+            max-width: 270px;
+        }
+
     </style>
 
     {{-- CSS --}}
