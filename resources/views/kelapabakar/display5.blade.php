@@ -3569,6 +3569,47 @@
             max-width: 270px;
         }
 
+        .ct_kanban4top {
+            position: sticky;
+            background: var(--ds-background-neutral, #FFFFFF);
+            top: 0px;
+            height: 48px;
+            display: flex;
+            flex-flow: column nowrap;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            z-index: 4;
+        }
+
+        .ct_kanban4top::before {
+            opacity: 0;
+            transition: opacity 0.2s ease 0s;
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0px;
+            right: 0px;
+            height: 2px;
+            pointer-events: none;
+            background-color: var(--ds-blanket,#97a0af);
+        }
+
+        .ct_kanb_top1 {
+            user-select: none;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            height: 100%;
+            position: relative;
+            background-color: var(--ds-surface-sunken, #F4F5F7);
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            transition: background-color 0.2s ease 0s;
+            cursor: grab;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4595,7 +4636,13 @@
                                                                     <div class="ct_kanban4a">
                                                                         <div class="ct_kanban4b">
                                                                             <div class="ct_kanban4c">
-                                                                                <div class="ct_kanban4top"></div>
+                                                                                <div class="ct_kanban4top">
+                                                                                    <div class="ct_kanb_top1" data-test-id="platform-board-kit.common.ui.column-header.header.column-header-container">
+                                                                                        <div class="ct_kanban4top2">
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
                                                                                 <div class="ct_kanban4bot"></div>
                                                                             </div>
                                                                         </div>
