@@ -3663,6 +3663,14 @@
             line-height: 1;
         }
 
+        .ct_kanb_top_txt5 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4698,7 +4706,15 @@
                                                                                                         <form action="">
                                                                                                             <div class="ct_kanb_top_txt3">
                                                                                                                 <div class="ct_kanb_top_txt4">
-
+                                                                                                                    <div class="ct_kanb_top_txt5">
+                                                                                                                        <div class="ct_kanb_top_txt6">
+                                                                                                                            <h2 class="ct_kanb_top_txt7">
+                                                                                                                                <div class="ct_kanb_top_txt8">
+                                                                                                                                    24 JULY 2022 2 ISSUES
+                                                                                                                                </div>
+                                                                                                                            </h2>
+                                                                                                                        </div>
+                                                                                                                    </div>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </form>
