@@ -3487,6 +3487,44 @@
             height: 24px;
         }
 
+        .ct_kanban {
+            padding-top: 10px;
+        }
+
+        .ct_kanban1_a {
+            display: block;
+        }
+
+        .ct_kanban1 {
+            display: flex;
+            flex-flow: row nowrap;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            user-select: none;
+            padding: 0px 0px 40px 34px;
+        }
+
+        .ct_kanban2 {
+            position: relative;
+            flex: 1 1 auto;
+        }
+
+        .ct_kanban1 > ::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 3px;
+            box-shadow: 0 0 0 3px var(--ds-border-accent-purple, #C0B6F2);
+            opacity: 0;
+            transition: opacity 0.1s ease-in-out 0s;
+            pointer-events: none;
+        }
+
 
     </style>
 
@@ -4506,8 +4544,20 @@
                                     <div class="ct_bodybotb1">
                                         <div class="ct_bodybotb1b" data-test-id="platform-board-kit.ui.board.scroll.board-scroll">
                                             <section class="ct_bodybotb2">
-                                                <div class="ct_bodybotb2a"></div>
-                                                <div class="ct_bodybotb2b"></div>
+                                                <div class="ct_kanban">
+                                                    <span class="ct_kanban1 ct_kanban1_a">
+                                                        <div class="ct_kanban2">
+                                                            <div class="ct_kanban3">
+                                                                <div class="ct_kanban4">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="ct_bodybotb2b">
+
+                                                </div>
                                                 <div class="ct_bodybotb2c">
                                                     <span class="ct_bodybotb2c1">
                                                         <div class="ct_bodybotb2c2">
