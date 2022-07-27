@@ -3635,6 +3635,26 @@
             height: 100%;
         }
 
+        .ct_kanb_top_txt {
+            font-size: 12px;
+            padding-left: 5px;
+            padding-right: 5px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .ct_kanb_top_txt1 {
+            max-width: calc(100% - 45px);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .ct_kanb_top_txt2 {
+            max-width: 100%;
+            margin-top: -8px;
+        }
+
     </style>
 
     {{-- CSS --}}
