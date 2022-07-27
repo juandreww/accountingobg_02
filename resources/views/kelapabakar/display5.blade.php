@@ -4663,8 +4663,20 @@
                                                                             <div class="ct_kanban4c">
                                                                                 <div class="ct_kanban4top">
                                                                                     <div class="ct_kanb_top1" data-test-id="platform-board-kit.common.ui.column-header.header.column-header-container">
-                                                                                        <div class="ct_kanban4top2" data-rbd-drag-handle-context-id="0" tabindex="0" data-rbd-drag-draggable-context-id="COLUMN::13" aria-labelledby="rbd-lift-instruction-0" draggable="false">
+                                                                                        <div class="ct_kanb_top2" data-rbd-drag-handle-context-id="0" tabindex="0" data-rbd-drag-draggable-context-id="COLUMN::13" aria-labelledby="rbd-lift-instruction-0" draggable="false">
+                                                                                            <div class="ct_kanb_top_txt">
+                                                                                                <div class="ct_kanb_top_txt1">
+                                                                                                    <div class="ct_kanb_top_txt2">
+                                                                                                        <form action="">
+                                                                                                            <div class="ct_kanb_top_txt3">
+                                                                                                                <div class="ct_kanb_top_txt4">
 
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </form>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
