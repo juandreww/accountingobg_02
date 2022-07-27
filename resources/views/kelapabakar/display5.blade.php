@@ -3525,6 +3525,36 @@
             pointer-events: none;
         }
 
+        .ct_kanban3 {
+            display: flex;
+            flex: 1 1 auto;
+        }
+
+        .ct_kanban4a {
+            display: flex;
+            flex-direction: column;
+            align-self: auto;
+            flex: 1 1 auto;
+            min-width: 282px;
+            max-width: 282px;
+            transition: min-width 300ms ease 0s, max-width 300ms ease-in 0s;
+        }
+
+        .ct_kanban4b {
+            border-radius: 6px;
+            margin-left: 6px;
+            margin-right: 6px;
+            display: flex;
+            flex-direction: column;
+            align-self: auto;
+            contain: initial;
+            flex: 1 1 auto;
+            min-width: 270px;
+            max-width: 270px;
+            box-shadow: initial;
+            background-color: var(--ds-background-neutral, #f4f5f7);
+            transition: min-width 300ms ease 0s, max-width 300ms ease-in 0s;
+        }
 
     </style>
 
@@ -4549,7 +4579,14 @@
                                                         <div class="ct_kanban2">
                                                             <div class="ct_kanban3">
                                                                 <div class="ct_kanban4">
-
+                                                                    <div class="ct_kanban4a">
+                                                                        <div class="ct_kanban4b">
+                                                                            <div class="ct_kanban4c">
+                                                                                <div class="ct_kanban4top"></div>
+                                                                                <div class="ct_kanban4bot"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
