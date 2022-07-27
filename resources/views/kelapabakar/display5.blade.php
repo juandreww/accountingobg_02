@@ -3615,6 +3615,26 @@
             cursor: grab;
         }
 
+        [data-rbd-drag-handle-context-id="0"] {
+            -webkit-touch-callout: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            touch-action: manipulation;
+        }
+
+        .ct_kanb_top2 {
+            display: flex;
+            flex-flow: column nowrap;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+            flex: 1 1 auto;
+            align-self: auto;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
