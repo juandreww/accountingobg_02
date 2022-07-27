@@ -3694,6 +3694,14 @@
             overflow: hidden;
         }
 
+        .ct_kanb_top_txt8 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
