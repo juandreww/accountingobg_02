@@ -3828,6 +3828,15 @@
             gap: 8px;
         }
 
+        .ct_kanb_bot_ct5dw2left {
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+
+
     </style>
 
     {{-- CSS --}}
@@ -4897,7 +4906,13 @@
                                                                                                                         <div class="ct_kanb_bot_ct5dw">
                                                                                                                             <div class="ct_kanb_bot_ct5dw1">
                                                                                                                                 <div class="ct_kanb_bot_ct5dw2">
-                                                                                                                                    <div class="ct_kanb_bot_ct5dw2left"></div>
+                                                                                                                                    <div class="ct_kanb_bot_ct5dw2left">
+                                                                                                                                        <div class="ct_kanb_bot_ct5dw2left1">
+                                                                                                                                            <span class="material-symbols-outlined">
+                                                                                                                                                check_box
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2right"></div>
                                                                                                                                 </div>
                                                                                                                             </div>
