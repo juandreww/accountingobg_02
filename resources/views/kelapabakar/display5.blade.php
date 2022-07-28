@@ -3835,6 +3835,28 @@
             flex-direction: column;
         }
 
+        .ct_kanb_bot_ct5dw2left2 {
+            width: 16px;
+            height: 16px;
+            vertical-align: text-bottom;
+        }
+
+        .ct_kanb_bot_ct5dw2right {
+            flex: 0 1 auto;
+            direction: rt1;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .ct_kanb_bot_ct5dw2right2 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--ds-text-subtle, #7a869a);
+        }
+
 
 
     </style>
@@ -4913,7 +4935,13 @@
                                                                                                                                             </span>
                                                                                                                                         </div>
                                                                                                                                     </div>
-                                                                                                                                    <div class="ct_kanb_bot_ct5dw2right"></div>
+                                                                                                                                    <div class="ct_kanb_bot_ct5dw2right">
+                                                                                                                                        <div class="ct_kanb_bot_ct5dw2right1">
+                                                                                                                                            <span class="ct_kanb_bot_ct5dw2right2">
+
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
                                                                                                                                 </div>
                                                                                                                             </div>
                                                                                                                         </div>
