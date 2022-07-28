@@ -3720,6 +3720,10 @@
             padding-top: 4px;
         }
 
+        .ct_kanb_bot2 {
+
+        }
+
         .ct_kanb_bot3 {
             width: auto;
             height: 228px;
@@ -4786,7 +4790,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="ct_kanban4bot">
+                                                                                <div class="ct_kanban4bot" data-rbd-droppable-context-id="0">
                                                                                     <div class="ct_kanb_bot1">
                                                                                         <div class="ct_kanb_bot2">
                                                                                             <div class="ct_kanb_bot3">
