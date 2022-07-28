@@ -3852,7 +3852,7 @@
             display: block;
             overflow: hidden;
             text-overflow: ellipsis;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: 600;
             color: var(--ds-text-subtle, #7a869a);
         }
@@ -4938,7 +4938,7 @@
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2right">
                                                                                                                                         <div class="ct_kanb_bot_ct5dw2right1">
                                                                                                                                             <span class="ct_kanb_bot_ct5dw2right2">
-
+                                                                                                                                                OD-57
                                                                                                                                             </span>
                                                                                                                                         </div>
                                                                                                                                     </div>
