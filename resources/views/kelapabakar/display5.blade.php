@@ -3434,6 +3434,10 @@
             z-index: 4;
         }
 
+        .ct_body4 {
+            height: 100%;
+        }
+
         .ct_bodybotb2c5 {
             -webkit-box-align: baseline;
             align-items: baseline;
@@ -3503,7 +3507,7 @@
             -webkit-box-align: stretch;
             align-items: stretch;
             user-select: none;
-            padding: 0px 0px 40px 34px;
+            padding: 0px 0px 40px 0px;
         }
 
         .ct_kanban2 {
@@ -3855,6 +3859,10 @@
             font-size: 16px;
             font-weight: 600;
             color: var(--ds-text-subtle, #7a869a);
+        }
+
+        .ct_bodybotb2 {
+            height: 100%;
         }
 
 
