@@ -3721,7 +3721,14 @@
         }
 
         .ct_kanb_bot2 {
-
+            box-sizing: border-box;
+            direction: ltr;
+            height: auto;
+            position: relative;
+            width: 260px;
+            will-change: initial;
+            overflow: visible;
+            background-color: var(--ds-surface-sunken, #F45F57);
         }
 
         .ct_kanb_bot3 {
@@ -4792,7 +4799,7 @@
                                                                                 </div>
                                                                                 <div class="ct_kanban4bot" data-rbd-droppable-context-id="0">
                                                                                     <div class="ct_kanb_bot1">
-                                                                                        <div class="ct_kanb_bot2">
+                                                                                        <div class="ct_kanb_bot2" aria-label="grid" aria-readonly="true" role="grid" tabindex="0">
                                                                                             <div class="ct_kanb_bot3">
 
                                                                                             </div>
