@@ -3744,6 +3744,24 @@
             min-height: 100%;
         }
 
+        .ct_kanb_bot_ct {
+            height: 104px;
+            left: 0px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+        }
+
+        .ct_kanb_bot_ct1 {
+            display: block;
+        }
+
+        .ct_kanb_bot_ct2 {
+            position: relative;
+            margin: 2px 0px;
+            display: block;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4801,7 +4819,13 @@
                                                                                     <div class="ct_kanb_bot1">
                                                                                         <div class="ct_kanb_bot2" aria-label="grid" aria-readonly="true" role="grid" tabindex="0">
                                                                                             <div class="ct_kanb_bot3">
+                                                                                                <div class="ct_kanb_bot_ct">
+                                                                                                    <div class="ct_kanb_bot_ct1">
+                                                                                                        <div class="ct_kanb_bot_ct2">
 
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
