@@ -3762,6 +3762,23 @@
             display: block;
         }
 
+        .ct_kanb_bot_ct4 {
+            max-width: 270px;
+            cursor: pointer;
+            user-select: none;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin: 2px 0px;
+            border-radius: 3px;
+            box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(23,43,77,0.2), 0 0 0 1px rgba(23, 43, 77, 0.2));
+            transition: background-color 140ms ease-in-out 0s, color 140ms ease-in-out 0s;
+            background-color: var(--ds-surface-raised, #FFFFFF);
+            color: var(--ds-text, #172B4D);
+            filter: none;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4822,7 +4839,11 @@
                                                                                                 <div class="ct_kanb_bot_ct">
                                                                                                     <div class="ct_kanb_bot_ct1">
                                                                                                         <div class="ct_kanb_bot_ct2">
-
+                                                                                                            <div class="ct_kanb_bot_ct3">
+                                                                                                                <div class="ct_kanb_bot_ct4">
+                                                                                                                    <div class="ct_kanb_bot_ct5"></div>
+                                                                                                                </div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
