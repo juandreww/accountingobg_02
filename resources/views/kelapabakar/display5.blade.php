@@ -3702,6 +3702,37 @@
             max-width: 100%;
         }
 
+        .ct_kanban4bot {
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 6px;
+            min-height: 80px;
+        }
+
+        .ct_kanb_bot1 {
+            margin-left: 5px;
+            margin-right: 5px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            display: flex;
+            padding-top: 4px;
+        }
+
+        .ct_kanb_bot3 {
+            width: auto;
+            height: 228px;
+            max-width: 260px;
+            max-height: unset;
+            overflow: visible;
+            position: relative;
+            will-change: initial;
+            background-color: var(--ds-surface-sunken, #F4F5F7);
+            transition: height 0.2s ease 0s;
+            min-height: 100%;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4755,7 +4786,15 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="ct_kanban4bot"></div>
+                                                                                <div class="ct_kanban4bot">
+                                                                                    <div class="ct_kanb_bot1">
+                                                                                        <div class="ct_kanb_bot2">
+                                                                                            <div class="ct_kanb_bot3">
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
