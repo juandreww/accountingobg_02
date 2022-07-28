@@ -3818,6 +3818,16 @@
             gap: 4px;
         }
 
+        .ct_kanb_bot_ct5dw2 {
+            min-width: 0px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
+            gap: 8px;
+        }
+
     </style>
 
     {{-- CSS --}}
