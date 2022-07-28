@@ -4930,7 +4930,7 @@
                                                                                                                                 <div class="ct_kanb_bot_ct5dw2">
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2left">
                                                                                                                                         <div class="ct_kanb_bot_ct5dw2left1">
-                                                                                                                                            <span class="material-symbols-outlined">
+                                                                                                                                            <span class="material-symbols-outlined"style="color: #43aaec">
                                                                                                                                                 check_box
                                                                                                                                             </span>
                                                                                                                                         </div>
