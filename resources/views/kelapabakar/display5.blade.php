@@ -3865,6 +3865,14 @@
             height: 100%;
         }
 
+        .ct_kanban1  {
+            height: 100%;
+        }
+
+        .ct_kanban3 {
+            height: 100%;
+        }
+
 
 
     </style>
