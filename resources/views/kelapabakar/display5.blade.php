@@ -3779,6 +3779,26 @@
             filter: none;
         }
 
+        .ct_kanb_bot_ct5 {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+        }
+
+        .ct_kanb_bot_ct5up {
+            margin-bottom: 8px;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .ct_kanb_bot_ct5up1 {
+            overflow-wrap: break-word;
+            word-break: break-word;
+            padding-right: 32px;
+        }
+
     </style>
 
     {{-- CSS --}}
@@ -4841,7 +4861,12 @@
                                                                                                         <div class="ct_kanb_bot_ct2">
                                                                                                             <div class="ct_kanb_bot_ct3">
                                                                                                                 <div class="ct_kanb_bot_ct4">
-                                                                                                                    <div class="ct_kanb_bot_ct5"></div>
+                                                                                                                    <div class="ct_kanb_bot_ct5">
+                                                                                                                        <div class="ct_kanb_bot_ct5up">
+                                                                                                                            <span class="ct_kanb_bot_ct5up1">Breadcrumbs, favorite, group by jira</span>
+                                                                                                                        </div>
+                                                                                                                        <div class="ct_kanb_bot_ct5dw"></div>
+                                                                                                                    </div>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
