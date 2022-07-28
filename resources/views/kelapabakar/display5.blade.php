@@ -3806,6 +3806,18 @@
             width: 100%;
         }
 
+        .ct_kanb_bot_ct5dw1 {
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            width: 100%;
+            min-height: 28px;
+            gap: 4px;
+        }
+
     </style>
 
     {{-- CSS --}}
