@@ -3776,7 +3776,7 @@
             position: relative;
             margin: 2px 0px;
             border-radius: 3px;
-            box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(23,43,77,0.2), 0 0 0 1px rgba(23, 43, 77, 0.2));
+            box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(23,43,77,0.2), 0 0 1px rgba(23, 43, 77, 0.2));
             transition: background-color 140ms ease-in-out 0s, color 140ms ease-in-out 0s;
             background-color: var(--ds-surface-raised, #FFFFFF);
             color: var(--ds-text, #172B4D);
@@ -3873,6 +3873,17 @@
             height: 100%;
         }
 
+        .ct_kanban4a {
+            height: 100%;
+        }
+
+        .ct_kanb_bot_ct_r2 {
+            height: 104px;
+            left: 0px;
+            position: absolute;
+            top: 104px;
+            width: 100%;
+        }
 
 
     </style>
@@ -4933,6 +4944,41 @@
                                                                                         <div class="ct_kanb_bot2" aria-label="grid" aria-readonly="true" role="grid" tabindex="0">
                                                                                             <div class="ct_kanb_bot3">
                                                                                                 <div class="ct_kanb_bot_ct">
+                                                                                                    <div class="ct_kanb_bot_ct1">
+                                                                                                        <div class="ct_kanb_bot_ct2">
+                                                                                                            <div class="ct_kanb_bot_ct3">
+                                                                                                                <div class="ct_kanb_bot_ct4">
+                                                                                                                    <div class="ct_kanb_bot_ct5">
+                                                                                                                        <div class="ct_kanb_bot_ct5up">
+                                                                                                                            <span class="ct_kanb_bot_ct5up1">Breadcrumbs, favorite, group by jira</span>
+                                                                                                                        </div>
+                                                                                                                        <div class="ct_kanb_bot_ct5dw">
+                                                                                                                            <div class="ct_kanb_bot_ct5dw1">
+                                                                                                                                <div class="ct_kanb_bot_ct5dw2">
+                                                                                                                                    <div class="ct_kanb_bot_ct5dw2left">
+                                                                                                                                        <div class="ct_kanb_bot_ct5dw2left1">
+                                                                                                                                            <span class="material-symbols-outlined"style="color: #43aaec">
+                                                                                                                                                check_box
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="ct_kanb_bot_ct5dw2right">
+                                                                                                                                        <div class="ct_kanb_bot_ct5dw2right1">
+                                                                                                                                            <span class="ct_kanb_bot_ct5dw2right2">
+                                                                                                                                                OD-57
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="ct_kanb_bot_ct_r2">
                                                                                                     <div class="ct_kanb_bot_ct1">
                                                                                                         <div class="ct_kanb_bot_ct2">
                                                                                                             <div class="ct_kanb_bot_ct3">
