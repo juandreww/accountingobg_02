@@ -3890,6 +3890,10 @@
             width: 100%;
         }
 
+        .ct_kanb_bot_ct_r2_c2 {
+            top: 96px !important;
+        }
+
         .ct_kanb_bot_ct_r3 {
             height: 104px;
             left: 0px;
@@ -3898,12 +3902,20 @@
             width: 100%;
         }
 
+        .ct_kanb_bot_ct_r2_c3 {
+            top: 210px !important;
+        }
+
         .ct_kanb_bot_ct_r4 {
             height: 104px;
             left: 0px;
             position: absolute;
             top: 342px;
             width: 100%;
+        }
+
+        .ct_kanb_bot_ct_r2_c4 {
+            top: 324px !important;
         }
 
 
@@ -5059,7 +5071,7 @@
                                                                                                                         <div class="ct_kanb_top_txt6">
                                                                                                                             <h2 class="ct_kanb_top_txt7">
                                                                                                                                 <div class="ct_kanb_top_txt8">
-                                                                                                                                    24 JULY 2022 2 ISSUES
+                                                                                                                                    JULY 2022 4 ISSUES
                                                                                                                                 </div>
                                                                                                                             </h2>
                                                                                                                         </div>
@@ -5112,7 +5124,7 @@
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <div class="ct_kanb_bot_ct_r2">
+                                                                                                <div class="ct_kanb_bot_ct_r2 ct_kanb_bot_ct_r2_c2">
                                                                                                     <div class="ct_kanb_bot_ct1">
                                                                                                         <div class="ct_kanb_bot_ct2">
                                                                                                             <div class="ct_kanb_bot_ct3">
@@ -5147,7 +5159,7 @@
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <div class="ct_kanb_bot_ct_r3">
+                                                                                                <div class="ct_kanb_bot_ct_r3 ct_kanb_bot_ct_r2_c3">
                                                                                                     <div class="ct_kanb_bot_ct1">
                                                                                                         <div class="ct_kanb_bot_ct2">
                                                                                                             <div class="ct_kanb_bot_ct3">
@@ -5182,7 +5194,7 @@
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <div class="ct_kanb_bot_ct_r4">
+                                                                                                <div class="ct_kanb_bot_ct_r4 ct_kanb_bot_ct_r2_c4">
                                                                                                     <div class="ct_kanb_bot_ct1">
                                                                                                         <div class="ct_kanb_bot_ct2">
                                                                                                             <div class="ct_kanb_bot_ct3">
