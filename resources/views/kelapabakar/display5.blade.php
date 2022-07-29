@@ -5441,7 +5441,7 @@
                                                                                                                 <div class="ct_kanb_bot_ct4">
                                                                                                                     <div class="ct_kanb_bot_ct5">
                                                                                                                         <div class="ct_kanb_bot_ct5up">
-                                                                                                                            <span class="ct_kanb_bot_ct5up1">munculkan tab di content</span>
+                                                                                                                            <span class="ct_kanb_bot_ct5up1">Sidenav extend</span>
                                                                                                                         </div>
                                                                                                                         <div class="ct_kanb_bot_ct5dw">
                                                                                                                             <div class="ct_kanb_bot_ct5dw1">
@@ -5456,7 +5456,7 @@
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2right">
                                                                                                                                         <div class="ct_kanb_bot_ct5dw2right1">
                                                                                                                                             <span class="ct_kanb_bot_ct5dw2right2">
-                                                                                                                                                OD-3
+                                                                                                                                                OD-8
                                                                                                                                             </span>
                                                                                                                                         </div>
                                                                                                                                     </div>
@@ -5476,7 +5476,7 @@
                                                                                                                 <div class="ct_kanb_bot_ct4">
                                                                                                                     <div class="ct_kanb_bot_ct5">
                                                                                                                         <div class="ct_kanb_bot_ct5up">
-                                                                                                                            <span class="ct_kanb_bot_ct5up1">munculkan tab di content</span>
+                                                                                                                            <span class="ct_kanb_bot_ct5up1">Sidebar bisa hide dan expand</span>
                                                                                                                         </div>
                                                                                                                         <div class="ct_kanb_bot_ct5dw">
                                                                                                                             <div class="ct_kanb_bot_ct5dw1">
@@ -5491,7 +5491,7 @@
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2right">
                                                                                                                                         <div class="ct_kanb_bot_ct5dw2right1">
                                                                                                                                             <span class="ct_kanb_bot_ct5dw2right2">
-                                                                                                                                                OD-3
+                                                                                                                                                OD-41
                                                                                                                                             </span>
                                                                                                                                         </div>
                                                                                                                                     </div>
@@ -5511,7 +5511,7 @@
                                                                                                                 <div class="ct_kanb_bot_ct4">
                                                                                                                     <div class="ct_kanb_bot_ct5">
                                                                                                                         <div class="ct_kanb_bot_ct5up">
-                                                                                                                            <span class="ct_kanb_bot_ct5up1">munculkan tab di content</span>
+                                                                                                                            <span class="ct_kanb_bot_ct5up1">Negotiation, fast thinking, sound thinking</span>
                                                                                                                         </div>
                                                                                                                         <div class="ct_kanb_bot_ct5dw">
                                                                                                                             <div class="ct_kanb_bot_ct5dw1">
@@ -5526,7 +5526,7 @@
                                                                                                                                     <div class="ct_kanb_bot_ct5dw2right">
                                                                                                                                         <div class="ct_kanb_bot_ct5dw2right1">
                                                                                                                                             <span class="ct_kanb_bot_ct5dw2right2">
-                                                                                                                                                OD-3
+                                                                                                                                                OD-16
                                                                                                                                             </span>
                                                                                                                                         </div>
                                                                                                                                     </div>
