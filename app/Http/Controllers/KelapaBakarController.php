@@ -104,10 +104,12 @@ class KelapaBakarController extends Controller
     }
 
     public function apitest(Request $request) {
-        $target = 6;
+        $target = 1;
 
         $maximumPattern = $target * 2 - 1;
         $halfMax = $target + 1;
+        $halfMin = $target - 1;
+
         $string = null; $pattern = 'x';
         for ($i = 1; $i <= $maximumPattern; $i++) {
             if ($i % 2 == 0) $string = $string . ' ';
@@ -118,8 +120,32 @@ class KelapaBakarController extends Controller
 
             }
         }
+        $mid[] = $string;
+        $strbot = substr($string,$target-1, $target);
+        $strtop = substr($string,0, $target);
 
-        return response($string, 200);
+        $bott  = [];
+        for($i = 1; $i < $target; $i++) {
+            $tmp = str_repeat(' ', $halfMin);
+            $strbot = substr($strbot, 1);
+            $tmp = $tmp . $strbot;
+            $bott[] = $tmp;
+        }
+
+        $top = [];
+        for($i = 1; $i < $target; $i++) {
+            $tmp = str_repeat('  ', $halfMin);
+            $strtop = ' ' . substr($strtop, 0, -1);
+            // $tmp = $strtop . $tmp;
+            // $top[] = $tmp;
+            $top[] = $strtop;
+        }
+
+
+        $result = array_merge($top, $mid, $bott);
+        dd($result);
+
+        return response($result, 200);
         return "ok";
     }
 }
