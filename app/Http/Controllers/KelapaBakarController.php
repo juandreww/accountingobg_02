@@ -104,6 +104,22 @@ class KelapaBakarController extends Controller
     }
 
     public function apitest(Request $request) {
+        $target = 6;
+
+        $maximumPattern = $target * 2 - 1;
+        $halfMax = $target + 1;
+        $string = null; $pattern = 'x';
+        for ($i = 1; $i <= $maximumPattern; $i++) {
+            if ($i % 2 == 0) $string = $string . ' ';
+            else {
+                if ($i == $halfMax && $target % 2 == 0) $pattern = $pattern == 'x' ? 'o' : 'x';
+                $string = $string . $pattern;
+                $pattern = $pattern == 'x' ? 'o' : 'x';
+
+            }
+        }
+
+        return response($string, 200);
         return "ok";
     }
 }
