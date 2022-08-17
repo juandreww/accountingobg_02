@@ -104,7 +104,7 @@ class KelapaBakarController extends Controller
     }
 
     public function apitest(Request $request) {
-        $target = 1;
+        $target = 15;
 
         $maximumPattern = $target * 2 - 1;
         $halfMax = $target + 1;
@@ -140,7 +140,7 @@ class KelapaBakarController extends Controller
             // $top[] = $tmp;
             $top[] = $strtop;
         }
-
+        $top = array_reverse($top);
 
         $result = array_merge($top, $mid, $bott);
         dd($result);
