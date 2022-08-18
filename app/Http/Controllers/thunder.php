@@ -7,6 +7,7 @@ header('Content-Type: text/plain');
 
 function generatePattern($input) {
     $target = $input;
+    if ($input < 1) return null;
 
     $maximumPattern = $target * 2 - 1;
     $halfMax = $target + 1;
@@ -45,13 +46,22 @@ function generatePattern($input) {
     $top = array_reverse($top);
 
     $result = array_merge($top, $mid, $bott);
+    // echo '123' . PHP_EOL;
+    $newstr = null;
+    foreach ($result as $r) {
+        $newstr = $newstr . $r . PHP_EOL;
+    }
 
-    return $result;
+    // echo PHP_EOL;
+    return $newstr;
 }
 
 // contoh coding #2
 // gunakan script di bawah ini untuk melakukan pengetesan
 // terhadap fungsi yang sudah Anda buat
 for ($i = -5; $i <= 20; $i++) {
-    sprintf("\ninput: %1\$d\nresult:\n%2\$s\n%3\$'-50s\n", $i, generatePattern($i), '');
+    // generatePattern($i);
+    echo sprintf("\ninput: %1\$d\nresult:\n%2\$s\n%3\$'-50s\n",
+    $i,
+    generatePattern($i), '');
 }
